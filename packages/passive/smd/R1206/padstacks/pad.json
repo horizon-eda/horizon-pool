@@ -2,112 +2,39 @@
     "holes": {},
     "name": "Pad",
     "padstack_type": "top",
-    "polygons": {
-        "8599cd5e-0b6a-4f50-9a6f-95829a52d269": {
-            "layer": 10,
-            "vertices": [
-                {
-                    "arc_center": [
-                        -50000,
-                        50000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -650000,
-                        1050000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        50000,
-                        50000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        650000,
-                        1050000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        50000,
-                        -50000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        650000,
-                        -1050000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        -50000,
-                        -50000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -650000,
-                        -1050000
-                    ],
-                    "type": "line"
-                }
-            ]
-        },
-        "db1d6b0d-f0bc-4fd6-8984-eb1f92885ee2": {
+    "polygons": {},
+    "shapes": {
+        "1c12407d-5d1f-415d-9e54-d659e9315c14": {
+            "form": "rectangle",
             "layer": 0,
-            "vertices": [
-                {
-                    "arc_center": [
-                        -50000,
-                        650000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -450000,
-                        850000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        50000,
-                        650000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        450000,
-                        850000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        50000,
-                        -650000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        450000,
-                        -850000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        -50000,
-                        -650000
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -450000,
-                        -850000
-                    ],
-                    "type": "line"
-                }
-            ]
+            "params": [
+                900000,
+                1700000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "bc557435-86ef-483a-869d-76ed5b4e533c": {
+            "form": "rectangle",
+            "layer": 10,
+            "params": [
+                1300000,
+                2100000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
         }
     },
     "type": "padstack",
