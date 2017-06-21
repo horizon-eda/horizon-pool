@@ -3,6 +3,7 @@
         "11cc21d3-33d8-4941-90d6-016c633df041": {
             "diameter": 500000,
             "length": 1150000,
+            "parameter_class": "",
             "placement": {
                 "angle": 16384,
                 "mirror": false,
@@ -17,11 +18,16 @@
     },
     "name": "Mount 2",
     "padstack_type": "through",
+    "parameter_program": "1.55mm 1.0mm\nget-parameter [ solder_mask_expansion ]\n2 *\n+xy\nset-shape [ mask-ob obround ]\n\n1.15mm\nget-parameter [ solder_mask_expansion ]\n+\n1.55mm\nget-parameter [ solder_mask_expansion ]\n2 * +\nset-shape [ mask-rect rectangle ]\n\n0.575mm\nget-parameter [ solder_mask_expansion ]\n2 / +\n0\nset-shape [ mask-rect position ]",
+    "parameter_set": {
+        "solder_mask_expansion": 100000
+    },
     "polygons": {},
     "shapes": {
         "1869c352-1f63-45dc-a675-14be8f776507": {
             "form": "obround",
             "layer": 0,
+            "parameter_class": "",
             "params": [
                 1550000,
                 1000000
@@ -38,6 +44,7 @@
         "54232957-8ad4-44c9-94fc-5eca3a5881ad": {
             "form": "rectangle",
             "layer": 0,
+            "parameter_class": "",
             "params": [
                 1150000,
                 1550000
@@ -54,6 +61,7 @@
         "6aa91a60-8427-42fb-a0c1-6761359f1f5d": {
             "form": "obround",
             "layer": -100,
+            "parameter_class": "",
             "params": [
                 1550000,
                 1000000
@@ -70,15 +78,16 @@
         "b446a8c0-2ae7-4c38-bde0-4731f133a86b": {
             "form": "rectangle",
             "layer": 10,
+            "parameter_class": "mask-rect",
             "params": [
-                1350000,
+                1250000,
                 1750000
             ],
             "placement": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    675000,
+                    625000,
                     0
                 ]
             }
@@ -86,6 +95,7 @@
         "c8b6f664-507a-475f-8c52-59e1f6bc84d6": {
             "form": "obround",
             "layer": -110,
+            "parameter_class": "mask-ob",
             "params": [
                 1750000,
                 1200000
@@ -102,6 +112,7 @@
         "de901d16-78d7-4c31-9b3c-af77e3796931": {
             "form": "obround",
             "layer": 10,
+            "parameter_class": "mask-ob",
             "params": [
                 1750000,
                 1200000
@@ -118,6 +129,7 @@
         "fb662655-d061-4ec4-9eca-961336a2c332": {
             "form": "obround",
             "layer": -1,
+            "parameter_class": "",
             "params": [
                 1550000,
                 1000000

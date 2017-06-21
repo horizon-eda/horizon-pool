@@ -1,8 +1,9 @@
 {
     "holes": {
-        "068a7908-9003-40f5-af95-5fb2295cfe02": {
-            "diameter": 550000,
-            "length": 850000,
+        "2e747089-67de-4eb3-8738-df1f2b7dc593": {
+            "diameter": 400000,
+            "length": 900000,
+            "parameter_class": "hole",
             "placement": {
                 "angle": 0,
                 "mirror": false,
@@ -11,52 +12,29 @@
                     0
                 ]
             },
-            "plated": false,
+            "plated": true,
             "shape": "slot"
         }
     },
-    "name": "Mount 1",
+    "name": "TH Obround",
     "padstack_type": "through",
+    "parameter_program": "get-parameter [ pad_width ]\nget-parameter [ pad_height ]\ndupc\nset-shape [ pad obround ]\nget-parameter [ solder_mask_expansion ]\n2 *\n+xy\nset-shape [ mask obround ]\n\n\nget-parameter [ hole_diameter ]\nget-parameter [ hole_length ]\nset-hole [ hole slot ]",
+    "parameter_set": {
+        "hole_diameter": 400000,
+        "hole_length": 900000,
+        "pad_height": 500000,
+        "pad_width": 1000000,
+        "solder_mask_expansion": 100000
+    },
     "polygons": {},
     "shapes": {
-        "3f907174-2b2a-40bc-a470-e3afcc2aa778": {
-            "form": "obround",
-            "layer": -1,
-            "params": [
-                1250000,
-                950000
-            ],
-            "placement": {
-                "angle": 0,
-                "mirror": false,
-                "shift": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "44855926-82c9-4aa9-bf2f-0d7234f0807f": {
-            "form": "obround",
-            "layer": -100,
-            "params": [
-                1250000,
-                950000
-            ],
-            "placement": {
-                "angle": 0,
-                "mirror": false,
-                "shift": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "d3c49e5c-e207-4797-8d22-ea2e31a7a88c": {
+        "369ddb1b-a144-4927-81ec-487b8d410317": {
             "form": "obround",
             "layer": 10,
+            "parameter_class": "mask",
             "params": [
-                1450000,
-                1150000
+                1200000,
+                700000
             ],
             "placement": {
                 "angle": 0,
@@ -67,12 +45,13 @@
                 ]
             }
         },
-        "f3829482-f19e-4e62-981e-372dd00c6090": {
+        "6b90bc28-8755-46a5-932f-b9da6d312672": {
             "form": "obround",
-            "layer": -110,
+            "layer": -100,
+            "parameter_class": "pad",
             "params": [
-                1450000,
-                1150000
+                1000000,
+                500000
             ],
             "placement": {
                 "angle": 0,
@@ -83,12 +62,47 @@
                 ]
             }
         },
-        "f83daa9c-182b-4752-b247-d6fbd338248a": {
+        "a7132d19-ae9c-46d0-94c3-d7a68f842d71": {
             "form": "obround",
             "layer": 0,
+            "parameter_class": "pad",
             "params": [
-                1250000,
-                950000
+                1000000,
+                500000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "d102ecf5-328c-4e22-be5a-9238a08ed2c9": {
+            "form": "obround",
+            "layer": -110,
+            "parameter_class": "mask",
+            "params": [
+                1200000,
+                700000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "d1be6691-9312-4912-8058-60fcb78b5d2c": {
+            "form": "obround",
+            "layer": -1,
+            "parameter_class": "pad",
+            "params": [
+                1000000,
+                500000
             ],
             "placement": {
                 "angle": 0,
@@ -101,5 +115,5 @@
         }
     },
     "type": "padstack",
-    "uuid": "85142ec8-3065-4050-9634-e9fd5792a0fc"
+    "uuid": "4a0e654a-a96c-4c6b-939f-dd44887c78ab"
 }
