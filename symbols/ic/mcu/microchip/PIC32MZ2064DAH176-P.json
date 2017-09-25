@@ -1,0 +1,165 @@
+{
+    "arcs": {},
+    "junctions": {
+        "3bb5ee38-6a15-40ba-820a-2ecce39cd0eb": {
+            "position": [
+                10000000,
+                7500000
+            ]
+        },
+        "531da62c-2ad4-4e23-9f03-9c0422dde92a": {
+            "position": [
+                -10000000,
+                7500000
+            ]
+        },
+        "811038ed-df7c-4550-85b7-7de392721cc5": {
+            "position": [
+                10000000,
+                -7500000
+            ]
+        },
+        "8c96360c-fff1-454c-a49c-eaa135ed0c49": {
+            "position": [
+                -10000000,
+                -7500000
+            ]
+        }
+    },
+    "lines": {
+        "c02a270f-6f71-4dfe-a9e6-d6559ef45eb7": {
+            "from": "531da62c-2ad4-4e23-9f03-9c0422dde92a",
+            "layer": 0,
+            "to": "3bb5ee38-6a15-40ba-820a-2ecce39cd0eb",
+            "width": 0
+        },
+        "c65b18b0-7c00-4d43-9544-8174dd831562": {
+            "from": "811038ed-df7c-4550-85b7-7de392721cc5",
+            "layer": 0,
+            "to": "8c96360c-fff1-454c-a49c-eaa135ed0c49",
+            "width": 0
+        },
+        "ccd17328-c7e6-42ea-914d-bc93b3b04ab2": {
+            "from": "3bb5ee38-6a15-40ba-820a-2ecce39cd0eb",
+            "layer": 0,
+            "to": "811038ed-df7c-4550-85b7-7de392721cc5",
+            "width": 0
+        },
+        "f23a4ab2-d07c-409f-af5d-e5562e40a200": {
+            "from": "8c96360c-fff1-454c-a49c-eaa135ed0c49",
+            "layer": 0,
+            "to": "531da62c-2ad4-4e23-9f03-9c0422dde92a",
+            "width": 0
+        }
+    },
+    "name": "PIC32MZ2064DAH176 Power",
+    "pins": {
+        "08cdb40f-b414-40ea-a971-7b51ee4e01cd": {
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                0
+            ]
+        },
+        "544715b8-f328-4e67-93cb-afdd18059411": {
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                2500000
+            ]
+        },
+        "67bfbe75-2665-43a1-9511-805f7051328b": {
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -12500000,
+                -5000000
+            ]
+        },
+        "82d12028-8b32-4e61-97be-29afd0e691fa": {
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                -2500000
+            ]
+        },
+        "ccd34f58-ce6c-40cd-8b81-2f9db6f4c880": {
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                5000000
+            ]
+        },
+        "d74c19ae-a4d6-45e8-a9bb-994deeadae0f": {
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -12500000,
+                -2500000
+            ]
+        },
+        "f63f7d89-c90c-4c70-85e0-4df7db26a7e7": {
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                -5000000
+            ]
+        }
+    },
+    "texts": {
+        "44539978-f101-4989-95c2-3689bce4acf5": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -10000000,
+                    8750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "aa0d02cb-4fb1-4d20-b74a-4817b553f05d": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -10000000,
+                    -8750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "002fc84f-3384-4732-a36f-8f2e8ccceaa9",
+    "uuid": "b90a7b89-a186-4b3c-b295-b1e067ca2b9d"
+}
