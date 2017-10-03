@@ -1,7 +1,7 @@
 {
     "holes": {
         "2d11f3c8-49d0-49ca-bc28-3027cf189f14": {
-            "diameter": 500000,
+            "diameter": 400000,
             "length": 500000,
             "parameter_class": "hole",
             "placement": {
@@ -18,10 +18,10 @@
     },
     "name": "Square Via",
     "padstack_type": "via",
-    "parameter_program": "get-parameter [ via_diameter ] dup\nset-shape [ via rectangle ]\n\nget-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\n\nget-parameter [ via_solder_mask_expansion ]\n+ dup\nset-shape [ mask rectangle ]",
+    "parameter_program": "get-parameter [ via_diameter ] 7 * 10 / dup\nset-shape [ via rectangle ]\n\nget-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\n\nget-parameter [ via_solder_mask_expansion ]\n+ dup\nset-shape [ mask rectangle ]",
     "parameter_set": {
-        "hole_diameter": 500000,
-        "via_diameter": 700000,
+        "hole_diameter": 400000,
+        "via_diameter": 800000,
         "via_solder_mask_expansion": 100000
     },
     "polygons": {},
@@ -31,8 +31,8 @@
             "layer": -1,
             "parameter_class": "via",
             "params": [
-                700000,
-                700000
+                560000,
+                560000
             ],
             "placement": {
                 "angle": 0,
@@ -48,8 +48,8 @@
             "layer": 0,
             "parameter_class": "via",
             "params": [
-                700000,
-                700000
+                560000,
+                560000
             ],
             "placement": {
                 "angle": 0,
@@ -65,8 +65,8 @@
             "layer": -100,
             "parameter_class": "via",
             "params": [
-                700000,
-                700000
+                560000,
+                560000
             ],
             "placement": {
                 "angle": 0,
@@ -82,8 +82,8 @@
             "layer": 0,
             "parameter_class": "via",
             "params": [
-                700000,
-                700000
+                560000,
+                560000
             ],
             "placement": {
                 "angle": 0,
@@ -99,8 +99,8 @@
             "layer": -110,
             "parameter_class": "mask",
             "params": [
-                600000,
-                600000
+                500000,
+                500000
             ],
             "placement": {
                 "angle": 0,
@@ -116,8 +116,8 @@
             "layer": 10,
             "parameter_class": "mask",
             "params": [
-                600000,
-                600000
+                500000,
+                500000
             ],
             "placement": {
                 "angle": 0,

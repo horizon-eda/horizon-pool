@@ -1,7 +1,7 @@
 {
     "holes": {
         "9eaa7713-8b92-4be2-9e8e-843e955d3a16": {
-            "diameter": 1000000,
+            "diameter": 600000,
             "length": 500000,
             "parameter_class": "hole",
             "placement": {
@@ -18,10 +18,10 @@
     },
     "name": "Mechanical Hole",
     "padstack_type": "mechanical",
-    "parameter_program": "get-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\nget-parameter [ hole_solder_mask_expansion ]\n+\nset-shape [ mask circle ]",
+    "parameter_program": "get-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\nget-parameter [ hole_solder_mask_expansion ] 2 *\n+\nset-shape [ mask circle ]",
     "parameter_set": {
-        "hole_diameter": 1000000,
-        "hole_solder_mask_expansion": 250000
+        "hole_diameter": 600000,
+        "hole_solder_mask_expansion": 100000
     },
     "polygons": {},
     "shapes": {
@@ -30,7 +30,7 @@
             "layer": 10,
             "parameter_class": "mask",
             "params": [
-                1250000
+                800000
             ],
             "placement": {
                 "angle": 0,
@@ -46,7 +46,7 @@
             "layer": -110,
             "parameter_class": "mask",
             "params": [
-                1250000
+                800000
             ],
             "placement": {
                 "angle": 0,
