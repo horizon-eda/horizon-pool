@@ -1,0 +1,129 @@
+{
+    "arcs": {},
+    "junctions": {
+        "15948343-d64e-4cbc-af2b-9219d0444f65": {
+            "position": [
+                1250000,
+                0
+            ]
+        },
+        "2e927ac6-8568-4523-83e7-1c040f13f769": {
+            "position": [
+                1250000,
+                0
+            ]
+        },
+        "320d2906-d82b-4400-97a7-8153c95e788c": {
+            "position": [
+                1250000,
+                0
+            ]
+        },
+        "69561d8a-cd26-412f-9bd5-9f4a1b727b39": {
+            "position": [
+                -3750000,
+                2500000
+            ]
+        },
+        "cd6a751f-0c1b-4628-85f2-3da5140eecc9": {
+            "position": [
+                1250000,
+                0
+            ]
+        },
+        "e3f76ccb-63e8-431a-9074-e00a1bc91e03": {
+            "position": [
+                -3750000,
+                -2500000
+            ]
+        },
+        "f22fb08b-8c96-465b-94e2-cb613a3289d8": {
+            "position": [
+                1250000,
+                0
+            ]
+        }
+    },
+    "lines": {
+        "146663fb-456c-4139-9b36-08764cb39cf8": {
+            "from": "e3f76ccb-63e8-431a-9074-e00a1bc91e03",
+            "layer": 0,
+            "to": "320d2906-d82b-4400-97a7-8153c95e788c",
+            "width": 0
+        },
+        "868427c3-02d0-419b-922d-d6532c8ee726": {
+            "from": "69561d8a-cd26-412f-9bd5-9f4a1b727b39",
+            "layer": 0,
+            "to": "e3f76ccb-63e8-431a-9074-e00a1bc91e03",
+            "width": 0
+        },
+        "e7353b5e-9ad8-41f9-9da7-d71bcda5390f": {
+            "from": "2e927ac6-8568-4523-83e7-1c040f13f769",
+            "layer": 0,
+            "to": "69561d8a-cd26-412f-9bd5-9f4a1b727b39",
+            "width": 0
+        }
+    },
+    "name": "Driver gate",
+    "pins": {
+        "79f885fa-a434-44c1-94d8-c0728e4fc2eb": {
+            "length": 2500000,
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -6250000,
+                0
+            ]
+        },
+        "a8c0d3aa-71cd-480d-864d-94ed747d6695": {
+            "length": 2500000,
+            "name_visible": false,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                3750000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "127dc44e-a8ef-4cb8-809d-1b9a57e36182": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    -3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "8a94c4ca-60e1-4c7e-ae7f-d89f8a6fea61": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "ded573b7-bd79-4123-8e65-7d31232566c4",
+    "uuid": "db1cd1bc-4022-415e-ad20-ee5de65a3ce0"
+}
