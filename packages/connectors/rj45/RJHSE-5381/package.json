@@ -5,62 +5,137 @@
             "layer_opacity": 40.0,
             "layers": {
                 "-1": {
+                    "color": {
+                        "b": 0.0,
+                        "g": 1.0,
+                        "r": 1.0
+                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
+                    "color": {
+                        "b": 0.0,
+                        "g": 0.5,
+                        "r": 0.0
+                    },
                     "display_mode": "hatch",
                     "visible": true
                 },
                 "-110": {
+                    "color": {
+                        "b": 0.25,
+                        "g": 0.5,
+                        "r": 0.25
+                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
+                    "color": {
+                        "b": 0.899999976158142,
+                        "g": 0.899999976158142,
+                        "r": 0.899999976158142
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "-130": {
+                    "color": {
+                        "b": 0.800000011920929,
+                        "g": 0.800000011920929,
+                        "r": 0.800000011920929
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "-140": {
+                    "color": {
+                        "b": 0.5,
+                        "g": 0.5,
+                        "r": 0.5
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "-150": {
+                    "color": {
+                        "b": 0.5,
+                        "g": 0.5,
+                        "r": 0.5
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "-160": {
+                    "color": {
+                        "b": 0.5,
+                        "g": 0.5,
+                        "r": 0.5
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "0": {
+                    "color": {
+                        "b": 0.0,
+                        "g": 0.0,
+                        "r": 1.0
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
+                    "color": {
+                        "b": 0.5,
+                        "g": 0.5,
+                        "r": 1.0
+                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
+                    "color": {
+                        "b": 0.899999976158142,
+                        "g": 0.899999976158142,
+                        "r": 0.899999976158142
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "30": {
+                    "color": {
+                        "b": 0.800000011920929,
+                        "g": 0.800000011920929,
+                        "r": 0.800000011920929
+                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "40": {
+                    "color": {
+                        "b": 0.5,
+                        "g": 0.5,
+                        "r": 0.5
+                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
+                    "color": {
+                        "b": 0.5,
+                        "g": 0.5,
+                        "r": 0.5
+                    },
                     "display_mode": "hatch",
                     "visible": true
                 },
                 "60": {
+                    "color": {
+                        "b": 0.5,
+                        "g": 0.5,
+                        "r": 0.5
+                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -438,7 +513,7 @@
             }
         }
     },
-    "parameter_program": "get-parameter [ courtyard_expansion ]\nexpand-polygon [ courtyard -9500000 -5460000 -9500000 10290000 9500000 10290000 9500000 -5460000 ]\n",
+    "parameter_program": "19mm 15.75mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0 2.415mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -562,6 +637,54 @@
                     ],
                     "arc_reverse": false,
                     "position": [
+                        2560000,
+                        -5460000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2560000,
+                        -1580000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2160000,
+                        -1580000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2160000,
+                        -5460000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
                         -8255000,
                         -5460000
                     ],
@@ -616,32 +739,32 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        9750000,
-                        10540000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -9750000,
-                        10540000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
                         -9750000,
                         -5710000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -9750000,
+                        10540000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        9750000,
+                        10540000
                     ],
                     "type": "line"
                 },
