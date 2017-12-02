@@ -1,36 +1,9 @@
 {
-    "arcs": {
-        "350b32f5-a92f-447f-b32e-b3ae2da6d69d": {
-            "center": "611fda29-9571-47de-b5a2-debe23184267",
-            "from": "116b3a6e-bbba-4128-9963-4cad7112b5a9",
-            "layer": 0,
-            "to": "15948343-d64e-4cbc-af2b-9219d0444f65",
-            "width": 0
-        },
-        "fd04e69e-327b-4582-bdd9-7eafb98892b0": {
-            "center": "161af0b0-3b6c-4ff1-8be3-f822c7fe78f5",
-            "from": "cd6a751f-0c1b-4628-85f2-3da5140eecc9",
-            "layer": 0,
-            "to": "a574ea26-e859-48d8-afac-e3482a1c9eb6",
-            "width": 0
-        }
-    },
+    "arcs": {},
     "junctions": {
-        "116b3a6e-bbba-4128-9963-4cad7112b5a9": {
-            "position": [
-                2350000,
-                0
-            ]
-        },
         "15948343-d64e-4cbc-af2b-9219d0444f65": {
             "position": [
                 1250000,
-                0
-            ]
-        },
-        "161af0b0-3b6c-4ff1-8be3-f822c7fe78f5": {
-            "position": [
-                1800000,
                 0
             ]
         },
@@ -46,22 +19,10 @@
                 0
             ]
         },
-        "611fda29-9571-47de-b5a2-debe23184267": {
-            "position": [
-                1800000,
-                0
-            ]
-        },
         "69561d8a-cd26-412f-9bd5-9f4a1b727b39": {
             "position": [
                 -3750000,
                 2500000
-            ]
-        },
-        "a574ea26-e859-48d8-afac-e3482a1c9eb6": {
-            "position": [
-                2350000,
-                0
             ]
         },
         "cd6a751f-0c1b-4628-85f2-3da5140eecc9": {
@@ -106,6 +67,12 @@
     "name": "Inverter gate",
     "pins": {
         "79f885fa-a434-44c1-94d8-c0728e4fc2eb": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
             "name_visible": false,
             "orientation": "left",
@@ -116,7 +83,13 @@
             ]
         },
         "a8c0d3aa-71cd-480d-864d-94ed747d6695": {
-            "length": 1400000,
+            "decoration": {
+                "clock": false,
+                "dot": true,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
             "name_visible": false,
             "orientation": "right",
             "pad_visible": true,
