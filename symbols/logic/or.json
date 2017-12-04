@@ -67,7 +67,7 @@
         },
         "c22c52fe-fe26-4f88-a49a-549080450d68": {
             "position": [
-                -7500000,
+                -6250000,
                 0
             ]
         }
@@ -89,7 +89,13 @@
     "name": "OR gate",
     "pins": {
         "5479c8c9-6bd5-42ba-ad29-9d0042523354": {
-            "length": 3100000,
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 3300000,
             "name_visible": true,
             "orientation": "left",
             "pad_visible": true,
@@ -99,7 +105,13 @@
             ]
         },
         "79f885fa-a434-44c1-94d8-c0728e4fc2eb": {
-            "length": 3100000,
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 3300000,
             "name_visible": true,
             "orientation": "left",
             "pad_visible": true,
@@ -109,6 +121,12 @@
             ]
         },
         "a8c0d3aa-71cd-480d-864d-94ed747d6695": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
             "name_visible": true,
             "orientation": "right",
