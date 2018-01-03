@@ -16,7 +16,7 @@
             "shape": "round"
         }
     },
-    "name": "Mechanical Hole",
+    "name": "Circular mechanical Hole",
     "padstack_type": "mechanical",
     "parameter_program": "get-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\nget-parameter [ hole_solder_mask_expansion ] 2 *\n+\nset-shape [ mask circle ]",
     "parameter_set": {

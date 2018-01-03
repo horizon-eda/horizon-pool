@@ -16,13 +16,13 @@
             "shape": "round"
         }
     },
-    "name": "Circular via",
-    "padstack_type": "via",
-    "parameter_program": "get-parameter [ via_diameter ]\nset-shape [ via circle ]\n\nget-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\n\nget-parameter [ via_solder_mask_expansion ] 2 *\n+\nset-shape [ mask circle ]",
+    "name": "Circular Hole",
+    "padstack_type": "hole",
+    "parameter_program": "get-parameter [ hole_diameter ]\ndup dup\nset-hole [ hole round ]\n\nget-parameter [ hole_solder_mask_expansion ] 2 *\n+\nset-shape [ mask circle ]\n\nget-parameter [ hole_annular_ring ] 2 *\n+\nset-shape [ pad circle ]",
     "parameter_set": {
+        "hole_annular_ring": 200000,
         "hole_diameter": 400000,
-        "via_diameter": 700000,
-        "via_solder_mask_expansion": 100000
+        "hole_solder_mask_expansion": 100000
     },
     "polygons": {},
     "shapes": {
@@ -61,9 +61,9 @@
         "3d4a1caa-13a9-4828-aee6-4ec776b4f007": {
             "form": "circle",
             "layer": -1,
-            "parameter_class": "via",
+            "parameter_class": "pad",
             "params": [
-                700000
+                800000
             ],
             "placement": {
                 "angle": 0,
@@ -77,9 +77,9 @@
         "587492a5-d20b-4258-b1a8-04da900ea393": {
             "form": "circle",
             "layer": -100,
-            "parameter_class": "via",
+            "parameter_class": "pad",
             "params": [
-                700000
+                800000
             ],
             "placement": {
                 "angle": 0,
@@ -93,9 +93,9 @@
         "c0afc6ea-f577-42ee-8860-16eaf52721bf": {
             "form": "circle",
             "layer": 0,
-            "parameter_class": "via",
+            "parameter_class": "pad",
             "params": [
-                700000
+                800000
             ],
             "placement": {
                 "angle": 0,
@@ -108,5 +108,5 @@
         }
     },
     "type": "padstack",
-    "uuid": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da"
+    "uuid": "ca1ef428-ac41-4e12-a7c3-a867e4588cec"
 }

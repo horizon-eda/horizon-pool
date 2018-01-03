@@ -1,11 +1,11 @@
 {
     "holes": {
         "056fa8e5-8b21-454e-a805-467fd49763b6": {
-            "diameter": 400000,
-            "length": 500000,
+            "diameter": 500000,
+            "length": 1500000,
             "parameter_class": "hole",
             "placement": {
-                "angle": 0,
+                "angle": 32768,
                 "mirror": false,
                 "shift": [
                     0,
@@ -13,25 +13,27 @@
                 ]
             },
             "plated": true,
-            "shape": "round"
+            "shape": "slot"
         }
     },
-    "name": "Circular via",
-    "padstack_type": "via",
-    "parameter_program": "get-parameter [ via_diameter ]\nset-shape [ via circle ]\n\nget-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\n\nget-parameter [ via_solder_mask_expansion ] 2 *\n+\nset-shape [ mask circle ]",
+    "name": "Obround Hole",
+    "padstack_type": "hole",
+    "parameter_program": "get-parameter [ hole_diameter ]\nget-parameter [ hole_length ]\nset-hole [ hole slot ]\n\nget-parameter [ hole_length ]\nget-parameter [ hole_diameter ]\ndupc\n\nget-parameter [ hole_solder_mask_expansion ] 2 *\n+xy\nset-shape [ mask obround ]\n\nget-parameter [ hole_annular_ring ] 2 *\n+xy\nset-shape [ via obround ]",
     "parameter_set": {
-        "hole_diameter": 400000,
-        "via_diameter": 700000,
-        "via_solder_mask_expansion": 100000
+        "hole_annular_ring": 500000,
+        "hole_diameter": 500000,
+        "hole_length": 1500000,
+        "hole_solder_mask_expansion": 200000
     },
     "polygons": {},
     "shapes": {
         "0fcc5be3-fa35-464c-ac89-7bfaea0821da": {
-            "form": "circle",
+            "form": "obround",
             "layer": -110,
             "parameter_class": "mask",
             "params": [
-                600000
+                1900000,
+                900000
             ],
             "placement": {
                 "angle": 0,
@@ -43,11 +45,12 @@
             }
         },
         "1919564e-4dfd-4afa-ae6b-b06ddcefb9e6": {
-            "form": "circle",
+            "form": "obround",
             "layer": 10,
             "parameter_class": "mask",
             "params": [
-                600000
+                1900000,
+                900000
             ],
             "placement": {
                 "angle": 0,
@@ -59,11 +62,12 @@
             }
         },
         "3d4a1caa-13a9-4828-aee6-4ec776b4f007": {
-            "form": "circle",
+            "form": "obround",
             "layer": -1,
             "parameter_class": "via",
             "params": [
-                700000
+                2500000,
+                1500000
             ],
             "placement": {
                 "angle": 0,
@@ -75,11 +79,12 @@
             }
         },
         "587492a5-d20b-4258-b1a8-04da900ea393": {
-            "form": "circle",
+            "form": "obround",
             "layer": -100,
             "parameter_class": "via",
             "params": [
-                700000
+                2500000,
+                1500000
             ],
             "placement": {
                 "angle": 0,
@@ -91,11 +96,12 @@
             }
         },
         "c0afc6ea-f577-42ee-8860-16eaf52721bf": {
-            "form": "circle",
+            "form": "obround",
             "layer": 0,
             "parameter_class": "via",
             "params": [
-                700000
+                2500000,
+                1500000
             ],
             "placement": {
                 "angle": 0,
@@ -108,5 +114,5 @@
         }
     },
     "type": "padstack",
-    "uuid": "3c4a52fe-3ae0-4c3e-a108-824b53d6d6da"
+    "uuid": "866a4e5b-5ba9-4509-b395-c6bd78051303"
 }
