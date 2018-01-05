@@ -13,7 +13,7 @@ def with_si_name(value):
         return "%s" % check_comma(value)
     if value < 1000000:
         return "%sK" % check_comma(value/1000)
-    if value >= 1000000:
+    if value < 1000000000:
         return "%sM" % check_comma(value/1000000)
     if value >= 1000000000:
         return "%sG" % check_comma(value/1000000000)
@@ -23,7 +23,7 @@ def with_si(value):
         return "%s " % check_comma(value)
     if value < 1000000:
         return "%s k" % check_comma(value/1000)
-    if value >= 1000000:
+    if value < 1000000000:
         return "%s M" % check_comma(value/1000000)
     if value >= 1000000000:
         return "%s G" % check_comma(value/1000000000)
@@ -35,16 +35,19 @@ def gen_data(default, part_name, value):
     default["uuid"] = str(uuid.uuid4())
     return default
 
+def gen_file(size, pmax, default, value):
+    part_name = "RES-%s-%s-%sW" % (size, with_si_name(value), pmax)
+    file_name = "gen/%s.json" % part_name
+    print(file_name)
+    os.makedirs(os.path.dirname(file_name), exist_ok=True)
+    with open(file_name, "w+") as outfile:
+        json.dump(gen_data(default, part_name, value), outfile)
+
 def gen_files(E_row_data, exponents, size, pmax, default):
     for i in exponents:
         r_ = 10**i
         for r in E_row_data:
-            val = r_*r
-            part_name = "RES-%s-%s-%sW" % (size, with_si_name(val), pmax)
-            file_name = "gen/%s.json" % part_name
-            print(file_name)
-            os.makedirs(os.path.dirname(file_name), exist_ok=True)
-            with open(file_name, "w+") as outfile:
-                json.dump(gen_data(default, part_name, val), outfile)
+            value = r_*r
+            gen_file(size, pmax, default, value)
 
 

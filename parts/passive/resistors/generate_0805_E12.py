@@ -23,5 +23,6 @@ default = {
         "value": [ False, "ADD DATA" ]
         }
 
+framework.gen_file(size, pmax, default, 0)
 framework.gen_files(r_values, r_exponents, size, pmax, default)
-
+framework.gen_file(size, pmax, default, 100000000)
