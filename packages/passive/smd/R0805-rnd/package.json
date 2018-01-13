@@ -1,8 +1,8 @@
 {
     "_imp": {
-        "grid_spacing": 100000,
+        "grid_spacing": 1250000,
         "layer_display": {
-            "layer_opacity": 29.0,
+            "layer_opacity": 50.0,
             "layers": {
                 "-1": {
                     "color": {
@@ -19,7 +19,7 @@
                         "g": 0.5,
                         "r": 0.0
                     },
-                    "display_mode": "fill",
+                    "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
@@ -28,7 +28,7 @@
                         "g": 0.5,
                         "r": 0.25
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
@@ -37,8 +37,8 @@
                         "g": 0.899999976158142,
                         "r": 0.899999976158142
                     },
-                    "display_mode": "fill",
-                    "visible": true
+                    "display_mode": "fill_only",
+                    "visible": false
                 },
                 "-130": {
                     "color": {
@@ -47,7 +47,7 @@
                         "r": 0.800000011920929
                     },
                     "display_mode": "fill",
-                    "visible": true
+                    "visible": false
                 },
                 "-140": {
                     "color": {
@@ -55,7 +55,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
@@ -64,7 +64,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
@@ -73,7 +73,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
@@ -91,7 +91,7 @@
                         "g": 0.5,
                         "r": 1.0
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
@@ -100,8 +100,8 @@
                         "g": 0.899999976158142,
                         "r": 0.899999976158142
                     },
-                    "display_mode": "fill",
-                    "visible": true
+                    "display_mode": "fill_only",
+                    "visible": false
                 },
                 "30": {
                     "color": {
@@ -110,7 +110,7 @@
                         "r": 0.800000011920929
                     },
                     "display_mode": "fill",
-                    "visible": true
+                    "visible": false
                 },
                 "40": {
                     "color": {
@@ -118,8 +118,8 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
-                    "visible": true
+                    "display_mode": "outline",
+                    "visible": false
                 },
                 "50": {
                     "color": {
@@ -127,7 +127,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
@@ -136,7 +136,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 }
             }
@@ -146,25 +146,25 @@
     "junctions": {
         "4929436d-cf28-4264-b684-c516ad0b290f": {
             "position": [
-                400000,
+                500000,
                 -800000
             ]
         },
         "9f00cf9c-22f5-45a3-b14e-c7067c7b9129": {
             "position": [
-                400000,
+                500000,
                 800000
             ]
         },
         "a132798f-b7ae-4b10-9082-efa82c77da24": {
             "position": [
-                -400000,
+                -500000,
                 800000
             ]
         },
         "afae59de-7394-439a-8246-d1051458f0c7": {
             "position": [
-                -400000,
+                -500000,
                 -800000
             ]
         }
@@ -185,12 +185,13 @@
     },
     "manufacturer": "",
     "model_filename": "3d_models/passive/resistor/R_0805_2012Metric.step",
-    "name": "R0805",
+    "name": "R0805-rnd",
     "pads": {
         "57416c85-ca47-45fe-a850-612e3405e61f": {
             "name": "1",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 100000,
                 "pad_height": 1300000,
                 "pad_width": 700000
             },
@@ -205,8 +206,9 @@
         },
         "b43013b4-017c-4242-8852-0ec05a2374d1": {
             "name": "2",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 100000,
                 "pad_height": 1300000,
                 "pad_width": 700000
             },
@@ -398,7 +400,7 @@
             "layer": 50,
             "origin": "center",
             "placement": {
-                "angle": 0,
+                "angle": 32768,
                 "mirror": false,
                 "shift": [
                     -1000000,
@@ -427,5 +429,5 @@
         }
     },
     "type": "package",
-    "uuid": "a894abc1-5b1c-4a52-90fc-5eb2e462b101"
+    "uuid": "74abc83a-ae8e-4367-b268-a92b6f58b553"
 }
