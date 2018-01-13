@@ -1,8 +1,8 @@
 {
     "_imp": {
-        "grid_spacing": 100000,
+        "grid_spacing": 1250000,
         "layer_display": {
-            "layer_opacity": 36.0,
+            "layer_opacity": 50.0,
             "layers": {
                 "-1": {
                     "color": {
@@ -19,7 +19,7 @@
                         "g": 0.5,
                         "r": 0.0
                     },
-                    "display_mode": "fill",
+                    "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
@@ -28,7 +28,7 @@
                         "g": 0.5,
                         "r": 0.25
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
@@ -37,8 +37,8 @@
                         "g": 0.899999976158142,
                         "r": 0.899999976158142
                     },
-                    "display_mode": "fill",
-                    "visible": true
+                    "display_mode": "fill_only",
+                    "visible": false
                 },
                 "-130": {
                     "color": {
@@ -47,7 +47,7 @@
                         "r": 0.800000011920929
                     },
                     "display_mode": "fill",
-                    "visible": true
+                    "visible": false
                 },
                 "-140": {
                     "color": {
@@ -55,7 +55,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
@@ -64,7 +64,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
@@ -73,7 +73,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
@@ -91,7 +91,7 @@
                         "g": 0.5,
                         "r": 1.0
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
@@ -100,7 +100,7 @@
                         "g": 0.899999976158142,
                         "r": 0.899999976158142
                     },
-                    "display_mode": "fill",
+                    "display_mode": "fill_only",
                     "visible": true
                 },
                 "30": {
@@ -118,7 +118,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
@@ -127,7 +127,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
@@ -136,7 +136,7 @@
                         "g": 0.5,
                         "r": 0.5
                     },
-                    "display_mode": "fill",
+                    "display_mode": "outline",
                     "visible": true
                 }
             }
@@ -146,25 +146,25 @@
     "junctions": {
         "4a3bcb21-ec41-453c-80d7-70a224d54f7a": {
             "position": [
-                50000,
+                100000,
                 -400000
             ]
         },
         "4e82e481-282d-49fe-aac4-fd8c26d34fde": {
             "position": [
-                50000,
+                100000,
                 400000
             ]
         },
         "cbf05921-4736-42ff-b505-6df482b02bd1": {
             "position": [
-                -50000,
+                -100000,
                 -400000
             ]
         },
         "d331d78d-f3f2-411f-85af-67cfd2badf73": {
             "position": [
-                -50000,
+                -100000,
                 400000
             ]
         }
@@ -197,12 +197,13 @@
     },
     "manufacturer": "",
     "model_filename": "3d_models/passive/resistor/R_0402_1005Metric.step",
-    "name": "R0402",
+    "name": "R0402-rnd",
     "pads": {
         "551b1143-e861-4055-9fff-6348cd2ee973": {
             "name": "1",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 100000,
                 "pad_height": 600000,
                 "pad_width": 400000
             },
@@ -217,8 +218,9 @@
         },
         "9f77b144-e41b-4923-9db6-c847da684acc": {
             "name": "2",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 100000,
                 "pad_height": 600000,
                 "pad_width": 400000
             },
@@ -439,5 +441,5 @@
         }
     },
     "type": "package",
-    "uuid": "5267224e-79d4-4ff6-afe5-ee24f02f36a3"
+    "uuid": "a0d911c6-5bc6-40cc-9e48-c8f24279c02d"
 }
