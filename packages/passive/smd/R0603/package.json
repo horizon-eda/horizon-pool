@@ -100,7 +100,7 @@
                         "g": 0.899999976158142,
                         "r": 0.899999976158142
                     },
-                    "display_mode": "fill",
+                    "display_mode": "fill_only",
                     "visible": true
                 },
                 "30": {
@@ -110,7 +110,7 @@
                         "r": 0.800000011920929
                     },
                     "display_mode": "fill",
-                    "visible": true
+                    "visible": false
                 },
                 "40": {
                     "color": {
@@ -119,7 +119,7 @@
                         "r": 0.5
                     },
                     "display_mode": "fill",
-                    "visible": true
+                    "visible": false
                 },
                 "50": {
                     "color": {
@@ -137,16 +137,66 @@
                         "r": 0.5
                     },
                     "display_mode": "fill",
-                    "visible": true
+                    "visible": false
                 }
             }
         }
     },
     "arcs": {},
-    "junctions": {},
-    "lines": {},
+    "junctions": {
+        "1e390847-991e-48d2-9617-f2e49c08df6a": {
+            "position": [
+                300000,
+                -500000
+            ]
+        },
+        "3f5a3311-856d-4005-ba83-6092a2c3ac47": {
+            "position": [
+                300000,
+                500000
+            ]
+        },
+        "45d9ed06-d897-4497-b14d-124030738e43": {
+            "position": [
+                -300000,
+                -500000
+            ]
+        },
+        "984d6dc4-d97e-4f58-b594-caa098fbb88d": {
+            "position": [
+                -300000,
+                500000
+            ]
+        }
+    },
+    "lines": {
+        "3134557b-3d98-4352-bb90-d5544bb53ddc": {
+            "from": "984d6dc4-d97e-4f58-b594-caa098fbb88d",
+            "layer": 20,
+            "to": "3f5a3311-856d-4005-ba83-6092a2c3ac47",
+            "width": 150000
+        },
+        "9357ff17-928d-444b-b59b-e7e3c8b51d8c": {
+            "from": "3f5a3311-856d-4005-ba83-6092a2c3ac47",
+            "layer": 20,
+            "to": "3f5a3311-856d-4005-ba83-6092a2c3ac47",
+            "width": 0
+        },
+        "b8325728-81ef-4e0a-8ff4-466b7c72f82e": {
+            "from": "45d9ed06-d897-4497-b14d-124030738e43",
+            "layer": 20,
+            "to": "1e390847-991e-48d2-9617-f2e49c08df6a",
+            "width": 150000
+        },
+        "bfcc84ca-7c42-4202-933c-a93cb6d39114": {
+            "from": "3f5a3311-856d-4005-ba83-6092a2c3ac47",
+            "layer": 20,
+            "to": "3f5a3311-856d-4005-ba83-6092a2c3ac47",
+            "width": 0
+        }
+    },
     "manufacturer": "",
-    "model_filename": "3d_models/passive/resistor/R_0603_1608Metric.step",
+    "model_filename": "3d_models\\passive\\resistor\\R_0603_1608Metric.step",
     "name": "R0603",
     "pads": {
         "63256dd2-2eab-46fe-9201-b2e553476e98": {

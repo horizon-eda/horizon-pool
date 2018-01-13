@@ -143,8 +143,58 @@
         }
     },
     "arcs": {},
-    "junctions": {},
-    "lines": {},
+    "junctions": {
+        "4a3bcb21-ec41-453c-80d7-70a224d54f7a": {
+            "position": [
+                50000,
+                -400000
+            ]
+        },
+        "4e82e481-282d-49fe-aac4-fd8c26d34fde": {
+            "position": [
+                50000,
+                400000
+            ]
+        },
+        "cbf05921-4736-42ff-b505-6df482b02bd1": {
+            "position": [
+                -50000,
+                -400000
+            ]
+        },
+        "d331d78d-f3f2-411f-85af-67cfd2badf73": {
+            "position": [
+                -50000,
+                400000
+            ]
+        }
+    },
+    "lines": {
+        "1aa6c7ed-6bb5-4c9b-8a5f-d2658eae644c": {
+            "from": "cbf05921-4736-42ff-b505-6df482b02bd1",
+            "layer": 20,
+            "to": "4a3bcb21-ec41-453c-80d7-70a224d54f7a",
+            "width": 150000
+        },
+        "3f155034-d39c-4811-a441-5cdc0d27b8ee": {
+            "from": "4a3bcb21-ec41-453c-80d7-70a224d54f7a",
+            "layer": 20,
+            "to": "4a3bcb21-ec41-453c-80d7-70a224d54f7a",
+            "width": 0
+        },
+        "9cfaac50-d772-4476-bb9c-a1dcf9ec61ff": {
+            "from": "4a3bcb21-ec41-453c-80d7-70a224d54f7a",
+            "layer": 20,
+            "to": "4a3bcb21-ec41-453c-80d7-70a224d54f7a",
+            "width": 0
+        },
+        "b7585469-16bf-444b-80da-b5c31dbba0d0": {
+            "from": "d331d78d-f3f2-411f-85af-67cfd2badf73",
+            "layer": 20,
+            "to": "4e82e481-282d-49fe-aac4-fd8c26d34fde",
+            "width": 150000
+        }
+    },
     "manufacturer": "",
     "model_filename": "3d_models/passive/resistor/R_0402_1005Metric.step",
     "name": "R0402",
