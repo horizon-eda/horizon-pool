@@ -1,0 +1,144 @@
+{
+    "arcs": {},
+    "junctions": {
+        "8ea67a44-3716-459a-9728-11c13e25931a": {
+            "position": [
+                -1250000,
+                -2500000
+            ]
+        },
+        "cc85d1a1-bf89-4269-bd49-810f8a1e4d7f": {
+            "position": [
+                3750000,
+                0
+            ]
+        },
+        "e0d772a2-b2b9-4c62-99a9-44958e0950e6": {
+            "position": [
+                -1250000,
+                2500000
+            ]
+        }
+    },
+    "lines": {
+        "aa7ffdac-649c-470f-b36d-8bb7de432a9c": {
+            "from": "e0d772a2-b2b9-4c62-99a9-44958e0950e6",
+            "layer": 0,
+            "to": "8ea67a44-3716-459a-9728-11c13e25931a",
+            "width": 0
+        },
+        "b123f4ad-0381-4096-9cef-cc4438aa77ed": {
+            "from": "e0d772a2-b2b9-4c62-99a9-44958e0950e6",
+            "layer": 0,
+            "to": "e0d772a2-b2b9-4c62-99a9-44958e0950e6",
+            "width": 0
+        },
+        "c69fbdfc-ad08-4352-bb75-a1afe4d40a1d": {
+            "from": "8ea67a44-3716-459a-9728-11c13e25931a",
+            "layer": 0,
+            "to": "cc85d1a1-bf89-4269-bd49-810f8a1e4d7f",
+            "width": 0
+        },
+        "f51676be-ecd9-4cfa-a1c7-dfdf16efdae5": {
+            "from": "e0d772a2-b2b9-4c62-99a9-44958e0950e6",
+            "layer": 0,
+            "to": "e0d772a2-b2b9-4c62-99a9-44958e0950e6",
+            "width": 0
+        },
+        "f7031910-5ee4-482a-b1ac-a9b90e260cee": {
+            "from": "cc85d1a1-bf89-4269-bd49-810f8a1e4d7f",
+            "layer": 0,
+            "to": "e0d772a2-b2b9-4c62-99a9-44958e0950e6",
+            "width": 0
+        }
+    },
+    "name": "opamp1",
+    "pins": {
+        "3a74ff13-bb58-44c6-afa4-3954853dfb4b": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 1300000,
+            "name_visible": false,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                5000000,
+                0
+            ]
+        },
+        "4f9b79a0-27b4-460a-bf6b-f7f9f0b65d9e": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -3750000,
+                -1250000
+            ]
+        },
+        "545646e2-8723-4ed7-8dfe-6bdad8fe5427": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 1870000,
+            "name_visible": false,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                0,
+                3750000
+            ]
+        },
+        "aa663f06-8431-4be0-a407-62a2a2c6bad5": {
+            "decoration": {
+                "clock": false,
+                "dot": true,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -3750000,
+                1250000
+            ]
+        },
+        "b3cc394e-e461-45d7-8181-6370cc99cb0a": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 1870000,
+            "name_visible": false,
+            "orientation": "down",
+            "pad_visible": false,
+            "position": [
+                0,
+                -3750000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {},
+    "type": "symbol",
+    "unit": "2c88d43f-5d7f-4a77-b983-19506649fedd",
+    "uuid": "70fed6d5-1742-4781-9d47-98aa4593cecb"
+}
