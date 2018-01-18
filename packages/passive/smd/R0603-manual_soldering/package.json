@@ -110,7 +110,7 @@
                         "r": 0.800000011920929
                     },
                     "display_mode": "fill",
-                    "visible": false
+                    "visible": true
                 },
                 "40": {
                     "color": {
@@ -119,7 +119,7 @@
                         "r": 0.5
                     },
                     "display_mode": "outline",
-                    "visible": false
+                    "visible": true
                 },
                 "50": {
                     "color": {
@@ -144,8 +144,58 @@
     },
     "alternate_for": "fe22ac1d-25b9-4a47-8414-51c990d7f94b",
     "arcs": {},
-    "junctions": {},
-    "lines": {},
+    "junctions": {
+        "0cac65a9-cbd5-4593-8cf4-e71fd6b9c7db": {
+            "position": [
+                300000,
+                500000
+            ]
+        },
+        "16b78f07-2fc6-4eab-b1ec-b25ed9fb17f9": {
+            "position": [
+                300000,
+                -500000
+            ]
+        },
+        "22b77872-f0d9-43b1-9fcf-ba37a75f71fe": {
+            "position": [
+                -300000,
+                500000
+            ]
+        },
+        "ec1cec63-7b62-495b-8911-1aef99a781fb": {
+            "position": [
+                -300000,
+                -500000
+            ]
+        }
+    },
+    "lines": {
+        "37321327-3f9e-4f69-b470-193ba51a9ec4": {
+            "from": "16b78f07-2fc6-4eab-b1ec-b25ed9fb17f9",
+            "layer": 20,
+            "to": "16b78f07-2fc6-4eab-b1ec-b25ed9fb17f9",
+            "width": 0
+        },
+        "59f0ff01-d514-49fa-8fea-c54266f32abe": {
+            "from": "ec1cec63-7b62-495b-8911-1aef99a781fb",
+            "layer": 20,
+            "to": "16b78f07-2fc6-4eab-b1ec-b25ed9fb17f9",
+            "width": 150000
+        },
+        "8e0da600-e6af-40f4-8cba-3c33270dd74b": {
+            "from": "22b77872-f0d9-43b1-9fcf-ba37a75f71fe",
+            "layer": 20,
+            "to": "0cac65a9-cbd5-4593-8cf4-e71fd6b9c7db",
+            "width": 150000
+        },
+        "b04bb4d8-60e3-49f3-8fb5-dce3d0bab017": {
+            "from": "16b78f07-2fc6-4eab-b1ec-b25ed9fb17f9",
+            "layer": 20,
+            "to": "16b78f07-2fc6-4eab-b1ec-b25ed9fb17f9",
+            "width": 0
+        }
+    },
     "manufacturer": "",
     "model_filename": "3d_models/passive/resistor/R_0603_1608Metric.step",
     "name": "R0603 (manual soldering)",
