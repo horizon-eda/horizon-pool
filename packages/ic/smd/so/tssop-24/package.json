@@ -147,66 +147,42 @@
     "junctions": {
         "046e1eda-f213-4e90-9fde-2029e81df3fb": {
             "position": [
-                2500000,
-                -4500000
+                2250000,
+                -4200000
             ]
         },
         "519fe7a6-b61a-4949-bc1a-c745853df5df": {
             "position": [
                 -2500000,
-                4500000
-            ]
-        },
-        "5c4196fa-f4b0-4af0-a90b-558e5b936509": {
-            "position": [
-                -2500000,
-                -4125000
-            ]
-        },
-        "7c1122f8-ea8b-4ae5-a8b4-b9209154c80b": {
-            "position": [
-                2500000,
-                -4125000
+                4200000
             ]
         },
         "7c127682-a7d1-4984-84fa-e757d89480e0": {
             "position": [
                 -3250000,
-                4125000
+                4000000
             ]
         },
         "ac26f2b2-db03-4306-b3cd-041d69245d8f": {
             "position": [
                 -2500000,
-                4125000
+                4000000
             ]
         },
         "c2e7d129-1bb5-4da4-bf90-2a46f19731a9": {
             "position": [
-                -2500000,
-                -4500000
+                -2250000,
+                -4200000
             ]
         },
         "d7f6f250-6049-4441-8e94-896ddd3eb6be": {
             "position": [
                 2250000,
-                4500000
+                4200000
             ]
         }
     },
     "lines": {
-        "130b80ec-f978-465d-bb6a-d7a3d250cbb7": {
-            "from": "046e1eda-f213-4e90-9fde-2029e81df3fb",
-            "layer": 20,
-            "to": "7c1122f8-ea8b-4ae5-a8b4-b9209154c80b",
-            "width": 150000
-        },
-        "2296919f-8fcb-49bf-a36d-dfded6919a47": {
-            "from": "5c4196fa-f4b0-4af0-a90b-558e5b936509",
-            "layer": 20,
-            "to": "c2e7d129-1bb5-4da4-bf90-2a46f19731a9",
-            "width": 150000
-        },
         "2a312709-b961-453a-940e-c00d1441db8c": {
             "from": "7c127682-a7d1-4984-84fa-e757d89480e0",
             "layer": 20,
@@ -621,10 +597,66 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "6.60mm 7.90mm\n get-parameter [ courtyard_expansion ]\n 2 * +xy\n set-polygon [ courtyard rectangle 0 0 ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
     "polygons": {
-        "8260a455-7f2f-40ef-9eea-8c6f2c2aabc3": {
+        "301fad04-62d4-4f11-9708-4dca7fefedec": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        -1000000,
+                        -1450000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2250000,
+                        -3950000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1000000,
+                        1450000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2250000,
+                        3950000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        1000000,
+                        1450000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2250000,
+                        3950000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        1000000,
+                        -1450000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2250000,
+                        -3950000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "507b729a-5d59-474c-8c50-a808b66c6f17": {
             "layer": 50,
             "parameter_class": "",
             "vertices": [
@@ -636,7 +668,7 @@
                     "arc_reverse": false,
                     "position": [
                         -2250000,
-                        -4375000
+                        -3950000
                     ],
                     "type": "line"
                 },
@@ -648,7 +680,7 @@
                     "arc_reverse": false,
                     "position": [
                         2250000,
-                        -4375000
+                        -3950000
                     ],
                     "type": "line"
                 },
@@ -660,7 +692,7 @@
                     "arc_reverse": false,
                     "position": [
                         2250000,
-                        4250000
+                        3950000
                     ],
                     "type": "line"
                 },
@@ -671,8 +703,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -1750000,
-                        4250000
+                        -1250000,
+                        3950000
                     ],
                     "type": "line"
                 },
@@ -684,15 +716,15 @@
                     "arc_reverse": false,
                     "position": [
                         -2250000,
-                        3750000
+                        3000000
                     ],
                     "type": "line"
                 }
             ]
         },
-        "be4f6f34-9d3a-4441-86a1-4e442578e41a": {
+        "aceb57be-efed-448a-9843-21710ea56dee": {
             "layer": 60,
-            "parameter_class": "",
+            "parameter_class": "courtyard",
             "vertices": [
                 {
                     "arc_center": [
@@ -701,8 +733,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -3750000,
-                        -4750000
+                        -3550000,
+                        -4200000
                     ],
                     "type": "line"
                 },
@@ -713,8 +745,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -3750000,
-                        -4750000
+                        -3550000,
+                        4200000
                     ],
                     "type": "line"
                 },
@@ -725,8 +757,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -3750000,
-                        -4750000
+                        3550000,
+                        4200000
                     ],
                     "type": "line"
                 },
@@ -737,86 +769,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        3750000,
-                        -4750000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        3750000,
-                        4625000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -3750000,
-                        4625000
-                    ],
-                    "type": "line"
-                }
-            ]
-        },
-        "f94f4017-8876-4ab9-bf94-bab5be131a91": {
-            "layer": 40,
-            "parameter_class": "",
-            "vertices": [
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -2250000,
-                        -4375000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        -2250000,
-                        4250000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        2250000,
-                        4250000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        2250000,
-                        -4375000
+                        3550000,
+                        -4200000
                     ],
                     "type": "line"
                 }
@@ -838,7 +792,7 @@
                 "mirror": false,
                 "shift": [
                     -3250000,
-                    5250000
+                    5000000
                 ]
             },
             "size": 1000000,
@@ -854,7 +808,7 @@
                 "mirror": false,
                 "shift": [
                     0,
-                    -4250000
+                    -3875000
                 ]
             },
             "size": 1000000,
