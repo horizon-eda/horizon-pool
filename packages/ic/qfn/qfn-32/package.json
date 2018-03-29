@@ -143,6 +143,7 @@
         }
     },
     "arcs": {},
+    "default_model": "dad1bb6c-6266-4e11-9191-7d9932c34768",
     "junctions": {
         "1f46696a-5537-4a0f-9d30-3a9471530d4f": {
             "position": [
@@ -255,9 +256,19 @@
             "width": 150000
         }
     },
-    "manufacturer": "Microchip",
-    "model_filename": "3d_models/ic/qfn/QFN-32-1EP_5x5mm_P0.5mm.step",
-    "name": "SQFN32",
+    "manufacturer": "",
+    "models": {
+        "dad1bb6c-6266-4e11-9191-7d9932c34768": {
+            "filename": "3d_models/ic/qfn/QFN-32-1EP_5x5mm_P0.5mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
+    "name": "QFN-32",
     "pads": {
         "015aff1a-036b-44c4-b33c-8daa6594491c": {
             "name": "27",
@@ -969,6 +980,7 @@
         }
     },
     "tags": [
+        "generic",
         "ic",
         "qfn",
         "smd"
