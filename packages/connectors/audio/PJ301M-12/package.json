@@ -401,12 +401,34 @@
     "models": {},
     "name": "PJ301M-12",
     "pads": {
-        "4b586b56-f358-49ad-bccc-5449480b92ae": {
-            "name": "2",
-            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+        "353d4675-872d-4328-b528-121dfdf1102b": {
+            "name": "3",
+            "padstack": "4a0e654a-a96c-4c6b-939f-dd44887c78ab",
             "parameter_set": {
-                "hole_diameter": 1200000,
-                "pad_diameter": 1800000
+                "hole_diameter": 600000,
+                "hole_length": 1600000,
+                "pad_diameter": 1000000,
+                "pad_height": 1000000,
+                "pad_width": 2200000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    4920000
+                ]
+            }
+        },
+        "74027379-7de3-4266-aaad-3af9ad0668d2": {
+            "name": "2",
+            "padstack": "4a0e654a-a96c-4c6b-939f-dd44887c78ab",
+            "parameter_set": {
+                "hole_diameter": 600000,
+                "hole_length": 1600000,
+                "pad_diameter": 1000000,
+                "pad_height": 1000000,
+                "pad_width": 2200000
             },
             "placement": {
                 "angle": 0,
@@ -417,12 +439,15 @@
                 ]
             }
         },
-        "b799a848-3a3f-48b0-a00c-87242b09934e": {
+        "f4c5e76f-7d7f-42d8-b82f-a223d7277687": {
             "name": "1",
-            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "padstack": "4a0e654a-a96c-4c6b-939f-dd44887c78ab",
             "parameter_set": {
-                "hole_diameter": 1200000,
-                "pad_diameter": 1800000
+                "hole_diameter": 600000,
+                "hole_length": 1600000,
+                "pad_diameter": 1000000,
+                "pad_height": 1000000,
+                "pad_width": 2200000
             },
             "placement": {
                 "angle": 0,
@@ -430,22 +455,6 @@
                 "shift": [
                     0,
                     -6480000
-                ]
-            }
-        },
-        "c05a0963-6867-40c0-a094-23e2b0adb471": {
-            "name": "3",
-            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
-            "parameter_set": {
-                "hole_diameter": 1200000,
-                "pad_diameter": 1800000
-            },
-            "placement": {
-                "angle": 0,
-                "mirror": false,
-                "shift": [
-                    0,
-                    4920000
                 ]
             }
         }
