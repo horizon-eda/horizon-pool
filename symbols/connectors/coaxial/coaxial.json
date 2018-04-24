@@ -1,0 +1,158 @@
+{
+    "arcs": {
+        "1c45b2d8-c6f2-4693-8a68-7b81861e4841": {
+            "center": "d4dfc279-3aae-4f12-8931-0d91f7fe94d3",
+            "from": "780cfc9f-779f-4410-a292-f5f1ae7a1c68",
+            "layer": 0,
+            "to": "ad140135-944d-44f8-9a3b-35d61c69ef9c",
+            "width": 0
+        },
+        "35a85551-fd5d-447f-9bed-92cc4dc2a667": {
+            "center": "d4dfc279-3aae-4f12-8931-0d91f7fe94d3",
+            "from": "ad140135-944d-44f8-9a3b-35d61c69ef9c",
+            "layer": 0,
+            "to": "780cfc9f-779f-4410-a292-f5f1ae7a1c68",
+            "width": 0
+        },
+        "97ede31e-f98e-438c-87f3-6f460c83aaee": {
+            "center": "d4dfc279-3aae-4f12-8931-0d91f7fe94d3",
+            "from": "f8624b54-469e-4cd4-aeb8-9157d3cac73a",
+            "layer": 0,
+            "to": "949d5efc-8de6-423b-8eb8-c66dbf6cca81",
+            "width": 0
+        },
+        "edfe5e33-67f0-4b14-9ac5-91ed8475e90b": {
+            "center": "d4dfc279-3aae-4f12-8931-0d91f7fe94d3",
+            "from": "949d5efc-8de6-423b-8eb8-c66dbf6cca81",
+            "layer": 0,
+            "to": "a13e8f2f-2af7-4035-a543-31f33f198f25",
+            "width": 0
+        }
+    },
+    "junctions": {
+        "780cfc9f-779f-4410-a292-f5f1ae7a1c68": {
+            "position": [
+                -375000,
+                0
+            ]
+        },
+        "949d5efc-8de6-423b-8eb8-c66dbf6cca81": {
+            "position": [
+                1250000,
+                0
+            ]
+        },
+        "a13e8f2f-2af7-4035-a543-31f33f198f25": {
+            "position": [
+                -1192000,
+                375000
+            ]
+        },
+        "ad140135-944d-44f8-9a3b-35d61c69ef9c": {
+            "position": [
+                375000,
+                0
+            ]
+        },
+        "b7fac46a-5685-46e4-a48a-5c9037a43ba2": {
+            "position": [
+                -1250000,
+                0
+            ]
+        },
+        "d4dfc279-3aae-4f12-8931-0d91f7fe94d3": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "f8624b54-469e-4cd4-aeb8-9157d3cac73a": {
+            "position": [
+                -1192000,
+                -375000
+            ]
+        }
+    },
+    "lines": {
+        "0269c40d-34fd-4ac1-b1f6-c08658a73ac4": {
+            "from": "b7fac46a-5685-46e4-a48a-5c9037a43ba2",
+            "layer": 0,
+            "to": "780cfc9f-779f-4410-a292-f5f1ae7a1c68",
+            "width": 0
+        }
+    },
+    "name": "Coaxial connector",
+    "pins": {
+        "207305c6-2559-44f9-b056-ec6cc1fec55c": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_visible": false,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                0,
+                -3750000
+            ]
+        },
+        "a01e0362-c2b2-4565-9588-bc920e201988": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -3750000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "b77bb995-0531-4df8-8b98-975394c28569": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    2500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "e3678e4c-906a-4c2b-ad17-ff8d9970f317": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    -2500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "e74e03b1-a7b8-4ba0-aecd-432f6f494064",
+    "uuid": "773229dd-326f-4195-acf3-d138351784f9"
+}
