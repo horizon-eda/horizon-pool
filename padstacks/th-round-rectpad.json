@@ -18,7 +18,7 @@
     },
     "name": "TH round with rectangular pad",
     "padstack_type": "through",
-    "parameter_program": "get-parameter [ hole_diameter ]\ndup\nset-hole [ hole round ]\n\nget-parameter [ pad_width ]\nget-parameter [ pad_height ]\ndupc dupc\nset-shape [ pad rectangle ]\n\nget-parameter [ pad_width ] dup\nset-shape [ copper circle ]\n\nget-parameter [ solder_mask_expansion ]\n2 *\n+xy\nset-shape [ mask rectangle ]\n\n",
+    "parameter_program": "get-parameter [ hole_diameter ]\nset-hole [ hole round ]\n\nget-parameter [ pad_width ]\nget-parameter [ pad_height ]\ndupc\nset-shape [ pad rectangle ]\n\nget-parameter [ solder_mask_expansion ]\n2 *\n+xy\nset-shape [ mask rectangle ]\n\n",
     "parameter_set": {
         "hole_diameter": 400000,
         "pad_height": 600000,
@@ -34,6 +34,23 @@
             "params": [
                 800000,
                 800000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "5224af39-0a1e-49e4-a52b-56b6ba0e3ec7": {
+            "form": "rectangle",
+            "layer": -1,
+            "parameter_class": "pad",
+            "params": [
+                600000,
+                600000
             ],
             "placement": {
                 "angle": 0,
@@ -85,22 +102,6 @@
             "params": [
                 800000,
                 800000
-            ],
-            "placement": {
-                "angle": 0,
-                "mirror": false,
-                "shift": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "e0085053-0e28-4c36-8c59-f97f21854194": {
-            "form": "circle",
-            "layer": -1,
-            "parameter_class": "copper",
-            "params": [
-                600000
             ],
             "placement": {
                 "angle": 0,
