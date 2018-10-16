@@ -55,6 +55,13 @@
     "name": "Three-terminal voltage regulator",
     "pins": {
         "20f0495c-5e6e-4975-b440-1399ca09d3c3": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": true,
             "length": 2500000,
             "name_visible": true,
             "orientation": "down",
@@ -65,6 +72,13 @@
             ]
         },
         "304699c2-7433-4b03-ad2c-c8df631dd06f": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
             "length": 2500000,
             "name_visible": true,
             "orientation": "left",
@@ -75,6 +89,13 @@
             ]
         },
         "559d5e91-2169-486b-9ece-8db9867957dd": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
             "length": 2500000,
             "name_visible": true,
             "orientation": "right",
@@ -85,6 +106,8 @@
             ]
         }
     },
+    "polygons": {},
+    "text_placements": {},
     "texts": {
         "22165b18-d7f0-413a-9107-90740bc2a3d0": {
             "from_smash": false,
