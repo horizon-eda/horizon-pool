@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": false
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -158,7 +83,7 @@
             "width": 150000
         }
     },
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "f3d79722-a72c-4ee1-a006-8bb8bbd51db1",
     "junctions": {
         "03167a4c-1fed-422e-b9e7-2102f66eff1d": {
             "position": [
@@ -287,6 +212,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "0f891934-4762-4357-874d-fb6d40586ba7": {
             "from": "0ce62880-940c-418f-b60a-dc6a6f5139ec",
@@ -374,7 +300,17 @@
         }
     },
     "manufacturer": "Wenzhou QingPu Electronics Co.",
-    "models": {},
+    "models": {
+        "f3d79722-a72c-4ee1-a006-8bb8bbd51db1": {
+            "filename": "3d_models/connector/audio/PJ301M-12.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "PJ301M-12",
     "pads": {
         "353d4675-872d-4328-b528-121dfdf1102b": {
@@ -442,7 +378,7 @@
                 "mirror": false,
                 "shift": [
                     0,
-                    -6480000
+                    -5980000
                 ]
             }
         }
@@ -722,6 +658,7 @@
     ],
     "texts": {
         "2badffa6-4067-4cc7-bb1d-f0a3dd8bc1b6": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -738,6 +675,7 @@
             "width": 150000
         },
         "cc1c7419-cff4-486a-ab63-6c0c6a043bd1": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
