@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": false
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -143,7 +68,7 @@
         }
     },
     "arcs": {},
-    "default_model": "12b47de1-2680-4e07-9edd-3b0d9b94e887",
+    "default_model": "b0a1e782-0ae3-49e2-9f96-91053ef31570",
     "junctions": {
         "104b3852-f4ed-480e-868b-2b01e2dac82b": {
             "position": [
@@ -170,6 +95,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "6647b309-190a-49f3-8a5a-4b1923d09a88": {
             "from": "3e3a1aca-fe8a-404a-a183-20212c472b8c",
@@ -198,14 +124,14 @@
     },
     "manufacturer": "TE Connectivity",
     "models": {
-        "12b47de1-2680-4e07-9edd-3b0d9b94e887": {
-            "filename": "3d_models/passive/mechanical/switch/te_connectivity_2267078-2_subminiature_spdt_on-on.step",
+        "b0a1e782-0ae3-49e2-9f96-91053ef31570": {
+            "filename": "3d_models/mechanical/switch/te_connectivity_subminiature_toggle_switch.step",
             "pitch": 0,
             "roll": 0,
             "x": 0,
             "y": 0,
             "yaw": 0,
-            "z": 21700000
+            "z": 0
         }
     },
     "name": "Switch Toggle Subminiature SPDT",
@@ -447,6 +373,7 @@
     ],
     "texts": {
         "4036a9f8-f036-4f26-bc18-53fd1be17422": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
@@ -463,6 +390,7 @@
             "width": 0
         },
         "adb82a83-36e1-4e56-bb5c-a25579d3aa78": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
