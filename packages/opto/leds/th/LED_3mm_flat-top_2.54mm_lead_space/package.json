@@ -224,7 +224,7 @@
     "name": "LED 3mm flat-top, 2.54mm Lead Space",
     "pads": {
         "32d0fdb9-7daa-4d20-b581-f22ce0ac3aa2": {
-            "name": "-",
+            "name": "K",
             "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
             "parameter_set": {
                 "hole_diameter": 900000,
@@ -240,7 +240,7 @@
             }
         },
         "8746c965-04ba-4492-a73e-2cb1fa5bb747": {
-            "name": "+",
+            "name": "A",
             "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
             "parameter_set": {
                 "hole_diameter": 900000,
@@ -256,8 +256,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "4.340mm 1.800mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
     "polygons": {
         "14b163a0-7909-46a4-a58f-6f15ddbe0890": {
             "layer": 40,
@@ -318,6 +320,60 @@
                     "type": "arc"
                 }
             ]
+        },
+        "f8b0ce7c-d128-4b35-b0c8-ccbbba4a691c": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2420000,
+                        -1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2420000,
+                        1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2420000,
+                        1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2420000,
+                        -1150000
+                    ],
+                    "type": "line"
+                }
+            ]
         }
     },
     "tags": [
@@ -359,7 +415,7 @@
                     2700000
                 ]
             },
-            "size": 1300000,
+            "size": 1000000,
             "text": "$RD",
             "width": 150000
         }
