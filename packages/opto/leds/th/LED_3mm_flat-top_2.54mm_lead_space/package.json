@@ -176,16 +176,7 @@
     "manufacturer": "",
     "models": {
         "0b204bea-e360-489e-8a22-84bc62cf583b": {
-            "filename": "3d_models/passive/opto/led/3mm_LED_Kingbright_WP424YDT_red.step",
-            "pitch": 0,
-            "roll": 0,
-            "x": 0,
-            "y": 0,
-            "yaw": 0,
-            "z": 5000000
-        },
-        "391c87fd-2f21-4cbc-8cc4-ce365377acaa": {
-            "filename": "3d_models/passive/opto/LED/3mm_LED_Kingbright_WP424YDT.step",
+            "filename": "3d_models/passive/opto/led/3mm_LED_Kingbright_WP424HDT_red.step",
             "pitch": 0,
             "roll": 0,
             "x": 0,
@@ -193,22 +184,31 @@
             "yaw": 32768,
             "z": 5000000
         },
-        "a0285f40-cc40-473f-b947-e442b85d2c68": {
-            "filename": "3d_models/passive/opto/led/3mm_LED_Kingbright_WP424YDT_green.step",
+        "391c87fd-2f21-4cbc-8cc4-ce365377acaa": {
+            "filename": "3d_models/passive/opto/led/3mm_LED_Kingbright_WP424xxx.step",
             "pitch": 0,
             "roll": 0,
             "x": 0,
             "y": 0,
-            "yaw": 0,
+            "yaw": 20480,
+            "z": 5000000
+        },
+        "a0285f40-cc40-473f-b947-e442b85d2c68": {
+            "filename": "3d_models/passive/opto/led/3mm_LED_Kingbright_WP424GDT_green.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 32768,
             "z": 5000000
         },
         "c0c2236b-7cad-4b99-956a-818865dbdd20": {
-            "filename": "3d_models/passive/opto/led/3mm_LED_Kingbright_WP424YDT_orange.step",
+            "filename": "3d_models/passive/opto/led/3mm_LED_Kingbright_WP424EDT_orange.step",
             "pitch": 0,
             "roll": 0,
             "x": 0,
             "y": 0,
-            "yaw": 0,
+            "yaw": 32768,
             "z": 5000000
         },
         "c452d400-4fa7-448d-817f-8987e4a60c27": {
@@ -217,14 +217,14 @@
             "roll": 0,
             "x": 0,
             "y": 0,
-            "yaw": 0,
+            "yaw": 65536,
             "z": 5000000
         }
     },
-    "name": "LED 3mm 2.54mm Lead Space",
+    "name": "LED 3mm flat-top, 2.54mm Lead Space",
     "pads": {
         "32d0fdb9-7daa-4d20-b581-f22ce0ac3aa2": {
-            "name": "-",
+            "name": "K",
             "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
             "parameter_set": {
                 "hole_diameter": 900000,
@@ -240,7 +240,7 @@
             }
         },
         "8746c965-04ba-4492-a73e-2cb1fa5bb747": {
-            "name": "+",
+            "name": "A",
             "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
             "parameter_set": {
                 "hole_diameter": 900000,
@@ -256,8 +256,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "4.340mm 1.800mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
     "polygons": {
         "14b163a0-7909-46a4-a58f-6f15ddbe0890": {
             "layer": 40,
@@ -318,11 +320,67 @@
                     "type": "arc"
                 }
             ]
+        },
+        "f8b0ce7c-d128-4b35-b0c8-ccbbba4a691c": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2420000,
+                        -1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2420000,
+                        1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2420000,
+                        1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2420000,
+                        -1150000
+                    ],
+                    "type": "line"
+                }
+            ]
         }
     },
     "tags": [
+        "3mm",
         "LED",
         "diode",
+        "flat-top",
         "passive",
         "th"
     ],
@@ -357,7 +415,7 @@
                     2700000
                 ]
             },
-            "size": 1300000,
+            "size": 1000000,
             "text": "$RD",
             "width": 150000
         }
