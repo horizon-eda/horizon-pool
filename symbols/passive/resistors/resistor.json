@@ -55,7 +55,14 @@
     "name": "EU Resistor",
     "pins": {
         "6a44037c-65e2-4876-9359-42890048841d": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 1250000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "left",
             "pad_visible": false,
@@ -65,7 +72,14 @@
             ]
         },
         "dda0ec99-5d70-4fbe-a8db-897542e7554e": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 1250000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "right",
             "pad_visible": false,
@@ -75,19 +89,20 @@
             ]
         }
     },
+    "polygons": {},
     "text_placements": {
         "0m": {
             "35099bf5-0e81-401a-aa96-d1112f12d918": {
-                "angle": 32768,
-                "mirror": false,
+                "angle": 0,
+                "mirror": true,
                 "shift": [
                     2500000,
                     -2500000
                 ]
             },
             "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
-                "angle": 32768,
-                "mirror": false,
+                "angle": 0,
+                "mirror": true,
                 "shift": [
                     2500000,
                     2500000
@@ -114,16 +129,16 @@
         },
         "180m": {
             "35099bf5-0e81-401a-aa96-d1112f12d918": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     -2500000,
                     2500000
                 ]
             },
             "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     -2500000,
                     -2500000
@@ -150,34 +165,16 @@
         },
         "270m": {
             "35099bf5-0e81-401a-aa96-d1112f12d918": {
-                "angle": 49152,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
                     1250000,
                     -2500000
                 ]
             },
             "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
-                "angle": 49152,
-                "mirror": false,
-                "shift": [
-                    -1250000,
-                    -2500000
-                ]
-            }
-        },
-        "270n": {
-            "35099bf5-0e81-401a-aa96-d1112f12d918": {
-                "angle": 49152,
-                "mirror": false,
-                "shift": [
-                    1250000,
-                    -2500000
-                ]
-            },
-            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
-                "angle": 49152,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
                     -1250000,
                     -2500000
@@ -223,14 +220,15 @@
     },
     "texts": {
         "35099bf5-0e81-401a-aa96-d1112f12d918": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
-                    -2500000,
+                    1250000,
                     -2500000
                 ]
             },
@@ -239,15 +237,16 @@
             "width": 0
         },
         "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
-                    -2500000,
-                    2500000
+                    -1250000,
+                    -2500000
                 ]
             },
             "size": 1500000,
