@@ -5,69 +5,71 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-100": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-110": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-120": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-130": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-140": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-150": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-160": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "0": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "20": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "30": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "40": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "50": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "60": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 }
             }
         }
     },
     "arcs": {},
+    "default_model": "16b37392-eac0-4869-b768-ae4f5e1ff80d",
+    "dimensions": {},
     "junctions": {
         "3455099d-57c0-4f18-9b98-995aca012e17": {
             "position": [
@@ -106,6 +108,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "181183f0-1468-4d04-a6bd-14baf346cc52": {
             "from": "de8df420-5290-492c-8f36-4e3f0f7a490b",
@@ -133,6 +136,17 @@
         }
     },
     "manufacturer": "",
+    "models": {
+        "16b37392-eac0-4869-b768-ae4f5e1ff80d": {
+            "filename": "3d_models/ic/so/SOIC-20W_7.5x12.8mm_P1.27mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "SOIC-20",
     "pads": {
         "14842113-da1e-4a6d-bcf8-d3956a0d9022": {
@@ -644,11 +658,12 @@
     ],
     "texts": {
         "ae7262fe-edb7-41fd-a741-f4bd7efc6b50": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
             "placement": {
-                "angle": 114688,
+                "angle": 49152,
                 "mirror": true,
                 "shift": [
                     0,
@@ -660,6 +675,7 @@
             "width": 0
         },
         "ebf3394f-7ef1-42fa-8f53-d76126d31d07": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
