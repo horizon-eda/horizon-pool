@@ -5,69 +5,71 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-100": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-110": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-120": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-130": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-140": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-150": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "-160": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "0": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "20": {
-                    "display_mode": 0,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "30": {
-                    "display_mode": 1,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "40": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "50": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 },
                 "60": {
-                    "display_mode": 2,
+                    "display_mode": "fill",
                     "visible": true
                 }
             }
         }
     },
     "arcs": {},
+    "default_model": "ae68aeb7-c3c0-473d-9108-dcf5075e4cf7",
+    "dimensions": {},
     "junctions": {
         "58d852a2-f5bf-46bf-b5b7-293944abed36": {
             "position": [
@@ -106,6 +108,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "78dcbd11-b891-4259-965d-5539cb5ebe08": {
             "from": "e69468d7-3dc5-49ef-bd20-2269d36ee0b4",
@@ -133,6 +136,17 @@
         }
     },
     "manufacturer": "",
+    "models": {
+        "ae68aeb7-c3c0-473d-9108-dcf5075e4cf7": {
+            "filename": "3d_models/ic/so/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "SOIC-8",
     "pads": {
         "17341892-a120-44e2-97ea-6e4f8e3d7da5": {
@@ -452,6 +466,7 @@
     ],
     "texts": {
         "737dbd18-9c7b-41c6-89f5-c6ddf407072c": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
@@ -468,6 +483,7 @@
             "width": 0
         },
         "c9c78188-6d01-4402-9025-ff52414beb01": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
