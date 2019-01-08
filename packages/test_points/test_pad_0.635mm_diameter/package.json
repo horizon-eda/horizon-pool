@@ -128,7 +128,7 @@
             }
         }
     },
-    "parameter_program": "0.635mm 0.635mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_program": "0.635mm\nget-parameter [ courtyard_expansion ]\n2 * +\nset-polygon [ courtyard circle 0.000mm 0.000mm ]",
     "parameter_set": {
         "courtyard_expansion": 500000
     },
@@ -145,9 +145,21 @@
                     "arc_reverse": false,
                     "position": [
                         -817500,
-                        -817500
+                        0
                     ],
-                    "type": "line"
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        817500,
+                        0
+                    ],
+                    "type": "arc"
                 },
                 {
                     "arc_center": [
@@ -157,31 +169,7 @@
                     "arc_reverse": false,
                     "position": [
                         -817500,
-                        817500
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
                         0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        817500,
-                        817500
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        817500,
-                        -817500
                     ],
                     "type": "line"
                 }
