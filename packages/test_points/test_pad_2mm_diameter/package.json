@@ -1,0 +1,216 @@
+{
+    "_imp": {
+        "grid_spacing": 250000,
+        "layer_display": {
+            "layer_opacity": 50.0,
+            "layers": {
+                "-1": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-100": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "-110": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-120": {
+                    "display_mode": "fill_only",
+                    "visible": false
+                },
+                "-130": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-140": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-150": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-160": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "0": {
+                    "display_mode": "fill",
+                    "visible": true
+                },
+                "10": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "20": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "30": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "40": {
+                    "display_mode": "outline",
+                    "visible": false
+                },
+                "50": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "60": {
+                    "display_mode": "outline",
+                    "visible": true
+                }
+            }
+        }
+    },
+    "alternate_for": "16222198-30fe-41a5-bfd8-519bdcba786d",
+    "arcs": {
+        "8b130ffb-0df3-46a5-8d21-e22d9f5ef12d": {
+            "center": "f48dca67-c2f1-4c17-ac31-cfb236c1ff0c",
+            "from": "af74423d-87f1-4162-832c-3e4ecdaf87d6",
+            "layer": 20,
+            "to": "f401248a-1e20-48bc-9bb1-797c37a73dc2",
+            "width": 150000
+        },
+        "9af527df-634c-4182-ab45-8fd8d1577ccf": {
+            "center": "f48dca67-c2f1-4c17-ac31-cfb236c1ff0c",
+            "from": "f401248a-1e20-48bc-9bb1-797c37a73dc2",
+            "layer": 20,
+            "to": "af74423d-87f1-4162-832c-3e4ecdaf87d6",
+            "width": 150000
+        }
+    },
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "junctions": {
+        "af74423d-87f1-4162-832c-3e4ecdaf87d6": {
+            "position": [
+                0,
+                1275000
+            ]
+        },
+        "f401248a-1e20-48bc-9bb1-797c37a73dc2": {
+            "position": [
+                0,
+                -1275000
+            ]
+        },
+        "f48dca67-c2f1-4c17-ac31-cfb236c1ff0c": {
+            "position": [
+                0,
+                0
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "",
+    "models": {},
+    "name": "Circular test pad, 2 mm diameter",
+    "pads": {
+        "c7226209-3e6f-48ea-9abc-4d5aa0a19178": {
+            "name": "1",
+            "padstack": "33ec3b46-2fee-4d61-9c53-9bc5b19911be",
+            "parameter_set": {
+                "pad_diameter": 2000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "2mm 2mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 500000
+    },
+    "polygons": {
+        "03e05e9e-0bfa-4455-8b0b-1092b916fd12": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1500000,
+                        -1500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1500000,
+                        1500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1500000,
+                        1500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1500000,
+                        -1500000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "tags": [
+        "generic",
+        "testing"
+    ],
+    "texts": {
+        "3ed0b98a-d9af-4cd6-a9ea-751b28d99ed9": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1475000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD\n",
+            "width": 150000
+        }
+    },
+    "type": "package",
+    "uuid": "a1232795-4c61-404d-9697-54096806450d"
+}

@@ -1,0 +1,180 @@
+{
+    "arcs": {},
+    "junctions": {
+        "31677c0f-b432-470c-9aa3-de5515dac707": {
+            "position": [
+                3625000,
+                1125000
+            ]
+        },
+        "40948c09-8e54-4ec1-a964-6a44955604c4": {
+            "position": [
+                4750000,
+                0
+            ]
+        },
+        "58be5310-6a65-4d5c-a510-98421f43313d": {
+            "position": [
+                2500000,
+                0
+            ]
+        },
+        "d75c0fa5-1980-406f-a2b2-97ba9446c781": {
+            "position": [
+                3625000,
+                -1125000
+            ]
+        }
+    },
+    "lines": {
+        "335199d0-c4ab-4429-a1ab-9527d6ef1a2e": {
+            "from": "d75c0fa5-1980-406f-a2b2-97ba9446c781",
+            "layer": 0,
+            "to": "58be5310-6a65-4d5c-a510-98421f43313d",
+            "width": 0
+        },
+        "64a21011-6b47-4b6b-b3e2-7683c75b9eca": {
+            "from": "31677c0f-b432-470c-9aa3-de5515dac707",
+            "layer": 0,
+            "to": "40948c09-8e54-4ec1-a964-6a44955604c4",
+            "width": 0
+        },
+        "825e6f35-8b1c-4e52-b861-4fbad39ba354": {
+            "from": "58be5310-6a65-4d5c-a510-98421f43313d",
+            "layer": 0,
+            "to": "31677c0f-b432-470c-9aa3-de5515dac707",
+            "width": 0
+        },
+        "d3e70362-94ea-4ec2-9dcf-688e30baa56a": {
+            "from": "40948c09-8e54-4ec1-a964-6a44955604c4",
+            "layer": 0,
+            "to": "d75c0fa5-1980-406f-a2b2-97ba9446c781",
+            "width": 0
+        }
+    },
+    "name": "Test point (large diamond)",
+    "pins": {
+        "946137a2-53bd-47a6-a4da-40cf4d3f1fd5": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": false,
+            "position": [
+                0,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {
+        "0m": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 32768,
+                "mirror": true,
+                "shift": [
+                    5375000,
+                    0
+                ]
+            }
+        },
+        "0n": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 32768,
+                "mirror": true,
+                "shift": [
+                    5375000,
+                    0
+                ]
+            }
+        },
+        "180m": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 32768,
+                "mirror": true,
+                "shift": [
+                    5375000,
+                    0
+                ]
+            }
+        },
+        "180n": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 32768,
+                "mirror": true,
+                "shift": [
+                    5375000,
+                    0
+                ]
+            }
+        },
+        "270m": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 16384,
+                "mirror": true,
+                "shift": [
+                    3625000,
+                    -1500000
+                ]
+            }
+        },
+        "270n": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 16384,
+                "mirror": true,
+                "shift": [
+                    3625000,
+                    -1500000
+                ]
+            }
+        },
+        "90m": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 16384,
+                "mirror": true,
+                "shift": [
+                    3625000,
+                    -1500000
+                ]
+            }
+        },
+        "90n": {
+            "de462b52-f48a-4aca-a135-167e63dce3ff": {
+                "angle": 16384,
+                "mirror": true,
+                "shift": [
+                    3625000,
+                    -1500000
+                ]
+            }
+        }
+    },
+    "texts": {
+        "de462b52-f48a-4aca-a135-167e63dce3ff": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 32768,
+                "mirror": true,
+                "shift": [
+                    5125000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "4509e203-54b3-4694-a9cd-904d360d66c8",
+    "uuid": "26ffe49a-a53f-4307-8104-1248a48dcea8"
+}

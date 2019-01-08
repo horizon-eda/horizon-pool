@@ -1,0 +1,216 @@
+{
+    "_imp": {
+        "grid_spacing": 635000,
+        "layer_display": {
+            "layer_opacity": 50.0,
+            "layers": {
+                "-1": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-100": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "-110": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-120": {
+                    "display_mode": "fill_only",
+                    "visible": false
+                },
+                "-130": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-140": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-150": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-160": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "0": {
+                    "display_mode": "fill",
+                    "visible": true
+                },
+                "10": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "20": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "30": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "40": {
+                    "display_mode": "outline",
+                    "visible": false
+                },
+                "50": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "60": {
+                    "display_mode": "outline",
+                    "visible": true
+                }
+            }
+        }
+    },
+    "alternate_for": "16222198-30fe-41a5-bfd8-519bdcba786d",
+    "arcs": {
+        "cc1332c0-3f97-4943-8783-9acd04331545": {
+            "center": "be8c2d9a-a194-46f0-9e5c-f93951f55cb5",
+            "from": "4415bf21-3d9f-4470-b7aa-9a0188095633",
+            "layer": 20,
+            "to": "0087b256-29a5-4496-b871-75b4f890cd4d",
+            "width": 150000
+        },
+        "e3e46d61-e262-41fd-b604-e313c955aab6": {
+            "center": "be8c2d9a-a194-46f0-9e5c-f93951f55cb5",
+            "from": "0087b256-29a5-4496-b871-75b4f890cd4d",
+            "layer": 20,
+            "to": "4415bf21-3d9f-4470-b7aa-9a0188095633",
+            "width": 150000
+        }
+    },
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "junctions": {
+        "0087b256-29a5-4496-b871-75b4f890cd4d": {
+            "position": [
+                0,
+                1545000
+            ]
+        },
+        "4415bf21-3d9f-4470-b7aa-9a0188095633": {
+            "position": [
+                0,
+                -1545000
+            ]
+        },
+        "be8c2d9a-a194-46f0-9e5c-f93951f55cb5": {
+            "position": [
+                0,
+                0
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "",
+    "models": {},
+    "name": "Circular test pad, 2.54 mm diameter",
+    "pads": {
+        "c7226209-3e6f-48ea-9abc-4d5aa0a19178": {
+            "name": "1",
+            "padstack": "33ec3b46-2fee-4d61-9c53-9bc5b19911be",
+            "parameter_set": {
+                "pad_diameter": 2540000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "2.540mm 2.540mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 500000
+    },
+    "polygons": {
+        "03e05e9e-0bfa-4455-8b0b-1092b916fd12": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1770000,
+                        -1770000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1770000,
+                        1770000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1770000,
+                        1770000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1770000,
+                        -1770000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "tags": [
+        "generic",
+        "testing"
+    ],
+    "texts": {
+        "3d9e9edf-4010-40cb-9a78-153310be5c3e": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1745000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        }
+    },
+    "type": "package",
+    "uuid": "ca6d90f1-6a5e-4c1a-a541-2dcbe080d33c"
+}
