@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -144,32 +69,34 @@
     },
     "arcs": {},
     "default_model": "b7a19b51-324c-4ce9-91f8-ca7b2ab55465",
+    "dimensions": {},
     "junctions": {
         "8c0b9081-9ff9-44f3-8379-f5b42da895e5": {
             "position": [
                 -1200000,
-                1350000
+                1380000
             ]
         },
         "ba8a8a65-3b7a-408f-9fda-f637c45f3d2b": {
             "position": [
                 -650000,
-                -1350000
+                -1380000
             ]
         },
         "be849afb-26c2-47de-b18c-5e9c287e6fa4": {
             "position": [
                 650000,
-                1350000
+                1380000
             ]
         },
         "da23ec71-befc-4a2d-b679-0d8eab909399": {
             "position": [
                 650000,
-                -1350000
+                -1380000
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "02cda62d-aca1-45a5-87b4-196115b40694": {
             "from": "be849afb-26c2-47de-b18c-5e9c287e6fa4",
@@ -477,10 +404,11 @@
     },
     "tags": [
         "smd",
-        "so"
+        "sot"
     ],
     "texts": {
         "4b5cdec8-280c-4878-b318-5ead82ce02d0": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -497,6 +425,7 @@
             "width": 150000
         },
         "df48f3cb-07ad-4a2f-93f5-2022ef7a7ca7": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
