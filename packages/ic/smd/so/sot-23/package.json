@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -144,32 +69,34 @@
     },
     "arcs": {},
     "default_model": "1ebac498-5423-42dc-90a6-7ad333585f6a",
+    "dimensions": {},
     "junctions": {
         "3cc42a22-9df5-4f80-8574-17781e372d09": {
             "position": [
                 800000,
-                1600000
+                1725000
             ]
         },
         "875674a6-ac04-48ab-a5df-8e1119d2cea5": {
             "position": [
                 800000,
-                -1600000
+                -1725000
             ]
         },
         "bf224a2e-7bff-4f09-bfe1-5bfa4244a15b": {
             "position": [
                 -1630000,
-                1600000
+                1725000
             ]
         },
         "f2f9afc4-b2b8-4bfa-8f0b-351e34a90910": {
             "position": [
                 -800000,
-                -1600000
+                -1725000
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "5c3bf1fe-d683-45d9-be52-b28fd4b4c826": {
             "from": "875674a6-ac04-48ab-a5df-8e1119d2cea5",
@@ -433,6 +360,7 @@
     ],
     "texts": {
         "0511b437-bc0f-400d-81a8-af6b661bd681": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
@@ -449,6 +377,7 @@
             "width": 0
         },
         "0ec33d0a-2ec8-4745-96ac-bb4cb590638d": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -457,7 +386,7 @@
                 "mirror": false,
                 "shift": [
                     -1800000,
-                    2500000
+                    2625000
                 ]
             },
             "size": 1000000,
