@@ -1,6 +1,6 @@
 {
     "_imp": {
-        "grid_spacing": 592500,
+        "grid_spacing": 317500,
         "layer_display": {
             "layer_opacity": 50.0,
             "layers": {
@@ -46,7 +46,7 @@
                 },
                 "20": {
                     "display_mode": "fill_only",
-                    "visible": true
+                    "visible": false
                 },
                 "30": {
                     "display_mode": "fill",
@@ -76,6 +76,20 @@
             "to": "905a3300-2483-4dc5-bdbd-58d6323860f5",
             "width": 150000
         },
+        "7e64ff60-c464-4735-8931-ba207f8e31bb": {
+            "center": "c20455f0-3b42-457d-8200-acf089a242d5",
+            "from": "b79ff366-ffa6-4778-bc76-117b79b1ca36",
+            "layer": 50,
+            "to": "dcb87a85-bed1-4598-92ef-8871c05d424d",
+            "width": 0
+        },
+        "ba7b8a3d-4ba2-4fbe-85bd-36c8c47b49d0": {
+            "center": "c20455f0-3b42-457d-8200-acf089a242d5",
+            "from": "dcb87a85-bed1-4598-92ef-8871c05d424d",
+            "layer": 50,
+            "to": "b79ff366-ffa6-4778-bc76-117b79b1ca36",
+            "width": 0
+        },
         "d90eca01-1cd7-4b9c-8384-9668340af2d2": {
             "center": "2fdfecc8-a3cd-42de-9c43-019779b91071",
             "from": "905a3300-2483-4dc5-bdbd-58d6323860f5",
@@ -103,6 +117,24 @@
             "position": [
                 0,
                 -592500
+            ]
+        },
+        "b79ff366-ffa6-4778-bc76-117b79b1ca36": {
+            "position": [
+                0,
+                -317500
+            ]
+        },
+        "c20455f0-3b42-457d-8200-acf089a242d5": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "dcb87a85-bed1-4598-92ef-8871c05d424d": {
+            "position": [
+                0,
+                317500
             ]
         }
     },
@@ -197,6 +229,23 @@
             "size": 1000000,
             "text": "$RD",
             "width": 150000
+        },
+        "7b3c5bf0-4445-4aed-823b-fe741f27224e": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    317500,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
         }
     },
     "type": "package",

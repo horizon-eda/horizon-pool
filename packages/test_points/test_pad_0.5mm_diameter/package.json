@@ -1,6 +1,6 @@
 {
     "_imp": {
-        "grid_spacing": 525000,
+        "grid_spacing": 250000,
         "layer_display": {
             "layer_opacity": 50.0,
             "layers": {
@@ -62,13 +62,27 @@
                 },
                 "60": {
                     "display_mode": "outline",
-                    "visible": true
+                    "visible": false
                 }
             }
         }
     },
     "alternate_for": "16222198-30fe-41a5-bfd8-519bdcba786d",
     "arcs": {
+        "1ca60343-76f7-4e36-a4b2-f1d5792f781f": {
+            "center": "990f7f26-0c6d-495e-861b-cc17498cded6",
+            "from": "a2c5d8d8-d890-4086-b011-060b53921bb1",
+            "layer": 50,
+            "to": "0aef5c89-7a6d-4109-9ae3-ee50e0ddd03e",
+            "width": 0
+        },
+        "3be85dcd-d785-4fe8-9e0d-28dfd9f13780": {
+            "center": "990f7f26-0c6d-495e-861b-cc17498cded6",
+            "from": "0aef5c89-7a6d-4109-9ae3-ee50e0ddd03e",
+            "layer": 50,
+            "to": "a2c5d8d8-d890-4086-b011-060b53921bb1",
+            "width": 0
+        },
         "79915c81-d753-4cea-98e3-4070fbfff54a": {
             "center": "2fdfecc8-a3cd-42de-9c43-019779b91071",
             "from": "0b538f26-c117-400d-92b2-8e9566595cfa",
@@ -87,6 +101,12 @@
     "default_model": "00000000-0000-0000-0000-000000000000",
     "dimensions": {},
     "junctions": {
+        "0aef5c89-7a6d-4109-9ae3-ee50e0ddd03e": {
+            "position": [
+                0,
+                -250000
+            ]
+        },
         "0b538f26-c117-400d-92b2-8e9566595cfa": {
             "position": [
                 0,
@@ -103,6 +123,18 @@
             "position": [
                 0,
                 -525000
+            ]
+        },
+        "990f7f26-0c6d-495e-861b-cc17498cded6": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "a2c5d8d8-d890-4086-b011-060b53921bb1": {
+            "position": [
+                0,
+                250000
             ]
         }
     },
@@ -197,6 +229,23 @@
             "size": 1000000,
             "text": "$RD",
             "width": 150000
+        },
+        "ccf06798-1010-421b-81d0-c4f626d215cd": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    250000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
         }
     },
     "type": "package",

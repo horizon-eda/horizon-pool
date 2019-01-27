@@ -1,6 +1,6 @@
 {
     "_imp": {
-        "grid_spacing": 1025000,
+        "grid_spacing": 750000,
         "layer_display": {
             "layer_opacity": 50.0,
             "layers": {
@@ -69,6 +69,20 @@
     },
     "alternate_for": "16222198-30fe-41a5-bfd8-519bdcba786d",
     "arcs": {
+        "6969df13-d9f2-447e-8aa7-e9fa447d24a0": {
+            "center": "a03eafbb-4528-484c-81c1-665a13d3938c",
+            "from": "d5874aea-2ba2-4ae2-84bb-c1aeb0befb2f",
+            "layer": 50,
+            "to": "cbfc9d5f-09f1-43ff-a64e-70ea2c355a88",
+            "width": 0
+        },
+        "8adb847e-1355-4312-b3c7-f379d3ef1d78": {
+            "center": "a03eafbb-4528-484c-81c1-665a13d3938c",
+            "from": "cbfc9d5f-09f1-43ff-a64e-70ea2c355a88",
+            "layer": 50,
+            "to": "d5874aea-2ba2-4ae2-84bb-c1aeb0befb2f",
+            "width": 0
+        },
         "8b130ffb-0df3-46a5-8d21-e22d9f5ef12d": {
             "center": "f48dca67-c2f1-4c17-ac31-cfb236c1ff0c",
             "from": "af74423d-87f1-4162-832c-3e4ecdaf87d6",
@@ -87,10 +101,28 @@
     "default_model": "00000000-0000-0000-0000-000000000000",
     "dimensions": {},
     "junctions": {
+        "a03eafbb-4528-484c-81c1-665a13d3938c": {
+            "position": [
+                0,
+                0
+            ]
+        },
         "af74423d-87f1-4162-832c-3e4ecdaf87d6": {
             "position": [
                 0,
                 1025000
+            ]
+        },
+        "cbfc9d5f-09f1-43ff-a64e-70ea2c355a88": {
+            "position": [
+                0,
+                -750000
+            ]
+        },
+        "d5874aea-2ba2-4ae2-84bb-c1aeb0befb2f": {
+            "position": [
+                0,
+                750000
             ]
         },
         "f401248a-1e20-48bc-9bb1-797c37a73dc2": {
@@ -181,6 +213,23 @@
         "testing"
     ],
     "texts": {
+        "17fb08d3-12d8-41f7-9a0b-c06014aff0d5": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    750000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
+        },
         "3ed0b98a-d9af-4cd6-a9ea-751b28d99ed9": {
             "font": "simplex",
             "from_smash": false,
