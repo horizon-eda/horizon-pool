@@ -1,0 +1,91 @@
+{
+"tables": {
+	"resistors" : {
+		"display_name": "Resistors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "tolerance",
+				"display_name": "Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : false
+			},
+			{
+				"name": "pmax",
+				"display_name": "Power rating",
+				"type" : "quantity",
+				"unit" : "W",
+				"use_si" : false,
+				"digits" : 3
+			}
+		]
+	},
+	"capacitors" : {
+		"display_name": "Capacitors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "F",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "wvdc",
+				"display_name": "Voltage rating",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : false
+			},
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Electrolytic",
+					"C0G/NP0",
+					"X5R",
+					"X7R"
+				]
+			}
+		]
+	},
+	"inductors" : {
+		"display_name": "Inductors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "H",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "idc",
+				"display_name": "Current rating",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : false
+			},
+			{
+				"name" : "dcr",
+				"display_name": "DC resistance",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits": 1
+			}
+		]
+	}
+}
+}
