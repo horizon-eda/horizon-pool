@@ -12,12 +12,19 @@
         true,
         "Shielded Power Inductor"
     ],
-    "inherit_tags": false,
+    "inherit_model": true,
+    "inherit_tags": true,
     "manufacturer": [
         true,
         "Coilcraft"
     ],
-    "parametric": {},
+    "model": "6c0311d9-d15f-4aa6-b20e-e06cf319b66b",
+    "parametric": {
+        "dcr": "0.0108",
+        "idc": "4.5",
+        "table": "inductors",
+        "value": "2.2e-06"
+    },
     "tags": [],
     "type": "part",
     "uuid": "1d26f016-bdbc-4173-b6e8-89421b646fe6",
