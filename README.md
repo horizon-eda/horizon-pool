@@ -2,4 +2,6 @@ This is the pool for horizon, see https://github.com/carrotIndustries/horizon on
 Some data has been imported from https://github.com/octopart/CPL-Data/
 3D Models are from https://github.com/KiCad/kicad-packages3D/
 
-This repo is licensed as CC BY-SA 4.0 unless noted
+## Licensing
+
+Refer to the LICENSE.md file
