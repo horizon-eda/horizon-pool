@@ -79,7 +79,14 @@
     "name": "Two-terminal polarized capacitor",
     "pins": {
         "1e7cd34f-86db-4b34-9e0b-c276756301ab": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 3000000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "up",
             "pad_visible": false,
@@ -89,7 +96,14 @@
             ]
         },
         "bb8460b5-34e6-41b0-9a9f-10eed3a3d8d6": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 3000000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "down",
             "pad_visible": false,
@@ -139,8 +153,8 @@
         },
         "180m": {
             "3d7e3a4d-9521-4e03-a851-a990e1e263c8": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     2500000,
                     2500000
@@ -157,8 +171,8 @@
         },
         "180n": {
             "3d7e3a4d-9521-4e03-a851-a990e1e263c8": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     2500000,
                     2500000
@@ -175,8 +189,8 @@
         },
         "270m": {
             "3d7e3a4d-9521-4e03-a851-a990e1e263c8": {
-                "angle": 49152,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
                     3750000,
                     3750000
@@ -211,8 +225,8 @@
         },
         "90m": {
             "3d7e3a4d-9521-4e03-a851-a990e1e263c8": {
-                "angle": 16384,
-                "mirror": false,
+                "angle": 49152,
+                "mirror": true,
                 "shift": [
                     -3750000,
                     -3750000
@@ -248,6 +262,7 @@
     },
     "texts": {
         "3d7e3a4d-9521-4e03-a851-a990e1e263c8": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
@@ -264,6 +279,7 @@
             "width": 0
         },
         "582303ff-ef92-4768-8c47-feda78c388f8": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
