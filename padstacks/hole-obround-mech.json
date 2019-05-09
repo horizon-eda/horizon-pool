@@ -20,11 +20,14 @@
     "padstack_type": "mechanical",
     "parameter_program": "get-parameter [ hole_diameter ]\nget-parameter [ hole_length ]\nset-hole [ hole slot ]\n\nget-parameter [ hole_length ]\nget-parameter [ hole_diameter ]\n\nget-parameter [ hole_solder_mask_expansion ] 2 *\n+xy\nset-shape [ mask obround ]\n",
     "parameter_set": {
-        "hole_annular_ring": 500000,
         "hole_diameter": 500000,
         "hole_length": 1500000,
         "hole_solder_mask_expansion": 200000
     },
+    "parameters_required": [
+        "hole_diameter",
+        "hole_length"
+    ],
     "polygons": {},
     "shapes": {
         "0fcc5be3-fa35-464c-ac89-7bfaea0821da": {

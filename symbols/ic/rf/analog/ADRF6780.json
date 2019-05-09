@@ -1,0 +1,539 @@
+{
+    "arcs": {},
+    "junctions": {
+        "38f2280e-ddf6-45e9-a658-acd3f98ed9dc": {
+            "position": [
+                -15000000,
+                26250000
+            ]
+        },
+        "6b060524-1cbb-44ed-b124-1fbc9f209a03": {
+            "position": [
+                15000000,
+                -26250000
+            ]
+        },
+        "ee8c4ee2-a02a-4f15-af32-1bf0adb19b45": {
+            "position": [
+                15000000,
+                26250000
+            ]
+        },
+        "f991e4e0-801c-4ee6-9a70-42b2ca948a68": {
+            "position": [
+                -15000000,
+                -26250000
+            ]
+        }
+    },
+    "lines": {
+        "3229963a-4090-4304-a22f-745a814c6e68": {
+            "from": "6b060524-1cbb-44ed-b124-1fbc9f209a03",
+            "layer": 0,
+            "to": "ee8c4ee2-a02a-4f15-af32-1bf0adb19b45",
+            "width": 0
+        },
+        "71700319-1fa0-4346-aee5-af678c883980": {
+            "from": "ee8c4ee2-a02a-4f15-af32-1bf0adb19b45",
+            "layer": 0,
+            "to": "38f2280e-ddf6-45e9-a658-acd3f98ed9dc",
+            "width": 0
+        },
+        "82237f60-c68a-49d5-889c-55240b7d7751": {
+            "from": "38f2280e-ddf6-45e9-a658-acd3f98ed9dc",
+            "layer": 0,
+            "to": "f991e4e0-801c-4ee6-9a70-42b2ca948a68",
+            "width": 0
+        },
+        "dad80b41-c82f-4be2-9e93-641c230b5fcd": {
+            "from": "f991e4e0-801c-4ee6-9a70-42b2ca948a68",
+            "layer": 0,
+            "to": "6b060524-1cbb-44ed-b124-1fbc9f209a03",
+            "width": 0
+        }
+    },
+    "name": "ADRF6780",
+    "pins": {
+        "0246ac4d-9b7b-4186-8acd-05b63663a8a9": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                17500000,
+                0
+            ]
+        },
+        "0bd85b58-6952-4f57-8da1-b64dbc9a8d40": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                3750000,
+                28750000
+            ]
+        },
+        "2dffb462-de15-4ebe-a3d4-f9a62c6acbba": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                0
+            ]
+        },
+        "40a2ce60-c056-4505-a72c-e9d4001029d9": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                20000000
+            ]
+        },
+        "530600f0-dbd3-4dd8-9ffd-4aee9fa855ec": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                7500000
+            ]
+        },
+        "60510f4b-d054-42a6-8242-5ae30c7d9d69": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                17500000,
+                -5000000
+            ]
+        },
+        "63bea9ed-f392-4d6b-a65a-a9a0232f62f3": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                -12500000
+            ]
+        },
+        "74fa983a-704a-4fd3-848d-327587f2f902": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                -17500000
+            ]
+        },
+        "76c490ac-225f-49d0-8cf4-ab8142bcd54f": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                17500000,
+                2500000
+            ]
+        },
+        "7cf926e6-9d39-4f58-9eb1-bd6df31b8be2": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                22500000
+            ]
+        },
+        "858e49ca-0453-4bb5-86fe-226d5381cdc5": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                -6250000,
+                28750000
+            ]
+        },
+        "907b3d6d-8cfc-4bd8-8916-b382b458efbe": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                -7500000
+            ]
+        },
+        "90dc028a-3e5d-4e20-9d3d-cf6728f18cfc": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                -10000000
+            ]
+        },
+        "a0393d26-4a49-4a30-a52f-3217a8fb7813": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                -22500000
+            ]
+        },
+        "a87430d5-a4d3-464f-a547-97a4b1ad7873": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                28750000
+            ]
+        },
+        "aa716850-9193-4712-a3dc-1dffc6f333b7": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                17500000,
+                -10000000
+            ]
+        },
+        "b1b40a9a-1adb-4ede-8a4a-1756e80581e4": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                -20000000
+            ]
+        },
+        "b290bb20-3802-4642-ac5e-a983c78b7755": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                10000000
+            ]
+        },
+        "b2b9721c-93d8-42b7-8040-29fe3e1acd31": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                -3750000,
+                28750000
+            ]
+        },
+        "bdc18e95-6798-4e6d-a762-0cccdf450d84": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                2500000
+            ]
+        },
+        "be798aa3-5507-4e77-bf36-7f859c6693bb": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                -5000000
+            ]
+        },
+        "d477d6ef-4955-4bbd-aad8-1178ac531601": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                1250000,
+                28750000
+            ]
+        },
+        "d6444b47-16cf-4f4e-b6b5-8dc1c2943a60": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                15000000
+            ]
+        },
+        "dd7e731c-c3da-469c-a224-85d44a595185": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -17500000,
+                17500000
+            ]
+        },
+        "e4872674-ce9a-462b-b2b5-7820c8059ecc": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": true,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                0,
+                -28750000
+            ]
+        },
+        "eb054f19-a553-4347-b30a-2b878ba7511a": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "keep_horizontal": false,
+            "length": 2500000,
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                -1250000,
+                28750000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "c44d100d-d7ca-4519-8f6a-bdccba121f1d": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    8750000,
+                    -27500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "dfa6ca66-697d-482b-b176-1701ef0a204e": {
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    8750000,
+                    27500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "ca901688-409b-4c08-ad55-5fc520bab2fc",
+    "uuid": "0e23a071-a9c3-4e19-8052-b1d128094612"
+}

@@ -43,7 +43,14 @@
     "name": "Capacitor",
     "pins": {
         "29995253-b4b1-4c7c-a049-b6db2713ca7c": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 3000000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "down",
             "pad_visible": false,
@@ -53,7 +60,14 @@
             ]
         },
         "852f1fe6-06dc-4661-8a14-61a9a6ebb26a": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 3000000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "up",
             "pad_visible": false,
@@ -63,6 +77,7 @@
             ]
         }
     },
+    "polygons": {},
     "text_placements": {
         "0m": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
@@ -102,8 +117,8 @@
         },
         "180m": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     2500000,
                     2500000
@@ -120,8 +135,8 @@
         },
         "180n": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     2500000,
                     2500000
@@ -138,8 +153,8 @@
         },
         "270m": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 49152,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
                     3750000,
                     3750000
@@ -174,8 +189,8 @@
         },
         "90m": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 16384,
-                "mirror": false,
+                "angle": 49152,
+                "mirror": true,
                 "shift": [
                     -3750000,
                     -3750000
@@ -211,15 +226,16 @@
     },
     "texts": {
         "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
-                    2500000,
-                    -2500000
+                    3750000,
+                    3750000
                 ]
             },
             "size": 1500000,
@@ -227,15 +243,16 @@
             "width": 0
         },
         "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 0,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    2500000,
-                    2500000
+                    -3750000,
+                    3750000
                 ]
             },
             "size": 1500000,
