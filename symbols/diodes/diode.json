@@ -79,7 +79,14 @@
     "name": "Diode",
     "pins": {
         "16ee5a5c-8eea-4447-ad48-04d973776e3a": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "left",
             "pad_visible": true,
@@ -89,7 +96,14 @@
             ]
         },
         "b57ca2a1-1bbf-43f0-b0a0-bf953094a8de": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "right",
             "pad_visible": true,
@@ -99,11 +113,12 @@
             ]
         }
     },
+    "polygons": {},
     "text_placements": {
         "0m": {
             "584af48c-30d0-4410-98bf-257ac226902f": {
-                "angle": 32768,
-                "mirror": false,
+                "angle": 0,
+                "mirror": true,
                 "shift": [
                     3750000,
                     -2500000
@@ -138,8 +153,8 @@
         },
         "180m": {
             "584af48c-30d0-4410-98bf-257ac226902f": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     -3750000,
                     2500000
@@ -174,8 +189,8 @@
         },
         "270m": {
             "584af48c-30d0-4410-98bf-257ac226902f": {
-                "angle": 49152,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
                     1250000,
                     -2500000
@@ -192,8 +207,8 @@
         },
         "270n": {
             "584af48c-30d0-4410-98bf-257ac226902f": {
-                "angle": 49152,
-                "mirror": false,
+                "angle": 16384,
+                "mirror": true,
                 "shift": [
                     1250000,
                     -2500000
@@ -247,6 +262,7 @@
     },
     "texts": {
         "584af48c-30d0-4410-98bf-257ac226902f": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
@@ -263,6 +279,7 @@
             "width": 0
         },
         "ee48ba49-6541-4cf7-963d-67b474d49d0b": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
