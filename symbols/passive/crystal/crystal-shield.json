@@ -146,6 +146,7 @@
                 "schmitt": false
             },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "down",
             "pad_visible": false,
@@ -162,6 +163,7 @@
                 "schmitt": false
             },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "up",
             "pad_visible": false,
@@ -178,6 +180,7 @@
                 "schmitt": false
             },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "left",
             "pad_visible": false,
@@ -227,8 +230,8 @@
         },
         "180m": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     2500000,
                     2500000
@@ -245,8 +248,8 @@
         },
         "180n": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 0,
-                "mirror": false,
+                "angle": 32768,
+                "mirror": true,
                 "shift": [
                     2500000,
                     2500000
@@ -261,57 +264,39 @@
                 ]
             }
         },
-        "270m": {
-            "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 49152,
-                "mirror": false,
-                "shift": [
-                    6250000,
-                    3750000
-                ]
-            },
-            "fad1392e-1de8-4b3d-9b67-f839bd199340": {
-                "angle": 49152,
-                "mirror": false,
-                "shift": [
-                    3750000,
-                    3750000
-                ]
-            }
-        },
         "270n": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
                 "angle": 16384,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
-                    6250000,
-                    -3750000
+                    3750000,
+                    -2500000
                 ]
             },
             "fad1392e-1de8-4b3d-9b67-f839bd199340": {
-                "angle": 16384,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    3750000,
-                    -3750000
+                    -3750000,
+                    -2500000
                 ]
             }
         },
         "90m": {
             "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
-                "angle": 16384,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    3750000,
-                    -3750000
+                    -3750000,
+                    -2500000
                 ]
             },
             "fad1392e-1de8-4b3d-9b67-f839bd199340": {
-                "angle": 16384,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    6250000,
-                    -3750000
+                    3750000,
+                    -2500000
                 ]
             }
         },
@@ -320,22 +305,23 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    3750000,
-                    3750000
+                    -3750000,
+                    -2500000
                 ]
             },
             "fad1392e-1de8-4b3d-9b67-f839bd199340": {
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    6250000,
-                    3750000
+                    3750000,
+                    -2500000
                 ]
             }
         }
     },
     "texts": {
         "2a3000e6-0c81-4cf5-9688-0e6617c0ac61": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
@@ -352,6 +338,7 @@
             "width": 0
         },
         "fad1392e-1de8-4b3d-9b67-f839bd199340": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
