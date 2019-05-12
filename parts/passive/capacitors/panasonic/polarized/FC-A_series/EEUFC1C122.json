@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "1200 \u03bcF, 16V, 20%, 3000h Aluminium Electrolytic Capacitor"
+        "1200 \u03bcF, 16V, 20%, 3000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "28b81198-2d68-55dd-b1aa-c567fdffd887",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "10.0",
+        "endurance": "3000",
+        "esr": "0.045",
+        "height": "25.0",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "1.44",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.16",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "1200.0e-06",
         "wvdc": "16"
     },

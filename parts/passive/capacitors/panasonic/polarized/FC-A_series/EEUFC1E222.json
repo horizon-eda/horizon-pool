@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "2200 \u03bcF, 25V, 20%, 5000h Aluminium Electrolytic Capacitor"
+        "2200 \u03bcF, 25V, 20%, 5000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "8608387b-582b-5579-9188-9d516d2c9315",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "12.5",
+        "endurance": "5000",
+        "esr": "0.022",
+        "height": "35.0",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "2.51",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.16",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "2200.0e-06",
         "wvdc": "25"
     },

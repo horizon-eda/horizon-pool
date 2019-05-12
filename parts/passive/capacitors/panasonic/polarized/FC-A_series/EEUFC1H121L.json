@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "120 \u03bcF, 50V, 20%, 2000h Aluminium Electrolytic Capacitor"
+        "120 \u03bcF, 50V, 20%, 2000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "e7563fe5-c51f-5be2-b61c-0cb4be54f9ca",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "8.0",
+        "endurance": "2000",
+        "esr": "0.155",
+        "height": "15.0",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "0.635",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.1",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "120.0e-06",
         "wvdc": "50"
     },
