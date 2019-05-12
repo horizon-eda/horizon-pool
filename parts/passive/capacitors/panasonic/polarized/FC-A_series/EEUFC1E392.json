@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "3900 \u03bcF, 25V, 20%, 5000h Aluminium Electrolytic Capacitor"
+        "3900 \u03bcF, 25V, 20%, 5000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "39f9e0d8-c5cf-5f19-a182-9941b08b6fc8",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "18.0",
+        "endurance": "5000",
+        "esr": "0.016",
+        "height": "31.5",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "3.635",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.18",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "3900.0e-06",
         "wvdc": "25"
     },

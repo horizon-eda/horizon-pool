@@ -60,6 +60,117 @@
 			}
 		]
 	},
+	"polarizedcapacitors" : {
+		"display_name": "Polarized Capacitors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "F",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "wvdc",
+				"display_name": "Voltage rating",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : false
+			},
+			{
+				"name" : "tolerance",
+				"display_name": "Tolerance",
+				"type" : "quantity",
+				"unit" : "%",
+				"use_si" : false
+			},
+			{
+				"name" : "mountingtype",
+				"display_name": "Mounting type",
+				"type" : "enum",
+				"items" : [
+					"axial",
+					"radial",
+					"smd"
+				]
+			},
+			{
+				"name" : "diameter",
+				"display_name": "Diameter",
+				"type" : "quantity",
+				"unit" : "mm",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "height",
+				"display_name": "Height",
+				"type" : "quantity",
+				"unit" : "mm",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "esr",
+				"display_name": "ESR",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 3
+			},
+			{
+				"name" : "ripplecurrent",
+				"display_name": "Ripple current rating",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "tandelta",
+				"display_name": "Tan delta",
+				"type" : "quantity",
+				"unit" : "",
+				"use_si" : false,
+				"digits" : 4
+			},
+			{
+				"name" : "mintemperature",
+				"display_name": "Minimum Temperature",
+				"type" : "quantity",
+				"unit" : "°C",
+				"use_si" : false,
+				"digits" : 0
+			},
+			{
+				"name" : "maxtemperature",
+				"display_name": "Maximum Temperature",
+				"type" : "quantity",
+				"unit" : "°C",
+				"use_si" : false,
+				"digits" : 0
+			},
+			{
+				"name" : "endurance",
+				"display_name": "Endurance",
+				"type" : "quantity",
+				"unit" : "h",
+				"use_si" : false,
+				"digits" : 0
+			},
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Aluminium",
+					"Tantalum",
+					"Aluminium Polymer"
+				]
+			}
+		]
+	},
 	"inductors" : {
 		"display_name": "Inductors",
 		"columns" : [

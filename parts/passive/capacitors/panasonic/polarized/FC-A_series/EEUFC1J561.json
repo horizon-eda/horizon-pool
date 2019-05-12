@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "560 \u03bcF, 63V, 20%, 5000h Aluminium Electrolytic Capacitor"
+        "560 \u03bcF, 63V, 20%, 5000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "e1ecc4fd-7684-582e-a5b9-9c7cf2a6297c",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "16.0",
+        "endurance": "5000",
+        "esr": "0.05",
+        "height": "25.0",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "2.16",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.08",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "560.0e-06",
         "wvdc": "63"
     },

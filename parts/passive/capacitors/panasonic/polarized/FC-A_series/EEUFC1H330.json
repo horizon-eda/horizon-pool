@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "33 \u03bcF, 50V, 20%, 1000h Aluminium Electrolytic Capacitor"
+        "33 \u03bcF, 50V, 20%, 1000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "911ca45b-271a-5c80-a50b-790be8fa3a2a",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "6.3",
+        "endurance": "1000",
+        "esr": "0.6",
+        "height": "11.2",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "0.26",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.1",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "33.0e-06",
         "wvdc": "50"
     },

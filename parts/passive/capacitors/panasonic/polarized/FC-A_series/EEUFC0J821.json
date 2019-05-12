@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "820 \u03bcF, 6.3V, 20%, 3000h Aluminium Electrolytic Capacitor"
+        "820 \u03bcF, 6.3V, 20%, 3000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "362d69bb-1264-5fbf-9f7c-aa92c1cff648",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "10.0",
+        "endurance": "3000",
+        "esr": "0.09",
+        "height": "12.5",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "0.755",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.22",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "820.0e-06",
         "wvdc": "6.3"
     },

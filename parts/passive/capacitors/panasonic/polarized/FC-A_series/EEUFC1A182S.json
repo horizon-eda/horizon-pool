@@ -10,7 +10,7 @@
     ],
     "description": [
         false,
-        "1800 \u03bcF, 10V, 20%, 5000h Aluminium Electrolytic Capacitor"
+        "1800 \u03bcF, 10V, 20%, 5000.0h Aluminium Electrolytic Capacitor"
     ],
     "inherit_model": true,
     "inherit_tags": false,
@@ -20,8 +20,18 @@
     ],
     "model": "9ce17d87-e1ff-597f-9613-39b542d81623",
     "parametric": {
-        "table": "capacitors",
-        "type": "Electrolytic",
+        "diameter": "16.0",
+        "endurance": "5000",
+        "esr": "0.043",
+        "height": "15.0",
+        "maxtemperature": "105",
+        "mintemperature": "-55",
+        "mountingtype": "radial",
+        "ripplecurrent": "1.69",
+        "table": "polarizedcapacitors",
+        "tandelta": "0.19",
+        "tolerance": "20",
+        "type": "Aluminium",
         "value": "1800.0e-06",
         "wvdc": "10"
     },
