@@ -119,7 +119,7 @@
             "z": 0
         }
     },
-    "name": "Polarized capacitor, \u2300 6.3mm mm, height 15mm mm, 5mm, lead spacing",
+    "name": "Polarized capacitor, \u2300 6.3 mm, height 15 mm, lead spacing 5 mm",
     "pads": {
         "2ce7d685-702b-5f7c-94c5-93c80170db24": {
             "name": "P",
@@ -154,7 +154,7 @@
             }
         }
     },
-    "parameter_program": "6.3mm 6.3mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_program": "6.3mm 6.3mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard circle 0.000mm 0.000mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -201,21 +201,9 @@
                     "arc_reverse": false,
                     "position": [
                         2750000,
-                        -2250000
+                        650000
                     ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        2750000,
-                        3550000
-                    ],
-                    "type": "line"
+                    "type": "arc"
                 },
                 {
                     "arc_center": [
@@ -225,7 +213,19 @@
                     "arc_reverse": false,
                     "position": [
                         3550000,
-                        3550000
+                        650000
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2750000,
+                        650000
                     ],
                     "type": "line"
                 }
