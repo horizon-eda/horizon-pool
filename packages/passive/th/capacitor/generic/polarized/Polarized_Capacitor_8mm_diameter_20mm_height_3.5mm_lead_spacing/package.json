@@ -154,7 +154,7 @@
             }
         }
     },
-    "parameter_program": "8.0mm 8.0mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_program": "8.0mm 8.0mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard circle 0.000mm 0.000mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -201,21 +201,9 @@
                     "arc_reverse": false,
                     "position": [
                         3600000,
-                        -1400000
+                        1500000
                     ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        3600000,
-                        4400000
-                    ],
-                    "type": "line"
+                    "type": "arc"
                 },
                 {
                     "arc_center": [
@@ -225,7 +213,19 @@
                     "arc_reverse": false,
                     "position": [
                         4400000,
-                        4400000
+                        1500000
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3600000,
+                        1500000
                     ],
                     "type": "line"
                 }
