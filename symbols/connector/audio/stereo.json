@@ -1,0 +1,150 @@
+{
+    "arcs": {},
+    "junctions": {
+        "1ef7bf61-8c46-456c-affa-ce9a27b3165d": {
+            "position": [
+                -3750000,
+                -5000000
+            ]
+        },
+        "cacc2d8f-8dd5-4986-bad8-dbbbc6ea881f": {
+            "position": [
+                3750000,
+                -5000000
+            ]
+        },
+        "e285e33f-bd7b-432a-9dab-7c0b4412c4d6": {
+            "position": [
+                -3750000,
+                5000000
+            ]
+        },
+        "f6013666-7453-467b-a6d9-6f506e1e97eb": {
+            "position": [
+                3750000,
+                5000000
+            ]
+        }
+    },
+    "lines": {
+        "30101059-91c5-459f-8ed7-7f5411ef8e30": {
+            "from": "e285e33f-bd7b-432a-9dab-7c0b4412c4d6",
+            "layer": 0,
+            "to": "f6013666-7453-467b-a6d9-6f506e1e97eb",
+            "width": 0
+        },
+        "89899a12-59bc-4a27-ac74-21a0f927a258": {
+            "from": "1ef7bf61-8c46-456c-affa-ce9a27b3165d",
+            "layer": 0,
+            "to": "e285e33f-bd7b-432a-9dab-7c0b4412c4d6",
+            "width": 0
+        },
+        "ce132481-57f0-4dec-b29b-1a7220c2ddfa": {
+            "from": "cacc2d8f-8dd5-4986-bad8-dbbbc6ea881f",
+            "layer": 0,
+            "to": "1ef7bf61-8c46-456c-affa-ce9a27b3165d",
+            "width": 0
+        },
+        "d51b9f63-29b5-4c98-a924-34843ebd7d13": {
+            "from": "f6013666-7453-467b-a6d9-6f506e1e97eb",
+            "layer": 0,
+            "to": "cacc2d8f-8dd5-4986-bad8-dbbbc6ea881f",
+            "width": 0
+        }
+    },
+    "name": "Stereo audio jack",
+    "pins": {
+        "0486f34b-4e1a-4f5d-aaef-4ade6f266d51": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                -2500000
+            ]
+        },
+        "1907195a-d30a-4473-884c-5eb20cafa3fc": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                2500000
+            ]
+        },
+        "2da26364-2c81-436d-9dee-14f0bc8fd15b": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "787dbdea-2694-42ea-a0ba-807b90b94245": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    -6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "b8e5b399-800a-4849-ac64-6dc856ed6596": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "0c578119-57b6-4d8e-b3d7-e471508fef95",
+    "uuid": "fb578275-3c4b-4cb5-a249-603e12513eed"
+}

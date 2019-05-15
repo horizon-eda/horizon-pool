@@ -1,0 +1,184 @@
+{
+    "arcs": {},
+    "junctions": {
+        "236881ca-411b-447a-98db-11ba16e04740": {
+            "position": [
+                -8750000,
+                -3750000
+            ]
+        },
+        "31ae9bbd-e9a0-46da-8fc2-6bfa08c61949": {
+            "position": [
+                8750000,
+                -3750000
+            ]
+        },
+        "54bcfaa5-d004-41ea-856b-8e75e8a02dac": {
+            "position": [
+                -8750000,
+                3750000
+            ]
+        },
+        "d77cc5f4-4beb-471f-8511-d8394c7af803": {
+            "position": [
+                8750000,
+                3750000
+            ]
+        }
+    },
+    "lines": {
+        "2d977286-c719-456c-96b0-0c41a488cfa1": {
+            "from": "d77cc5f4-4beb-471f-8511-d8394c7af803",
+            "layer": 0,
+            "to": "31ae9bbd-e9a0-46da-8fc2-6bfa08c61949",
+            "width": 0
+        },
+        "6fe15e5f-1c7f-45d6-a0d0-989e9291dd5b": {
+            "from": "236881ca-411b-447a-98db-11ba16e04740",
+            "layer": 0,
+            "to": "54bcfaa5-d004-41ea-856b-8e75e8a02dac",
+            "width": 0
+        },
+        "c726e706-64c2-44bc-b223-7970f8bfa448": {
+            "from": "31ae9bbd-e9a0-46da-8fc2-6bfa08c61949",
+            "layer": 0,
+            "to": "236881ca-411b-447a-98db-11ba16e04740",
+            "width": 0
+        },
+        "ebee30cd-c9b2-4662-bdc6-67d0d06d313d": {
+            "from": "54bcfaa5-d004-41ea-856b-8e75e8a02dac",
+            "layer": 0,
+            "to": "d77cc5f4-4beb-471f-8511-d8394c7af803",
+            "width": 0
+        }
+    },
+    "name": "AC/DC converter",
+    "pins": {
+        "66c598b9-8f78-4768-922e-19162ac17d99": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -11250000,
+                2500000
+            ]
+        },
+        "78ae2f41-acbc-4dc4-a7d3-d988a87502c9": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                11250000,
+                -2500000
+            ]
+        },
+        "c489d3ce-c717-4809-bba3-621eb29210a3": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                11250000,
+                2500000
+            ]
+        },
+        "f2d0f26e-fff6-4b52-ad5c-4fb443694ce0": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -11250000,
+                -2500000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "228953e6-6eae-44a0-a7ee-ab7c8717db16": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -8750000,
+                    5000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "cdbbf45e-d24b-463f-83fc-2e93fc41fb4a": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    0
+                ]
+            },
+            "size": 1500000,
+            "text": "AC/DC",
+            "width": 0
+        },
+        "dfe69256-5948-4e1e-8df3-af2997643aff": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -8750000,
+                    -5000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "b7d86143-f402-4f6c-b780-6f86d3e7fe62",
+    "uuid": "1846103e-6ef4-4762-90e9-80381c417741"
+}
