@@ -37,6 +37,7 @@
 				"type" : "quantity",
 				"unit" : "F",
 				"use_si" : true,
+				"no_milli" : true,
 				"digits" : 2
 			},
 			{
@@ -69,6 +70,7 @@
 				"type" : "quantity",
 				"unit" : "F",
 				"use_si" : true,
+				"no_milli" : true,
 				"digits" : 2
 			},
 			{
@@ -141,7 +143,7 @@
 				"type" : "quantity",
 				"unit" : "°C",
 				"use_si" : false,
-				"digits" : 4
+				"digits" : -1
 			},
 			{
 				"name" : "maxtemperature",
@@ -149,7 +151,7 @@
 				"type" : "quantity",
 				"unit" : "°C",
 				"use_si" : false,
-				"digits" : 4
+				"digits" : -1
 			},
 			{
 				"name" : "endurance",
@@ -157,7 +159,7 @@
 				"type" : "quantity",
 				"unit" : "h",
 				"use_si" : false,
-				"digits" : 5
+				"digits" : -1
 			},
 			{
 				"name" : "type",
