@@ -1,5 +1,6 @@
 {
     "arcs": {},
+    "can_expand": false,
     "junctions": {
         "01244b42-e31a-4d71-9556-1152330f9a26": {
             "position": [
@@ -388,7 +389,7 @@
             "width": 0
         }
     },
-    "name": "Vactrol",
+    "name": "Resistive Opto-Isolator",
     "pins": {
         "49aea420-016d-4ba2-9451-5996acefec56": {
             "decoration": {
@@ -464,18 +465,18 @@
         "0m": {
             "48b8297a-676b-45cb-95bd-d8b23102955a": {
                 "angle": 32768,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
-                    5000000,
-                    -11125000
+                    -5000000,
+                    -10625000
                 ]
             },
             "a94d73c5-973d-4e2c-bf86-7e977cd3867a": {
                 "angle": 32768,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
-                    5000000,
-                    -8750000
+                    -5000000,
+                    6250000
                 ]
             }
         },
@@ -485,7 +486,7 @@
                 "mirror": true,
                 "shift": [
                     -5000000,
-                    -9875000
+                    -10625000
                 ]
             },
             "a94d73c5-973d-4e2c-bf86-7e977cd3867a": {
@@ -493,7 +494,7 @@
                 "mirror": true,
                 "shift": [
                     -5000000,
-                    -7500000
+                    6250000
                 ]
             }
         },
@@ -503,7 +504,7 @@
                 "mirror": true,
                 "shift": [
                     -5000000,
-                    10125000
+                    6875000
                 ]
             },
             "a94d73c5-973d-4e2c-bf86-7e977cd3867a": {
@@ -511,25 +512,25 @@
                 "mirror": true,
                 "shift": [
                     -5000000,
-                    7500000
+                    -6250000
                 ]
             }
         },
         "180n": {
             "48b8297a-676b-45cb-95bd-d8b23102955a": {
                 "angle": 32768,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
-                    5000000,
-                    10125000
+                    -5000000,
+                    6875000
                 ]
             },
             "a94d73c5-973d-4e2c-bf86-7e977cd3867a": {
                 "angle": 32768,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
-                    5000000,
-                    7500000
+                    -5000000,
+                    -6250000
                 ]
             }
         },
@@ -538,7 +539,7 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    -2625000,
+                    3750000,
                     -6250000
                 ]
             },
@@ -546,44 +547,44 @@
                 "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    -5000000,
+                    -2500000,
                     -6250000
                 ]
             }
         },
         "270n": {
             "48b8297a-676b-45cb-95bd-d8b23102955a": {
-                "angle": 16384,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    -1125000,
-                    6250000
+                    3750000,
+                    -6250000
                 ]
             },
             "a94d73c5-973d-4e2c-bf86-7e977cd3867a": {
-                "angle": 16384,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
-                    -3750000,
-                    6250000
+                    -2500000,
+                    -6250000
                 ]
             }
         },
         "90m": {
             "48b8297a-676b-45cb-95bd-d8b23102955a": {
                 "angle": 16384,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
-                    1375000,
-                    6250000
+                    -2500000,
+                    -6250000
                 ]
             },
             "a94d73c5-973d-4e2c-bf86-7e977cd3867a": {
                 "angle": 16384,
-                "mirror": false,
+                "mirror": true,
                 "shift": [
                     3750000,
-                    6250000
+                    -6250000
                 ]
             }
         },
@@ -613,11 +614,11 @@
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 32768,
+                "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    -5000000,
-                    -9875000
+                    -2500000,
+                    -6250000
                 ]
             },
             "size": 1500000,
@@ -630,11 +631,11 @@
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 32768,
+                "angle": 16384,
                 "mirror": true,
                 "shift": [
-                    -5000000,
-                    -7500000
+                    3750000,
+                    -6250000
                 ]
             },
             "size": 1500000,
