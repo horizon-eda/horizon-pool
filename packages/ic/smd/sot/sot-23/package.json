@@ -71,43 +71,43 @@
     "default_model": "1ebac498-5423-42dc-90a6-7ad333585f6a",
     "dimensions": {},
     "junctions": {
-        "3cc42a22-9df5-4f80-8574-17781e372d09": {
+        "1281a49f-c513-4a15-b079-b127cd54d9cb": {
             "position": [
                 800000,
-                1725000
+                -1600000
             ]
         },
-        "875674a6-ac04-48ab-a5df-8e1119d2cea5": {
+        "52263aaa-e1ee-4a5e-aaa0-deb484c2f9a6": {
             "position": [
-                800000,
-                -1725000
+                -1600000,
+                1600000
             ]
         },
-        "bf224a2e-7bff-4f09-bfe1-5bfa4244a15b": {
-            "position": [
-                -1630000,
-                1725000
-            ]
-        },
-        "f2f9afc4-b2b8-4bfa-8f0b-351e34a90910": {
+        "bab0bbe2-cd88-4495-98c8-3c7331ad0683": {
             "position": [
                 -800000,
-                -1725000
+                -1600000
+            ]
+        },
+        "d7a28298-8ef7-40a0-9a6a-437c5adfd649": {
+            "position": [
+                800000,
+                1600000
             ]
         }
     },
     "keepouts": {},
     "lines": {
-        "5c3bf1fe-d683-45d9-be52-b28fd4b4c826": {
-            "from": "875674a6-ac04-48ab-a5df-8e1119d2cea5",
+        "28ca6a2e-7526-4ff8-808b-06f35d637ac1": {
+            "from": "52263aaa-e1ee-4a5e-aaa0-deb484c2f9a6",
             "layer": 20,
-            "to": "f2f9afc4-b2b8-4bfa-8f0b-351e34a90910",
+            "to": "d7a28298-8ef7-40a0-9a6a-437c5adfd649",
             "width": 150000
         },
-        "8af50d5a-c973-4adc-b5d8-3c926e78343e": {
-            "from": "3cc42a22-9df5-4f80-8574-17781e372d09",
+        "c732391a-3a38-475d-8622-d7153969804a": {
+            "from": "bab0bbe2-cd88-4495-98c8-3c7331ad0683",
             "layer": 20,
-            "to": "bf224a2e-7bff-4f09-bfe1-5bfa4244a15b",
+            "to": "1281a49f-c513-4a15-b079-b127cd54d9cb",
             "width": 150000
         }
     },
@@ -174,7 +174,7 @@
             }
         }
     },
-    "parameter_program": "3.400mm 2.900mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_program": "3.400mm 2.600mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -245,7 +245,7 @@
                     "arc_reverse": false,
                     "position": [
                         -1950000,
-                        -1700000
+                        -1550000
                     ],
                     "type": "line"
                 },
@@ -257,7 +257,7 @@
                     "arc_reverse": false,
                     "position": [
                         -1950000,
-                        1700000
+                        1550000
                     ],
                     "type": "line"
                 },
@@ -269,7 +269,7 @@
                     "arc_reverse": false,
                     "position": [
                         1950000,
-                        1700000
+                        1550000
                     ],
                     "type": "line"
                 },
@@ -281,7 +281,7 @@
                     "arc_reverse": false,
                     "position": [
                         1950000,
-                        -1700000
+                        -1550000
                     ],
                     "type": "line"
                 }
@@ -365,11 +365,11 @@
             "layer": 50,
             "origin": "center",
             "placement": {
-                "angle": 16384,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
                     0,
-                    -1400000
+                    1450000
                 ]
             },
             "size": 600000,
@@ -385,8 +385,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -1800000,
-                    2625000
+                    -1900000,
+                    2800000
                 ]
             },
             "size": 1000000,
