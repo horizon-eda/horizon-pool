@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "hatch",
                     "visible": true
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "hatch",
                     "visible": false
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "fill",
                     "visible": false
                 }
@@ -143,6 +68,8 @@
         }
     },
     "arcs": {},
+    "default_model": "fe8d2b1f-6c24-42ff-b475-af8ea17abbe7",
+    "dimensions": {},
     "junctions": {
         "0070e55e-1b2f-486e-85b3-ec2e3fbceaa9": {
             "position": [
@@ -223,6 +150,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "00baf322-3f7a-40d9-ae9d-0eb87268b592": {
             "from": "0abd80d3-c007-42d9-9fe9-efafa5abdb6b",
@@ -292,7 +220,17 @@
         }
     },
     "manufacturer": "",
-    "model_filename": "",
+    "models": {
+        "fe8d2b1f-6c24-42ff-b475-af8ea17abbe7": {
+            "filename": "3d_models/ic/lqfp/LQFP-48_7x7mm_P0.5mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "LQFP48",
     "pads": {
         "0300fdba-1ac3-43c0-95e2-69c3a6d43762": {
@@ -1445,14 +1383,15 @@
     ],
     "texts": {
         "ac7c5279-671f-4e8d-911c-3e4dda700fab": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
             "placement": {
-                "angle": 0,
+                "angle": 32768,
                 "mirror": false,
                 "shift": [
-                    -3500000,
+                    3500000,
                     0
                 ]
             },
@@ -1461,6 +1400,7 @@
             "width": 0
         },
         "fe272235-ec9b-4988-a159-f7d5d1f800a1": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -1468,8 +1408,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    4000000,
-                    4500000
+                    -4725000,
+                    5675000
                 ]
             },
             "size": 1000000,
