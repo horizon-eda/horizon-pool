@@ -92,7 +92,7 @@ for row in j_raw["rows"] :
 		tmpl["base"] = bases[pkg]
 		tmpl["MPN"] = [False, mpn]
 		tmpl["value"] = [False, util.format_si(value, 1) + "F"]
-		tmpl["description"] = [False, "Ceramic Capacitor %sF %.1fV %s"%(util.format_si(value, 1), vmax, tc)]
+		tmpl["description"] = [False, "Ceramic Capacitor %sF %sV %s"%(util.format_si(value, 1), util.format_si(vmax, 1), tc)]
 		tmpl["datasheet"] = [False, ds]
 		tmpl["uuid"] = str(gen.get(mpn))
 		tmpl["parametric"]["wvdc"] = str(vmax)
