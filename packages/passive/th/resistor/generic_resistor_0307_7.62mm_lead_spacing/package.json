@@ -126,7 +126,7 @@
     "manufacturer": "",
     "models": {
         "6f648a7b-eefd-408c-bb78-01024c66ab4e": {
-            "filename": "3d_models/passive/resistor/generic_6.3mm_resistor.step",
+            "filename": "3d_models/passive/resistor/generic_6.3mm_resistor_7.62mm_lead_spacing.step",
             "pitch": 0,
             "roll": 0,
             "x": 0,
@@ -135,7 +135,7 @@
             "z": 0
         }
     },
-    "name": "Generic Resistor 0307 (6.3 mm Length, 8.75 mm Lead Spacing)",
+    "name": "Generic Resistor 0307 (6.3 mm Length, 7.62 mm Lead Spacing)",
     "pads": {
         "3f3ec899-0e05-446d-84e6-2a7fe26e5eaa": {
             "name": "2",
@@ -149,7 +149,7 @@
                 "mirror": false,
                 "shift": [
                     0,
-                    -4375000
+                    -3810000
                 ]
             }
         },
@@ -165,12 +165,12 @@
                 "mirror": false,
                 "shift": [
                     0,
-                    4375000
+                    3810000
                 ]
             }
         }
     },
-    "parameter_program": "2.500mm 10.150mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_program": "2.500mm 9.02mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -241,7 +241,7 @@
                     "arc_reverse": false,
                     "position": [
                         -1500000,
-                        -5325000
+                        -4760000
                     ],
                     "type": "line"
                 },
@@ -253,7 +253,7 @@
                     "arc_reverse": false,
                     "position": [
                         -1500000,
-                        5325000
+                        4760000
                     ],
                     "type": "line"
                 },
@@ -265,7 +265,7 @@
                     "arc_reverse": false,
                     "position": [
                         1500000,
-                        5325000
+                        4760000
                     ],
                     "type": "line"
                 },
@@ -277,7 +277,7 @@
                     "arc_reverse": false,
                     "position": [
                         1500000,
-                        -5325000
+                        -4760000
                     ],
                     "type": "line"
                 }
