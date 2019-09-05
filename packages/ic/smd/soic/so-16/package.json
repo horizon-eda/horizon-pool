@@ -1,74 +1,84 @@
 {
     "arcs": {},
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "75dbfc84-4be0-46b8-bb2e-ae0561a72e70",
     "dimensions": {},
     "junctions": {
-        "695843e9-e1be-4c51-b2cc-a3af520702d0": {
+        "045a24b6-fba1-466c-b006-f378142469f9": {
             "position": [
-                -2225000,
-                5025001
+                -1907500,
+                -5225000
             ]
         },
-        "70e4cda9-e1aa-4441-9e47-403ffff55b41": {
+        "0b9f5bdd-e27d-4049-87c4-fa0cbc72b5ad": {
             "position": [
                 -2225000,
                 5225000
             ]
         },
-        "9271c3b4-4e11-4832-beea-fe1eaac86e0e": {
+        "6f49e103-7d17-40b2-9091-614215dae5a9": {
             "position": [
-                -3429000,
-                5025001
+                -3492500,
+                5020001
             ]
         },
-        "b4afe1b0-b61c-407a-9948-69bf7558e2a5": {
+        "caa5ea60-5bcc-4b5b-bc4d-4d7140d33add": {
             "position": [
-                2225000,
-                -5225000
+                1907500,
+                5225000
             ]
         },
-        "cf386311-70fc-4ca6-858a-8156bfb3cb7b": {
+        "cf44bd84-bf2c-4be6-9ebc-4667aba0e775": {
             "position": [
                 -2225000,
-                -5225000
+                5020001
             ]
         },
-        "dc5b7996-47b0-4ec3-a8c4-9f9ed03f0ef8": {
+        "e8818d41-f3ba-40ce-a963-4dd88f3bd895": {
             "position": [
-                2225000,
-                5225000
+                1907500,
+                -5225000
             ]
         }
     },
     "keepouts": {},
     "lines": {
-        "846be933-48e3-42bc-86e3-fd69e8a57ec4": {
-            "from": "70e4cda9-e1aa-4441-9e47-403ffff55b41",
+        "2d4dc849-b1ba-499a-97ae-83c13ae28ec3": {
+            "from": "cf44bd84-bf2c-4be6-9ebc-4667aba0e775",
             "layer": 20,
-            "to": "695843e9-e1be-4c51-b2cc-a3af520702d0",
+            "to": "6f49e103-7d17-40b2-9091-614215dae5a9",
             "width": 150000
         },
-        "86118d67-3e33-45fe-a29f-0d612d9f3ae0": {
-            "from": "cf386311-70fc-4ca6-858a-8156bfb3cb7b",
+        "5a02fea1-081b-4b5f-91ac-e78042832373": {
+            "from": "0b9f5bdd-e27d-4049-87c4-fa0cbc72b5ad",
             "layer": 20,
-            "to": "b4afe1b0-b61c-407a-9948-69bf7558e2a5",
+            "to": "cf44bd84-bf2c-4be6-9ebc-4667aba0e775",
             "width": 150000
         },
-        "90bf8bbb-a1e3-4cc2-b318-4c0905d75689": {
-            "from": "695843e9-e1be-4c51-b2cc-a3af520702d0",
+        "b9f81f57-0c9b-44e0-8258-e50f57728b92": {
+            "from": "045a24b6-fba1-466c-b006-f378142469f9",
             "layer": 20,
-            "to": "9271c3b4-4e11-4832-beea-fe1eaac86e0e",
+            "to": "e8818d41-f3ba-40ce-a963-4dd88f3bd895",
             "width": 150000
         },
-        "b8b4d1a6-ec80-4bd7-b5cb-4805ed8eab06": {
-            "from": "dc5b7996-47b0-4ec3-a8c4-9f9ed03f0ef8",
+        "ec1f304d-9f52-46ab-9b03-50a8243a7b33": {
+            "from": "caa5ea60-5bcc-4b5b-bc4d-4d7140d33add",
             "layer": 20,
-            "to": "70e4cda9-e1aa-4441-9e47-403ffff55b41",
+            "to": "0b9f5bdd-e27d-4049-87c4-fa0cbc72b5ad",
             "width": 150000
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "75dbfc84-4be0-46b8-bb2e-ae0561a72e70": {
+            "filename": "3d_models/ic/so/SOIC-16_3.9x9.9mm_P1.27mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "SOIC-16",
     "pads": {
         "30f8122d-7d8e-42d3-81ba-2810010f68af": {
