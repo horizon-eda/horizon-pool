@@ -33,6 +33,9 @@ prefixes = {
 	 12 : "T",
 }
 
+reversepfx = dict([(v, k) for k, v in prefixes.items()])
+reversepfx['u'] = -6
+
 def format_si(value, digits, strip=True) :
 	v = abs(value)
 	exp = 0
@@ -52,3 +55,10 @@ def format_si(value, digits, strip=True) :
 		n = n.rstrip("0").rstrip(".")
 	s+= n + " " + prefixes[exp]
 	return s
+
+def parse_si(value):
+    value = value.strip()
+    if value[-1] in reversepfx:
+        return float(value[:-1]) * 10 ** reversepfx[value[-1]]
+    else:
+        return float(value)
