@@ -24,6 +24,92 @@ class UUIDGenerator:
             self.uuids[key] = uu
         return uu
 
+class VendorSubBasepartMaker(object):
+    def __init__(self, basepartdir, uuidgen):
+        self.basepartdir = basepartdir
+        self.uuidgen = uuidgen
+
+        import sqlite3
+        self.pooldb = sqlite3.connect(os.path.join(pool_path, 'pool.db'))
+        cursor = self.pooldb.cursor()
+
+        self.baseparts = []
+        self.pkgs = {}
+        self.uuids = {}
+
+        self.cache = {}
+
+        pdir = os.path.join(pool_path, 'parts', basepartdir)
+        for fn in os.listdir(pdir):
+            if fn.startswith('.') or not fn.endswith('.json'):
+                continue
+            with open(os.path.join(pdir, fn), 'r') as fd:
+                part = json.load(fd)
+                uuid = part['uuid']
+                pkguuid = part['package']
+
+                cursor.execute("SELECT uuid, name, filename FROM packages WHERE uuid = ?", [pkguuid])
+                pkgs = cursor.fetchall()
+                if len(pkgs) != 1:
+                    raise ValueError('could not find package with uuid %s in pool' % pkguuid)
+
+                pdata = {
+                    'part': part,
+                    'package': pkgs[0],
+                }
+                self.baseparts.append(pdata)
+                self.pkgs.setdefault(pkgs[0][1], []).append(pdata)
+                assert uuid not in self.uuids
+                self.uuids[uuid] = pdata
+
+    def get_pkg_base_uuid(self, pkg):
+        if pkg not in self.pkgs:
+            raise IndexError('no base part with package %s available' % pkg)
+        assert len(self.pkgs[pkg]) == 1
+        return self.pkgs[pkg][0]['part']['uuid']
+
+    def find_or_make(self, vendordir, name, baseuuid, attrs = {}, filename = None):
+        if name in self.cache:
+            return self.cache[name]
+
+        vendordir = os.path.join(pool_path, 'parts', self.basepartdir, vendordir)
+        os.makedirs(vendordir, exist_ok = True)
+
+        parent = self.uuids[baseuuid]['part']
+
+        partdata = {
+            "MPN": [False, name],
+            "base": baseuuid,
+            "type": "part",
+            "uuid": str(self.uuidgen.get(name)),
+
+            "inherit_model": True,
+            "inherit_tags": True,
+            "parametric": {},
+
+            "tags": [],
+        }
+        # at the time of writing this, inheriting values across multiple
+        # levels of base parts was buggy, so copy the values here.
+        for inherit in ['datasheet', 'description', 'manufacturer', 'value']:
+            if inherit in parent:
+                partdata[inherit] = [True, parent[inherit][1]]
+
+        partdata.update(attrs)
+
+        with open(os.path.join(vendordir, filename or ('%s.json' % name)), 'w') as fd:
+            json.dump(partdata, fd, sort_keys=True, indent=4)
+
+        self.cache[name] = partdata['uuid']
+        self.uuids[partdata['uuid']] = {
+            'part': partdata,
+            'package': self.uuids[baseuuid]['package'],
+        }
+        return partdata['uuid']
+
+    def find_or_make_pkg(self, vendordir, name, basepkg, attrs = {}, filename = None):
+        return self.find_or_make(vendordir, name, self.get_pkg_base_uuid(basepkg), attrs, filename)
+
 class CachedURL(object):
     '''
     download and store a URL, or use previously downloaded data
