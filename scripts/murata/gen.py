@@ -6,6 +6,7 @@
 #    DB.
 
 import json, zipfile, csv
+from lxml import etree
 from collections import namedtuple, OrderedDict
 import uuid
 import os
@@ -218,6 +219,30 @@ c_voltage = {
     'GF': ('AC', 250., 'Y2,X1/Y2'),
 }
 
+# this is not included in the CSV; getting it would require accessing each
+# part's HTML detail page... so we just grab it for each SMD base footprint
+# + height combo, in the hopes that same footprint/height = same packaging
+# availability...
+c_packaging = {
+}
+
+def get_packaging(cap):
+    key = '%s%s%s' % (cap.product_id, cap.dimensions, cap.height)
+    if key in c_packaging:
+        return c_packaging[key]
+
+    cache = util.CachedURL('https://psearch.en.murata.com/capacitor/product/%s%%23.html' % cap.mpn, urlcache)
+    tree = etree.HTML(cache())
+
+    pkgtab = tree.xpath('//table[@class="product-table package-table"]/tbody')
+    if len(pkgtab) == 0:
+        print('could not get packaging options for %r' % cap)
+        options = []
+    else:
+        options = pkgtab[0].xpath('tr/td[1]/text()')
+
+    c_packaging[key] = options
+    return options
 
 def iter_zipfile(zipfilename):
     '''
@@ -284,7 +309,7 @@ if __name__ == '__main__':
     param_tempchars = param_types['items']
 
     # for cap in iter_parse(iter_zipfile(sys.argv[1])):
-    for cap in iter_parse(iter_websearch()):
+    for cap in sorted(iter_parse(iter_websearch())):
         dim = get_dim(cap)
         if dim is None:
             print('%s: could not determine dimension' % cap.mpn)
@@ -327,6 +352,8 @@ if __name__ == '__main__':
             print('%s: no base part available for EIA size code %s' % (cap.mpn, dim))
             continue
 
+        packaging_opts = get_packaging(cap)
+
         tempchar = c_tempchar.get(cap.tempchar)
         if tempchar is None:
             print('%s: could not determine temperature characteristic' % cap.mpn)
@@ -349,6 +376,12 @@ if __name__ == '__main__':
 
         tmpl["base"] = baseuuid
         tmpl["MPN"] = [False, cap.mpn]
+        if len(packaging_opts) > 0:
+            tmpl['orderable_MPNs'] = dict([
+                (str(gen.get(cap.mpn + opt)), cap.mpn + opt) for opt in packaging_opts
+            ])
+        else:
+            del tmpl['orderable_MPNs']
         tmpl["value"] = [False, util.format_si(value, 1) + "F"]
         tmpl["description"] = [False, "Ceramic Capacitor %sF %sV%s %s" % (util.format_si(value, 1), util.format_si(voltage[1], 1), voltage[0], tempchar)]
         tmpl["uuid"] = str(gen.get(cap.mpn))
