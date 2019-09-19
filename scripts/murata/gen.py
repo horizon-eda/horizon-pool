@@ -59,11 +59,7 @@ tmpl = json.loads("""
     ],
     "inherit_model": true,
     "inherit_tags": true,
-    "manufacturer": [
-        false,
-        "muRata"
-    ],
-    "model": "96c366ee-a963-41a0-9cc8-54c646979695",
+    "manufacturer": [true, ""],
     "parametric": {
         "table": "capacitors"
     },
@@ -77,15 +73,11 @@ tmpl = json.loads("""
 }
 """)
 
-pkgs = {
-    "0402": "5f11876f-0433-45dc-a306-8f7d0f24e00c",
-    "0603": "80ca3c5b-c9cd-4412-bd87-cde4b7bf0b7f",
-    "0805": "b00f7f9a-540d-4440-a73a-32732a8a8027",
-    "1206": "c4c17049-251e-4159-99de-1d8203300811",
-    "1210": "6ec346b2-29c6-4bc8-a5dd-a584dc7ad3e9"
-}
-
 # data tables for the various MPN parts
+
+datasheets = {
+    'GRM': 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx',
+}
 
 # NOT VALID FOR ZRA...
 # EIA
@@ -269,6 +261,7 @@ if __name__ == '__main__':
     base_path = pj(util.pool_path, "parts", "passive", "capacitor", "murata")
 
     gen = util.UUIDGenerator(pj(self_path, "uu.txt"))
+    bpm = util.VendorSubBasepartMaker('passive/capacitor', gen)
 
     with open(pj(util.pool_path, 'tables.json'), 'r') as tablesfd:
         tables = json.load(tablesfd)
@@ -283,14 +276,36 @@ if __name__ == '__main__':
             print('%s: could not determine dimension' % cap.mpn)
             continue
 
-        pkguuid = pkgs.get(dim)
-        if pkguuid is None:
-            print('%s: no package available for EIA size code %s' % (cap.mpn, dim))
-            continue
-
         height = get_height(cap)
         if height is None:
             print('%s: could not determine height' % cap.mpn)
+            continue
+
+        try:
+            attrs = {
+                'description': [False, '%s%s (%s) base' % (cap.product_id, cap.dimensions, dim)],
+                'manufacturer': [False, 'muRata'],
+                'model': '96c366ee-a963-41a0-9cc8-54c646979695',
+            }
+            if cap.product_id in datasheets:
+                attrs['datasheet'] = [False, datasheets[cap.product_id]]
+
+            baseuuid = bpm.find_or_make_pkg(
+                'murata/%s' % cap.product_id.lower(),
+                '%s%s' % (cap.product_id, cap.dimensions),
+                'C%s' % dim,
+                attrs)
+
+            attrs = {
+                'description': [False, '%s%s%s (%s, %rmm height) base' % (cap.product_id, cap.dimensions, cap.height, dim, height)],
+            }
+            baseuuid = bpm.find_or_make(
+                'murata/%s' % cap.product_id.lower(),
+                '%s%s%s' % (cap.product_id, cap.dimensions, cap.height),
+                baseuuid,
+                attrs)
+        except IndexError as e:
+            print('%s: no base part available for EIA size code %s' % (cap.mpn, dim))
             continue
 
         tempchar = c_tempchar.get(cap.tempchar)
@@ -313,11 +328,10 @@ if __name__ == '__main__':
         itempath = pj(base_path, cap.product_id.lower(), dim, '%s.json' % (cap.mpn))
         print(os.path.relpath(itempath, base_path), cap)
 
-        tmpl["base"] = pkguuid
+        tmpl["base"] = baseuuid
         tmpl["MPN"] = [False, cap.mpn]
         tmpl["value"] = [False, util.format_si(value, 1) + "F"]
         tmpl["description"] = [False, "Ceramic Capacitor %sF %sV%s %s" % (util.format_si(value, 1), util.format_si(voltage[1], 1), voltage[0], tempchar)]
-        tmpl["datasheet"] = [False, '']
         tmpl["uuid"] = str(gen.get(cap.mpn))
         if voltage[0] == 'DC':
             tmpl["parametric"]["wvdc"] = str(voltage[1])
