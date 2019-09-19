@@ -36,13 +36,6 @@ sources.append(CachedURL('http://www.seielect.com/CommonFunctions/XMLProxyFetch.
 sources.append(CachedURL('http://www.seielect.com/CommonFunctions/XMLProxyFetch.asp?remoteurl='
         + 'https://xmlserve.seielect.com/PartSearchXML.asp&TokenID=%s&XMLUtilMethod=ParametricPartSearch&IMTypeID=13&IMOhmVal1=&IMOhmVal2=&IMObjID=11&IMObjVal_11=1206&IMObjID=5&IMObjVal_5=T&R - 10,000 pcs/reel' % token, urlcache))
 
-pkgs = {
-    "0402": "3f5268a0-f33b-4443-bec7-aa7e3b285c6a",
-    "0603": "7e7a7e7e-4697-48a7-9bc9-36190b557ac9",
-    "0805": "bf3fe998-9412-4076-b25c-e12d8d712527",
-    "1206": "18abe45f-715b-4d6c-b6fb-53c8cb4104ac",
-}
-
 tmpl = json.loads("""
 {
     "MPN": [
@@ -85,6 +78,7 @@ if __name__ == '__main__':
     base_path = pj(pool_path, "parts", "passive", "resistor", "stackpole")
 
     gen = util.UUIDGenerator(pj(self_path, "uu.txt"))
+    bpm = util.VendorSubBasepartMaker('passive/resistor', gen)
 
     with open(pj(pool_path, 'tables.json'), 'r') as tablesfd:
         tables = json.load(tablesfd)
@@ -121,20 +115,34 @@ if __name__ == '__main__':
                 tolerance = getvalue('Tolerance', True)
                 voltrate  = getvalue('Max Working Voltage')
 
-                itempath = pj(base_path, size, '%s.json' % (mpn))
+                # base part properties
+                attrs = {
+                    'description': [False, '%s (%s)' % (typefull, size)],
+                    'manufacturer': [False, 'Stackpole'],
+                    'model': '96c366ee-a963-41a0-9cc8-54c646979695',
+                    'datasheet': [False, 'http://www.seielect.com/catalog/%s' % typepdf],
+                }
+
+                try:
+                    baseuuid = bpm.find_or_make_pkg(
+                        'stackpole/%s' % typedesc.lower(),
+                        '%s%s' % (typedesc, size),
+                        'R%s' % size,
+                        attrs)
+                except IndexError as e:
+                    print('%s: no base part available for EIA size code %s' % (mpn, dim))
+                    continue
+
+                itempath = pj(base_path, typedesc.lower(), size, '%s.json' % (mpn))
 
                 print('%-15s %6s %4s %.3e ±%-6s %-5s %-40s %s' % (mpn, size, powerrate + 'W', value, tolerance, voltrate + 'V', '"%s"' % desc, itempath))
 
-                if size not in pkgs:
-                    sys.stderr.write('size %s not available in Horizon\n' % size)
-                    continue
-
-                tmpl["base"] = pkgs[size]
+                tmpl["base"] = baseuuid
                 tmpl["MPN"] = [False, mpn]
-                tmpl['datasheet'] = [False, 'http://www.seielect.com/catalog/%s' % typepdf]
+                tmpl['datasheet'] = [True, '']
                 tmpl["value"] = [False, util.format_si(value, 2) + "Ω"]
                 tmpl["description"] = [False, "SMD Resistor %s (%s)" % (desc.replace('RES, ', ''), typedesc)]
-                tmpl["manufacturer"] = [False, "Stackpole"]
+                tmpl["manufacturer"] = [True, '']
                 tmpl["uuid"] = str(gen.get(mpn))
                 tmpl["parametric"]["pmax"] = powerrate
                 tmpl["parametric"]["value"] = str(value)
