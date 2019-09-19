@@ -77,6 +77,7 @@ tmpl = json.loads("""
 
 datasheets = {
     'GRM': 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx',
+    'KRM': 'https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx',
 }
 
 # NOT VALID FOR ZRA...
@@ -135,11 +136,23 @@ c_height = {
     'X': False, # unspecified -- different from None
 }
 
+c_height_kr = {
+    'E': 1.8,
+    'F': 1.9,
+    'K': 2.7,
+    'L': 2.8,
+    'R': 3.6,
+    'Q': 3.7,
+    'T': 4.8,
+    'V': 6.2,
+    'W': 6.4,
+}
+
 def get_height(data):
     if not data.product_id.startswith('KR'):
         return c_height.get(data.height)
     else:
-        return None
+        return c_height_kr.get(data.height)
 
 c_tempchar = {
     '1C': 'JIS CG',
@@ -241,6 +254,7 @@ urlcache = pj(self_path, 'urlcache.json')
 
 sources = []
 sources.append(util.CachedURL('https://psearch.en.murata.com/capacitor/lineup/download/grm_g1', urlcache))
+sources.append(util.CachedURL('https://psearch.en.murata.com/capacitor/lineup/download/krm_1', urlcache))
 
 class csvattrs(csv.Dialect):
     delimiter = ','
@@ -289,6 +303,11 @@ if __name__ == '__main__':
             }
             if cap.product_id in datasheets:
                 attrs['datasheet'] = [False, datasheets[cap.product_id]]
+
+            # KR* = stacked, metal bonded capacitors... 3d model is far off
+            # need to set up actual proper models for these
+            if cap.product_id.startswith('KR'):
+                del attrs['model']
 
             baseuuid = bpm.find_or_make_pkg(
                 'murata/%s' % cap.product_id.lower(),
