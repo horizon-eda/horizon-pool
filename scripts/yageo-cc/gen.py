@@ -6,6 +6,7 @@ import sys
 sys.path.append("..")
 import util
 from bs4 import BeautifulSoup
+import copy
 
 with open("yageo.html") as fi:
 	soup = BeautifulSoup(fi, 'lxml')
@@ -19,6 +20,7 @@ tmpl = json.loads("""
         false,
         "RC0603DR-071K05L"
     ],
+    "orderable_MPNs" : {},
     "base": "9954497f-10af-4158-934b-3b53068f6de4",
     "datasheet": [
         true,
@@ -71,29 +73,44 @@ base_path = pj(pool_path, "parts", "passive", "capacitor", "yageo", "cc")
 
 gen = util.UUIDGenerator("uu.txt")
 
+parts = {}
+
 for row in soup.find('table').find_all('tr')[1:] :
 	tds = row.find_all('td')
-	mpn = tds[0].contents[0]
+	full_mpn = str(tds[0].contents[0])
+	mpn = full_mpn
+	mpn = list(mpn)
+	mpn[7] = '_'
+	mpn = ''.join(mpn)
+	print(mpn)
 	if len(tds[1].contents) :
 		pkg = tds[1].contents[0].split("(")[0]
-		tc = tds[3].contents[0]
+		tc = str(tds[3].contents[0])
 		tcs.add(tc)
 		vmax = float(tds[4].contents[0][:-1].strip())
 		value = float(tds[5].contents[0].replace(",", ""))*1e-12
 		pkgs.add(pkg)
 		ds = "http://www.yageo.com/portal/product/productDocs.jsp?YageoPartNumber="+mpn
-		print(mpn, pkg, vmax, value)
-		if pkg in bases :
-			tmpl["base"] = bases[pkg]
-			tmpl["MPN"] = [False, mpn]
-			tmpl["value"] = [False, util.format_si(value, 1) + "F"]
-			tmpl["description"] = [False, "Ceramic Capacitor %sF %sV %s"%(util.format_si(value, 1), util.format_si(vmax, 1), tc)]
-			tmpl["datasheet"] = [False, ds]
-			tmpl["uuid"] = str(gen.get(mpn))
-			tmpl["parametric"]["wvdc"] = str(vmax)
-			tmpl["parametric"]["value"] = "%.4e"%value
-			tmpl["parametric"]["type"] = xlat_type(tc)
-			path = pj(base_path, pkg)
-			os.makedirs(path, exist_ok = True)
-			with open(pj(path, mpn+".json"), "w") as fi:
-				json.dump(tmpl, fi, sort_keys=True, indent=4)
+		if mpn in parts.keys() :
+			parts[mpn][1]["orderable_MPNs"][str(gen.get(full_mpn))] = full_mpn
+		else :
+				if pkg in bases :
+					tmpl["base"] = bases[pkg]
+					tmpl["MPN"] = [False, mpn]
+					tmpl["value"] = [False, util.format_si(value, 1) + "F"]
+					tmpl["description"] = [False, "Ceramic Capacitor %sF %sV %s"%(util.format_si(value, 1), util.format_si(vmax, 1), tc)]
+					tmpl["datasheet"] = [False, ds]
+					tmpl["uuid"] = str(gen.get(mpn))
+					tmpl["parametric"]["wvdc"] = str(vmax)
+					tmpl["parametric"]["value"] = "%.4e"%value
+					tmpl["parametric"]["type"] = xlat_type(tc)
+					tmpl["orderable_MPNs"] = {}
+					tmpl["orderable_MPNs"][str(gen.get(full_mpn))] = full_mpn
+					parts[mpn] = pkg, copy.deepcopy(tmpl)
+
+for mpn, (pkg, part) in parts.items() :
+	path = pj(base_path, pkg)
+	os.makedirs(path, exist_ok = True)
+	with open(pj(path, mpn+".json"), "w") as fi:
+		json.dump(part, fi, sort_keys=True, indent=4)
+
