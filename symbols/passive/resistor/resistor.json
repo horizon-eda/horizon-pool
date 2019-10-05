@@ -1,5 +1,6 @@
 {
     "arcs": {},
+    "can_expand": false,
     "junctions": {
         "1d7c5e92-3631-44b3-9857-6011cfbd4683": {
             "position": [
@@ -181,6 +182,24 @@
                 ]
             }
         },
+        "270n": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 16384,
+                "mirror": true,
+                "shift": [
+                    1250000,
+                    -2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 16384,
+                "mirror": true,
+                "shift": [
+                    -1250000,
+                    -2500000
+                ]
+            }
+        },
         "90m": {
             "35099bf5-0e81-401a-aa96-d1112f12d918": {
                 "angle": 49152,
@@ -225,10 +244,10 @@
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 16384,
-                "mirror": true,
+                "angle": 0,
+                "mirror": false,
                 "shift": [
-                    1250000,
+                    -2500000,
                     -2500000
                 ]
             },
@@ -242,11 +261,11 @@
             "layer": 0,
             "origin": "center",
             "placement": {
-                "angle": 16384,
-                "mirror": true,
+                "angle": 0,
+                "mirror": false,
                 "shift": [
-                    -1250000,
-                    -2500000
+                    -2500000,
+                    2500000
                 ]
             },
             "size": 1500000,
