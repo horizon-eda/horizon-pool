@@ -99,6 +99,11 @@ if __name__ == '__main__':
                 mpn  = part.xpath('PartDesc/text()')[0]
                 desc = part.xpath('PartGenericDesc/text()')[0]
 
+                packaging = ['T', 'G', 'B']
+                assert mpn[9] in packaging
+                mpnbase = mpn[:9] + '_' + mpn[10:]
+                mpns = [mpn[:9] + code + mpn[10:] for code in packaging]
+
                 def getvalue(label, use_desc=False):
                     val  = (part.xpath('PartObject[PartObjectDesc/text() = "%s"]/PartObjectValue/text()' % label) + [None])[0]
                     if use_desc:
@@ -130,22 +135,25 @@ if __name__ == '__main__':
                         'R%s' % size,
                         attrs)
                 except IndexError as e:
-                    print('%s: no base part available for EIA size code %s' % (mpn, dim))
+                    print('%s: no base part available for EIA size code %s' % (mpnbase, dim))
                     continue
 
-                itempath = pj(base_path, typedesc.lower(), size, '%s.json' % (mpn))
+                itempath = pj(base_path, typedesc.lower(), size, '%s.json' % (mpnbase))
 
-                print('%-15s %6s %4s %.3e ±%-6s %-5s %-40s %s' % (mpn, size, powerrate + 'W', value, tolerance, voltrate + 'V', '"%s"' % desc, itempath))
+                print('%-15s %6s %4s %.3e ±%-6s %-5s %-40s %s' % (mpnbase, size, powerrate + 'W', value, tolerance, voltrate + 'V', '"%s"' % desc, itempath))
 
                 tmpl["base"] = baseuuid
-                tmpl["MPN"] = [False, mpn]
+                tmpl["MPN"] = [False, mpnbase]
                 tmpl['datasheet'] = [True, '']
                 tmpl["value"] = [False, util.format_si(value, 2) + "Ω"]
                 tmpl["description"] = [False, "SMD Resistor %s (%s)" % (desc.replace('RES, ', ''), typedesc)]
                 tmpl["manufacturer"] = [True, '']
-                tmpl["uuid"] = str(gen.get(mpn))
+                tmpl["uuid"] = str(gen.get(mpnbase))
                 tmpl["parametric"]["pmax"] = powerrate
                 tmpl["parametric"]["value"] = str(value)
+                tmpl['orderable_MPNs'] = dict([
+                    (str(gen.get(mpn)), mpn) for mpn in mpns
+                ])
                 if tolerance.startswith('< 0.05'):
                     tmpl["parametric"]["tolerance"] = '0'
                 else:
