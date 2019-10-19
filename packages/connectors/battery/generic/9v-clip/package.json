@@ -1,0 +1,452 @@
+{
+    "_imp": {
+        "grid_spacing": 312500,
+        "layer_display": {
+            "layer_opacity": 50.0,
+            "layers": {
+                "-1": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-100": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "-110": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-120": {
+                    "display_mode": "fill_only",
+                    "visible": false
+                },
+                "-130": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-140": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-150": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-160": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "0": {
+                    "display_mode": "fill",
+                    "visible": true
+                },
+                "10": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "20": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "30": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "40": {
+                    "display_mode": "outline",
+                    "visible": false
+                },
+                "50": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "60": {
+                    "display_mode": "outline",
+                    "visible": true
+                }
+            }
+        }
+    },
+    "arcs": {},
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "junctions": {
+        "1aab293b-8ed8-408b-929e-ff3c5043f262": {
+            "position": [
+                2187500,
+                937500
+            ]
+        },
+        "3d6c4e5f-7703-4647-b2e6-6f960fbcb6ae": {
+            "position": [
+                -2187500,
+                937500
+            ]
+        },
+        "66a4e3c2-f193-4dcd-90cc-1f88a53629ed": {
+            "position": [
+                -2187500,
+                -1875000
+            ]
+        },
+        "e8844654-683d-4e81-87a5-acfbdcbd9d68": {
+            "position": [
+                2187500,
+                -1875000
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {
+        "858b4c3d-a42a-4588-b11c-962c7f1f0433": {
+            "from": "1aab293b-8ed8-408b-929e-ff3c5043f262",
+            "layer": 20,
+            "to": "e8844654-683d-4e81-87a5-acfbdcbd9d68",
+            "width": 150000
+        },
+        "9640348d-c91f-46d8-9398-bbab8c57b65a": {
+            "from": "66a4e3c2-f193-4dcd-90cc-1f88a53629ed",
+            "layer": 20,
+            "to": "3d6c4e5f-7703-4647-b2e6-6f960fbcb6ae",
+            "width": 150000
+        },
+        "a180839b-cf08-417b-ba52-e4f157f8d761": {
+            "from": "e8844654-683d-4e81-87a5-acfbdcbd9d68",
+            "layer": 20,
+            "to": "66a4e3c2-f193-4dcd-90cc-1f88a53629ed",
+            "width": 150000
+        },
+        "ec852301-51bc-472d-bb07-4d610f9d6a71": {
+            "from": "3d6c4e5f-7703-4647-b2e6-6f960fbcb6ae",
+            "layer": 20,
+            "to": "1aab293b-8ed8-408b-929e-ff3c5043f262",
+            "width": 150000
+        }
+    },
+    "manufacturer": "",
+    "models": {},
+    "name": "Generic 9V Battery Clip",
+    "pads": {
+        "5c6c3f02-4221-42bf-bb7c-db8709a2e103": {
+            "name": "P",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 700000,
+                "pad_diameter": 1200000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1250000,
+                    0
+                ]
+            }
+        },
+        "7858db8e-af8e-41d2-b5d3-60d25da6b3ab": {
+            "name": "N",
+            "padstack": "982142aa-2883-4fd0-9b0b-37eb5a37dd35",
+            "parameter_set": {
+                "hole_diameter": 700000,
+                "pad_height": 1200000,
+                "pad_width": 1200000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "4.228mm 1.768mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle -0.020mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "56abacb4-0e64-467d-9547-356156e6f81d": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        406250,
+                        -843750
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        406250,
+                        843750
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2093750,
+                        843750
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2093750,
+                        -843750
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "80d98ddc-75d8-4bbb-90c1-8b448eed7b35": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -625000,
+                        625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        -1250000,
+                        0
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        -625000,
+                        625000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "890e01e8-48dd-404e-9c48-d367a4fafd64": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2384000,
+                        -1134000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2384000,
+                        1134000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2344000,
+                        1134000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2344000,
+                        -1134000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "9289dcd8-7c91-4660-93dc-03a5e27428b0": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1875000,
+                        -625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1875000,
+                        125000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1375000,
+                        625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1875000,
+                        625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1875000,
+                        -625000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "tags": [
+        "9V",
+        "battery",
+        "connector",
+        "generic"
+    ],
+    "texts": {
+        "3ab546a1-755f-4449-98b7-098fba352811": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1562500,
+                    0
+                ]
+            },
+            "size": 600000,
+            "text": "$RD",
+            "width": 0
+        },
+        "597536ab-5fe3-496c-9730-c426bbc4a69a": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1625000,
+                    -1156250
+                ]
+            },
+            "size": 600000,
+            "text": "+",
+            "width": 150000
+        },
+        "6b2177a2-8f09-4262-8f6d-3f8945838ecf": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2187500,
+                    1875000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        },
+        "cc6b6191-c5a8-4bf4-9d7c-49d21c5eb2a6": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    875000,
+                    -1156250
+                ]
+            },
+            "size": 600000,
+            "text": "-",
+            "width": 150000
+        }
+    },
+    "type": "package",
+    "uuid": "8a03c704-d9f3-4f53-98e9-12ba5e702fac"
+}
