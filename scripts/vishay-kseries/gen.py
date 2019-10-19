@@ -232,7 +232,7 @@ for k, p in used_packages.items():
 
 print()
 
-
+    
 # =========================== PARTS CREATION =================================
 
 part_template = {}
@@ -269,7 +269,8 @@ for p in parts:
     # Set parametric data
     data["parametric"]["type"] = p["dielectric"]
     data["parametric"]["wvdc"] = str(p["voltage"])
-    value = "{:.2E}".format(int(p["value"])).replace("E+", "e-")
+    # value = "{:.2E}".format(int(p["value"])).replace("E+", "e-")
+    value = "{}e-12".format(int(p["value"]))    
     data["parametric"]["value"] = value
 
     # Set the part value
