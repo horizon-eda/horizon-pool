@@ -78,9 +78,15 @@
                 -8750000
             ]
         },
-        "7cd3e215-7dc6-4423-9148-e5fb6a304ae7": {
+        "2f47d961-bc66-466e-a356-e014a8804be7": {
             "position": [
                 -6250000,
+                -7500000
+            ]
+        },
+        "c663024f-a272-4b13-9d4c-9d4bec930141": {
+            "position": [
+                -5000000,
                 -6250000
             ]
         },
@@ -99,10 +105,16 @@
     },
     "keepouts": {},
     "lines": {
-        "49e34f03-074c-4002-9723-1d23b1344bd3": {
-            "from": "7cd3e215-7dc6-4423-9148-e5fb6a304ae7",
+        "006b0093-1d9e-4fa0-ae54-f3c4758d2a6e": {
+            "from": "0cdabffd-b6b3-40c2-91fd-ea9f42c36fba",
             "layer": 20,
-            "to": "d9d60942-f32b-4e9d-bd5c-0c09534145c4",
+            "to": "2f47d961-bc66-466e-a356-e014a8804be7",
+            "width": 150000
+        },
+        "28e06026-e451-4aa9-9e67-3ae605cb6db3": {
+            "from": "2f47d961-bc66-466e-a356-e014a8804be7",
+            "layer": 20,
+            "to": "c663024f-a272-4b13-9d4c-9d4bec930141",
             "width": 150000
         },
         "52d77c93-ad34-44ec-acfc-135d4cd84288": {
@@ -117,16 +129,16 @@
             "to": "0cdabffd-b6b3-40c2-91fd-ea9f42c36fba",
             "width": 150000
         },
-        "740023b8-d8e6-44d6-82e1-c857b8d310b7": {
-            "from": "0cdabffd-b6b3-40c2-91fd-ea9f42c36fba",
+        "897b96b7-873a-4f9e-b826-bb3241bf7201": {
+            "from": "d9d60942-f32b-4e9d-bd5c-0c09534145c4",
             "layer": 20,
-            "to": "7cd3e215-7dc6-4423-9148-e5fb6a304ae7",
+            "to": "c663024f-a272-4b13-9d4c-9d4bec930141",
             "width": 150000
         }
     },
     "manufacturer": "TT Electronics",
     "models": {},
-    "name": "P0915N (wired to case)",
+    "name": "P0915N (with Shield, Wired to Case)",
     "pads": {
         "1fda54d2-151b-479a-a5b2-312986e3425f": {
             "name": "5",
@@ -218,8 +230,68 @@
         "courtyard_expansion": 250000
     },
     "polygons": {
-        "a0b0d342-525a-4376-b2fa-294e7c99f7de": {
+        "2e19164d-a0c8-469c-ad6f-2e127308933f": {
             "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        -6250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        -7500000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        0,
+                        -6250000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "3e2b4986-9590-42cf-9614-49637888f379": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2500000,
+                        -6250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        2500000,
+                        -7500000
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        2500000,
+                        -6250000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "46c94a27-03be-46e5-b3b0-ad98d6c6aefc": {
+            "layer": 50,
             "parameter_class": "",
             "vertices": [
                 {
@@ -242,6 +314,18 @@
                     "arc_reverse": false,
                     "position": [
                         -5750000,
+                        -7500000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -4750000,
                         -6500000
                     ],
                     "type": "line"
@@ -272,8 +356,8 @@
                 }
             ]
         },
-        "e4d4a834-d86a-46db-b878-35cf2d974cf7": {
-            "layer": 50,
+        "769dd6b3-9c3f-476a-b8f3-0ca96ad12cc4": {
+            "layer": 40,
             "parameter_class": "",
             "vertices": [
                 {
@@ -283,46 +367,22 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -5750000,
-                        -8500000
+                        -2500000,
+                        -6250000
                     ],
                     "type": "line"
                 },
                 {
                     "arc_center": [
-                        0,
-                        0
+                        -2500000,
+                        -7500000
                     ],
-                    "arc_reverse": false,
+                    "arc_reverse": true,
                     "position": [
-                        -5750000,
-                        -6500000
+                        -2500000,
+                        -6250000
                     ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        5750000,
-                        -6500000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        5750000,
-                        -8500000
-                    ],
-                    "type": "line"
+                    "type": "arc"
                 }
             ]
         },
@@ -396,7 +456,7 @@
                 "mirror": false,
                 "shift": [
                     -6250000,
-                    -5000000
+                    -10000000
                 ]
             },
             "size": 1000000,
