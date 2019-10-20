@@ -74,31 +74,31 @@
     "junctions": {
         "3835cbff-2da2-4998-a5f2-50d5875facb5": {
             "position": [
-                5875000,
+                4000000,
                 -11375000
             ]
         },
         "7c0f18ba-504c-4a80-bf90-e5ee54fa3768": {
             "position": [
-                -5875000,
+                -3875000,
                 -7125000
             ]
         },
         "85b2411a-b2a0-44c5-8664-c391e3e67d0f": {
             "position": [
-                -5875000,
+                -3875000,
                 -11375000
             ]
         },
         "e7fa8170-a6f9-43a4-a559-1686071dde3e": {
             "position": [
-                -5000000,
+                -3000000,
                 -6125000
             ]
         },
         "f1e1db65-87eb-43bb-a5ed-59f08d7a0ae1": {
             "position": [
-                5875000,
+                4000000,
                 -6125000
             ]
         }
@@ -198,42 +198,6 @@
                 ]
             }
         },
-        "4ae5107d-3d97-4d40-9996-ab9f827e9751": {
-            "name": "5",
-            "padstack": "4a0e654a-a96c-4c6b-939f-dd44887c78ab",
-            "parameter_set": {
-                "hole_diameter": 600000,
-                "hole_length": 2000000,
-                "pad_height": 800000,
-                "pad_width": 2200000
-            },
-            "placement": {
-                "angle": 16384,
-                "mirror": false,
-                "shift": [
-                    4900000,
-                    -8750000
-                ]
-            }
-        },
-        "65b8a5af-5d93-46dd-aca1-230e691d579d": {
-            "name": "4",
-            "padstack": "4a0e654a-a96c-4c6b-939f-dd44887c78ab",
-            "parameter_set": {
-                "hole_diameter": 600000,
-                "hole_length": 2000000,
-                "pad_height": 800000,
-                "pad_width": 2200000
-            },
-            "placement": {
-                "angle": 16384,
-                "mirror": false,
-                "shift": [
-                    -4900000,
-                    -8750000
-                ]
-            }
-        },
         "7a88ec92-2e0e-447d-9495-fc3859c6d9df": {
             "name": "2",
             "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
@@ -283,7 +247,7 @@
             }
         }
     },
-    "parameter_program": "10.600mm 5.000mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm -8.750mm ]",
+    "parameter_program": "7.975mm 5.500mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.062mm -8.750mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -299,7 +263,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -5875000,
+                        -3875000,
                         -11375000
                     ],
                     "type": "line"
@@ -311,7 +275,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -5875000,
+                        -3875000,
                         -7125000
                     ],
                     "type": "line"
@@ -323,7 +287,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -4875000,
+                        -2875000,
                         -6125000
                     ],
                     "type": "line"
@@ -335,7 +299,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        5875000,
+                        3875000,
                         -6125000
                     ],
                     "type": "line"
@@ -347,7 +311,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        5875000,
+                        3875000,
                         -11375000
                     ],
                     "type": "line"
@@ -545,8 +509,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -5550000,
-                        -11500000
+                        -4175500,
+                        -11750000
                     ],
                     "type": "line"
                 },
@@ -557,8 +521,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -5550000,
-                        -6000000
+                        -4175500,
+                        -5750000
                     ],
                     "type": "line"
                 },
@@ -569,8 +533,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        5550000,
-                        -6000000
+                        4299500,
+                        -5750000
                     ],
                     "type": "line"
                 },
@@ -581,8 +545,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        5550000,
-                        -11500000
+                        4299500,
+                        -11750000
                     ],
                     "type": "line"
                 }
@@ -604,7 +568,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -5335000,
+                    -3835000,
                     -12445000
                 ]
             },
@@ -621,7 +585,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -5000000,
+                    -3750000,
                     -8750000
                 ]
             },

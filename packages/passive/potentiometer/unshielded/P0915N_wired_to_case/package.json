@@ -46,7 +46,7 @@
                 },
                 "20": {
                     "display_mode": "fill_only",
-                    "visible": false
+                    "visible": true
                 },
                 "30": {
                     "display_mode": "fill",
@@ -62,7 +62,7 @@
                 },
                 "60": {
                     "display_mode": "outline",
-                    "visible": false
+                    "visible": true
                 }
             }
         }
@@ -74,31 +74,31 @@
     "junctions": {
         "0cdabffd-b6b3-40c2-91fd-ea9f42c36fba": {
             "position": [
-                -6250000,
+                -4500000,
                 -8750000
             ]
         },
         "2f47d961-bc66-466e-a356-e014a8804be7": {
             "position": [
-                -6250000,
+                -4500000,
                 -7500000
             ]
         },
         "c663024f-a272-4b13-9d4c-9d4bec930141": {
             "position": [
-                -5000000,
+                -3250000,
                 -6250000
             ]
         },
         "d2c5a087-914c-4640-996b-97c40e533453": {
             "position": [
-                6250000,
+                4375000,
                 -8750000
             ]
         },
         "d9d60942-f32b-4e9d-bd5c-0c09534145c4": {
             "position": [
-                6250000,
+                4375000,
                 -6250000
             ]
         }
@@ -140,24 +140,6 @@
     "models": {},
     "name": "P0915N (Wired to Case)",
     "pads": {
-        "1fda54d2-151b-479a-a5b2-312986e3425f": {
-            "name": "5",
-            "padstack": "4a0e654a-a96c-4c6b-939f-dd44887c78ab",
-            "parameter_set": {
-                "hole_diameter": 400000,
-                "hole_length": 900000,
-                "pad_height": 500000,
-                "pad_width": 1000000
-            },
-            "placement": {
-                "angle": 16384,
-                "mirror": false,
-                "shift": [
-                    5000000,
-                    -7500000
-                ]
-            }
-        },
         "3b2748d9-da1a-44c2-8a37-3b17834997b7": {
             "name": "1",
             "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
@@ -170,24 +152,6 @@
                 "mirror": false,
                 "shift": [
                     -2500000,
-                    -7500000
-                ]
-            }
-        },
-        "7407cb57-4700-4ff2-a980-441a64041a16": {
-            "name": "4",
-            "padstack": "4a0e654a-a96c-4c6b-939f-dd44887c78ab",
-            "parameter_set": {
-                "hole_diameter": 400000,
-                "hole_length": 900000,
-                "pad_height": 500000,
-                "pad_width": 1000000
-            },
-            "placement": {
-                "angle": 16384,
-                "mirror": false,
-                "shift": [
-                    -5000000,
                     -7500000
                 ]
             }
@@ -225,7 +189,7 @@
             }
         }
     },
-    "parameter_program": "11.500mm 2.250mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm -7.375mm ]",
+    "parameter_program": "7.875mm 2.000mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle -0.062mm -7.500mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -301,7 +265,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -5750000,
+                        -4000000,
                         -8500000
                     ],
                     "type": "line"
@@ -313,7 +277,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -5750000,
+                        -4000000,
                         -7500000
                     ],
                     "type": "line"
@@ -325,7 +289,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -4750000,
+                        -3000000,
                         -6500000
                     ],
                     "type": "line"
@@ -337,7 +301,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        5750000,
+                        3875000,
                         -6500000
                     ],
                     "type": "line"
@@ -349,7 +313,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        5750000,
+                        3875000,
                         -8500000
                     ],
                     "type": "line"
@@ -397,7 +361,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -6000000,
+                        -4249500,
                         -8750000
                     ],
                     "type": "line"
@@ -409,8 +373,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -6000000,
-                        -6000000
+                        -4249500,
+                        -6250000
                     ],
                     "type": "line"
                 },
@@ -421,8 +385,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        6000000,
-                        -6000000
+                        4125500,
+                        -6250000
                     ],
                     "type": "line"
                 },
@@ -433,7 +397,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        6000000,
+                        4125500,
                         -8750000
                     ],
                     "type": "line"
@@ -455,7 +419,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -6250000,
+                    -4500000,
                     -10000000
                 ]
             },
@@ -472,7 +436,7 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -5000000,
+                    -3250000,
                     -7500000
                 ]
             },
