@@ -62,7 +62,7 @@ muls = {
 }
 
 def xlat_type(ty) :
-	if ty in ("CH", "C0G"):
+	if ty in ("CH", "C0G", "NP0"):
 		return "C0G/NP0"
 	elif ty == "JB":
 		return "X5R"
