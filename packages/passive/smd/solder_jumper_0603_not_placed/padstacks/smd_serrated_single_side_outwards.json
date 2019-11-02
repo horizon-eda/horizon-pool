@@ -1,0 +1,154 @@
+{
+    "holes": {},
+    "name": "SMD rectangular (single serrated side, outwards, no paste)",
+    "padstack_type": "top",
+    "parameter_program": "get-parameter [ pad_width ] 2 /\nget-parameter [ pad_height ] 2 / +\n0mm\n\nget-parameter [ pad_width ] 2 /\nget-parameter [ pad_height ] 2 /\n\nget-parameter [ pad_width ] 2 / chs\nget-parameter [ pad_height ] 2 /\n\nget-parameter [ pad_width ] 2 / chs\nget-parameter [ pad_height ] 2 / chs\n\nget-parameter [ pad_width ] 2 /\nget-parameter [ pad_height ] 2 / chs\n\nset-polygon-vertices [ pad 5 ]\n\n\nget-parameter [ pad_width ] 2 /\nget-parameter [ pad_height ] 2 / +\nget-parameter [ solder_mask_expansion ] 14142 * 10000 / +\n0mm\n\nget-parameter [ pad_width ] 2 /\nget-parameter [ solder_mask_expansion ] 4142 * 10000 / +\nget-parameter [ pad_height ] 2 /\nget-parameter [ solder_mask_expansion ] +\n\nget-parameter [ pad_width ] 2 / chs\nget-parameter [ pad_height ] 2 / chs\nget-parameter [ solder_mask_expansion ] -xy chs\n\nget-parameter [ pad_width ] 2 / chs\nget-parameter [ pad_height ] 2 / chs\nget-parameter [ solder_mask_expansion ] -xy\n\nget-parameter [ pad_width ] 2 /\nget-parameter [ solder_mask_expansion ] 4142 * 10000 / +\nget-parameter [ pad_height ] 2 /\nget-parameter [ solder_mask_expansion ] + chs\n\nset-polygon-vertices [ mask 5 ]\n\n",
+    "parameter_set": {
+        "pad_height": 900000,
+        "pad_width": 700000,
+        "paste_mask_contraction": 0,
+        "solder_mask_expansion": 100000
+    },
+    "parameters_required": [
+        "pad_width",
+        "pad_height"
+    ],
+    "polygons": {
+        "30bc2900-0161-4de9-b884-636439e9b1d4": {
+            "layer": 10,
+            "parameter_class": "mask",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        941420,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        391420,
+                        550000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -450000,
+                        550000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -450000,
+                        -550000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        391420,
+                        -550000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "5fbf81ac-f30b-44d3-824c-fc86b1b60811": {
+            "layer": 0,
+            "parameter_class": "pad",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        800000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        350000,
+                        450000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -350000,
+                        450000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -350000,
+                        -450000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        350000,
+                        -450000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "shapes": {},
+    "type": "padstack",
+    "uuid": "e263c4df-335b-410e-9955-8954fea20885",
+    "well_known_name": ""
+}
