@@ -71,7 +71,21 @@
     "default_model": "96c366ee-a963-41a0-9cc8-54c646979695",
     "dimensions": {},
     "junctions": {},
-    "keepouts": {},
+    "keepouts": {
+        "41f474f1-b38b-42bb-92bd-72a78130fe75": {
+            "all_cu_layers": false,
+            "exposed_cu_only": false,
+            "keepout_class": "",
+            "patch_types_cu": [
+                "track",
+                "pad_th",
+                "via",
+                "plane",
+                "hole_pth"
+            ],
+            "polygon": "36ca193b-a880-4a6f-91f8-ec92af10f981"
+        }
+    },
     "lines": {},
     "manufacturer": "",
     "models": {
@@ -126,6 +140,60 @@
         "solder_mask_expansion": 100000
     },
     "polygons": {
+        "36ca193b-a880-4a6f-91f8-ec92af10f981": {
+            "layer": 0,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        -50000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1000000,
+                        -450000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        50000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1000000,
+                        450000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        50000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1000000,
+                        450000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        -50000
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1000000,
+                        -450000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
         "70304e41-42a9-420c-8df2-7f55e794790d": {
             "layer": 60,
             "parameter_class": "courtyard",
