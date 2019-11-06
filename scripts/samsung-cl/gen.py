@@ -77,17 +77,25 @@ gen = util.UUIDGenerator("uu.txt")
 
 
 prs = set()
+tols = set()
 for row in j_raw["rows"] :
 	mpn = row["parnum"]
 	vmax = float(row["ratvol"])
 	pkg = row["sizcd_eia"]
 	tc = row["tc"]
+	tol = None
+	if row["toluni"] == "%" :
+		rtol = row["tol"]
+		if "±" in rtol  :
+			tol = int(rtol[2:])
+		
+	tols.add(tol)
 	value = row["cap"]*muls[row["capuni"]]
-	ds = "http://www.samsungsem.com" + (row["chadat"].strip() if len(row["chadat"].strip()) else row["spe"].strip())
+	ds = "http://www.samsungsem.com/kr/support/product-search/mlcc/%s.jsp"%mpn
 	tcs.add(tc)
 	pkgs.add(pkg)
 	prs.add(mpn[:2])
-	print(mpn, vmax, pkg, value, ds)
+	print(mpn, tol)
 	if pkg in bases :
 		tmpl["base"] = bases[pkg]
 		tmpl["MPN"] = [False, mpn]
@@ -98,6 +106,8 @@ for row in j_raw["rows"] :
 		tmpl["parametric"]["wvdc"] = str(vmax)
 		tmpl["parametric"]["value"] = "%.4e"%value
 		tmpl["parametric"]["type"] = xlat_type(tc)
+		if tol is not None :
+			tmpl["parametric"]["tolerance"] = str(tol)
 		path = pj(base_path, pkg)
 		os.makedirs(path, exist_ok = True)
 		with open(pj(path, mpn+".json"), "w") as fi:
