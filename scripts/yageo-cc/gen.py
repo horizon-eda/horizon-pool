@@ -74,7 +74,6 @@ base_path = pj(pool_path, "parts", "passive", "capacitor", "yageo", "cc")
 gen = util.UUIDGenerator("uu.txt")
 
 parts = {}
-
 for row in soup.find('table').find_all('tr')[1:] :
 	tds = row.find_all('td')
 	full_mpn = str(tds[0].contents[0])
@@ -82,15 +81,21 @@ for row in soup.find('table').find_all('tr')[1:] :
 	mpn = list(mpn)
 	mpn[7] = '_'
 	mpn = ''.join(mpn)
-	print(mpn)
 	if len(tds[1].contents) :
 		pkg = tds[1].contents[0].split("(")[0]
 		tc = str(tds[3].contents[0])
+		ttol = tds[2].contents
+		tol = None
+		if len(ttol) :
+			ttol = str(ttol[0])
+			if ttol.startswith("±") and ttol.endswith("%") :
+				tol = int(ttol[1:-1])
+		print(mpn)
 		tcs.add(tc)
 		vmax = float(tds[4].contents[0][:-1].strip())
 		value = float(tds[5].contents[0].replace(",", ""))*1e-12
 		pkgs.add(pkg)
-		ds = "http://www.yageo.com/portal/product/productDocs.jsp?YageoPartNumber="+mpn
+		ds = "http://www.yageo.com/portal/product/productDocs.jsp?YageoPartNumber="+full_mpn
 		if mpn in parts.keys() :
 			parts[mpn][1]["orderable_MPNs"][str(gen.get(full_mpn))] = full_mpn
 		else :
@@ -104,6 +109,8 @@ for row in soup.find('table').find_all('tr')[1:] :
 					tmpl["parametric"]["wvdc"] = str(vmax)
 					tmpl["parametric"]["value"] = "%.4e"%value
 					tmpl["parametric"]["type"] = xlat_type(tc)
+					if tol is not None :
+						tmpl["parametric"]["tolerance"] = str(tol)
 					tmpl["orderable_MPNs"] = {}
 					tmpl["orderable_MPNs"][str(gen.get(full_mpn))] = full_mpn
 					parts[mpn] = pkg, copy.deepcopy(tmpl)

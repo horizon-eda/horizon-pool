@@ -5,6 +5,7 @@ from os.path import join as pj
 import sys
 sys.path.append("..")
 import util
+import copy
 
 with open("cl_fmt.json", "r") as fi :
 	j_raw = json.load(fi)
@@ -76,29 +77,56 @@ base_path = pj(pool_path, "parts", "passive", "capacitor", "samsung", "cl")
 gen = util.UUIDGenerator("uu.txt")
 
 
-prs = set()
+tols = set()
+
+parts = {}
+
 for row in j_raw["rows"] :
-	mpn = row["parnum"]
+	full_mpn = row["parnum"]
 	vmax = float(row["ratvol"])
 	pkg = row["sizcd_eia"]
 	tc = row["tc"]
+	tol = None
+	if row["toluni"] == "%" :
+		rtol = row["tol"]
+		if "±" in rtol  :
+			tol = int(rtol[2:])
+		
+	tols.add(tol)
 	value = row["cap"]*muls[row["capuni"]]
-	ds = "http://www.samsungsem.com" + (row["chadat"].strip() if len(row["chadat"].strip()) else row["spe"].strip())
+	ds = "http://www.samsungsem.com/kr/support/product-search/mlcc/%s.jsp"%full_mpn
 	tcs.add(tc)
 	pkgs.add(pkg)
-	prs.add(mpn[:2])
-	print(mpn, vmax, pkg, value, ds)
-	if pkg in bases :
-		tmpl["base"] = bases[pkg]
-		tmpl["MPN"] = [False, mpn]
-		tmpl["value"] = [False, util.format_si(value, 1) + "F"]
-		tmpl["description"] = [False, "Ceramic Capacitor %sF %sV %s"%(util.format_si(value, 1), util.format_si(vmax, 1), tc)]
-		tmpl["datasheet"] = [False, ds]
-		tmpl["uuid"] = str(gen.get(mpn))
-		tmpl["parametric"]["wvdc"] = str(vmax)
-		tmpl["parametric"]["value"] = "%.4e"%value
-		tmpl["parametric"]["type"] = xlat_type(tc)
-		path = pj(base_path, pkg)
-		os.makedirs(path, exist_ok = True)
-		with open(pj(path, mpn+".json"), "w") as fi:
-			json.dump(tmpl, fi, sort_keys=True, indent=4)
+	mpn = full_mpn[:-1]
+	print(mpn, full_mpn)
+	if mpn in parts.keys() :
+		parts[mpn][1]["orderable_MPNs"][str(gen.get(full_mpn))] = full_mpn
+	else :
+		print(mpn, tol)
+		if pkg in bases :
+			tmpl["base"] = bases[pkg]
+			tmpl["MPN"] = [False, mpn]
+			tmpl["value"] = [False, util.format_si(value, 1) + "F"]
+			tmpl["description"] = [False, "Ceramic Capacitor %sF %sV %s"%(util.format_si(value, 1), util.format_si(vmax, 1), tc)]
+			tmpl["datasheet"] = [False, ds]
+			tmpl["uuid"] = str(gen.get(mpn))
+			tmpl["parametric"]["wvdc"] = str(vmax)
+			tmpl["parametric"]["value"] = "%.4e"%value
+			tmpl["parametric"]["type"] = xlat_type(tc)
+			tmpl["orderable_MPNs"] = {}
+			tmpl["orderable_MPNs"][str(gen.get(full_mpn))] = full_mpn
+			if tol is not None :
+				tmpl["parametric"]["tolerance"] = str(tol)
+			parts[mpn] = pkg, copy.deepcopy(tmpl)
+			""""path = pj(base_path, pkg)
+			os.makedirs(path, exist_ok = True)
+			with open(pj(path, mpn+".json"), "w") as fi:
+				json.dump(tmpl, fi, sort_keys=True, indent=4)"""
+
+
+for mpn, (pkg, part) in parts.items() :
+	print("write", mpn)
+	path = pj(base_path, pkg)
+	os.makedirs(path, exist_ok = True)
+	with open(pj(path, mpn+".json"), "w") as fi:
+		json.dump(part, fi, sort_keys=True, indent=4)

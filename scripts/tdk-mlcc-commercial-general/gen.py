@@ -62,7 +62,7 @@ muls = {
 }
 
 def xlat_type(ty) :
-	if ty in ("CH", "C0G"):
+	if ty in ("CH", "C0G", "NP0"):
 		return "C0G/NP0"
 	elif ty == "JB":
 		return "X5R"
@@ -76,6 +76,7 @@ if pool_path is None :
 base_path = pj(pool_path, "parts", "passive", "capacitor", "tdk", "c")
 
 gen = util.UUIDGenerator("uu.txt")
+tols = set()
 
 with open("tdk.csv") as fi:
 	reader = csv.DictReader(fi)
@@ -85,6 +86,10 @@ with open("tdk.csv") as fi:
 		tc = xlat_type(row['Temp. Chara.'])
 		tcs.add(tc)
 		captxt = row['Capacitance']
+		toltxt = row['Tolerance']
+		tol = None
+		if toltxt.endswith("%") :
+			tol = int(toltxt[1:-1])
 		value = float(captxt[:-2])*muls[captxt[-2:]]
 		ds = row['Catalog / Data Sheet'].split()[-1]
 		pkg = row['L x W Size'].split('[')[-1].split()[1][:-1]
@@ -100,6 +105,8 @@ with open("tdk.csv") as fi:
 			tmpl["parametric"]["wvdc"] = str(vmax)
 			tmpl["parametric"]["value"] = "%.4e"%value
 			tmpl["parametric"]["type"] = tc
+			if tol is not None :
+				tmpl["parametric"]["tolerance"] = str(tol)
 			path = pj(base_path, pkg)
 			os.makedirs(path, exist_ok = True)
 			with open(pj(path, mpn+".json"), "w") as fi:
