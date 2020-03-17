@@ -1,0 +1,151 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "14483a34-dc0e-4650-857a-4d382005d530": {
+            "position": [
+                13750000,
+                -6250000
+            ]
+        },
+        "5ffa9e8e-0f45-473b-863a-e12ed572db1b": {
+            "position": [
+                -10000000,
+                -6250000
+            ]
+        },
+        "93dfe904-2a67-4352-9b0b-a4a06d7e640d": {
+            "position": [
+                13750000,
+                6250000
+            ]
+        },
+        "9aae07ed-0c6e-4d2a-a087-16753a7d9cf0": {
+            "position": [
+                -10000000,
+                6250000
+            ]
+        }
+    },
+    "lines": {
+        "13d8ee33-f478-4663-b5fe-5cb6b8b062a8": {
+            "from": "93dfe904-2a67-4352-9b0b-a4a06d7e640d",
+            "layer": 0,
+            "to": "14483a34-dc0e-4650-857a-4d382005d530",
+            "width": 0
+        },
+        "2fa2cb50-6703-4b24-bcc4-990e6099eb1d": {
+            "from": "14483a34-dc0e-4650-857a-4d382005d530",
+            "layer": 0,
+            "to": "5ffa9e8e-0f45-473b-863a-e12ed572db1b",
+            "width": 0
+        },
+        "56ba13d9-ebea-4cf8-bb57-dd0594d36000": {
+            "from": "9aae07ed-0c6e-4d2a-a087-16753a7d9cf0",
+            "layer": 0,
+            "to": "93dfe904-2a67-4352-9b0b-a4a06d7e640d",
+            "width": 0
+        },
+        "93766c19-bcd4-4a3d-8773-52f67f754893": {
+            "from": "5ffa9e8e-0f45-473b-863a-e12ed572db1b",
+            "layer": 0,
+            "to": "9aae07ed-0c6e-4d2a-a087-16753a7d9cf0",
+            "width": 0
+        }
+    },
+    "name": "ECP5 Bank 40",
+    "pins": {
+        "33154aea-0563-4dff-a14d-ec3269edcfed": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                15000000,
+                1250000
+            ]
+        },
+        "77875ab4-c125-4fab-81db-3c50074121a3": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                15000000,
+                3750000
+            ]
+        },
+        "8923714b-e0d2-4837-b7bd-e2f6370b9fac": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                15000000,
+                -3750000
+            ]
+        },
+        "d48b0f4c-9441-40b8-bba1-fefd1c16c74b": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                15000000,
+                -1250000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "d7e31da7-3c37-4902-a41a-eb6424224bbf": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -6250000,
+                    0
+                ]
+            },
+            "size": 1500000,
+            "text": "ECP5 JTAG",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "1d6e6494-eb92-4f39-a233-990e6183fe82",
+    "uuid": "a5dea6c6-87ea-4de1-98e6-6c7f7eccc3dc"
+}
