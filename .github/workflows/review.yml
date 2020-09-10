@@ -1,0 +1,49 @@
+name: Review triggered by comment
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: khan/pull-request-comment-trigger@master
+        id: check
+        with:
+          trigger: 'Bot!'
+          reaction: rocket
+          prefix_only: true
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+
+      - name: checkout pr
+        if: steps.check.outputs.triggered == 'true'
+        uses: actions/checkout@v2
+        with:
+          ref: refs/pull/${{ github.event.issue.number }}/merge
+          path: pool
+
+      - name: fetch master
+        if: steps.check.outputs.triggered == 'true'
+        run: git fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin master:master
+        working-directory: pool
+
+      - name: create review
+        if: steps.check.outputs.triggered == 'true'
+        uses: docker://horizoneda/horizon-pr-review:latest
+        with:
+          args: /github/workspace/pool -u -o /github/workspace/comment.md
+
+      - name: print comment
+        if: steps.check.outputs.triggered == 'true'
+        run: cat comment.md
+
+      - name: comment
+        if: steps.check.outputs.triggered == 'true'
+        run: |
+          jq -R --slurp '{body: .}' comment.md | curl --request POST \
+          --url https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header "Accept: application/vnd.github.v3+json" \
+          --data @-
