@@ -5,8 +5,10 @@ on:
     types: [created]
 
 jobs:
-  review:
+  check:
     runs-on: ubuntu-latest
+    outputs:
+      triggered: ${{ steps.check.outputs.triggered }}
     steps:
       - uses: khan/pull-request-comment-trigger@master
         id: check
@@ -17,30 +19,60 @@ jobs:
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
 
+  review:
+    runs-on: ubuntu-latest
+    needs: check
+    if: needs.check.outputs.triggered == 'true'
+    steps:
+      - name: setup git
+        run: |
+          mkdir ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          echo $SSH_PRIVKEY > ~/.ssh/id_rsa
+          git config --global user.email "poolbot@horizon-eda.org"
+          git config --global user.name "Horizon EDA Poolbot"
+        env:
+          SSH_PRIVKEY: ${{ secrets.secrets.SSH_PRIVKEY }}
+
+      - name: checkout media
+        uses: actions/checkout@v2
+        with:
+          repository: horizon-eda/poolbot-media
+          ssh-key: ${{ secrets.SSH_PRIVKEY }}
+          path: media
+
+      - name: create media dir
+        run: mkdir -p media/pr-${{ github.event.issue.number }}
+
       - name: checkout pr
-        if: steps.check.outputs.triggered == 'true'
         uses: actions/checkout@v2
         with:
           ref: refs/pull/${{ github.event.issue.number }}/merge
           path: pool
 
       - name: fetch master
-        if: steps.check.outputs.triggered == 'true'
         run: git fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin master:master
         working-directory: pool
 
       - name: create review
-        if: steps.check.outputs.triggered == 'true'
         uses: docker://horizoneda/horizon-pr-review:latest
         with:
-          args: /github/workspace/pool -u -o /github/workspace/comment.md
+          args: >-
+            /github/workspace/pool -u -o /github/workspace/comment.md
+            -i /github/workspace/media/pr-${{ github.event.issue.number }}
+            -p https://raw.githubusercontent.com/horizon-eda/poolbot-media/master/pr-${{ github.event.issue.number }}/
 
       - name: print comment
-        if: steps.check.outputs.triggered == 'true'
         run: cat comment.md
 
+      - name: commit & push media
+        working-directory: media
+        run: |
+          git add .
+          git commit -m 'review pr ${{ github.event.issue.number }}'
+          git push
+
       - name: comment
-        if: steps.check.outputs.triggered == 'true'
         run: |
           jq -R --slurp '{body: .}' comment.md | curl --request POST \
           --url https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments \
