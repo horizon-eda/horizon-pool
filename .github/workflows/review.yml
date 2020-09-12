@@ -69,7 +69,7 @@ jobs:
         working-directory: media
         run: |
           git add .
-          git commit -m 'review pr ${{ github.event.issue.number }}'
+          git diff-index --quiet HEAD || git commit -m 'review pr ${{ github.event.issue.number }}'
           git push
 
       - name: comment
