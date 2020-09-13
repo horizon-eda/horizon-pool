@@ -72,6 +72,16 @@ jobs:
           git diff-index --quiet HEAD || git commit -m 'review pr ${{ github.event.issue.number }}'
           git push
 
+      - name: replace old comments
+        run: |
+          curl -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments?per_page=100 | \
+          jq '.[] | select(.user.id == 41898282) | .id' | xargs -I xx \
+          curl -X PATCH -H "Accept: application/vnd.github.v3+json" \
+          -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          https://api.github.com/repos/${{ github.repository }}/issues/comments/xx \
+          -d '{"body":"This review has been superseded. Scroll down to find the latest one."}'
+
       - name: comment
         run: |
           jq -R --slurp '{body: .}' comment.md | curl --request POST \
