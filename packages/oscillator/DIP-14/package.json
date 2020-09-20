@@ -113,8 +113,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "13.300mm 21.000mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
     "polygons": {
         "1ee33cbc-b845-46bf-b81e-a1c03cb8b7a9": {
             "layer": 40,
@@ -181,8 +183,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -6650000,
-                        -10500000
+                        -6900000,
+                        -10750000
                     ],
                     "type": "line"
                 },
@@ -193,8 +195,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        6650000,
-                        -10500000
+                        -6900000,
+                        10750000
                     ],
                     "type": "line"
                 },
@@ -205,8 +207,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        6650000,
-                        10500000
+                        6900000,
+                        10750000
                     ],
                     "type": "line"
                 },
@@ -217,8 +219,8 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -6650000,
-                        10500000
+                        6900000,
+                        -10750000
                     ],
                     "type": "line"
                 }
