@@ -10,7 +10,7 @@ jobs:
     outputs:
       triggered: ${{ steps.check.outputs.triggered }}
     steps:
-      - uses: khan/pull-request-comment-trigger@master
+      - uses: carrotIndustries/pull-request-comment-trigger@master
         id: check
         with:
           trigger: 'Bot!'
@@ -41,8 +41,14 @@ jobs:
           ssh-key: ${{ secrets.SSH_PRIVKEY }}
           path: media
 
+      - name: remove old media dir
+        run: rm -rf media/pr-${{ github.event.issue.number }}
+
+      - name: set media dir
+        run: echo "::set-env name=media_dir::pr-${{ github.event.issue.number }}/${{ github.event.comment.id }}"
+
       - name: create media dir
-        run: mkdir -p media/pr-${{ github.event.issue.number }}
+        run: mkdir -p media/${{ env.media_dir }}
 
       - name: checkout pr
         uses: actions/checkout@v2
@@ -59,8 +65,8 @@ jobs:
         with:
           args: >-
             /github/workspace/pool -u -o /github/workspace/comment.md
-            -i /github/workspace/media/pr-${{ github.event.issue.number }}
-            -p https://raw.githubusercontent.com/horizon-eda/poolbot-media/master/pr-${{ github.event.issue.number }}/
+            -i /github/workspace/media/${{ env.media_dir }}
+            -p https://raw.githubusercontent.com/horizon-eda/poolbot-media/master/${{ env.media_dir }}/
 
       - name: print comment
         run: cat comment.md
