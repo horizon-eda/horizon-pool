@@ -45,7 +45,7 @@ jobs:
         run: rm -rf media/pr-${{ github.event.issue.number }}
 
       - name: set media dir
-        run: echo "::set-env name=media_dir::pr-${{ github.event.issue.number }}/${{ github.event.comment.id }}"
+        run: echo "media_dir=pr-${{ github.event.issue.number }}/${{ github.event.comment.id }}" >> $GITHUB_ENV
 
       - name: create media dir
         run: mkdir -p media/${{ env.media_dir }}
