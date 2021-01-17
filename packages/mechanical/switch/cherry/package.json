@@ -9,19 +9,17 @@
     "models": {},
     "name": "MX No-LED",
     "pads": {
-        "5235c826-b732-4610-b1ca-139ed40a5fde": {
-            "name": "H1",
-            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+        "5720d737-6ce2-4c2d-9d5e-f9ef8384a336": {
+            "name": "H3",
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
             "parameter_set": {
-                "hole_diameter": 3987800,
-                "pad_diameter": 3987800,
-                "solder_mask_expansion": 0
+                "hole_diameter": 1701800
             },
             "placement": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    0,
+                    5080000,
                     0
                 ]
             }
@@ -43,19 +41,32 @@
                 ]
             }
         },
-        "9ad57904-79fd-485f-a508-5f74edee21de": {
-            "name": "H3",
-            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+        "a890b463-cfe9-493a-938a-6dd1a6b2d88a": {
+            "name": "H2",
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
             "parameter_set": {
-                "hole_diameter": 1701800,
-                "pad_diameter": 1701800,
-                "solder_mask_expansion": 0
+                "hole_diameter": 1701800
             },
             "placement": {
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    5080000,
+                    -5080000,
+                    0
+                ]
+            }
+        },
+        "bef00245-c019-44d4-8837-2a06cb948f35": {
+            "name": "H1",
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
+            "parameter_set": {
+                "hole_diameter": 3987800
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
                     0
                 ]
             }
@@ -74,23 +85,6 @@
                 "shift": [
                     -3810000,
                     2540000
-                ]
-            }
-        },
-        "f580271c-91e2-4547-82c7-bc135c52bb00": {
-            "name": "H2",
-            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
-            "parameter_set": {
-                "hole_diameter": 1701800,
-                "pad_diameter": 1701800,
-                "solder_mask_expansion": 0
-            },
-            "placement": {
-                "angle": 0,
-                "mirror": false,
-                "shift": [
-                    -5080000,
-                    0
                 ]
             }
         }
