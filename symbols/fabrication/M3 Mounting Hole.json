@@ -1,0 +1,118 @@
+{
+    "arcs": {
+        "f823905f-1a1a-4a5a-948a-77d47d7c8563": {
+            "center": "3b736551-43dd-4472-900d-7f62ab181f4a",
+            "from": "1049c755-ee73-4d96-a725-461e3de43d63",
+            "layer": 0,
+            "to": "f6b198cc-7f66-4445-8791-402846a7be0e",
+            "width": 1000000
+        },
+        "fc730454-a2c3-4e8e-ada0-ac806b04a517": {
+            "center": "3b736551-43dd-4472-900d-7f62ab181f4a",
+            "from": "f6b198cc-7f66-4445-8791-402846a7be0e",
+            "layer": 0,
+            "to": "1049c755-ee73-4d96-a725-461e3de43d63",
+            "width": 1000000
+        }
+    },
+    "can_expand": false,
+    "junctions": {
+        "1049c755-ee73-4d96-a725-461e3de43d63": {
+            "position": [
+                0,
+                1250000
+            ]
+        },
+        "3b736551-43dd-4472-900d-7f62ab181f4a": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "f6b198cc-7f66-4445-8791-402846a7be0e": {
+            "position": [
+                0,
+                -1250000
+            ]
+        }
+    },
+    "lines": {},
+    "name": "M3 Mounting Hole",
+    "pins": {
+        "e011d2e4-d7e0-4c07-86d7-03b2c8e09d30": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -3750000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "3a9efe8b-3898-424d-b0e6-835993294686": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3375000,
+                    375000
+                ]
+            },
+            "size": 500000,
+            "text": "GND",
+            "width": 100000
+        },
+        "c2601000-2c9b-456b-a0df-ce6e80f29489": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    -2500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "d3a0a360-d95c-473d-a01a-35077fa098fe": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    2500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "27f64ee4-15d2-4d17-9e4a-db66eb7de416",
+    "uuid": "e22bf2bb-baa0-4d78-9761-4a14e73e908b"
+}
