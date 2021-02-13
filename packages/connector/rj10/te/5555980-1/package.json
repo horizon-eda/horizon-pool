@@ -2,89 +2,9 @@
     "arcs": {},
     "default_model": "00000000-0000-0000-0000-000000000000",
     "dimensions": {},
-    "junctions": {
-        "1121a5f3-8f0a-4ae9-957f-e24e9c65cf34": {
-            "position": [
-                5655000,
-                1000000
-            ]
-        },
-        "12af9c56-533a-4a8f-9df2-53fc1b75ae90": {
-            "position": [
-                -5655000,
-                1000000
-            ]
-        },
-        "1f5ed974-d785-4ce4-bb1a-e7e8006d97d9": {
-            "position": [
-                -5655000,
-                10290000
-            ]
-        },
-        "5eec3fcf-b6d2-478a-a0a7-2f9a4d9fa965": {
-            "position": [
-                -5655000,
-                -1000000
-            ]
-        },
-        "d1e8d2f7-a4e2-41ad-a7f2-cce477d4d039": {
-            "position": [
-                5655000,
-                -10290000
-            ]
-        },
-        "d535acf0-1608-4d21-ac4e-2f9d931d59c9": {
-            "position": [
-                -5655000,
-                -10290000
-            ]
-        },
-        "d897766e-aee9-4d4a-8477-49732a82b9b1": {
-            "position": [
-                5655000,
-                -1000000
-            ]
-        },
-        "e70e9af1-41ef-4d77-954e-bec6a5c33747": {
-            "position": [
-                5655000,
-                10290000
-            ]
-        }
-    },
+    "junctions": {},
     "keepouts": {},
-    "lines": {
-        "35f00a2b-20c1-404b-9b7f-0af63a0bc1bc": {
-            "from": "1f5ed974-d785-4ce4-bb1a-e7e8006d97d9",
-            "layer": 20,
-            "to": "e70e9af1-41ef-4d77-954e-bec6a5c33747",
-            "width": 150000
-        },
-        "47c05071-5680-447e-bcae-75044a2dd55e": {
-            "from": "d897766e-aee9-4d4a-8477-49732a82b9b1",
-            "layer": 20,
-            "to": "d1e8d2f7-a4e2-41ad-a7f2-cce477d4d039",
-            "width": 150000
-        },
-        "a33830e7-d691-4ee8-9804-136f9c9a3363": {
-            "from": "12af9c56-533a-4a8f-9df2-53fc1b75ae90",
-            "layer": 20,
-            "to": "1f5ed974-d785-4ce4-bb1a-e7e8006d97d9",
-            "width": 150000
-        },
-        "b5d65f69-c8a2-4caa-8b5d-400db76f2f4a": {
-            "from": "e70e9af1-41ef-4d77-954e-bec6a5c33747",
-            "layer": 20,
-            "to": "1121a5f3-8f0a-4ae9-957f-e24e9c65cf34",
-            "width": 150000
-        },
-        "ddd5354b-b6d6-475e-a10c-dbda1b74465f": {
-            "from": "d535acf0-1608-4d21-ac4e-2f9d931d59c9",
-            "layer": 20,
-            "to": "5eec3fcf-b6d2-478a-a0a7-2f9a4d9fa965",
-            "width": 150000
-        }
-    },
+    "lines": {},
     "manufacturer": "TE Connectivity",
     "models": {},
     "name": "5555980-1",
@@ -93,7 +13,7 @@
             "name": "M2",
             "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
             "parameter_set": {
-                "hole_diameter": 3250000
+                "hole_diameter": 3300000
             },
             "placement": {
                 "angle": 0,
@@ -156,7 +76,7 @@
             "name": "M1",
             "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
             "parameter_set": {
-                "hole_diameter": 3250000
+                "hole_diameter": 3300000
             },
             "placement": {
                 "angle": 0,
@@ -400,6 +320,18 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "connector",
         "rj10"
@@ -414,8 +346,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    6000000,
-                    11000000
+                    -5588000,
+                    11430000
                 ]
             },
             "size": 1000000,
