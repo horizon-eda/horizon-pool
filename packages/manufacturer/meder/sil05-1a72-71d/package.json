@@ -15,10 +15,22 @@
                 2840000
             ]
         },
+        "3e431f58-eae7-453d-b2a2-446c0733912b": {
+            "position": [
+                -1500000,
+                -3200000
+            ]
+        },
         "575cea60-ca5b-4476-b5eb-38c25f1688d3": {
             "position": [
                 -2580000,
                 -2840000
+            ]
+        },
+        "5f47f783-d625-4aaa-b256-f73876e1f9e1": {
+            "position": [
+                -2600000,
+                -3200000
             ]
         },
         "6e2793bb-a69d-4c17-b532-1a0aa851fce3": {
@@ -53,6 +65,12 @@
             "layer": 20,
             "to": "14f75ccc-a4ed-4439-b536-09f9d1baf69a",
             "width": 150000
+        },
+        "68eabaf1-52fc-4d08-9d33-1ae0111e21f0": {
+            "from": "3e431f58-eae7-453d-b2a2-446c0733912b",
+            "layer": 20,
+            "to": "5f47f783-d625-4aaa-b256-f73876e1f9e1",
+            "width": 150000
         }
     },
     "manufacturer": "Meder",
@@ -67,7 +85,7 @@
             "z": 0
         }
     },
-    "name": "SIL05-1A72-71D",
+    "name": "SILxx-1A72-71D",
     "pads": {
         "0a2f9551-f841-409d-84c9-f788914cd734": {
             "name": "5",
@@ -103,11 +121,10 @@
         },
         "7e39bcfa-378a-4b5f-89cf-bef224605387": {
             "name": "1",
-            "padstack": "982142aa-2883-4fd0-9b0b-37eb5a37dd35",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
             "parameter_set": {
                 "hole_diameter": 600000,
-                "pad_height": 1000000,
-                "pad_width": 1000000
+                "pad_diameter": 1000000
             },
             "placement": {
                 "angle": 0,
