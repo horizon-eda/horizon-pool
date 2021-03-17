@@ -1,148 +1,7 @@
 {
-    "_imp": {
-        "grid_spacing": 100000,
-        "layer_display": {
-            "layer_opacity": 29.0,
-            "layers": {
-                "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-120": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "20": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {},
+    "default_model": "96c366ee-a963-41a0-9cc8-54c646979695",
+    "dimensions": {},
     "junctions": {
         "4929436d-cf28-4264-b684-c516ad0b290f": {
             "position": [
@@ -169,6 +28,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "85c94ec2-2971-4502-98e1-669ee4a56e0a": {
             "from": "a132798f-b7ae-4b10-9082-efa82c77da24",
@@ -184,13 +44,24 @@
         }
     },
     "manufacturer": "",
-    "model_filename": "3d_models/passive/resistor/R_0805_2012Metric.step",
+    "models": {
+        "96c366ee-a963-41a0-9cc8-54c646979695": {
+            "filename": "3d_models/passive/resistor/R_0805_2012Metric.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "R0805",
     "pads": {
         "57416c85-ca47-45fe-a850-612e3405e61f": {
             "name": "1",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 170000,
                 "pad_height": 1300000,
                 "pad_width": 700000
             },
@@ -205,8 +76,9 @@
         },
         "b43013b4-017c-4242-8852-0ec05a2374d1": {
             "name": "2",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 170000,
                 "pad_height": 1300000,
                 "pad_width": 700000
             },
@@ -388,12 +260,25 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "smd"
     ],
     "texts": {
         "f9f76e3c-b40b-45d1-9140-1bcb00e84792": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
@@ -410,6 +295,7 @@
             "width": 0
         },
         "fe551c07-0fa6-4ffd-b867-a0be9addab45": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
