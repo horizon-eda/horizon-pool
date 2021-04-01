@@ -65,6 +65,7 @@ jobs:
         with:
           args: >-
             /github/workspace/pool -u -o /github/workspace/comment.md
+            -l /github/workspace/labels.json
             -i /github/workspace/media/${{ env.media_dir }}
             -p https://raw.githubusercontent.com/horizon-eda/poolbot-media/master/${{ env.media_dir }}/
 
@@ -93,6 +94,18 @@ jobs:
         run: |
           jq -R --slurp '{body: .}' comment.md | curl --request POST \
           --url https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header "Accept: application/vnd.github.v3+json" \
+          --data @-
+
+      - name: add labels
+        run: |
+          curl https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/labels \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header "Accept: application/vnd.github.v3+json" \
+          > existing_labels.json
+          jq --slurp '[.[0][].name | select(startswith("bot:") | not)]+.[1]' existing_labels.json labels.json | \
+          curl --request PUT --url https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/labels \
           --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
           --header "Accept: application/vnd.github.v3+json" \
           --data @-
