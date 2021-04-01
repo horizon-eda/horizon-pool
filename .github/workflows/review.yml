@@ -76,6 +76,7 @@ jobs:
         run: |
           git add .
           git diff-index --quiet HEAD || git commit -m 'review pr ${{ github.event.issue.number }}'
+          git pull --rebase
           git push
 
       - name: replace old comments
