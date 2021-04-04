@@ -7,11 +7,11 @@
     "lines": {},
     "manufacturer": "Molex",
     "models": {},
-    "name": "73251-1150",
+    "name": "73251-1150 (with vias)",
     "pads": {
         "71d17bc9-8dcb-4d8d-85e1-7487fc9ae67c": {
             "name": "GND2",
-            "padstack": "52e0c9cb-539a-4d70-af97-9b131d2dd86e",
+            "padstack": "a4478c44-e3c2-440d-83b9-0274facf1773",
             "parameter_set": {},
             "placement": {
                 "angle": 0,
@@ -24,7 +24,7 @@
         },
         "c455703e-4ce6-4d3f-adbe-6f8179d36b75": {
             "name": "GND1",
-            "padstack": "f42e8caa-d3f3-4afc-9580-45ee1bbdfab6",
+            "padstack": "6e915f5e-a1b0-4623-bb04-9ee6f2aecd57",
             "parameter_set": {},
             "placement": {
                 "angle": 0,
@@ -52,7 +52,7 @@
             }
         }
     },
-    "parameter_program": "11.176mm 5.842mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm -2.921mm ]",
+    "parameter_program": "11.176mm 7.214mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm -3.607mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -255,7 +255,7 @@
                 }
             ]
         },
-        "764693ac-937c-412f-ac61-561f45649603": {
+        "90736b22-1669-45ce-b7ee-cd286285c477": {
             "layer": 60,
             "parameter_class": "courtyard",
             "vertices": [
@@ -267,7 +267,7 @@
                     "arc_reverse": false,
                     "position": [
                         -5838000,
-                        -6092000
+                        -7464000
                     ],
                     "type": "line"
                 },
@@ -303,7 +303,7 @@
                     "arc_reverse": false,
                     "position": [
                         5838000,
-                        -6092000
+                        -7464000
                     ],
                     "type": "line"
                 }
@@ -418,5 +418,5 @@
         }
     },
     "type": "package",
-    "uuid": "afcfb049-61c1-4439-8c6a-c30a8eb07ab3"
+    "uuid": "3efe5f00-4be8-460b-95aa-79d9f91e6514"
 }
