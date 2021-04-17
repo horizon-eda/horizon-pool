@@ -1,88 +1,6 @@
 {
-    "_imp": {
-        "grid_spacing": 250000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-100": {
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "-110": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-120": {
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "-130": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-140": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-150": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-160": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "0": {
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "20": {
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "30": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "40": {
-                    "display_mode": "outline",
-                    "visible": false
-                },
-                "50": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "60": {
-                    "display_mode": "outline",
-                    "visible": false
-                }
-            }
-        }
-    },
-    "alternate_for": "16222198-30fe-41a5-bfd8-519bdcba786d",
+    "alternate_for": "2f5093aa-803e-4643-b370-7d55c5a134da",
     "arcs": {
-        "1ca60343-76f7-4e36-a4b2-f1d5792f781f": {
-            "center": "990f7f26-0c6d-495e-861b-cc17498cded6",
-            "from": "a2c5d8d8-d890-4086-b011-060b53921bb1",
-            "layer": 50,
-            "to": "0aef5c89-7a6d-4109-9ae3-ee50e0ddd03e",
-            "width": 0
-        },
-        "3be85dcd-d785-4fe8-9e0d-28dfd9f13780": {
-            "center": "990f7f26-0c6d-495e-861b-cc17498cded6",
-            "from": "0aef5c89-7a6d-4109-9ae3-ee50e0ddd03e",
-            "layer": 50,
-            "to": "a2c5d8d8-d890-4086-b011-060b53921bb1",
-            "width": 0
-        },
         "79915c81-d753-4cea-98e3-4070fbfff54a": {
             "center": "2fdfecc8-a3cd-42de-9c43-019779b91071",
             "from": "0b538f26-c117-400d-92b2-8e9566595cfa",
@@ -101,12 +19,6 @@
     "default_model": "00000000-0000-0000-0000-000000000000",
     "dimensions": {},
     "junctions": {
-        "0aef5c89-7a6d-4109-9ae3-ee50e0ddd03e": {
-            "position": [
-                0,
-                -250000
-            ]
-        },
         "0b538f26-c117-400d-92b2-8e9566595cfa": {
             "position": [
                 0,
@@ -123,18 +35,6 @@
             "position": [
                 0,
                 -525000
-            ]
-        },
-        "990f7f26-0c6d-495e-861b-cc17498cded6": {
-            "position": [
-                0,
-                0
-            ]
-        },
-        "a2c5d8d8-d890-4086-b011-060b53921bb1": {
-            "position": [
-                0,
-                250000
             ]
         }
     },
@@ -160,7 +60,7 @@
             }
         }
     },
-    "parameter_program": "0.500mm\nget-parameter [ courtyard_expansion ]\n2 * +\nset-polygon [ courtyard circle 0.000mm 0.000mm ]",
+    "parameter_program": "0.500mm 0.500mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
     "parameter_set": {
         "courtyard_expansion": 500000
     },
@@ -177,21 +77,9 @@
                     "arc_reverse": false,
                     "position": [
                         -750000,
-                        0
+                        -750000
                     ],
-                    "type": "arc"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        750000,
-                        0
-                    ],
-                    "type": "arc"
+                    "type": "line"
                 },
                 {
                     "arc_center": [
@@ -201,11 +89,47 @@
                     "arc_reverse": false,
                     "position": [
                         -750000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
                         0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        -750000
                     ],
                     "type": "line"
                 }
             ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
         }
     },
     "tags": [
@@ -229,23 +153,6 @@
             "size": 1000000,
             "text": "$RD",
             "width": 150000
-        },
-        "ccf06798-1010-421b-81d0-c4f626d215cd": {
-            "font": "simplex",
-            "from_smash": false,
-            "layer": 50,
-            "origin": "center",
-            "placement": {
-                "angle": 0,
-                "mirror": false,
-                "shift": [
-                    250000,
-                    0
-                ]
-            },
-            "size": 1000000,
-            "text": "$RD",
-            "width": 0
         }
     },
     "type": "package",

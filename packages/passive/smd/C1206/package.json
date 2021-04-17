@@ -1,148 +1,7 @@
 {
-    "_imp": {
-        "grid_spacing": 100000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-120": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "20": {
-                    "color": {
-                        "b": 0.899999976158142,
-                        "g": 0.899999976158142,
-                        "r": 0.899999976158142
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {},
+    "default_model": "96c366ee-a963-41a0-9cc8-54c646979695",
+    "dimensions": {},
     "junctions": {
         "197eaf05-3e4a-4b96-ba05-147ae4cfb3cc": {
             "position": [
@@ -169,6 +28,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "08bff252-334f-4b0b-84ad-7d37b27fc5fd": {
             "from": "3d85150a-8b11-4b47-a3b3-e2fee47f7943",
@@ -184,13 +44,24 @@
         }
     },
     "manufacturer": "",
-    "model_filename": "3d_models/passive/capacitor/C_1206_3216Metric.step",
+    "models": {
+        "96c366ee-a963-41a0-9cc8-54c646979695": {
+            "filename": "3d_models/passive/capacitor/C_1206_3216Metric.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "C1206",
     "pads": {
         "af633f04-39de-4605-b33a-2010e8795070": {
             "name": "1",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 250000,
                 "pad_height": 1600000,
                 "pad_width": 1000000
             },
@@ -205,8 +76,9 @@
         },
         "dea5a138-9f86-4a13-a99d-2c1253f285f2": {
             "name": "2",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 250000,
                 "pad_height": 1600000,
                 "pad_width": 1000000
             },
@@ -388,12 +260,25 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "smd"
     ],
     "texts": {
         "1865648c-7e3f-4d01-a067-80c19b47d591": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
@@ -410,6 +295,7 @@
             "width": 0
         },
         "797932af-87c3-4200-aa6a-cb0276909349": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",

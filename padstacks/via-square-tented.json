@@ -1,0 +1,104 @@
+{
+    "holes": {
+        "2d11f3c8-49d0-49ca-bc28-3027cf189f14": {
+            "diameter": 400000,
+            "length": 500000,
+            "parameter_class": "hole",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            },
+            "plated": true,
+            "shape": "round"
+        }
+    },
+    "name": "Square Via (tented)",
+    "padstack_type": "via",
+    "parameter_program": "get-parameter [ via_diameter ] 7 * 10 / dup\nset-shape [ via rectangle ]\n\nget-parameter [ hole_diameter ]\nset-hole [ hole round ]\n",
+    "parameter_set": {
+        "hole_diameter": 400000,
+        "via_diameter": 800000
+    },
+    "parameters_required": [
+        "hole_diameter",
+        "via_diameter"
+    ],
+    "polygons": {},
+    "shapes": {
+        "0e2f322a-682e-4237-bc01-fd95868edd2a": {
+            "form": "rectangle",
+            "layer": -1,
+            "parameter_class": "via",
+            "params": [
+                560000,
+                560000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "34930f1c-28ae-4e53-b721-4a31045df004": {
+            "form": "rectangle",
+            "layer": 0,
+            "parameter_class": "via",
+            "params": [
+                560000,
+                560000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "3d111434-e21a-4b29-84cc-91457e475470": {
+            "form": "rectangle",
+            "layer": -100,
+            "parameter_class": "via",
+            "params": [
+                560000,
+                560000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "4278c1c7-a716-46ed-bba5-af45d2cc652b": {
+            "form": "rectangle",
+            "layer": 0,
+            "parameter_class": "via",
+            "params": [
+                560000,
+                560000
+            ],
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "type": "padstack",
+    "uuid": "eb40d499-94ff-422d-bed6-358b57bba8ee",
+    "well_known_name": ""
+}

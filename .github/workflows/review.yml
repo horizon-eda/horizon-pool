@@ -1,0 +1,111 @@
+name: Review triggered by comment
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      triggered: ${{ steps.check.outputs.triggered }}
+    steps:
+      - uses: carrotIndustries/pull-request-comment-trigger@master
+        id: check
+        with:
+          trigger: 'Bot!'
+          reaction: rocket
+          prefix_only: true
+        env:
+          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+
+  review:
+    runs-on: ubuntu-latest
+    needs: check
+    if: needs.check.outputs.triggered == 'true'
+    steps:
+      - name: setup git
+        run: |
+          mkdir ~/.ssh
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          echo $SSH_PRIVKEY > ~/.ssh/id_rsa
+          git config --global user.email "poolbot@horizon-eda.org"
+          git config --global user.name "Horizon EDA Poolbot"
+        env:
+          SSH_PRIVKEY: ${{ secrets.secrets.SSH_PRIVKEY }}
+
+      - name: checkout media
+        uses: actions/checkout@v2
+        with:
+          repository: horizon-eda/poolbot-media
+          ssh-key: ${{ secrets.SSH_PRIVKEY }}
+          path: media
+
+      - name: remove old media dir
+        run: rm -rf media/pr-${{ github.event.issue.number }}
+
+      - name: set media dir
+        run: echo "media_dir=pr-${{ github.event.issue.number }}/${{ github.event.comment.id }}" >> $GITHUB_ENV
+
+      - name: create media dir
+        run: mkdir -p media/${{ env.media_dir }}
+
+      - name: checkout pr
+        uses: actions/checkout@v2
+        with:
+          ref: refs/pull/${{ github.event.issue.number }}/merge
+          path: pool
+
+      - name: fetch master
+        run: git fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin master:master
+        working-directory: pool
+
+      - name: create review
+        uses: docker://horizoneda/horizon-pr-review:latest
+        with:
+          args: >-
+            /github/workspace/pool -u -o /github/workspace/comment.md
+            -l /github/workspace/labels.json
+            -i /github/workspace/media/${{ env.media_dir }}
+            -p https://raw.githubusercontent.com/horizon-eda/poolbot-media/master/${{ env.media_dir }}/
+
+      - name: print comment
+        run: cat comment.md
+
+      - name: commit & push media
+        working-directory: media
+        run: |
+          git add .
+          git diff-index --quiet HEAD || git commit -m 'review pr ${{ github.event.issue.number }}'
+          git pull --rebase
+          git push
+
+      - name: replace old comments
+        run: |
+          curl -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments?per_page=100 | \
+          jq '.[] | select(.user.id == 41898282) | .id' | xargs -I xx \
+          curl -X PATCH -H "Accept: application/vnd.github.v3+json" \
+          -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          https://api.github.com/repos/${{ github.repository }}/issues/comments/xx \
+          -d '{"body":"This review has been superseded. Scroll down to find the latest one."}'
+
+      - name: comment
+        run: |
+          jq -R --slurp '{body: .}' comment.md | curl --request POST \
+          --url https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header "Accept: application/vnd.github.v3+json" \
+          --data @-
+
+      - name: add labels
+        run: |
+          curl https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/labels \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header "Accept: application/vnd.github.v3+json" \
+          > existing_labels.json
+          jq --slurp '[.[0][].name | select(startswith("bot:") | not)]+.[1]' existing_labels.json labels.json | \
+          curl --request PUT --url https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/labels \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          --header "Accept: application/vnd.github.v3+json" \
+          --data @-

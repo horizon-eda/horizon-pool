@@ -1,73 +1,7 @@
 {
-    "_imp": {
-        "grid_spacing": 100000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-100": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-110": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-120": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-130": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-140": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-150": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-160": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "0": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "10": {
-                    "display_mode": 2,
-                    "visible": true
-                },
-                "20": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "30": {
-                    "display_mode": 1,
-                    "visible": true
-                },
-                "40": {
-                    "display_mode": 2,
-                    "visible": true
-                },
-                "50": {
-                    "display_mode": 2,
-                    "visible": true
-                },
-                "60": {
-                    "display_mode": 2,
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {},
+    "default_model": "b99785a3-c0da-4658-969d-6287cec3be05",
+    "dimensions": {},
     "junctions": {
         "58d852a2-f5bf-46bf-b5b7-293944abed36": {
             "position": [
@@ -106,6 +40,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "78dcbd11-b891-4259-965d-5539cb5ebe08": {
             "from": "e69468d7-3dc5-49ef-bd20-2269d36ee0b4",
@@ -133,6 +68,17 @@
         }
     },
     "manufacturer": "",
+    "models": {
+        "b99785a3-c0da-4658-969d-6287cec3be05": {
+            "filename": "3d_models/ic/so/SOIC-8_3.9x4.9mm_P1.27mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "SOIC-8",
     "pads": {
         "17341892-a120-44e2-97ea-6e4f8e3d7da5": {
@@ -444,6 +390,18 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "ic",
@@ -452,6 +410,7 @@
     ],
     "texts": {
         "737dbd18-9c7b-41c6-89f5-c6ddf407072c": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
@@ -468,6 +427,7 @@
             "width": 0
         },
         "c9c78188-6d01-4402-9025-ff52414beb01": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
