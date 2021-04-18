@@ -1,0 +1,202 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "06b79b31-9e3e-4e72-bd4f-b071463289e5": {
+            "position": [
+                -7500000,
+                -6250000
+            ]
+        },
+        "411fafbd-75ae-4313-bbb5-7cccc002d01c": {
+            "position": [
+                -7500000,
+                6250000
+            ]
+        },
+        "757a07a5-c166-4ba5-8f60-ecaec5aa01e7": {
+            "position": [
+                7500000,
+                6250000
+            ]
+        },
+        "a58034a0-4ae0-4317-ace3-8541b87bae8f": {
+            "position": [
+                7500000,
+                -6250000
+            ]
+        }
+    },
+    "lines": {
+        "4d18b227-1714-4e94-b0a6-0bc27bf7049f": {
+            "from": "757a07a5-c166-4ba5-8f60-ecaec5aa01e7",
+            "layer": 0,
+            "to": "a58034a0-4ae0-4317-ace3-8541b87bae8f",
+            "width": 0
+        },
+        "5231b64f-3f3c-4a29-aedb-2bcf32675905": {
+            "from": "411fafbd-75ae-4313-bbb5-7cccc002d01c",
+            "layer": 0,
+            "to": "757a07a5-c166-4ba5-8f60-ecaec5aa01e7",
+            "width": 0
+        },
+        "6fbf58d9-1501-4e05-b1a6-f1e7ca4e22b5": {
+            "from": "a58034a0-4ae0-4317-ace3-8541b87bae8f",
+            "layer": 0,
+            "to": "06b79b31-9e3e-4e72-bd4f-b071463289e5",
+            "width": 0
+        },
+        "cff7fb4d-369a-4edd-a7f6-ee270e1de145": {
+            "from": "06b79b31-9e3e-4e72-bd4f-b071463289e5",
+            "layer": 0,
+            "to": "411fafbd-75ae-4313-bbb5-7cccc002d01c",
+            "width": 0
+        }
+    },
+    "name": "Buck converter with enable and boot capacitor",
+    "pins": {
+        "42b23866-edfd-4648-b117-7e56faf88898": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                10000000,
+                -3750000
+            ]
+        },
+        "49e86401-9d63-4d40-9276-9ebd613885de": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -10000000,
+                3750000
+            ]
+        },
+        "7c2e2fc3-37da-4301-86d7-1305eb599864": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                10000000,
+                0
+            ]
+        },
+        "86c55891-24d8-45b1-8afb-148c4a164aea": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -10000000,
+                -3750000
+            ]
+        },
+        "d9c6b3c3-9e1c-4be0-9fe5-add753e24993": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                10000000,
+                3750000
+            ]
+        },
+        "e4a96538-dab3-4f01-90d4-7b55a8ff31b7": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "perpendicular",
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                0,
+                -8750000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "4c10ce7b-9ad2-4da2-85ce-c550323df194": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    7500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "8b1a7460-01d0-4139-ab5c-ab3bcff2348d": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    -7500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "32746ddf-c0f4-4264-bc4c-e0d6e5752703",
+    "uuid": "041072cb-0bf9-40fc-a03d-c3262e31d52e"
+}
