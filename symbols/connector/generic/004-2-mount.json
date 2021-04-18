@@ -1,0 +1,185 @@
+{
+    "arcs": {},
+    "can_expand": true,
+    "junctions": {
+        "065e8480-d416-4451-805c-7c2fc2411496": {
+            "position": [
+                -5000000,
+                5000000
+            ]
+        },
+        "2fd4f776-1323-4076-81bc-197e256b1ace": {
+            "position": [
+                -5000000,
+                -5000000
+            ]
+        },
+        "c400029d-44b5-450a-834c-5fbd17504d49": {
+            "position": [
+                5000000,
+                -5000000
+            ]
+        },
+        "faad4003-b444-4bd6-8638-0f82aa1effd8": {
+            "position": [
+                5000000,
+                5000000
+            ]
+        }
+    },
+    "lines": {
+        "aa2470a4-eefa-4313-bb61-82d40d57de16": {
+            "from": "2fd4f776-1323-4076-81bc-197e256b1ace",
+            "layer": 0,
+            "to": "065e8480-d416-4451-805c-7c2fc2411496",
+            "width": 0
+        },
+        "ce9a59c7-4e93-42b7-83e3-f2874a6f8663": {
+            "from": "c400029d-44b5-450a-834c-5fbd17504d49",
+            "layer": 0,
+            "to": "2fd4f776-1323-4076-81bc-197e256b1ace",
+            "width": 0
+        },
+        "cff11486-b490-4731-89c3-07ff549114c5": {
+            "from": "faad4003-b444-4bd6-8638-0f82aa1effd8",
+            "layer": 0,
+            "to": "c400029d-44b5-450a-834c-5fbd17504d49",
+            "width": 0
+        },
+        "f6d605d3-ee5f-412d-84a1-0483877ac988": {
+            "from": "065e8480-d416-4451-805c-7c2fc2411496",
+            "layer": 0,
+            "to": "faad4003-b444-4bd6-8638-0f82aa1effd8",
+            "width": 0
+        }
+    },
+    "name": "Generic 4 pin connector (2×2) with mounting pad",
+    "pins": {
+        "423d0d6c-4330-417f-a6f0-267741d4c770": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -7500000,
+                2500000
+            ]
+        },
+        "4b3e1234-17b7-41dc-af26-90574ec82303": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -7500000,
+                0
+            ]
+        },
+        "6e4c6134-93b5-49b1-95dd-830ea0cd1475": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "perpendicular",
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                0,
+                -7500000
+            ]
+        },
+        "9c153b03-fb7b-4f99-a5ed-ca45d3ae512e": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                7500000,
+                2500000
+            ]
+        },
+        "aab503ca-26da-43ff-a268-cf0db0698910": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                7500000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "2e7b5aaf-582b-421d-80ee-97200efc7d22": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "8ddd5172-48d2-42ac-b3ff-1b39a788121d": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    -6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "e67aa50e-582e-4c14-999f-9cb7fbaa7ae8",
+    "uuid": "cabc28ac-37d6-4fc1-871f-438f8df8dd4c"
+}
