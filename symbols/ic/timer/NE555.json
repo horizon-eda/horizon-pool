@@ -1,28 +1,29 @@
 {
     "arcs": {},
+    "can_expand": false,
     "junctions": {
         "0b82da39-bb4c-4268-a288-731622eb0d28": {
             "position": [
-                6250000,
-                -7500000
+                7500000,
+                -8750000
             ]
         },
         "53b852ac-8801-4a60-be0a-c2273b0ac4a2": {
             "position": [
-                6250000,
-                7500000
+                7500000,
+                8750000
             ]
         },
         "8746d690-8bcb-4d01-8e8e-309d27dac5d0": {
             "position": [
-                -6250000,
-                7500000
+                -7500000,
+                8750000
             ]
         },
         "f97fc208-53d7-4e4f-8261-1d8a71354f4a": {
             "position": [
-                -6250000,
-                -7500000
+                -7500000,
+                -8750000
             ]
         }
     },
@@ -55,88 +56,147 @@
     "name": "NE555",
     "pins": {
         "0bb8388e-3bb2-46e9-af5d-57a8d86e0b1f": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": true,
             "orientation": "right",
             "pad_visible": true,
             "position": [
-                8750000,
+                10000000,
                 0
             ]
         },
         "231d171f-f5f6-4f31-b493-baf31fbc873f": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": true,
             "orientation": "left",
             "pad_visible": true,
             "position": [
-                -8750000,
+                -10000000,
                 2500000
             ]
         },
         "32ea3c05-c035-469c-9c12-740e319fa281": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "perpendicular",
             "name_visible": true,
             "orientation": "down",
             "pad_visible": true,
             "position": [
                 0,
-                -10000000
+                -11250000
             ]
         },
         "6f227c5c-7abd-4130-99ad-4bb89a858201": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "perpendicular",
             "name_visible": true,
             "orientation": "up",
             "pad_visible": true,
             "position": [
                 0,
-                10000000
+                11250000
             ]
         },
         "948c1872-7c8d-4a4b-94c8-a643feca6317": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": true,
             "orientation": "left",
             "pad_visible": true,
             "position": [
-                -8750000,
+                -10000000,
                 -2500000
             ]
         },
         "9a0da58c-c1ff-4422-99c9-26b8efcf6b0f": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": true,
             "orientation": "left",
             "pad_visible": true,
             "position": [
-                -8750000,
+                -10000000,
                 -5000000
             ]
         },
         "c61117ab-8e9d-475a-b022-c91f2ecf913e": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": true,
             "orientation": "left",
             "pad_visible": true,
             "position": [
-                -8750000,
+                -10000000,
                 5000000
             ]
         },
         "e01c85a1-d96b-4780-9eb9-2860b15fdd0a": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": true,
             "orientation": "left",
             "pad_visible": true,
             "position": [
-                -8750000,
+                -10000000,
                 0
             ]
         }
     },
+    "polygons": {},
+    "text_placements": {},
     "texts": {
         "76ff08a4-db8d-423d-a347-67f12b41a58d": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
@@ -144,15 +204,16 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    7500000,
-                    -11250000
+                    2500000,
+                    -10000000
                 ]
             },
-            "size": 1250000,
+            "size": 1500000,
             "text": "$VALUE",
             "width": 0
         },
         "f33a130c-d90a-48f6-9b3e-78b37ab1c15f": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
@@ -160,11 +221,11 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    7500000,
-                    -8750000
+                    2500000,
+                    10000000
                 ]
             },
-            "size": 1250000,
+            "size": 1500000,
             "text": "$REFDES",
             "width": 0
         }
