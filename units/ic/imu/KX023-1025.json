@@ -11,13 +11,13 @@
         "24efb199-9a8c-4d9d-bdc3-9f4e1026aece": {
             "direction": "power_input",
             "names": [],
-            "primary_name": "Vdd",
+            "primary_name": "VDD",
             "swap_group": 0
         },
         "42ab3c68-3480-4b4b-b093-86dccbdf81f3": {
             "direction": "power_input",
             "names": [],
-            "primary_name": "IO_Vdd",
+            "primary_name": "IO_VDD",
             "swap_group": 0
         },
         "741b4d64-e242-4f45-9686-cb03e736fc2c": {
@@ -29,10 +29,9 @@
         "a001d3bc-15e4-47bb-a404-08930e9747b6": {
             "direction": "input",
             "names": [
-                "SPI_data_input",
-                "I2C_serial_data"
+                "SDA"
             ],
-            "primary_name": "SDI/SDA",
+            "primary_name": "SDI",
             "swap_group": 0
         },
         "aea5208e-8706-4c4f-935d-723741b12c53": {
@@ -50,29 +49,23 @@
         "d81f209e-1cbf-48d6-a239-d5c440faf011": {
             "direction": "input",
             "names": [
-                "SPI",
-                "I2C",
-                "serial_clock"
+                "SCL"
             ],
-            "primary_name": "SCLK/SCL",
+            "primary_name": "SCLK",
             "swap_group": 0
         },
         "e354fdd3-6028-4290-ba2f-6c328787ec79": {
             "direction": "output",
             "names": [
-                "SPI_data_input",
-                "I2C_serial_data"
+                "ADDR"
             ],
-            "primary_name": "SDO/ADDR",
+            "primary_name": "SDO",
             "swap_group": 0
         },
         "fab285a7-faad-4ae0-bc89-e2da1daa0cfe": {
             "direction": "output",
-            "names": [
-                "SPI_enable",
-                "I2C_mode_select"
-            ],
-            "primary_name": "nCS",
+            "names": [],
+            "primary_name": "~CS",
             "swap_group": 0
         }
     },
