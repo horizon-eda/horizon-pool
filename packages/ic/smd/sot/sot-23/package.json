@@ -3,73 +3,43 @@
     "default_model": "1ebac498-5423-42dc-90a6-7ad333585f6a",
     "dimensions": {},
     "junctions": {
-        "09a7d18a-273b-4033-90e0-cdc0c06a4e8f": {
+        "04b53310-f930-48f3-9a6e-1b5d8aa19977": {
             "position": [
-                1075000,
-                1725000
-            ]
-        },
-        "4594eb85-9731-40b2-852c-ff34f242f1c7": {
-            "position": [
-                -1675000,
-                1725000
-            ]
-        },
-        "a055b955-c136-41cb-82c1-3b91339e3525": {
-            "position": [
-                1075000,
-                1725000
-            ]
-        },
-        "c451c2b1-6097-486d-b405-986a0f8c9e8c": {
-            "position": [
-                1075000,
+                875000,
                 -1725000
             ]
         },
-        "d4ae038e-556d-4438-a104-631379e85747": {
+        "4ebe6257-52ae-4a5a-9cd3-a7a83204a302": {
             "position": [
-                -1075000,
+                -1875000,
+                1725000
+            ]
+        },
+        "7567a20d-1edd-4233-b946-29e6c4346904": {
+            "position": [
+                875000,
+                1725000
+            ]
+        },
+        "e202b482-4b95-4e71-88b0-ac871aad226d": {
+            "position": [
+                -875000,
                 -1725000
-            ]
-        },
-        "e8342383-9c00-47d8-8359-bcb379136b0f": {
-            "position": [
-                1075000,
-                -625001
-            ]
-        },
-        "fc42d2d7-9500-4193-b9a9-55a47d6dc59f": {
-            "position": [
-                1075000,
-                625001
             ]
         }
     },
     "keepouts": {},
     "lines": {
-        "475d9fe5-71d9-45fb-ae3d-e0aa60b49538": {
-            "from": "c451c2b1-6097-486d-b405-986a0f8c9e8c",
+        "8476bc4d-f552-4903-8c6e-0454a652f89c": {
+            "from": "e202b482-4b95-4e71-88b0-ac871aad226d",
             "layer": 20,
-            "to": "e8342383-9c00-47d8-8359-bcb379136b0f",
+            "to": "04b53310-f930-48f3-9a6e-1b5d8aa19977",
             "width": 150000
         },
-        "5de05cc8-3b39-4b49-b9b2-6fb56148673c": {
-            "from": "d4ae038e-556d-4438-a104-631379e85747",
+        "bd7d3348-7483-442f-bced-51e7cc9a0b0e": {
+            "from": "7567a20d-1edd-4233-b946-29e6c4346904",
             "layer": 20,
-            "to": "c451c2b1-6097-486d-b405-986a0f8c9e8c",
-            "width": 150000
-        },
-        "76288433-4a7f-4b24-9521-32209ebeb727": {
-            "from": "fc42d2d7-9500-4193-b9a9-55a47d6dc59f",
-            "layer": 20,
-            "to": "09a7d18a-273b-4033-90e0-cdc0c06a4e8f",
-            "width": 150000
-        },
-        "9549db6c-125c-454c-9574-7a371d96d79c": {
-            "from": "a055b955-c136-41cb-82c1-3b91339e3525",
-            "layer": 20,
-            "to": "4594eb85-9731-40b2-852c-ff34f242f1c7",
+            "to": "4ebe6257-52ae-4a5a-9cd3-a7a83204a302",
             "width": 150000
         }
     },
@@ -89,8 +59,9 @@
     "pads": {
         "531c3759-a1b6-40c6-9474-5554dc94bcec": {
             "name": "3",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 170000,
                 "pad_height": 1000000,
                 "pad_width": 700000
             },
@@ -105,8 +76,9 @@
         },
         "9fe9b6c3-f887-4523-976a-6aa050235658": {
             "name": "1",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 170000,
                 "pad_height": 1000000,
                 "pad_width": 700000
             },
@@ -121,8 +93,9 @@
         },
         "be802fd1-5220-4258-a11f-c1529e6187e0": {
             "name": "2",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 170000,
                 "pad_height": 1000000,
                 "pad_width": 700000
             },
