@@ -1,73 +1,23 @@
 {
-    "_imp": {
-        "grid_spacing": 100000,
-        "layer_display": {
-            "layer_opacity": 40.0,
-            "layers": {
-                "-1": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-100": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-110": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-120": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-130": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-140": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-150": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "-160": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "0": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "10": {
-                    "display_mode": 2,
-                    "visible": true
-                },
-                "20": {
-                    "display_mode": 0,
-                    "visible": true
-                },
-                "30": {
-                    "display_mode": 1,
-                    "visible": true
-                },
-                "40": {
-                    "display_mode": 2,
-                    "visible": true
-                },
-                "50": {
-                    "display_mode": 2,
-                    "visible": true
-                },
-                "60": {
-                    "display_mode": 2,
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {},
+    "default_model": "24573f76-17f5-4c85-8314-9ec25f2ec7cd",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 100000
+        },
+        "grids": {}
+    },
     "junctions": {
         "178eb954-c0de-415e-bd97-0604079c1665": {
             "position": [
@@ -106,6 +56,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "481feb34-83e6-4456-9912-a0c1c28289fc": {
             "from": "c0ed33d9-b56d-4d14-8953-800f01a48be2",
@@ -133,6 +84,17 @@
         }
     },
     "manufacturer": "",
+    "models": {
+        "24573f76-17f5-4c85-8314-9ec25f2ec7cd": {
+            "filename": "3d_models/ic/so/SOIC-14_3.9x8.7mm_P1.27mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "SOIC-14",
     "pads": {
         "150ac7fa-7f46-49f2-ab10-8c0f447d0bd4": {
@@ -540,6 +502,18 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "ic",
@@ -548,11 +522,12 @@
     ],
     "texts": {
         "64389f00-54d2-4146-bef6-f5d6cdbbb5db": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
             "placement": {
-                "angle": 114688,
+                "angle": 49152,
                 "mirror": false,
                 "shift": [
                     0,
@@ -564,6 +539,7 @@
             "width": 0
         },
         "b6f7759a-1900-4731-9066-5a7a323dc360": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
