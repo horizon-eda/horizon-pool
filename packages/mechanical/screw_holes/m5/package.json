@@ -23,13 +23,13 @@
     "lines": {},
     "manufacturer": "",
     "models": {},
-    "name": "hole, screw, M3",
+    "name": "screw, hole, M5",
     "pads": {
         "ee951f30-e7c4-49b5-aa71-3db3ccc9a919": {
             "name": "1",
             "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
             "parameter_set": {
-                "hole_diameter": 3400000
+                "hole_diameter": 5500000
             },
             "placement": {
                 "angle": 0,
@@ -43,7 +43,7 @@
     },
     "parameter_program": "get-parameter [ hole_diameter ]\n2 *\nset-polygon [ assy-clearance circle 0.000mm 0.000mm ]",
     "parameter_set": {
-        "hole_diameter": 3400000
+        "hole_diameter": 5500000
     },
     "polygons": {
         "bd2b5522-52f1-4fb1-a00c-ceda0e0cd643": {
@@ -57,7 +57,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -3400000,
+                        -5500000,
                         0
                     ],
                     "type": "arc"
@@ -69,7 +69,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        3400000,
+                        5500000,
                         0
                     ],
                     "type": "arc"
@@ -81,7 +81,7 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        -3400000,
+                        -5500000,
                         0
                     ],
                     "type": "line"
@@ -115,7 +115,7 @@
                 "mirror": false,
                 "shift": [
                     -3500000,
-                    -4500000
+                    -6500000
                 ]
             },
             "size": 1000000,
@@ -132,7 +132,7 @@
                 "mirror": false,
                 "shift": [
                     -5000000,
-                    5000000
+                    7000000
                 ]
             },
             "size": 1500000,
@@ -141,5 +141,5 @@
         }
     },
     "type": "package",
-    "uuid": "e0eae263-442e-40ff-8c71-9b72ef3042ca"
+    "uuid": "e6e1e0fb-2718-4e46-9346-0307bb715c21"
 }
