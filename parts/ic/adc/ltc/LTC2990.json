@@ -12,6 +12,11 @@
         "Quad I2C Voltage, Current & Temp Monitor"
     ],
     "entity": "742fd756-41d3-4eba-879c-a8bc861f3bf4",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": false,
     "inherit_tags": false,
     "manufacturer": [
@@ -63,11 +68,14 @@
         }
     },
     "parametric": {},
-    "tags": [],
+    "tags": [
+        "ic"
+    ],
     "type": "part",
     "uuid": "cdb8a80a-a36a-42d0-ac83-05fc4e7bdc27",
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 0
 }
