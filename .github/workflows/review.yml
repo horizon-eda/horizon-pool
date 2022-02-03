@@ -60,6 +60,10 @@ jobs:
         run: git fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin master:master
         working-directory: pool
 
+      - name: get versions.json from master
+        run: git show master:versions.json > ../versions.json
+        working-directory: pool
+
       - name: create review
         uses: docker://horizoneda/horizon-pr-review:latest
         with:
@@ -67,6 +71,7 @@ jobs:
             /github/workspace/pool -u -o /github/workspace/comment.md
             -l /github/workspace/labels.json
             -i /github/workspace/media/${{ env.media_dir }}
+            -v /github/workspace/versions.json
             -p https://raw.githubusercontent.com/horizon-eda/poolbot-media/master/${{ env.media_dir }}/
 
       - name: print comment
