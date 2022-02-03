@@ -18,9 +18,101 @@
         },
         "grids": {}
     },
-    "junctions": {},
+    "junctions": {
+        "248d3942-cd3d-488a-b810-7a341bba227e": {
+            "position": [
+                12380000,
+                -4770000
+            ]
+        },
+        "28a18851-8f04-4faf-825e-c02808823cbb": {
+            "position": [
+                12380000,
+                2000000
+            ]
+        },
+        "311ce66b-6091-44da-b4e6-0000a0cf0fda": {
+            "position": [
+                -12380000,
+                -4770000
+            ]
+        },
+        "7b2b369f-46d9-450f-8eef-3e11ca7490e3": {
+            "position": [
+                12380000,
+                -2000000
+            ]
+        },
+        "9834d383-9af0-4235-9e60-84f4083db776": {
+            "position": [
+                -12380000,
+                2000000
+            ]
+        },
+        "a7710c47-54be-4470-a66b-b437e3f2bcae": {
+            "position": [
+                12380000,
+                4770000
+            ]
+        },
+        "e6e19c79-9a6f-4922-a0a6-6f1f4ffdbec8": {
+            "position": [
+                -12380000,
+                -2000000
+            ]
+        },
+        "f7eae9c8-c7e3-4f9a-9082-f54fefcf789e": {
+            "position": [
+                -12380000,
+                4770000
+            ]
+        },
+        "f82264a1-f956-4d14-a0c6-3586165ed040": {
+            "position": [
+                12380000,
+                4770000
+            ]
+        }
+    },
     "keepouts": {},
-    "lines": {},
+    "lines": {
+        "282be332-91d7-48c9-9082-799fb3720f2c": {
+            "from": "a7710c47-54be-4470-a66b-b437e3f2bcae",
+            "layer": 20,
+            "to": "f7eae9c8-c7e3-4f9a-9082-f54fefcf789e",
+            "width": 150000
+        },
+        "43e537da-180e-45a5-b043-14802caa2b07": {
+            "from": "e6e19c79-9a6f-4922-a0a6-6f1f4ffdbec8",
+            "layer": 20,
+            "to": "311ce66b-6091-44da-b4e6-0000a0cf0fda",
+            "width": 150000
+        },
+        "73a6e001-dd27-42c0-b3b2-4e6f912b2190": {
+            "from": "28a18851-8f04-4faf-825e-c02808823cbb",
+            "layer": 20,
+            "to": "f82264a1-f956-4d14-a0c6-3586165ed040",
+            "width": 150000
+        },
+        "8c41ddfb-1418-4f53-bbdd-0d8281c7cacb": {
+            "from": "248d3942-cd3d-488a-b810-7a341bba227e",
+            "layer": 20,
+            "to": "7b2b369f-46d9-450f-8eef-3e11ca7490e3",
+            "width": 150000
+        },
+        "a200ec2c-470c-463d-989d-41719d1446e9": {
+            "from": "f7eae9c8-c7e3-4f9a-9082-f54fefcf789e",
+            "layer": 20,
+            "to": "9834d383-9af0-4235-9e60-84f4083db776",
+            "width": 150000
+        },
+        "dc81edb9-1923-437b-93a3-c4399f382016": {
+            "from": "311ce66b-6091-44da-b4e6-0000a0cf0fda",
+            "layer": 20,
+            "to": "248d3942-cd3d-488a-b810-7a341bba227e",
+            "width": 150000
+        }
+    },
     "manufacturer": "Keystone",
     "models": {},
     "name": "4628",
