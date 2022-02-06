@@ -1,0 +1,185 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "71aacc07-c4d1-4d27-9a51-63aaa07b06b6": {
+            "position": [
+                10000000,
+                8750000
+            ]
+        },
+        "8bc881b8-e9e0-40e8-86d9-cdb79d47f201": {
+            "position": [
+                -10000000,
+                -8750000
+            ]
+        },
+        "db850597-a9c7-46fb-bf84-64e61133decf": {
+            "position": [
+                -10000000,
+                8750000
+            ]
+        },
+        "ea245653-6fa6-42f0-b7a5-31e49f33f255": {
+            "position": [
+                10000000,
+                -8750000
+            ]
+        }
+    },
+    "lines": {
+        "072d1c7e-0617-4d74-9d8a-c0afddb18587": {
+            "from": "ea245653-6fa6-42f0-b7a5-31e49f33f255",
+            "layer": 0,
+            "to": "8bc881b8-e9e0-40e8-86d9-cdb79d47f201",
+            "width": 0
+        },
+        "1154f4fe-0f77-47f0-8d70-8a426154fe63": {
+            "from": "71aacc07-c4d1-4d27-9a51-63aaa07b06b6",
+            "layer": 0,
+            "to": "ea245653-6fa6-42f0-b7a5-31e49f33f255",
+            "width": 0
+        },
+        "c8934a86-2c7d-42ce-95fe-b75d2d42931e": {
+            "from": "8bc881b8-e9e0-40e8-86d9-cdb79d47f201",
+            "layer": 0,
+            "to": "db850597-a9c7-46fb-bf84-64e61133decf",
+            "width": 0
+        },
+        "f34a1978-0990-4155-8e24-ee16edeb2ccb": {
+            "from": "db850597-a9c7-46fb-bf84-64e61133decf",
+            "layer": 0,
+            "to": "71aacc07-c4d1-4d27-9a51-63aaa07b06b6",
+            "width": 0
+        }
+    },
+    "name": "Liion LiPo Charger 1 Cell",
+    "pins": {
+        "04e5c3e8-60fb-46d7-b83c-42050fe2c7a5": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "perpendicular",
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                0,
+                -11250000
+            ]
+        },
+        "092aee12-7399-4428-a7eb-078fc8b22c87": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                -3750000
+            ]
+        },
+        "753c531a-7a0c-4d74-8fb9-924f67c6bb1a": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                3750000
+            ]
+        },
+        "805ebd4e-68b3-4490-8218-87fcc80f3d46": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -12500000,
+                3750000
+            ]
+        },
+        "b175243d-8400-4a1e-9394-b852694bbad6": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -12500000,
+                -3750000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "18d59a20-d845-48c7-950a-ecfd8902f590": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    10000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "db6a9d97-3e62-4807-a708-6571cfada462": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    -10000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "db637994-f4b0-4418-af9e-f16275e6a1c7",
+    "uuid": "c4818c4c-5efd-4df8-922f-4981fa5b3971"
+}
