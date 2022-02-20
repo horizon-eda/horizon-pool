@@ -60,6 +60,10 @@ jobs:
         run: git fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin master:master
         working-directory: pool
 
+      - name: get versions.json from master
+        run: git show master:versions.json > ../versions.json
+        working-directory: pool
+
       - name: create review
         uses: docker://horizoneda/horizon-pr-review:latest
         with:
@@ -67,6 +71,7 @@ jobs:
             /github/workspace/pool -u -o /github/workspace/comment.md
             -l /github/workspace/labels.json
             -i /github/workspace/media/${{ env.media_dir }}
+            -v /github/workspace/versions.json
             -p https://raw.githubusercontent.com/horizon-eda/poolbot-media/master/${{ env.media_dir }}/
 
       - name: print comment
@@ -80,15 +85,33 @@ jobs:
           git pull --rebase
           git push
 
-      - name: replace old comments
+      - name: minimize old comments
         run: |
-          curl -H "Accept: application/vnd.github.v3+json" \
-          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/comments?per_page=100 | \
-          jq '.[] | select(.user.id == 41898282) | .id' | xargs -I xx \
-          curl -X PATCH -H "Accept: application/vnd.github.v3+json" \
-          -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
-          https://api.github.com/repos/${{ github.repository }}/issues/comments/xx \
-          -d '{"body":"This review has been superseded. Scroll down to find the latest one."}'
+          IFS='/' read -r OWNER REPOSITORY <<< "${{github.repository}}"
+          echo $OWNER $REPOSITORY
+          jq -R --slurp '{query: .}' << EOF |
+          {
+            repository(name: "$REPOSITORY", owner: "$OWNER") {
+              pullRequest(number: ${{ github.event.issue.number }}) {
+                id
+                comments(last: 100) {
+                  nodes {
+                    author {
+                      login
+                    }
+                    id
+                    isMinimized
+                  }
+                }
+              }
+            }
+          }
+          EOF
+          curl -H 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+          -X POST ${{ github.graphql_url }} -d @- | \
+          jq '.data.repository.pullRequest.comments.nodes[] | select(.author.login=="github-actions" and .isMinimized == false) | .id' | \
+          xargs -I xx curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN}}" -X POST ${{ github.graphql_url }} \
+          -d "{\"query\":\"mutation { minimizeComment(input: {subjectId: \\"\"xx\\"\", classifier: OUTDATED}){clientMutationId}}\"}"
 
       - name: comment
         run: |
