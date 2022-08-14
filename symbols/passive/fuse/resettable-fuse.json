@@ -1,0 +1,195 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "0b5af67c-cede-4f1d-92f1-4d1ef861b3e4": {
+            "position": [
+                1500000,
+                -2500000
+            ]
+        },
+        "28013d43-0204-4074-9a23-3aea0ea884e3": {
+            "position": [
+                -1500000,
+                1500000
+            ]
+        },
+        "3fa6cb88-488b-488f-b94c-2018a92dd64f": {
+            "position": [
+                750000,
+                2500000
+            ]
+        },
+        "4ce24af3-ceb7-40a3-a073-c3ebd2d3bf5c": {
+            "position": [
+                -1500000,
+                2500000
+            ]
+        },
+        "632326e6-f849-4d60-a889-5758fc1f5b18": {
+            "position": [
+                -750000,
+                -2500000
+            ]
+        },
+        "6daed928-f7e2-47c5-9e4d-bcef951e86a0": {
+            "position": [
+                750000,
+                -2500000
+            ]
+        },
+        "7fee3a7b-9bf9-492f-bb2b-da09ff57a251": {
+            "position": [
+                1500000,
+                -1500000
+            ]
+        },
+        "8ad8c9dc-c22a-4cfb-b320-b93a8eaed3a3": {
+            "position": [
+                0,
+                -2500000
+            ]
+        },
+        "abb6c98f-4bb4-4dd1-a7c1-39de9468c939": {
+            "position": [
+                -750000,
+                2500000
+            ]
+        },
+        "f04ba7a9-0b93-4695-9f4f-507d4fecca3c": {
+            "position": [
+                0,
+                2500000
+            ]
+        }
+    },
+    "lines": {
+        "1b06ac07-e81c-4cf2-b63f-db47428ff1df": {
+            "from": "632326e6-f849-4d60-a889-5758fc1f5b18",
+            "layer": 0,
+            "to": "6daed928-f7e2-47c5-9e4d-bcef951e86a0",
+            "width": 0
+        },
+        "4ade6fbd-905a-44fc-9e6f-eec86c00306a": {
+            "from": "28013d43-0204-4074-9a23-3aea0ea884e3",
+            "layer": 0,
+            "to": "7fee3a7b-9bf9-492f-bb2b-da09ff57a251",
+            "width": 0
+        },
+        "65711334-cd18-45f0-aeca-4bfec699377f": {
+            "from": "abb6c98f-4bb4-4dd1-a7c1-39de9468c939",
+            "layer": 0,
+            "to": "632326e6-f849-4d60-a889-5758fc1f5b18",
+            "width": 0
+        },
+        "6e66cc89-780e-4c45-8261-ab7ed56d0563": {
+            "from": "7fee3a7b-9bf9-492f-bb2b-da09ff57a251",
+            "layer": 0,
+            "to": "0b5af67c-cede-4f1d-92f1-4d1ef861b3e4",
+            "width": 0
+        },
+        "791faf44-79ef-42e9-b02c-3273566bb79a": {
+            "from": "6daed928-f7e2-47c5-9e4d-bcef951e86a0",
+            "layer": 0,
+            "to": "3fa6cb88-488b-488f-b94c-2018a92dd64f",
+            "width": 0
+        },
+        "addb37ba-1bd3-4c82-9426-5ef4e457b7aa": {
+            "from": "f04ba7a9-0b93-4695-9f4f-507d4fecca3c",
+            "layer": 0,
+            "to": "8ad8c9dc-c22a-4cfb-b320-b93a8eaed3a3",
+            "width": 0
+        },
+        "b389ec5b-9ef9-4731-b63e-7e640730f722": {
+            "from": "3fa6cb88-488b-488f-b94c-2018a92dd64f",
+            "layer": 0,
+            "to": "abb6c98f-4bb4-4dd1-a7c1-39de9468c939",
+            "width": 0
+        },
+        "b89a6bc8-89ee-486b-8901-9baeb4225cf2": {
+            "from": "4ce24af3-ceb7-40a3-a073-c3ebd2d3bf5c",
+            "layer": 0,
+            "to": "28013d43-0204-4074-9a23-3aea0ea884e3",
+            "width": 0
+        }
+    },
+    "name": "Resettable fuse (PPTC, polyfuse)",
+    "pins": {
+        "0618f99d-7f20-473a-ab83-2f69e83986a7": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 1250000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "up",
+            "pad_visible": false,
+            "position": [
+                0,
+                3750000
+            ]
+        },
+        "68213838-6fff-4401-8fd1-1f69b1397a85": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 1250000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "down",
+            "pad_visible": false,
+            "position": [
+                0,
+                -3750000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "4f16d365-d7f8-47f6-81ed-9a10cbb46e7b": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    -3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "7be11cf8-48a6-4590-9480-5b5fc9af1dcb": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "4a06931a-b70f-4277-bec7-7aab818853c8",
+    "uuid": "a7cade9b-9c13-466f-a16c-2ed5539bd462",
+    "version": 1
+}
