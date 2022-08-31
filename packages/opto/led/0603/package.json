@@ -2,29 +2,45 @@
     "arcs": {},
     "default_model": "bb3da64d-20c6-408b-bff1-a83e492a3f7f",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 1000000
+        },
+        "grids": {}
+    },
     "junctions": {
         "083f2b7b-01ac-43f7-bebe-5249b79a126a": {
             "position": [
                 200000,
-                -600000
+                -700000
             ]
         },
         "14aad2a1-4f88-4aba-bdbe-125c2f708f1d": {
             "position": [
                 -1200000,
-                -600000
+                -700000
             ]
         },
         "150d8483-59cb-4030-8657-434a0121bc0f": {
             "position": [
                 200000,
-                600000
+                700000
             ]
         },
         "4e8f8ae5-f5e3-47f7-855c-438c8b642089": {
             "position": [
                 -1200000,
-                600000
+                700000
             ]
         }
     },
@@ -59,8 +75,9 @@
     "pads": {
         "1a32a4c6-0adc-4947-ab27-c14c3380ecc6": {
             "name": "1",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 180000,
                 "pad_height": 800000,
                 "pad_width": 800000
             },
@@ -75,8 +92,9 @@
         },
         "dec661f3-a37e-4510-b296-a64510e72bd3": {
             "name": "2",
-            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "padstack": "8e762581-e1b1-4fb4-81d3-7f8a1cabb97f",
             "parameter_set": {
+                "corner_radius": 180000,
                 "pad_height": 800000,
                 "pad_width": 800000
             },
@@ -283,8 +301,10 @@
         }
     },
     "tags": [
+        "603",
         "generic",
-        "led"
+        "led",
+        "smd"
     ],
     "texts": {
         "72f0c42f-2b19-49ed-9bdd-d3b886909281": {
