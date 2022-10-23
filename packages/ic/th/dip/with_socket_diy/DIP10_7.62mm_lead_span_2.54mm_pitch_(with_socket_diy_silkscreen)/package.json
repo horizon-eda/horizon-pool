@@ -1,147 +1,4 @@
 {
-    "_imp": {
-        "grid_spacing": 625000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                }
-            }
-        }
-    },
     "alternate_for": "d97dc6fe-6a77-4cd7-a6ae-555ea9c3735a",
     "arcs": {
         "14753141-9e4b-4d1c-ae91-0f799572dfaa": {
@@ -173,7 +30,24 @@
             "width": 0
         }
     },
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "101b0eae-da33-4c9c-a398-2d939570fd16",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 625000
+        },
+        "grids": {}
+    },
     "junctions": {
         "22e3b4d1-96f7-4c12-958d-e065d22dfad2": {
             "position": [
@@ -191,12 +65,6 @@
             "position": [
                 -2375000,
                 5500000
-            ]
-        },
-        "39813940-8d3d-4fa8-b4ac-1d9c35b099ee": {
-            "position": [
-                -2000000,
-                5497500
             ]
         },
         "64718648-03a9-49df-b22d-3cb09f07ad3b": {
@@ -248,6 +116,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "1c0de6a1-3778-4653-a33a-253cf74f4a73": {
             "from": "64718648-03a9-49df-b22d-3cb09f07ad3b",
@@ -275,7 +144,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "101b0eae-da33-4c9c-a398-2d939570fd16": {
+            "filename": "3d_models/ic/dip/DIP-10_W7.62mm_Socket.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": -3800000,
+            "y": 5100000,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "DIP10, 7.62 mm lead span 2.54 mm pitch (with socket, DIY silkscreen)",
     "pads": {
         "17f96b52-6224-4156-a2c9-3b4c292bf3ab": {
@@ -661,6 +540,18 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "socket",
@@ -668,6 +559,7 @@
     ],
     "texts": {
         "136bedfd-e2be-414a-a81e-5c8501bef791": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -684,6 +576,7 @@
             "width": 150000
         },
         "d19a9743-3530-4ad4-aaa8-e19dd7cc46d5": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",

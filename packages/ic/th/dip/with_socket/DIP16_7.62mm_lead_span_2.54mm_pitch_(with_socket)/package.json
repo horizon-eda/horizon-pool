@@ -1,72 +1,4 @@
 {
-    "_imp": {
-        "grid_spacing": 1250000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-100": {
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "-110": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-120": {
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "-130": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-140": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-150": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-160": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "0": {
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "20": {
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "30": {
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "40": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "50": {
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "60": {
-                    "display_mode": "outline",
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {
         "5e68da66-adac-4f22-b191-bdd175bfe209": {
             "center": "235e1f2b-9fe6-42ff-87d0-a1eca75ee20d",
@@ -92,11 +24,27 @@
     },
     "default_model": "8fcbc60e-4ed1-43b7-be14-ee4cd313201f",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 625000
+        },
+        "grids": {}
+    },
     "junctions": {
         "08b51e3f-ac8b-48e6-9b13-4eae8294c9fb": {
             "position": [
                 -2750000,
-                -10312500
+                -10375000
             ]
         },
         "235e1f2b-9fe6-42ff-87d0-a1eca75ee20d": {
@@ -114,13 +62,13 @@
         "35987ba0-bfd1-4d94-8238-16a6352e9261": {
             "position": [
                 2500000,
-                10250000
+                10375000
             ]
         },
         "43cc1e00-6de2-4cd0-9fbc-80397505e291": {
             "position": [
                 -5000000,
-                10250000
+                10375000
             ]
         },
         "744b39e0-e6ae-4848-8c6c-3337674dea6f": {
@@ -150,7 +98,7 @@
         "dfdc471a-3e51-4cde-a162-edcbd817d8ae": {
             "position": [
                 2750000,
-                -10312500
+                -10375000
             ]
         }
     },
@@ -662,6 +610,18 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "socket",
@@ -678,7 +638,7 @@
                 "mirror": false,
                 "shift": [
                     -5062500,
-                    11312500
+                    11437500
                 ]
             },
             "size": 1000000,
