@@ -1,0 +1,151 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "3909cb98-1cd3-4737-a9da-c330906c2553": {
+            "position": [
+                -7500000,
+                -5000000
+            ]
+        },
+        "480f85d8-593d-4b47-bf1b-5c5ed9d8d189": {
+            "position": [
+                7500000,
+                5000000
+            ]
+        },
+        "c54098c9-12ad-47e5-bd8f-ed16448e5b8b": {
+            "position": [
+                -7500000,
+                5000000
+            ]
+        },
+        "db706fe6-2772-409e-a278-195d725dbb0f": {
+            "position": [
+                7500000,
+                -5000000
+            ]
+        }
+    },
+    "lines": {
+        "2d56a0d0-7fec-43ae-8664-b3208bd8ebc4": {
+            "from": "db706fe6-2772-409e-a278-195d725dbb0f",
+            "layer": 0,
+            "to": "3909cb98-1cd3-4737-a9da-c330906c2553",
+            "width": 0
+        },
+        "c1e90cb5-e940-44e5-8ab9-bc7ad5d33ebf": {
+            "from": "480f85d8-593d-4b47-bf1b-5c5ed9d8d189",
+            "layer": 0,
+            "to": "db706fe6-2772-409e-a278-195d725dbb0f",
+            "width": 0
+        },
+        "ce06d834-3675-4f74-b2ba-a5c623ecea6d": {
+            "from": "c54098c9-12ad-47e5-bd8f-ed16448e5b8b",
+            "layer": 0,
+            "to": "480f85d8-593d-4b47-bf1b-5c5ed9d8d189",
+            "width": 0
+        },
+        "f4fe2175-205a-4c29-9890-f0fc774fedbd": {
+            "from": "3909cb98-1cd3-4737-a9da-c330906c2553",
+            "layer": 0,
+            "to": "c54098c9-12ad-47e5-bd8f-ed16448e5b8b",
+            "width": 0
+        }
+    },
+    "name": "MCU GPIO port D 0-2",
+    "pins": {
+        "19991ce1-01f6-4aeb-8f49-9146cd90ee42": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                10000000,
+                0
+            ]
+        },
+        "5ab3e8ae-f782-49ee-839d-075b79fc9b2d": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                10000000,
+                -2500000
+            ]
+        },
+        "d4b26bbc-0a7b-428d-90da-04e7175cca2e": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                10000000,
+                2500000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "083fe825-4af6-4741-b63f-02463eaa32af": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -7500000,
+                    6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "0ecebeeb-8315-4165-ac59-9026074bf449": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -7500000,
+                    -6250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "118328bd-8d7b-4122-92f2-b5575759c3ea",
+    "uuid": "3ac41e3f-d280-4e6d-a299-9e993e48ee03"
+}
