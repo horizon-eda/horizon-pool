@@ -4,26 +4,26 @@
     "junctions": {
         "5fc50011-ed0b-464b-8341-f81b157679fd": {
             "position": [
-                -7500000,
-                -5000000
+                -10000000,
+                -7500000
             ]
         },
         "9785f2f7-02b7-4478-bcb5-116273c60a39": {
             "position": [
-                -7500000,
-                5000000
+                -10000000,
+                7500000
             ]
         },
         "b1cd3ff1-0d0c-4a1e-bdfe-c6a2b31e154d": {
             "position": [
-                7500000,
-                5000000
+                10000000,
+                7500000
             ]
         },
         "e2450630-86f0-4512-9af7-e9cf1b8e755f": {
             "position": [
-                7500000,
-                -5000000
+                10000000,
+                -7500000
             ]
         }
     },
@@ -53,9 +53,9 @@
             "width": 0
         }
     },
-    "name": "MCU base NRST Boot0",
+    "name": "STM32F105RxTx main",
     "pins": {
-        "5d1131e6-9b25-4e15-aaee-af6c47252f42": {
+        "060eb3ad-ab36-4b2c-95e8-2534756da040": {
             "decoration": {
                 "clock": false,
                 "dot": false,
@@ -68,8 +68,42 @@
             "orientation": "right",
             "pad_visible": true,
             "position": [
-                10000000,
-                2500000
+                12500000,
+                5000000
+            ]
+        },
+        "588bc952-6f68-4378-a324-c57250ba0a04": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                12500000,
+                -5000000
+            ]
+        },
+        "5d1131e6-9b25-4e15-aaee-af6c47252f42": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -12500000,
+                5000000
             ]
         },
         "76177868-49b5-4d06-af00-0c95e9fbf4ce": {
@@ -82,11 +116,28 @@
             "length": 2500000,
             "name_orientation": "in_line",
             "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -12500000,
+                -5000000
+            ]
+        },
+        "d8e15065-f47b-42ad-9c89-1d7e450101a1": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
             "orientation": "right",
             "pad_visible": true,
             "position": [
-                10000000,
-                -2500000
+                12500000,
+                0
             ]
         }
     },
@@ -102,8 +153,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -7500000,
-                    -6250000
+                    -10000000,
+                    -8750000
                 ]
             },
             "size": 1500000,
@@ -119,8 +170,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -7500000,
-                    6250000
+                    -10000000,
+                    8750000
                 ]
             },
             "size": 1500000,
