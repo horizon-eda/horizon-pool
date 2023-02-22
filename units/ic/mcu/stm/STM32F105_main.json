@@ -3,6 +3,12 @@
     "name": "STM32F105 main",
     "pins": {
         "060eb3ad-ab36-4b2c-95e8-2534756da040": {
+            "alt_names": {
+                "8db49038-59a9-49f5-b69e-ebfdd859cf0e": {
+                    "direction": "bidirectional",
+                    "name": "PD0"
+                }
+            },
             "direction": "input",
             "names": [],
             "primary_name": "OSC_IN",
@@ -37,6 +43,12 @@
             "swap_group": 0
         },
         "d8e15065-f47b-42ad-9c89-1d7e450101a1": {
+            "alt_names": {
+                "cb0e5163-112c-4772-9470-3ba66d582fba": {
+                    "direction": "bidirectional",
+                    "name": "PD1"
+                }
+            },
             "direction": "output",
             "names": [],
             "primary_name": "OSC_OUT",
