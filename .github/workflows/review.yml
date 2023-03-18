@@ -65,7 +65,7 @@ jobs:
         working-directory: pool
 
       - name: create review
-        uses: docker://horizoneda/horizon-pr-review:latest
+        uses: docker://ghcr.io/horizon-eda/horizon-pr-review:latest
         with:
           args: >-
             /github/workspace/pool -u -o /github/workspace/comment.md
