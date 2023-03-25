@@ -1,7 +1,7 @@
 {
     "MPN": [
         false,
-        "base sot-523 P-channel MOSFET"
+        "base sot-523 N-channel MOSFET GSD"
     ],
     "datasheet": [
         false,
@@ -9,9 +9,14 @@
     ],
     "description": [
         false,
-        ""
+        "BASE N-channel MOSFET"
     ],
-    "entity": "f1cafe55-ca30-4a2f-9c9e-ae06f9ea7859",
+    "entity": "c135130c-0663-4575-9083-3b328ac00c90",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": false,
     "inherit_tags": false,
     "manufacturer": [
@@ -37,12 +42,14 @@
     "parametric": {},
     "tags": [
         "mosfet",
-        "p-channel"
+        "n-channel",
+        "transistor"
     ],
     "type": "part",
-    "uuid": "35ada0b9-8abc-4537-9c4c-c09b15a53d44",
+    "uuid": "0d0603aa-0149-4343-b4e6-1ac0fd661c0e",
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }
