@@ -1,16 +1,16 @@
 {
     "MPN": [
         false,
-        "2N7002T-7-F"
+        "2N7002T"
     ],
-    "base": "0d0603aa-0149-4343-b4e6-1ac0fd661c0e",
+    "base": "169a3669-af0e-4bca-bea7-39b4a6b74ff8",
     "datasheet": [
         false,
         "https://www.diodes.com/assets/Datasheets/ds30301.pdf"
     ],
     "description": [
         false,
-        "N-channel enhancement mode MOSFET"
+        "N-channel MOSFET, 60V, 115mA, 7.5Ω"
     ],
     "inherit_model": true,
     "inherit_tags": true,
@@ -19,12 +19,16 @@
         "Diodes Inc."
     ],
     "model": "4827c055-903e-4c48-a27b-167101c52549",
+    "orderable_MPNs": {
+        "0c70ccd8-2756-4ca9-a5ba-590db610b6ad": "2N7002T-7-F",
+        "d6383db1-5071-44a2-8889-4ba708fafdc1": "2N7002T-13-F"
+    },
     "parametric": {},
     "tags": [],
     "type": "part",
-    "uuid": "518f0a69-791d-44a8-8c29-054e9a715ab9",
+    "uuid": "3fe72aa8-fbf4-432d-a11a-dbb67c4d5078",
     "value": [
         true,
-        "base sot-523 N-channel MOSFET"
+        "base sot-523 N-MOSFET wDiode GSD"
     ]
 }

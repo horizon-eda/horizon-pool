@@ -1,36 +1,41 @@
 {
     "MPN": [
         false,
-        "TSM650P02CX RFG"
+        "base P-MOSFET wDiode SOT-23 GSD"
     ],
     "datasheet": [
         false,
-        "https://www.taiwansemi.com/assets/uploads/datasheet/TSM650P02CX_B1811.pdf"
+        ""
     ],
     "description": [
         false,
-        "20V P-Channel Power MOSFET"
+        "BASE P-channel MOSFET with flyback diode, V, A, Ω"
     ],
-    "entity": "f1cafe55-ca30-4a2f-9c9e-ae06f9ea7859",
-    "inherit_model": false,
+    "entity": "44c55073-bd0a-4a7a-ba32-a0103bb147fc",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
+    "inherit_model": true,
     "inherit_tags": false,
     "manufacturer": [
         false,
-        "Taiwan Semiconductor"
+        ""
     ],
     "model": "1ebac498-5423-42dc-90a6-7ad333585f6a",
     "package": "a37e4931-af72-4de0-b4e4-0357747ba44d",
     "pad_map": {
         "531c3759-a1b6-40c6-9474-5554dc94bcec": {
-            "gate": "6dce85e8-6b70-44ac-8ae8-d17152c3707a",
+            "gate": "58fece65-a9c7-43ee-a99d-2e68a7436096",
             "pin": "4887ef47-94f0-4fd1-b552-c424bd37a3e7"
         },
         "9fe9b6c3-f887-4523-976a-6aa050235658": {
-            "gate": "6dce85e8-6b70-44ac-8ae8-d17152c3707a",
+            "gate": "58fece65-a9c7-43ee-a99d-2e68a7436096",
             "pin": "074c3718-08fd-4f94-88fc-2bb43174b245"
         },
         "be802fd1-5220-4258-a11f-c1529e6187e0": {
-            "gate": "6dce85e8-6b70-44ac-8ae8-d17152c3707a",
+            "gate": "58fece65-a9c7-43ee-a99d-2e68a7436096",
             "pin": "eb63ac9a-5d7e-42e2-92ea-a140a97f47d0"
         }
     },
@@ -38,12 +43,14 @@
     "tags": [
         "mosfet",
         "p-channel",
-        "smd"
+        "smd",
+        "transistor"
     ],
     "type": "part",
-    "uuid": "8686c6f7-2d94-46ec-bd9f-999c67ef3231",
+    "uuid": "572e31b7-238a-4866-a45e-379fad5fa9ea",
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }

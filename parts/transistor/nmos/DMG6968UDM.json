@@ -1,7 +1,7 @@
 {
     "MPN": [
         false,
-        "DMG6968UDM-7"
+        "DMG6968UDM"
     ],
     "datasheet": [
         false,
@@ -9,16 +9,19 @@
     ],
     "description": [
         false,
-        "Dual N-Channel Enhancement Mode MOSFET"
+        "Dual N-Channel MOSFET, 20V, 6.5A, 24mΩ"
     ],
     "entity": "ffb721c7-aa8a-4b8b-b7df-5175786d446c",
     "inherit_model": false,
     "inherit_tags": false,
     "manufacturer": [
         false,
-        "Diodes Incorporated"
+        "Diodes Inc."
     ],
     "model": "eb54e7ca-dcad-4e09-bd45-d2e32cddaa2a",
+    "orderable_MPNs": {
+        "011c4f35-db62-4fa3-bc3e-269ad91fbef7": "DMG6968UDM-7"
+    },
     "package": "db48b860-9206-4222-b531-dea96399c70b",
     "pad_map": {
         "40a9f890-5335-4ead-bd4a-d1dba2de41ae": {
@@ -50,6 +53,8 @@
     "tags": [
         "dual",
         "mosfet",
+        "n-channel",
+        "smd",
         "transistor"
     ],
     "type": "part",

@@ -3,47 +3,28 @@
         false,
         "AO3401A"
     ],
+    "base": "572e31b7-238a-4866-a45e-379fad5fa9ea",
     "datasheet": [
         false,
         "http://aosmd.com/pdfs/datasheet/AO3401A.pdf"
     ],
     "description": [
         false,
-        "P-channel MOSFET, -30V, -4A"
+        "P-channel MOSFET, -30V, -4A, 50mΩ"
     ],
-    "entity": "f1cafe55-ca30-4a2f-9c9e-ae06f9ea7859",
-    "inherit_model": false,
-    "inherit_tags": false,
+    "inherit_model": true,
+    "inherit_tags": true,
     "manufacturer": [
         false,
         "Alpha & Omega Semiconductor"
     ],
     "model": "1ebac498-5423-42dc-90a6-7ad333585f6a",
-    "package": "a37e4931-af72-4de0-b4e4-0357747ba44d",
-    "pad_map": {
-        "531c3759-a1b6-40c6-9474-5554dc94bcec": {
-            "gate": "6dce85e8-6b70-44ac-8ae8-d17152c3707a",
-            "pin": "4887ef47-94f0-4fd1-b552-c424bd37a3e7"
-        },
-        "9fe9b6c3-f887-4523-976a-6aa050235658": {
-            "gate": "6dce85e8-6b70-44ac-8ae8-d17152c3707a",
-            "pin": "074c3718-08fd-4f94-88fc-2bb43174b245"
-        },
-        "be802fd1-5220-4258-a11f-c1529e6187e0": {
-            "gate": "6dce85e8-6b70-44ac-8ae8-d17152c3707a",
-            "pin": "eb63ac9a-5d7e-42e2-92ea-a140a97f47d0"
-        }
-    },
     "parametric": {},
-    "tags": [
-        "mosfet",
-        "p-channel",
-        "transistor"
-    ],
+    "tags": [],
     "type": "part",
-    "uuid": "f296c878-ba0a-429b-ab69-dceb4f390207",
+    "uuid": "d617d896-9cd5-4162-b8a2-a4efc48c0848",
     "value": [
-        false,
-        ""
+        true,
+        "base sot-23 P-MOSFET wDiode GSD"
     ]
 }

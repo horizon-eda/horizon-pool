@@ -1,16 +1,16 @@
 {
     "MPN": [
         false,
-        "DMG1013T-7"
+        "DMG1013T"
     ],
-    "base": "35ada0b9-8abc-4537-9c4c-c09b15a53d44",
+    "base": "1be9f925-8f1a-4c0e-9acd-b86768a939d8",
     "datasheet": [
         false,
         "https://www.diodes.com/assets/Datasheets/ds31784.pdf"
     ],
     "description": [
         false,
-        "P-Channel MOSFET, 20V, 460mA"
+        "P-channel MOSFET, 20V, 460mA, 0.7Ω"
     ],
     "inherit_model": true,
     "inherit_tags": true,
@@ -19,12 +19,15 @@
         "Diodes Inc."
     ],
     "model": "4827c055-903e-4c48-a27b-167101c52549",
+    "orderable_MPNs": {
+        "f66f11be-b202-4dae-bfe7-5f234a2915f1": "DMG1013T-7"
+    },
     "parametric": {},
     "tags": [],
     "type": "part",
-    "uuid": "84e62734-b01a-4616-93f1-ccd371be9a2c",
+    "uuid": "6f9a3517-8599-4c90-81cb-4c60d249a9be",
     "value": [
         true,
-        "base sot-523 P-channel MOSFET"
+        "base sot-523 P-MOSFET wDiode GSD"
     ]
 }
