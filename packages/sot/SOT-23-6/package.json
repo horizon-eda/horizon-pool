@@ -2,29 +2,45 @@
     "arcs": {},
     "default_model": "eb54e7ca-dcad-4e09-bd45-d2e32cddaa2a",
     "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 1000000
+        },
+        "grids": {}
+    },
     "junctions": {
         "3cc42a22-9df5-4f80-8574-17781e372d09": {
             "position": [
                 -800000,
-                -1600000
+                -1750000
             ]
         },
         "875674a6-ac04-48ab-a5df-8e1119d2cea5": {
             "position": [
                 -1600000,
-                1600000
+                1750000
             ]
         },
         "bf224a2e-7bff-4f09-bfe1-5bfa4244a15b": {
             "position": [
                 800000,
-                -1600000
+                -1750000
             ]
         },
         "f2f9afc4-b2b8-4bfa-8f0b-351e34a90910": {
             "position": [
                 800000,
-                1600000
+                1750000
             ]
         }
     },
@@ -55,7 +71,7 @@
             "z": 0
         }
     },
-    "name": "SOT-23-6",
+    "name": "SOT-23-6, SOT-26",
     "pads": {
         "40a9f890-5335-4ead-bd4a-d1dba2de41ae": {
             "name": "6",
@@ -332,6 +348,18 @@
                     "type": "line"
                 }
             ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
         }
     },
     "tags": [
