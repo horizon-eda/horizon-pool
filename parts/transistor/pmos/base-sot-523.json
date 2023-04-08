@@ -9,9 +9,14 @@
     ],
     "description": [
         false,
-        ""
+        "base P-channel MOSFET, SOT-523"
     ],
     "entity": "f1cafe55-ca30-4a2f-9c9e-ae06f9ea7859",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": false,
     "inherit_tags": false,
     "manufacturer": [
@@ -37,12 +42,15 @@
     "parametric": {},
     "tags": [
         "mosfet",
-        "p-channel"
+        "p-channel",
+        "smd",
+        "transistor"
     ],
     "type": "part",
     "uuid": "35ada0b9-8abc-4537-9c4c-c09b15a53d44",
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }

@@ -1,7 +1,7 @@
 {
     "MPN": [
         false,
-        "TSM650P02CX RFG"
+        "TSM650P02CX"
     ],
     "datasheet": [
         false,
@@ -9,7 +9,7 @@
     ],
     "description": [
         false,
-        "20V P-Channel Power MOSFET"
+        "P-channel MOSFET, -20V, -4.1A, 65mΩ"
     ],
     "entity": "f1cafe55-ca30-4a2f-9c9e-ae06f9ea7859",
     "inherit_model": false,
@@ -19,6 +19,9 @@
         "Taiwan Semiconductor"
     ],
     "model": "1ebac498-5423-42dc-90a6-7ad333585f6a",
+    "orderable_MPNs": {
+        "ba77ac22-2835-41a8-ad43-960aef5c63e2": "TSM650P02CX RFG"
+    },
     "package": "a37e4931-af72-4de0-b4e4-0357747ba44d",
     "pad_map": {
         "531c3759-a1b6-40c6-9474-5554dc94bcec": {
@@ -38,7 +41,8 @@
     "tags": [
         "mosfet",
         "p-channel",
-        "smd"
+        "smd",
+        "transistor"
     ],
     "type": "part",
     "uuid": "8686c6f7-2d94-46ec-bd9f-999c67ef3231",
