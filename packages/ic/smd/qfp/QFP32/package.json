@@ -710,8 +710,10 @@
             }
         }
     },
-    "parameter_program": "",
-    "parameter_set": {},
+    "parameter_program": "10.000mm 10.000mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
     "polygons": {
         "ec8a2e96-e389-420e-9a6b-d0ba70a857a5": {
             "layer": 40,
@@ -790,32 +792,32 @@
                     ],
                     "arc_reverse": false,
                     "position": [
-                        5250000,
-                        -5250000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
-                        5250000,
-                        5250000
-                    ],
-                    "type": "line"
-                },
-                {
-                    "arc_center": [
-                        0,
-                        0
-                    ],
-                    "arc_reverse": false,
-                    "position": [
                         -5250000,
                         5250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        5250000,
+                        5250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        5250000,
+                        -5250000
                     ],
                     "type": "line"
                 }
