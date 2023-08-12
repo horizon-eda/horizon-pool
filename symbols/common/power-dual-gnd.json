@@ -1,0 +1,151 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "017220bc-e886-4d5b-96c3-2d59e2b4e63f": {
+            "position": [
+                2500000,
+                -3750000
+            ]
+        },
+        "4de94f35-554b-45a6-83f5-20fcc04fdc10": {
+            "position": [
+                -2500000,
+                3750000
+            ]
+        },
+        "ac75b495-ad48-4c9f-a9ea-9f9c77476f2e": {
+            "position": [
+                2500000,
+                3750000
+            ]
+        },
+        "af2c9c6d-146e-445f-83ae-20a991063e75": {
+            "position": [
+                -2500000,
+                -3750000
+            ]
+        }
+    },
+    "lines": {
+        "44fa9da3-91d6-4fdc-8c62-93c570799292": {
+            "from": "4de94f35-554b-45a6-83f5-20fcc04fdc10",
+            "layer": 0,
+            "to": "ac75b495-ad48-4c9f-a9ea-9f9c77476f2e",
+            "width": 0
+        },
+        "83d11958-932a-4bd6-95a6-8f101aa6ec43": {
+            "from": "ac75b495-ad48-4c9f-a9ea-9f9c77476f2e",
+            "layer": 0,
+            "to": "017220bc-e886-4d5b-96c3-2d59e2b4e63f",
+            "width": 0
+        },
+        "8be86873-28ad-410f-b45b-4e82ca176d9a": {
+            "from": "017220bc-e886-4d5b-96c3-2d59e2b4e63f",
+            "layer": 0,
+            "to": "af2c9c6d-146e-445f-83ae-20a991063e75",
+            "width": 0
+        },
+        "e8bdaf48-f93f-4cad-a20c-ae59add02419": {
+            "from": "af2c9c6d-146e-445f-83ae-20a991063e75",
+            "layer": 0,
+            "to": "4de94f35-554b-45a6-83f5-20fcc04fdc10",
+            "width": 0
+        }
+    },
+    "name": "Dual power with GND",
+    "pins": {
+        "21a8f74f-652c-41e7-87cd-3734cae0ee52": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "perpendicular",
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                0,
+                6250000
+            ]
+        },
+        "31ff91ed-5f99-464f-b1b6-1480fb83fd16": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                5000000,
+                0
+            ]
+        },
+        "361ab549-44ca-4a8f-8baa-f84b129bd353": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "perpendicular",
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                0,
+                -6250000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "67c91691-5795-40fa-bf24-0fdcbd5700ba": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    5000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "a23f8d7c-cdb7-4631-90a1-d805ba331b3b": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    -5000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "181063c3-1fb2-46c5-9543-7283fadfc117",
+    "uuid": "7b7f9caa-63dd-40db-b30d-a5c11fde2555"
+}
