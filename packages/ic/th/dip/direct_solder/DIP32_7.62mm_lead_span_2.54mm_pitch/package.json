@@ -1,147 +1,4 @@
 {
-    "_imp": {
-        "grid_spacing": 1250000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {
         "5e68da66-adac-4f22-b191-bdd175bfe209": {
             "center": "235e1f2b-9fe6-42ff-87d0-a1eca75ee20d",
@@ -165,7 +22,24 @@
             "width": 0
         }
     },
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "a60fdaae-74e1-45c9-a2ce-e609654e831d",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 1250000
+        },
+        "grids": {}
+    },
     "junctions": {
         "08b51e3f-ac8b-48e6-9b13-4eae8294c9fb": {
             "position": [
@@ -228,6 +102,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "d3b2d073-6051-4810-9ddd-7fed1179060b": {
             "from": "08b51e3f-ac8b-48e6-9b13-4eae8294c9fb",
@@ -243,7 +118,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "a60fdaae-74e1-45c9-a2ce-e609654e831d": {
+            "filename": "3d_models/ic/dip/DIP-32_W7.62mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": -3800000,
+            "y": 19000000,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "DIP32, 7.62 mm lead span 2.54 mm pitch",
     "pads": {
         "02063fa6-c325-4df2-bb77-571f28da4f89": {
@@ -258,7 +143,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -8750000
+                    -8890000
                 ]
             }
         },
@@ -274,7 +159,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -13750000
+                    -13970000
                 ]
             }
         },
@@ -290,7 +175,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -1250000
+                    -1270000
                 ]
             }
         },
@@ -306,7 +191,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    6250000
+                    6350000
                 ]
             }
         },
@@ -322,7 +207,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -16250000
+                    -16510000
                 ]
             }
         },
@@ -338,7 +223,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    16250000
+                    16510000
                 ]
             }
         },
@@ -354,7 +239,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    1250000
+                    1270000
                 ]
             }
         },
@@ -370,7 +255,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    8750000
+                    8890000
                 ]
             }
         },
@@ -386,7 +271,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -13750000
+                    -13970000
                 ]
             }
         },
@@ -402,7 +287,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    16250000
+                    16510000
                 ]
             }
         },
@@ -418,7 +303,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    8750000
+                    8890000
                 ]
             }
         },
@@ -434,7 +319,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    11250000
+                    11430000
                 ]
             }
         },
@@ -450,7 +335,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -3750000
+                    -3810000
                 ]
             }
         },
@@ -466,7 +351,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    13750000
+                    13970000
                 ]
             }
         },
@@ -482,7 +367,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    3750000
+                    3810000
                 ]
             }
         },
@@ -498,7 +383,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    1250000
+                    1270000
                 ]
             }
         },
@@ -514,7 +399,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    18750000
+                    19050000
                 ]
             }
         },
@@ -530,7 +415,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -1250000
+                    -1270000
                 ]
             }
         },
@@ -546,7 +431,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    11250000
+                    11430000
                 ]
             }
         },
@@ -562,7 +447,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    18750000
+                    19050000
                 ]
             }
         },
@@ -578,7 +463,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    3750000
+                    3810000
                 ]
             }
         },
@@ -594,7 +479,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -6250000
+                    -6350000
                 ]
             }
         },
@@ -610,7 +495,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -8750000
+                    -8890000
                 ]
             }
         },
@@ -626,7 +511,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -16250000
+                    -16510000
                 ]
             }
         },
@@ -642,7 +527,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -18750000
+                    -19050000
                 ]
             }
         },
@@ -658,7 +543,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -6250000
+                    -6350000
                 ]
             }
         },
@@ -674,7 +559,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    6250000
+                    6350000
                 ]
             }
         },
@@ -690,7 +575,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -11250000
+                    -11430000
                 ]
             }
         },
@@ -706,7 +591,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -11250000
+                    -11430000
                 ]
             }
         },
@@ -722,7 +607,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -3750000
+                    -3810000
                 ]
             }
         },
@@ -738,7 +623,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -18750000
+                    -19050000
                 ]
             }
         },
@@ -754,7 +639,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    13750000
+                    13970000
                 ]
             }
         }
@@ -951,12 +836,25 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "th"
     ],
     "texts": {
         "136bedfd-e2be-414a-a81e-5c8501bef791": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -973,6 +871,7 @@
             "width": 150000
         },
         "d19a9743-3530-4ad4-aaa8-e19dd7cc46d5": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
