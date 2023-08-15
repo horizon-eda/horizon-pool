@@ -1,0 +1,190 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "05c2c6ab-95ea-41ff-8785-291f79cb81ee": {
+            "position": [
+                -12500000,
+                13750000
+            ]
+        },
+        "39e670ec-53ef-4009-b68c-0e10ef4be217": {
+            "position": [
+                -12500000,
+                -13750000
+            ]
+        },
+        "75d96134-0bff-4f58-a8be-94061a72da79": {
+            "position": [
+                12500000,
+                0
+            ]
+        }
+    },
+    "lines": {
+        "1653eab6-6554-43bf-90bb-926e6640a839": {
+            "from": "75d96134-0bff-4f58-a8be-94061a72da79",
+            "layer": 0,
+            "to": "39e670ec-53ef-4009-b68c-0e10ef4be217",
+            "width": 0
+        },
+        "59e97cb9-3364-4d06-8291-568ac7fd76a3": {
+            "from": "39e670ec-53ef-4009-b68c-0e10ef4be217",
+            "layer": 0,
+            "to": "05c2c6ab-95ea-41ff-8785-291f79cb81ee",
+            "width": 0
+        },
+        "954f3465-254e-4a4d-9535-74e995d41377": {
+            "from": "05c2c6ab-95ea-41ff-8785-291f79cb81ee",
+            "layer": 0,
+            "to": "75d96134-0bff-4f58-a8be-94061a72da79",
+            "width": 0
+        }
+    },
+    "name": "Instrumentation Amplifier with Ref out and setable Gain",
+    "pins": {
+        "24f69a2b-b10c-43ba-aa0f-1245e69cd0c4": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -15000000,
+                10000000
+            ]
+        },
+        "b564dd19-20b9-4851-a5fd-def5f784c8c2": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -15000000,
+                5000000
+            ]
+        },
+        "deca1fe8-7952-4881-82ff-a00f051557f6": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -15000000,
+                -10000000
+            ]
+        },
+        "e400cb93-b0da-496f-84a2-fc62e8e84ca5": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2800000,
+            "name_orientation": "horizontal",
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                -6250000
+            ]
+        },
+        "f13f6633-980e-41df-8b97-d8955639c6d3": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                15000000,
+                0
+            ]
+        },
+        "ff7319f3-c1bc-48cf-b15a-15d033e45fc9": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -15000000,
+                -5000000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "3162ff3e-c32f-4ee6-aa61-68583cb7206a": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -5000000,
+                    -12500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "6033287e-090f-43bd-903c-695e5adf27f1": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -5000000,
+                    12500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "80abde47-53fc-41b9-ba22-4c6847c7e02f",
+    "uuid": "ad7b9be7-8934-424e-9703-fcd06792c209"
+}
