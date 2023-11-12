@@ -1,23 +1,23 @@
 {
-    "manufacturer": "",
+    "manufacturer": "Texas Instruments",
     "name": "GPIO expander 16ch I2C with interrupt",
     "pins": {
         "0a0c77ed-8447-47a3-9c81-c30c5ba26c74": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_5",
+            "primary_name": "P15",
             "swap_group": 0
         },
         "0a72926d-742c-425d-8def-c67aeb65483b": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_6",
+            "primary_name": "P16",
             "swap_group": 0
         },
         "116396df-1eed-48d7-abd4-409bd5517c84": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_3",
+            "primary_name": "P13",
             "swap_group": 0
         },
         "1ae793bc-cd45-4814-a1b4-1273bb4d7f21": {
@@ -29,26 +29,16 @@
         "22fdc101-d120-45e5-a34f-814470a5f5a6": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_1",
+            "primary_name": "P11",
             "swap_group": 0
         },
         "3ae65c7f-8aa4-4ca5-b4cb-5bea0167fcac": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_1",
+            "primary_name": "P01",
             "swap_group": 0
         },
         "465dc9ca-38e0-4c3c-8215-0d7baee35b92": {
-            "alt_names": {
-                "0c04c4cd-8559-47e1-84a3-e315a47c4aa6": {
-                    "direction": "power_input",
-                    "name": "Vss"
-                },
-                "11098903-6dad-45bc-a847-c4b7fc3e7208": {
-                    "direction": "power_input",
-                    "name": "Vee"
-                }
-            },
             "direction": "power_input",
             "names": [],
             "primary_name": "GND",
@@ -63,13 +53,13 @@
         "6ae2f42f-b90b-4549-a0db-971e595b733b": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_7",
+            "primary_name": "P07",
             "swap_group": 0
         },
         "7b3970c4-e84d-437d-a512-370f545eb62a": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_6",
+            "primary_name": "P06",
             "swap_group": 0
         },
         "81b221cb-971f-42cc-a179-f19e59567d2a": {
@@ -81,7 +71,7 @@
         "987070e4-9513-4510-9a8c-2cc35325379d": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_0",
+            "primary_name": "P00",
             "swap_group": 0
         },
         "9d2e670d-6fc5-4726-b5b0-ea8b61bb0890": {
@@ -93,22 +83,16 @@
         "a5b65e33-d37f-476c-b802-82013645319d": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_4",
+            "primary_name": "P04",
             "swap_group": 0
         },
         "a72b4ef2-0d8e-479f-8b97-0e7344d39e15": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_7",
+            "primary_name": "P17",
             "swap_group": 0
         },
         "acadcb87-c41e-49c9-b308-ed80f455c448": {
-            "alt_names": {
-                "11098903-6dad-45bc-a847-c4b7fc3e7208": {
-                    "direction": "power_input",
-                    "name": "Vdd"
-                }
-            },
             "direction": "power_input",
             "names": [],
             "primary_name": "Vcc",
@@ -117,7 +101,7 @@
         "bc1a2d83-5ac5-4360-ba8a-cffee3c68bb8": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_5",
+            "primary_name": "P05",
             "swap_group": 0
         },
         "c9ed1b90-a542-4c6f-9fc9-8c5a40773c4f": {
@@ -129,25 +113,25 @@
         "d262c031-d12c-4204-8208-cd1e76afe324": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_0",
+            "primary_name": "P10",
             "swap_group": 0
         },
         "dcb5fbd4-0cf7-4be4-9cbc-0a6eed892335": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_2",
+            "primary_name": "P02",
             "swap_group": 0
         },
         "df25521e-7922-41de-8876-aaebe3fcdf38": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_4",
+            "primary_name": "P14",
             "swap_group": 0
         },
         "e2c5ae3c-deac-44c4-a999-7d3042d70196": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P0_3",
+            "primary_name": "P03",
             "swap_group": 0
         },
         "f2e6a88e-30a0-474b-9be3-7e2809e6951d": {
@@ -159,11 +143,10 @@
         "f87a7b2a-510a-4306-a6ab-f8cb4d150fd8": {
             "direction": "bidirectional",
             "names": [],
-            "primary_name": "P1_2",
+            "primary_name": "P12",
             "swap_group": 0
         }
     },
     "type": "unit",
-    "uuid": "8bb6a221-2417-4463-90a7-6af00e575f49",
-    "version": 1
+    "uuid": "824cad29-6d6a-4696-a8ea-798617085b8a"
 }
