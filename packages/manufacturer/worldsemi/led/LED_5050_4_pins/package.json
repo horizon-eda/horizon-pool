@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": false
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -143,7 +68,8 @@
         }
     },
     "arcs": {},
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "b6dcb7b8-4b70-476e-a762-7a963da0cb96",
+    "dimensions": {},
     "junctions": {
         "013466e3-8da0-40c0-b529-88497c1cfb34": {
             "position": [
@@ -242,6 +168,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "12c6f287-c5d8-424a-9db6-4864bc831f26": {
             "from": "d55bbb64-d655-4f41-a5b5-45be04ec92cd",
@@ -299,7 +226,17 @@
         }
     },
     "manufacturer": "Worldsemi",
-    "models": {},
+    "models": {
+        "b6dcb7b8-4b70-476e-a762-7a963da0cb96": {
+            "filename": "3d_models/opto/LED5050_4pins.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 32768,
+            "z": 0
+        }
+    },
     "name": "LED 5050, 4 pins",
     "pads": {
         "44b56669-62c8-4eee-b61a-218d4fbb8202": {
