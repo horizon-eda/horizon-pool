@@ -1,0 +1,138 @@
+{
+    "arcs": {},
+    "junctions": {
+        "082c0ed2-ac65-4e01-9e0e-bda65dfd75b1": {
+            "position": [
+                -5000000,
+                5000000
+            ]
+        },
+        "2d19f543-9b10-45f7-9cb3-355275b1e3d5": {
+            "position": [
+                5000000,
+                0
+            ]
+        },
+        "8de6525b-8368-4bc2-9934-a2e97491cb30": {
+            "position": [
+                -5000000,
+                -5000000
+            ]
+        }
+    },
+    "lines": {
+        "4c7cc701-a13c-4974-aa81-5f435769910c": {
+            "from": "082c0ed2-ac65-4e01-9e0e-bda65dfd75b1",
+            "layer": 0,
+            "to": "2d19f543-9b10-45f7-9cb3-355275b1e3d5",
+            "width": 0
+        },
+        "95594ecc-fdc9-4a73-a594-2c448cd55c85": {
+            "from": "2d19f543-9b10-45f7-9cb3-355275b1e3d5",
+            "layer": 0,
+            "to": "8de6525b-8368-4bc2-9934-a2e97491cb30",
+            "width": 0
+        },
+        "a1e66417-beac-4d8f-8712-6a44bf8049aa": {
+            "from": "8de6525b-8368-4bc2-9934-a2e97491cb30",
+            "layer": 0,
+            "to": "082c0ed2-ac65-4e01-9e0e-bda65dfd75b1",
+            "width": 0
+        }
+    },
+    "name": "Comparator (Open Collector Output)",
+    "pins": {
+        "2c25061c-cdd9-48ec-ab09-e1af4c305f29": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -7500000,
+                2500000
+            ]
+        },
+        "83820656-d915-43ab-9860-aaedb187301b": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "open_collector",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                7500000,
+                0
+            ]
+        },
+        "ab70daac-b5be-4bc2-aa7e-18442e8620b8": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -7500000,
+                -2500000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "5f73c0be-193d-4df2-a652-bc9b197aa761": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "da2bfcd3-d3dd-4cf6-b8a0-28b57ee5c4e0": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    -3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "d2471ec6-8a52-40dc-932d-859c85cbee62",
+    "uuid": "75ab3df9-60f6-46b9-8a12-d976ef341f56"
+}
