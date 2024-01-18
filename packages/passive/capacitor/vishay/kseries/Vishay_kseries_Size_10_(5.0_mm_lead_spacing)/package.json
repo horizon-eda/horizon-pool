@@ -1,0 +1,388 @@
+{
+    "_imp": {
+        "grid_spacing": 1250000,
+        "layer_display": {
+            "layer_opacity": 50.0,
+            "layers": {
+                "-1": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-100": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "-110": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-120": {
+                    "display_mode": "fill_only",
+                    "visible": false
+                },
+                "-130": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-140": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-150": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-160": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "0": {
+                    "display_mode": "fill",
+                    "visible": true
+                },
+                "10": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "20": {
+                    "display_mode": "fill_only",
+                    "visible": false
+                },
+                "30": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "40": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "50": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "60": {
+                    "display_mode": "outline",
+                    "visible": true
+                }
+            }
+        }
+    },
+    "arcs": {
+        "5587d3b8-ed05-47ee-801c-9b7a64b08563": {
+            "center": "cff8eba8-371c-4599-8cab-1cb3b5c58065",
+            "from": "634ec19f-0ae3-40a2-a247-90b3a3eab604",
+            "layer": 20,
+            "to": "df7c157b-36e1-48c1-95b1-01e5f6ada01d",
+            "width": 150000
+        },
+        "c7a4012f-8168-45bf-95c4-b2843219513b": {
+            "center": "a7101373-8754-470d-8e1c-eaa805b38e49",
+            "from": "5b231917-4c15-43cc-b761-17fe83377822",
+            "layer": 20,
+            "to": "3cda8bbb-cf03-4a1b-a48f-b969c1999373",
+            "width": 150000
+        }
+    },
+    "default_model": "22bc86e8-83da-41aa-8929-b8558cf14bf8",
+    "dimensions": {},
+    "junctions": {
+        "3cda8bbb-cf03-4a1b-a48f-b969c1999373": {
+            "position": [
+                -2000000,
+                625000
+            ]
+        },
+        "5b231917-4c15-43cc-b761-17fe83377822": {
+            "position": [
+                2000000,
+                625000
+            ]
+        },
+        "634ec19f-0ae3-40a2-a247-90b3a3eab604": {
+            "position": [
+                -2000000,
+                -625000
+            ]
+        },
+        "a7101373-8754-470d-8e1c-eaa805b38e49": {
+            "position": [
+                0,
+                -5000000
+            ]
+        },
+        "cff8eba8-371c-4599-8cab-1cb3b5c58065": {
+            "position": [
+                0,
+                5000000
+            ]
+        },
+        "df7c157b-36e1-48c1-95b1-01e5f6ada01d": {
+            "position": [
+                2000000,
+                -625000
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "Vishay",
+    "models": {
+        "22bc86e8-83da-41aa-8929-b8558cf14bf8": {
+            "filename": "3d_models/passive/capacitor/vishay_kseries_size_code_10_5.0mm_lead_spacing.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
+    "name": "Vishay kseries Size 10 (5.0 mm lead spacing)",
+    "pads": {
+        "28a05320-5100-4787-89d0-8258ee7ddebd": {
+            "name": "2",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 700000,
+                "pad_diameter": 1200000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    0
+                ]
+            }
+        },
+        "614e8210-1393-464d-91a7-a9cda647db95": {
+            "name": "1",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 700000,
+                "pad_diameter": 1200000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "6.750mm 1.750mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "167293fa-3fa6-4226-b0af-7493ad0fd960": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3125000,
+                        -625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3125000,
+                        625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3125000,
+                        625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3125000,
+                        -625000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "555819bc-c719-4eac-a2de-3f53f2f3a7a5": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3125000,
+                        -625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3125000,
+                        625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3125000,
+                        625000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3125000,
+                        -625000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "bc8d0af5-4394-4dd3-a6da-ea036266e881": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3625000,
+                        -1125000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3625000,
+                        1125000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3625000,
+                        1125000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3625000,
+                        -1125000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "tags": [
+        "capacitor",
+        "keramic",
+        "passive",
+        "th",
+        "5.0mm"
+    ],
+    "texts": {
+        "7985e04a-739e-4a8e-bc27-6d70b8407e57": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2875000,
+                    1625000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        },
+        "d21670cb-5fe8-41cd-aa24-13b1888e22bd": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3125000,
+                    0
+                ]
+            },
+            "size": 700000,
+            "text": "$RD",
+            "width": 0
+        }
+    },
+    "type": "package",
+    "uuid": "65155542-0ccb-5c4c-96e6-c7e8e78d873e"
+}
