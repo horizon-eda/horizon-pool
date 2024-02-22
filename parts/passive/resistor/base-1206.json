@@ -3,12 +3,27 @@
         false,
         "base 1206 resistor"
     ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "base 1206 resistor"
+    ],
     "entity": "3ce770af-7be0-4f72-b2af-2c8010911aaf",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
+    "inherit_model": true,
     "inherit_tags": false,
     "manufacturer": [
         false,
         ""
     ],
+    "model": "96c366ee-a963-41a0-9cc8-54c646979695",
     "package": "5faa2cfe-7821-4e27-a737-3c2a4cd1fa30",
     "pad_map": {
         "31bf6875-df70-456c-9768-ee32981ecfc9": {
@@ -23,12 +38,14 @@
     "parametric": {},
     "tags": [
         "passive",
-        "resistor"
+        "resistor",
+        "smd"
     ],
     "type": "part",
     "uuid": "69d9d487-801a-40ab-a821-5a7a6ee8c623",
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }

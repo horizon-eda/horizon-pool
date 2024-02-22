@@ -3,12 +3,27 @@
         false,
         "base 0402 resistor"
     ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "base 0402 resistor"
+    ],
     "entity": "3ce770af-7be0-4f72-b2af-2c8010911aaf",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
+    "inherit_model": true,
     "inherit_tags": false,
     "manufacturer": [
         false,
         ""
     ],
+    "model": "96c366ee-a963-41a0-9cc8-54c646979695",
     "package": "5267224e-79d4-4ff6-afe5-ee24f02f36a3",
     "pad_map": {
         "551b1143-e861-4055-9fff-6348cd2ee973": {
@@ -23,12 +38,14 @@
     "parametric": {},
     "tags": [
         "passive",
-        "resistor"
+        "resistor",
+        "smd"
     ],
     "type": "part",
     "uuid": "44fe0594-19d5-403e-9ae8-7c4c59c3668f",
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }
