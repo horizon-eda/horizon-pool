@@ -1,0 +1,290 @@
+{
+    "arcs": {},
+    "default_model": "f827c268-5834-49a8-96d1-ccb8bf5edbdf",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 1000000
+        },
+        "grids": {}
+    },
+    "junctions": {
+        "01e0f120-e1b5-49ad-873c-63c41ec626c4": {
+            "position": [
+                -450000,
+                950000
+            ]
+        },
+        "25386fd6-8223-4386-9ddd-8a8b3e29a47a": {
+            "position": [
+                -450000,
+                -950000
+            ]
+        },
+        "41a7e32d-f6b9-4c4c-9f37-d7fd1d709021": {
+            "position": [
+                450000,
+                950000
+            ]
+        },
+        "e3182ea4-57d1-4e98-b387-c32bf3a3a429": {
+            "position": [
+                450000,
+                -950000
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {
+        "47dca46b-7b49-44f2-96fb-3ec7f9b45fda": {
+            "from": "01e0f120-e1b5-49ad-873c-63c41ec626c4",
+            "layer": 20,
+            "to": "41a7e32d-f6b9-4c4c-9f37-d7fd1d709021",
+            "width": 120000
+        },
+        "63244bf6-7819-4aac-96f1-f4931a3424df": {
+            "from": "25386fd6-8223-4386-9ddd-8a8b3e29a47a",
+            "layer": 20,
+            "to": "e3182ea4-57d1-4e98-b387-c32bf3a3a429",
+            "width": 120000
+        }
+    },
+    "manufacturer": "Micro Crystal",
+    "models": {
+        "f827c268-5834-49a8-96d1-ccb8bf5edbdf": {
+            "filename": "3d_models/manufacturer/microcrystal/Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
+    "name": "CC7V-T1A SMD Crystal",
+    "pads": {
+        "87cd0946-333c-4c80-bc08-efeb2d18ab30": {
+            "name": "1",
+            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "parameter_set": {
+                "pad_height": 1800000,
+                "pad_width": 1000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1250000,
+                    0
+                ]
+            }
+        },
+        "c0a42da1-dc3c-489a-aa55-038ccee9aa3b": {
+            "name": "2",
+            "padstack": "3846f4bf-7acf-403a-bc36-771ec675eac9",
+            "parameter_set": {
+                "pad_height": 1800000,
+                "pad_width": 1000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "3.500mm 1.800mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "2576f798-559a-45c9-b895-b8b895b24465": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2000000,
+                        -1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -2000000,
+                        1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2000000,
+                        1150000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        2000000,
+                        -1150000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "fce8afff-8038-46ce-960d-f15b27b3c154": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1600000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1600000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1600000,
+                        -750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1600000,
+                        -750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1600000,
+                        -750000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
+    "tags": [
+        "crystal",
+        "smd",
+        "smt"
+    ],
+    "texts": {
+        "31f30a02-1731-4169-980b-a84e119a3302": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1450000,
+                    0
+                ]
+            },
+            "size": 500000,
+            "text": "$RD",
+            "width": 0
+        },
+        "88186116-0b4a-46b0-8a3e-22d703c3005a": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2000000,
+                    2000000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        }
+    },
+    "type": "package",
+    "uuid": "0fe82f59-fc4c-4e13-9e78-bda67674f7bc"
+}
