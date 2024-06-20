@@ -1,0 +1,114 @@
+{
+    "arcs": {
+        "45fc2eaa-8515-4d48-ab1e-544f29ef0fe9": {
+            "center": "3acf1c21-6577-49ae-9872-350d18deaa7c",
+            "from": "7e0047c1-631c-499d-88ad-ee7855f0a781",
+            "layer": 0,
+            "to": "e28ec29a-203d-42ce-8283-c003f06b1280",
+            "width": 0
+        },
+        "f2306e47-e4b1-4fe8-bbc4-489383f13a97": {
+            "center": "3acf1c21-6577-49ae-9872-350d18deaa7c",
+            "from": "e28ec29a-203d-42ce-8283-c003f06b1280",
+            "layer": 0,
+            "to": "7e0047c1-631c-499d-88ad-ee7855f0a781",
+            "width": 0
+        }
+    },
+    "can_expand": false,
+    "junctions": {
+        "3acf1c21-6577-49ae-9872-350d18deaa7c": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "7e0047c1-631c-499d-88ad-ee7855f0a781": {
+            "position": [
+                0,
+                -3750000
+            ]
+        },
+        "e28ec29a-203d-42ce-8283-c003f06b1280": {
+            "position": [
+                0,
+                3750000
+            ]
+        }
+    },
+    "lines": {},
+    "name": "screw hole",
+    "pins": {},
+    "polygons": {
+        "b2d648c2-4909-4819-a58a-3ff98cb810c7": {
+            "layer": 0,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        0,
+                        1250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        0,
+                        1250000
+                    ],
+                    "type": "arc"
+                }
+            ]
+        }
+    },
+    "text_placements": {},
+    "texts": {
+        "b5346b6d-b18a-4bba-901f-bb725f0fad43": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    -5000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "b802ecbe-45e7-4597-a504-63dab1caca94": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    5000000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "84452e7f-c235-48dc-9b8a-7302a010e0bb",
+    "uuid": "cc3b159e-6c68-400c-b902-8c7c1a7ba053"
+}
