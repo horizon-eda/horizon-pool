@@ -16,4 +16,4 @@ for delta in diff.deltas :
 	if r is not None :
 		print("New %s '%s': %s"%(r[0], r[1], filename))
 	else:
-		print("%s not found in pool"%filename)
+		print("::warning file=%s::Not found in pool"%filename)
