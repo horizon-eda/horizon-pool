@@ -1,147 +1,4 @@
 {
-    "_imp": {
-        "grid_spacing": 1250000,
-        "layer_display": {
-            "layer_opacity": 50.0,
-            "layers": {
-                "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
-                    "display_mode": "fill_only",
-                    "visible": false
-                },
-                "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
-                    "display_mode": "fill",
-                    "visible": true
-                },
-                "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
-                    "display_mode": "fill_only",
-                    "visible": true
-                },
-                "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
-                    "display_mode": "fill",
-                    "visible": false
-                },
-                "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                },
-                "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
-                    "display_mode": "outline",
-                    "visible": true
-                }
-            }
-        }
-    },
     "arcs": {
         "5e68da66-adac-4f22-b191-bdd175bfe209": {
             "center": "235e1f2b-9fe6-42ff-87d0-a1eca75ee20d",
@@ -166,11 +23,28 @@
         }
     },
     "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 625000
+        },
+        "grids": {}
+    },
     "junctions": {
         "08b51e3f-ac8b-48e6-9b13-4eae8294c9fb": {
             "position": [
                 -2750000,
-                -19062500
+                -19125000
             ]
         },
         "235e1f2b-9fe6-42ff-87d0-a1eca75ee20d": {
@@ -188,13 +62,13 @@
         "35987ba0-bfd1-4d94-8238-16a6352e9261": {
             "position": [
                 2500000,
-                19000000
+                19125000
             ]
         },
         "43cc1e00-6de2-4cd0-9fbc-80397505e291": {
             "position": [
                 -5000000,
-                19000000
+                19125000
             ]
         },
         "744b39e0-e6ae-4848-8c6c-3337674dea6f": {
@@ -224,10 +98,11 @@
         "dfdc471a-3e51-4cde-a162-edcbd817d8ae": {
             "position": [
                 2750000,
-                -19062500
+                -19125000
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "103cee99-aa32-4113-ac67-23d3674cd15c": {
             "from": "43cc1e00-6de2-4cd0-9fbc-80397505e291",
@@ -274,7 +149,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    5000000
+                    5080000
                 ]
             }
         },
@@ -290,7 +165,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -12500000
+                    -12700000
                 ]
             }
         },
@@ -306,7 +181,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    17500000
+                    17780000
                 ]
             }
         },
@@ -322,7 +197,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    15000000
+                    15240000
                 ]
             }
         },
@@ -338,7 +213,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    7500000
+                    7620000
                 ]
             }
         },
@@ -354,7 +229,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -5000000
+                    -5080000
                 ]
             }
         },
@@ -370,7 +245,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    2500000
+                    2540000
                 ]
             }
         },
@@ -386,7 +261,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -17500000
+                    -17780000
                 ]
             }
         },
@@ -418,7 +293,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -2500000
+                    -2540000
                 ]
             }
         },
@@ -434,7 +309,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -7500000
+                    -7620000
                 ]
             }
         },
@@ -450,7 +325,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    10000000
+                    10160000
                 ]
             }
         },
@@ -466,7 +341,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    17500000
+                    17780000
                 ]
             }
         },
@@ -482,7 +357,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -5000000
+                    -5080000
                 ]
             }
         },
@@ -498,7 +373,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -10000000
+                    -10160000
                 ]
             }
         },
@@ -514,7 +389,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    5000000
+                    5080000
                 ]
             }
         },
@@ -530,7 +405,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -17500000
+                    -17780000
                 ]
             }
         },
@@ -546,7 +421,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -12500000
+                    -12700000
                 ]
             }
         },
@@ -562,7 +437,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    15000000
+                    15240000
                 ]
             }
         },
@@ -578,7 +453,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -15000000
+                    -15240000
                 ]
             }
         },
@@ -594,7 +469,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    12500000
+                    12700000
                 ]
             }
         },
@@ -610,7 +485,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -7500000
+                    -7620000
                 ]
             }
         },
@@ -626,7 +501,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    2500000
+                    2540000
                 ]
             }
         },
@@ -642,7 +517,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -10000000
+                    -10160000
                 ]
             }
         },
@@ -658,7 +533,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    7500000
+                    7620000
                 ]
             }
         },
@@ -674,7 +549,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    12500000
+                    12700000
                 ]
             }
         },
@@ -690,7 +565,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -2500000
+                    -2540000
                 ]
             }
         },
@@ -706,7 +581,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -15000000
+                    -15240000
                 ]
             }
         },
@@ -722,7 +597,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    10000000
+                    10160000
                 ]
             }
         }
@@ -949,6 +824,18 @@
             ]
         }
     },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
     "tags": [
         "generic",
         "socket",
@@ -956,6 +843,7 @@
     ],
     "texts": {
         "136bedfd-e2be-414a-a81e-5c8501bef791": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -964,7 +852,7 @@
                 "mirror": false,
                 "shift": [
                     -5062500,
-                    20062500
+                    20187500
                 ]
             },
             "size": 1000000,
@@ -972,6 +860,7 @@
             "width": 150000
         },
         "d19a9743-3530-4ad4-aaa8-e19dd7cc46d5": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
