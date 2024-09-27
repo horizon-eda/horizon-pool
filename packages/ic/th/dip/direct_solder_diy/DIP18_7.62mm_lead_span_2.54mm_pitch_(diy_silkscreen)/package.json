@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -173,7 +98,8 @@
             "width": 0
         }
     },
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "18249896-530b-4a5d-94bb-9cbe5b0179eb",
+    "dimensions": {},
     "junctions": {
         "235e1f2b-9fe6-42ff-87d0-a1eca75ee20d": {
             "position": [
@@ -248,6 +174,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "a65c58a7-ff95-4884-8c1c-f762cb83abc0": {
             "from": "383e4193-204d-411f-906a-23cee2158def",
@@ -275,7 +202,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "18249896-530b-4a5d-94bb-9cbe5b0179eb": {
+            "filename": "3d_models/ic/dip/DIP-18.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": -3800000,
+            "y": 10200000,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "DIP18, 7.62 mm lead span 2.54 mm pitch (DIY silkscreen)",
     "pads": {
         "06d58ddf-bf84-49d0-8109-4b50bc871199": {
@@ -306,7 +243,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    5000000
+                    5080000
                 ]
             }
         },
@@ -322,7 +259,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -2500000
+                    -2540000
                 ]
             }
         },
@@ -338,7 +275,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -2500000
+                    -2540000
                 ]
             }
         },
@@ -354,7 +291,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    7500000
+                    7620000
                 ]
             }
         },
@@ -370,7 +307,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    7500000
+                    7620000
                 ]
             }
         },
@@ -402,7 +339,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -5000000
+                    -5080000
                 ]
             }
         },
@@ -418,7 +355,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    10000000
+                    10160000
                 ]
             }
         },
@@ -434,7 +371,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -7500000
+                    -7620000
                 ]
             }
         },
@@ -450,7 +387,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    2500000
+                    2540000
                 ]
             }
         },
@@ -466,7 +403,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    10000000
+                    10160000
                 ]
             }
         },
@@ -482,7 +419,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -7500000
+                    -7620000
                 ]
             }
         },
@@ -498,7 +435,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -5000000
+                    -5080000
                 ]
             }
         },
@@ -514,7 +451,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    2500000
+                    2540000
                 ]
             }
         },
@@ -530,7 +467,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    5000000
+                    5080000
                 ]
             }
         },
@@ -546,7 +483,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -10000000
+                    -10160000
                 ]
             }
         },
@@ -562,7 +499,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -10000000
+                    -10160000
                 ]
             }
         }
@@ -765,6 +702,7 @@
     ],
     "texts": {
         "136bedfd-e2be-414a-a81e-5c8501bef791": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -781,6 +719,7 @@
             "width": 150000
         },
         "d19a9743-3530-4ad4-aaa8-e19dd7cc46d5": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
