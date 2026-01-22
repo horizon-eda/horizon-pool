@@ -19,56 +19,44 @@
         "grids": {}
     },
     "junctions": {
-        "50bc9354-5669-4bcf-848a-d41516f00203": {
+        "0de310a6-dd9c-42b1-9815-0e6e719722fb": {
             "position": [
-                -1975000,
-                1650000
+                -2000000,
+                2000000
             ]
         },
-        "c7435677-dc74-463b-b0a7-500a647e7513": {
+        "214d920d-7bd9-415a-92f3-4f071de07042": {
             "position": [
-                -1975000,
-                -1650000
+                2000000,
+                -2000000
             ]
         },
-        "ca822ecf-7ee6-4354-9cdd-0becadd0df52": {
+        "620c118b-829c-4250-9533-035a252b4a98": {
             "position": [
-                1975000,
-                -1650000
+                -2000000,
+                -2000000
             ]
         },
-        "fdba00e1-0b97-4696-b232-e354de348c24": {
+        "b25b4d60-0479-4a16-a4c2-0c7a8313c706": {
             "position": [
-                1975000,
-                1650000
+                2000000,
+                2000000
             ]
         }
     },
     "keepouts": {},
     "lines": {
-        "3bded3d1-da8c-4941-9ed3-166d78971b76": {
-            "from": "50bc9354-5669-4bcf-848a-d41516f00203",
+        "27c2ade4-9a17-4bff-a6d1-1d84c0966dc8": {
+            "from": "620c118b-829c-4250-9533-035a252b4a98",
             "layer": 20,
-            "to": "fdba00e1-0b97-4696-b232-e354de348c24",
-            "width": 150000
+            "to": "214d920d-7bd9-415a-92f3-4f071de07042",
+            "width": 100000
         },
-        "6f432f02-21d9-44e4-857d-e0aa0c519712": {
-            "from": "c7435677-dc74-463b-b0a7-500a647e7513",
+        "5ada462f-44c5-4095-9609-dfc7d7e598a5": {
+            "from": "0de310a6-dd9c-42b1-9815-0e6e719722fb",
             "layer": 20,
-            "to": "50bc9354-5669-4bcf-848a-d41516f00203",
-            "width": 150000
-        },
-        "9176f5a3-8eee-4dd4-acfe-dbbb7c0455c1": {
-            "from": "fdba00e1-0b97-4696-b232-e354de348c24",
-            "layer": 20,
-            "to": "ca822ecf-7ee6-4354-9cdd-0becadd0df52",
-            "width": 150000
-        },
-        "bd499ae6-bf9e-4d81-8399-5e2356cea176": {
-            "from": "ca822ecf-7ee6-4354-9cdd-0becadd0df52",
-            "layer": 20,
-            "to": "c7435677-dc74-463b-b0a7-500a647e7513",
-            "width": 150000
+            "to": "b25b4d60-0479-4a16-a4c2-0c7a8313c706",
+            "width": 100000
         }
     },
     "manufacturer": "Bosch Sensortec",
@@ -204,7 +192,7 @@
             }
         }
     },
-    "parameter_program": "2.950mm 2.300mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_program": "3.450mm 2.800mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
     "parameter_set": {
         "courtyard_expansion": 250000
     },
@@ -317,9 +305,63 @@
                 }
             ]
         },
-        "8a01b662-664c-41fb-ad01-c02c31aef24a": {
+        "b33490ed-f34b-4627-86b0-786b69fdfda6": {
             "layer": 60,
             "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1975000,
+                        -1650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -1975000,
+                        1650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1975000,
+                        1650000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        1975000,
+                        -1650000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "cacd8d1e-339b-41ff-9f19-8f78a2557548": {
+            "layer": 40,
+            "parameter_class": "",
             "vertices": [
                 {
                     "arc_center": [
