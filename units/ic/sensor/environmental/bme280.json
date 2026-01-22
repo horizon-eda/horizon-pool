@@ -1,0 +1,75 @@
+{
+    "manufacturer": "Bosch Sensortec",
+    "name": "BME280",
+    "pins": {
+        "0d805533-b01a-483c-a40b-0bea0ecf4353": {
+            "alt_names": {
+                "8d4b665c-5f37-44f0-8914-eecd127d1aa7": {
+                    "direction": "input",
+                    "name": "VDDIO"
+                }
+            },
+            "direction": "input",
+            "names": [],
+            "primary_name": "CSB",
+            "swap_group": 0
+        },
+        "310aa7f8-e977-418b-aa72-136ae3d7c32e": {
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "SDO",
+            "swap_group": 0
+        },
+        "50fd74c6-d47c-47f6-ba6e-54dd712330cc": {
+            "alt_names": {
+                "9d200606-ff1b-4ab8-9124-8fac28d34af6": {
+                    "direction": "input",
+                    "name": "SCL"
+                }
+            },
+            "direction": "input",
+            "names": [],
+            "primary_name": "SCK",
+            "swap_group": 0
+        },
+        "70f9a7b2-aa54-4888-8e62-d54b0ce483af": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VDDIO",
+            "swap_group": 0
+        },
+        "a09ff82a-2f8e-4262-b10f-8edf2131ba9a": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VDD",
+            "swap_group": 0
+        },
+        "ad2925a2-5e64-4fca-950f-2d3ab71b0b78": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "GND07",
+            "swap_group": 0
+        },
+        "c1c2f1f7-7e11-4dcb-8948-5916258f32dd": {
+            "alt_names": {
+                "e90036bc-359f-4617-a27d-7b59978cb941": {
+                    "direction": "input",
+                    "name": "SDA"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "SDI",
+            "swap_group": 0
+        },
+        "f0a0d70c-899e-4067-8e08-6f4cd62a4e0d": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "GND01",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "4e466e57-fd10-48a1-9177-9a6546aa64a7",
+    "version": 1
+}
