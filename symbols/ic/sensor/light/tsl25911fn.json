@@ -1,8 +1,58 @@
 {
     "arcs": {},
     "can_expand": false,
-    "junctions": {},
-    "lines": {},
+    "junctions": {
+        "21be9da5-1ffa-44bf-9c28-ec4a228345f6": {
+            "position": [
+                -6250000,
+                -5000000
+            ]
+        },
+        "a39445ad-1335-4361-a800-ae03e57bb2d4": {
+            "position": [
+                -6250000,
+                5000000
+            ]
+        },
+        "a58bbb7c-3ffb-4973-96ce-13b8236ee183": {
+            "position": [
+                6250000,
+                5000000
+            ]
+        },
+        "ecfd7953-05ef-4d3b-b4f1-d77430077fbc": {
+            "position": [
+                6250000,
+                -5000000
+            ]
+        }
+    },
+    "lines": {
+        "2b7d25b1-198d-4d08-8085-264ccf034811": {
+            "from": "21be9da5-1ffa-44bf-9c28-ec4a228345f6",
+            "layer": 0,
+            "to": "a39445ad-1335-4361-a800-ae03e57bb2d4",
+            "width": 0
+        },
+        "b347dd86-8ad9-4d0a-b7ae-78953daffc73": {
+            "from": "a39445ad-1335-4361-a800-ae03e57bb2d4",
+            "layer": 0,
+            "to": "a58bbb7c-3ffb-4973-96ce-13b8236ee183",
+            "width": 0
+        },
+        "b6830d7d-89b0-44fe-991c-bdfb6ba9410d": {
+            "from": "ecfd7953-05ef-4d3b-b4f1-d77430077fbc",
+            "layer": 0,
+            "to": "21be9da5-1ffa-44bf-9c28-ec4a228345f6",
+            "width": 0
+        },
+        "dcf0a9fb-0835-4d37-a98a-efa0e149bc81": {
+            "from": "a58bbb7c-3ffb-4973-96ce-13b8236ee183",
+            "layer": 0,
+            "to": "ecfd7953-05ef-4d3b-b4f1-d77430077fbc",
+            "width": 0
+        }
+    },
     "name": "TSL25911FN ",
     "pins": {
         "0df6b8e4-5913-4878-a8b0-e05551dce871": {
@@ -19,7 +69,7 @@
             "pad_visible": true,
             "position": [
                 8750000,
-                5000000
+                3750000
             ]
         },
         "2087da93-c3e3-47da-9586-196f4f02578a": {
@@ -36,7 +86,7 @@
             "pad_visible": true,
             "position": [
                 -8750000,
-                -5000000
+                -3750000
             ]
         },
         "81ca31fe-ab1e-4e8a-8afe-13d5be29533c": {
@@ -70,7 +120,7 @@
             "pad_visible": true,
             "position": [
                 8750000,
-                -5000000
+                -3750000
             ]
         },
         "b025d6c7-8793-44d3-ae38-ae1ca296a7ea": {
@@ -104,7 +154,7 @@
             "pad_visible": true,
             "position": [
                 -8750000,
-                5000000
+                3750000
             ]
         }
     },
@@ -121,7 +171,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -8750000
+                    -7500000
                 ]
             },
             "size": 1500000,
@@ -137,8 +187,8 @@
                 "angle": 0,
                 "mirror": false,
                 "shift": [
-                    -3750000,
-                    8750000
+                    -5000000,
+                    7500000
                 ]
             },
             "size": 1500000,
