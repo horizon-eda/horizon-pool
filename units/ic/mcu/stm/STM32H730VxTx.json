@@ -1,0 +1,3861 @@
+{
+    "manufacturer": "ST",
+    "name": "STM32H730VxTx",
+    "pins": {
+        "028e04d0-bb38-40bb-8263-a2303c2e1235": {
+            "alt_names": {
+                "3278786d-1d58-4993-b7a6-fdd136908321": {
+                    "direction": "output",
+                    "name": "DAC1_OUT2"
+                },
+                "45db852b-84d1-4cff-841d-c4893057ef8d": {
+                    "direction": "bidirectional",
+                    "name": "PSSI_D14"
+                },
+                "46e3809e-58bd-41d8-99e1-469a7e350e37": {
+                    "direction": "input",
+                    "name": "ADC12_INP19"
+                },
+                "56a8f76c-f48e-451c-a211-e8ac62f568c6": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_SCK/I2S6_CK"
+                },
+                "76914704-a255-44f3-b278-d2d7bb326f48": {
+                    "direction": "input",
+                    "name": "ADC12_INN18"
+                },
+                "77410968-3fb3-4b4b-8855-99a4158ff8ca": {
+                    "direction": "output",
+                    "name": "LCD_R4"
+                },
+                "84170f3e-d09c-4c9c-8e3d-99918fccbf79": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH1N"
+                },
+                "85955179-78fd-4aba-b355-ba41d4e69317": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D9/FMC_AD9"
+                },
+                "8f2249e4-4a4c-4945-b64c-c3e318671d70": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH1/TIM2_ETR"
+                },
+                "9da3026b-ded0-4581-a596-3de451d232bc": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "a7994508-b411-4f3f-ac20-6965c2731396": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_SCK(boot)/I2S1_CK"
+                },
+                "d88de6e6-1e2c-48f9-babd-6c48a25bb511": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_CK"
+                },
+                "f64d0111-581a-4bb4-bd37-ce4b0f278b8d": {
+                    "direction": "input",
+                    "name": "D2PWREN"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA5",
+            "swap_group": 0
+        },
+        "042732dd-e861-4594-929b-12af31e3cb1b": {
+            "alt_names": {
+                "174ca937-2fed-41b9-ac18-6fdb4777ac33": {
+                    "direction": "output",
+                    "name": "LCD_B5"
+                },
+                "22ae22ac-cd37-4ffe-bd80-84fd5cb04a12": {
+                    "direction": "output",
+                    "name": "FMC_SDCKE1"
+                },
+                "261a3f8b-81ee-4b39-9aef-51aa06ff675a": {
+                    "direction": "input",
+                    "name": "UART5_RX"
+                },
+                "2aba4ff7-05f2-4e31-aee6-4e136b843b1a": {
+                    "direction": "input",
+                    "name": "FDCAN2_RX"
+                },
+                "45ce4da9-e118-4711-95b6-3ac5f832799b": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SMBA"
+                },
+                "611c1c09-64c9-48c2-a184-f3be958ffbb9": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH2"
+                },
+                "65f68845-6f67-403d-962a-d6cb0c136ef5": {
+                    "direction": "output",
+                    "name": "ETH_PPS_OUT"
+                },
+                "76b99b2f-4048-4ab8-a112-efd1f64fa83a": {
+                    "direction": "input",
+                    "name": "TIM17_BKIN"
+                },
+                "860f39e7-7fe4-4ba0-99a6-d6cac13ae270": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_MOSI/I2S1_SDO"
+                },
+                "8b910884-7e5c-4e41-900e-13a280270048": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_MOSI/I2S6_SDO"
+                },
+                "915f2159-d8d0-47fd-a594-d7ed5b80d803": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D10/PSSI_D10"
+                },
+                "ab3bec64-69a1-482b-85c8-02ee9c5b6a66": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_MOSI/I2S3_SDO"
+                },
+                "ac047783-5b47-4bae-847d-d93fffe32873": {
+                    "direction": "bidirectional",
+                    "name": "I2C1_SMBA"
+                },
+                "dffcdde8-35e6-4610-90d2-df881a5637dc": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D7"
+                },
+                "fd213b24-5031-469f-b106-ab74ed62f632": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB5",
+            "swap_group": 0
+        },
+        "054173e0-7b01-4b2d-8dad-ada0a651708f": {
+            "alt_names": {
+                "07fef6f0-d80d-4dba-a854-ea1de7891d97": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN3"
+                },
+                "28d5e4b7-0fbe-44d1-aee3-271d51e91a32": {
+                    "direction": "input",
+                    "name": "SAI4_D2"
+                },
+                "30558abb-ec9c-4bac-9a65-537571c851ed": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_NSS"
+                },
+                "3601dd56-1385-4d32-b63c-4d27c031dbd2": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_FS_A"
+                },
+                "3eebf8ab-ca6d-4ff6-abe4-e6e6a8bf054f": {
+                    "direction": "bidirectional",
+                    "name": "SAI1_FS_A"
+                },
+                "60be95e4-d481-4d54-bcf2-683a9bb9a2a9": {
+                    "direction": "output",
+                    "name": "FMC_A20"
+                },
+                "975b1e73-4f03-46a7-9203-d56f2ee650d4": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D4/PSSI_D4"
+                },
+                "99c813d2-c5d3-4949-9a5d-175c697b294f": {
+                    "direction": "output",
+                    "name": "LCD_B0"
+                },
+                "c3d809eb-dc19-4eb3-a1a4-e6038094ce01": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c6a081ca-4bf8-43fc-8e08-ecae10cc8b2a": {
+                    "direction": "input",
+                    "name": "SAI1_D2"
+                },
+                "d1071e9f-6945-420a-97bf-e4f458366ce1": {
+                    "direction": "bidirectional",
+                    "name": "TIM15_CH1N"
+                },
+                "f1c40b31-3f49-49c7-b1b5-377085247ebd": {
+                    "direction": "bidirectional",
+                    "name": "TRACED1"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE4",
+            "swap_group": 0
+        },
+        "0757145a-a72f-4720-9cc8-47b33ae394af": {
+            "alt_names": {
+                "0d99364d-e2bc-447d-ae0f-87a4aa4bd16f": {
+                    "direction": "output",
+                    "name": "LCD_R7"
+                },
+                "1dfbf0e7-169f-4e93-8703-15deb50bfa79": {
+                    "direction": "input",
+                    "name": "SPDIFRX1_IN3"
+                },
+                "43e76537-1c08-4a3f-a73a-acbc0f559894": {
+                    "direction": "input",
+                    "name": "PWR_DEEPSLEEP"
+                },
+                "4fba21f7-d8d0-454e-bd12-9336b29fc136": {
+                    "direction": "output",
+                    "name": "FMC_A22"
+                },
+                "7b4ca90f-075b-4bd6-9707-c221383ea243": {
+                    "direction": "input",
+                    "name": "SDMMC2_CKIN"
+                },
+                "7c0bb8f5-87fb-451d-a289-097974e3c26a": {
+                    "direction": "output",
+                    "name": "I2S1_MCK"
+                },
+                "85e3cbc8-43e5-4252-96c3-311da6d7c322": {
+                    "direction": "output",
+                    "name": "OPAMP1_VOUT"
+                },
+                "ba37243c-a01d-4831-a96f-f36ab7d41256": {
+                    "direction": "input",
+                    "name": "ETH_MII_RXD0/ETH_RMII_RXD0"
+                },
+                "c758ff22-2e68-446c-ae1c-a686c2d8a8e0": {
+                    "direction": "input",
+                    "name": "ADC12_INP4"
+                },
+                "c976c497-a420-448e-9ddc-936a5b160d70": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "da1e6497-e0a0-4a23-b6c3-30c44ec2446d": {
+                    "direction": "output",
+                    "name": "FMC_SDNE0"
+                },
+                "df4387fc-b451-4e53-b779-a58530141810": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN2"
+                },
+                "e1e88150-e081-4a6a-a95a-5bc23ca0b5d3": {
+                    "direction": "input",
+                    "name": "COMP1_INM"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC4",
+            "swap_group": 0
+        },
+        "07ca8715-aab5-42e9-8285-cad4e40d9c10": {
+            "alt_names": {
+                "13e3a8ad-bfca-4c0f-af69-28b48b37cf1d": {
+                    "direction": "bidirectional",
+                    "name": "TRACED0"
+                },
+                "1c0838ba-300a-4680-be3a-a54a9423c965": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "37396ba2-e9a9-4f16-bbed-308c283c838d": {
+                    "direction": "output",
+                    "name": "ETH_MDC"
+                },
+                "3b0e7099-c808-480a-859e-c9b4371232e1": {
+                    "direction": "output",
+                    "name": "LCD_G5"
+                },
+                "3e540531-f4d8-4816-b34c-3dc69ea6daf7": {
+                    "direction": "input",
+                    "name": "ADC123_INP11"
+                },
+                "4fec7aae-e759-4b48-8837-59abae3b1a3b": {
+                    "direction": "output",
+                    "name": "SDMMC2_CK"
+                },
+                "60ef5cfb-ed3e-4568-8a62-531f5eb476de": {
+                    "direction": "input",
+                    "name": "ADC123_INN10"
+                },
+                "8d80425d-83c4-4545-b2dd-52b1ff6d6d69": {
+                    "direction": "input",
+                    "name": "SAI1_D1"
+                },
+                "acf8b64a-2a5c-43cf-b4c6-fc2fae53c4e6": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_A"
+                },
+                "b9a8c190-5abe-40b6-b7c0-522b822a733c": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO4"
+                },
+                "ba260f05-7999-4591-a6f3-2a6309d5232a": {
+                    "direction": "input",
+                    "name": "MDIOS_MDC"
+                },
+                "c0d1b637-3393-4ec7-a1d3-0125cf654aa1": {
+                    "direction": "input",
+                    "name": "RTC_TAMP3"
+                },
+                "cbc27019-2bca-465f-a2aa-92ac8c52276b": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN4"
+                },
+                "e5bdb19d-b7c3-4cc7-b746-e9044f5fad49": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN0"
+                },
+                "e702a902-b359-42c5-8a48-f22e0ec354d8": {
+                    "direction": "input",
+                    "name": "SAI4_D1"
+                },
+                "e77d9089-a1c1-4197-b45e-42a1a16a2ba4": {
+                    "direction": "bidirectional",
+                    "name": "SAI1_SD_A"
+                },
+                "e9f74504-cedf-4d5f-8920-e9436e73e2cc": {
+                    "direction": "input",
+                    "name": "WKUP6"
+                },
+                "f6161a86-e4ca-48f1-8840-91dc64f337dc": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_MOSI/I2S2_SDO"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC1",
+            "swap_group": 0
+        },
+        "0a677d59-701e-4fc7-bad2-5597745ba578": {
+            "alt_names": {
+                "09121f9f-1d9f-47e3-aa36-7aeb8b45ff42": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_NSS(boot)"
+                },
+                "0fddae29-757d-4c1b-aee0-217efa614d77": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_B"
+                },
+                "181b0aa8-6da6-479e-a208-ec830633fdde": {
+                    "direction": "input",
+                    "name": "COMP2_INP"
+                },
+                "4ef6e052-ec0e-4c41-8e1c-d5e383eb9a7e": {
+                    "direction": "output",
+                    "name": "LCD_G3"
+                },
+                "59af19af-e86b-4c7c-bdaf-6626707a3cf9": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_NCS"
+                },
+                "8b324b09-2dd4-4cf7-975b-cd4bc4a77851": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH2"
+                },
+                "a0677c93-12c2-4c90-a694-bb2040fe4add": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D8/FMC_AD8"
+                },
+                "ab19bb9a-7e17-4c71-a5dc-61d7a455bdcd": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "bbc6050a-b35e-4606-93c5-f7e76155e720": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN4"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE11",
+            "swap_group": 0
+        },
+        "0b7ededc-d63a-4f16-860a-7391f053170f": {
+            "alt_names": {
+                "6a27627c-8642-409b-a2c7-7a4714994a06": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN2"
+                },
+                "6e672aa0-9bad-4dcf-b202-a044c4a790d2": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D5/FMC_AD5"
+                },
+                "6f0098ea-4693-47f3-808e-b543f172d445": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO5"
+                },
+                "9ff26d16-0592-43dd-82c0-066acd27ff83": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH1N"
+                },
+                "b653e7fc-cf16-418a-acd0-1f0817ea0b04": {
+                    "direction": "input",
+                    "name": "OPAMP2_VINM"
+                },
+                "c1c042fc-ddb5-46da-8bd6-5e0634c80404": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c780a297-9554-41d0-898a-099d308f0b7b": {
+                    "direction": "output",
+                    "name": "COMP2_OUT"
+                },
+                "e7272ad0-e65d-49d5-8e3f-891920055e5b": {
+                    "direction": "output",
+                    "name": "UART7_TX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE8",
+            "swap_group": 0
+        },
+        "0c5268be-0b97-4d97-9f48-6447c0bd027b": {
+            "alt_names": {
+                "128718c1-b7eb-4c90-b992-7f42d2fe728b": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "5d037cd2-2e4a-4add-a5b0-c95d48790bf3": {
+                    "direction": "input",
+                    "name": "USART10_RX"
+                },
+                "5eca2e3e-ab46-40db-813a-47089462a805": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_SCK"
+                },
+                "5fdd3f03-09ac-4f20-9444-31b50480555f": {
+                    "direction": "output",
+                    "name": "SAI1_MCLK_A"
+                },
+                "6571fac0-245b-4e16-bbaf-2355229bba32": {
+                    "direction": "input",
+                    "name": "TRACECLK"
+                },
+                "6ecc01b6-4cc7-438a-9c3f-794fe06aa13c": {
+                    "direction": "output",
+                    "name": "SAI4_CK1"
+                },
+                "91be846a-bf10-4432-9b2f-09eec2dda423": {
+                    "direction": "output",
+                    "name": "SAI4_MCLK_A"
+                },
+                "966924f5-2112-44dd-bfb1-1456d6ce799c": {
+                    "direction": "output",
+                    "name": "FMC_A23"
+                },
+                "b62d1bbe-bfcf-406d-a915-8118878c5997": {
+                    "direction": "output",
+                    "name": "SAI1_CK1"
+                },
+                "c3c818bd-6959-4015-8e0d-e8e1d25c32be": {
+                    "direction": "output",
+                    "name": "ETH_MII_TXD3"
+                },
+                "fa455a98-fd06-45f9-a7c1-de126c7e2ba9": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO2"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE2",
+            "swap_group": 0
+        },
+        "0d071e54-9fcf-4e82-8798-3ef9fbc802b3": {
+            "alt_names": {
+                "8f0d69e0-99d8-4625-814b-a9b1190d7f8c": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC15-OSC32_OUT",
+            "swap_group": 0
+        },
+        "0fde9859-53d8-40ad-a540-b982eaa9f122": {
+            "alt_names": {
+                "1b5e2fb1-5fc4-4ce5-bcb4-4c38ed1d4939": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "20577d76-fc27-4c63-8e94-b25ae31dc71e": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D4/FMC_AD4"
+                },
+                "533b796d-0b57-425c-870c-40bed2ab24c3": {
+                    "direction": "input",
+                    "name": "TIM1_ETR"
+                },
+                "5f562160-47eb-4bfd-929c-3a95706a3793": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO4"
+                },
+                "74141379-21b8-4901-8624-d087ca1de82a": {
+                    "direction": "input",
+                    "name": "COMP2_INM"
+                },
+                "9374893a-f2c9-4292-b530-9e2c66439161": {
+                    "direction": "output",
+                    "name": "OPAMP2_VOUT"
+                },
+                "e66b76a7-4f19-49fd-a046-6cbe0ca73d14": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN2"
+                },
+                "e93ba160-0b07-40e9-a197-6812d5c3d511": {
+                    "direction": "input",
+                    "name": "UART7_RX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE7",
+            "swap_group": 0
+        },
+        "104ae724-d440-4c00-b8ca-658406c532f6": {
+            "alt_names": {
+                "0058e225-6163-4cb4-9c79-556148b7d086": {
+                    "direction": "bidirectional",
+                    "name": "TIM17_CH1N"
+                },
+                "098ba2a7-ece7-4fdb-a165-c230cf2b913c": {
+                    "direction": "bidirectional",
+                    "name": "I2C1_SDA"
+                },
+                "09ac18f3-e8de-4c1c-8fb4-a4ab8da20925": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_VSYNC/PSSI_RDY"
+                },
+                "13951dc8-0a63-4297-a4db-41346af18b54": {
+                    "direction": "input",
+                    "name": "USART1_RX"
+                },
+                "74c4452b-8b05-48ed-b229-e6ddd713dd9c": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH2"
+                },
+                "b7ebbf2a-8c2e-4f12-bf12-e139af450dd8": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SDA"
+                },
+                "d68427c2-7b6f-498b-8ff2-ff619c9d0225": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "d966a93f-53de-4db2-bf0d-8e6bc7993136": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN5"
+                },
+                "e4a5e5c2-07ec-4261-9ca9-def893ad5375": {
+                    "direction": "input",
+                    "name": "PVD_IN"
+                },
+                "f61a0402-0e09-4520-aaa5-6c5adeb05c01": {
+                    "direction": "input",
+                    "name": "LPUART1_RX"
+                },
+                "fdf3192f-e2af-4c47-9a29-0686445717ec": {
+                    "direction": "output",
+                    "name": "FMC_NL"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB7",
+            "swap_group": 0
+        },
+        "12f3e6ff-7494-4435-b9d9-7648ba4f34e9": {
+            "alt_names": {
+                "38305131-043c-4288-8a6b-6edc3adfb632": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D12/FMC_AD12"
+                },
+                "4df92f58-d7b1-43c4-ba66-ea703b1d0d4f": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_STP"
+                },
+                "73cb25b4-749a-429a-ae8f-321b8092ac21": {
+                    "direction": "output",
+                    "name": "FMC_A25"
+                },
+                "85af174b-144c-4113-8259-1c3661521027": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "8a2124c4-fbfc-4615-ab7c-391b44f20611": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN0"
+                },
+                "cf531673-3b42-4cd5-89f1-7f5a7a67b60b": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_FS_B"
+                },
+                "d4efad78-94a2-4334-bfea-edbe34dcedfe": {
+                    "direction": "output",
+                    "name": "FMC_SDNWE"
+                },
+                "d6b34e0b-d00e-47c4-a05f-d5c20dd143c7": {
+                    "direction": "output",
+                    "name": "LCD_R5"
+                },
+                "e9a2e05d-1be0-4021-8b12-0cae3cd21c71": {
+                    "direction": "output",
+                    "name": "LCD_G2"
+                },
+                "f583e88d-760c-459c-9c99-34f4e160e722": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN4"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC0",
+            "swap_group": 0
+        },
+        "17b73df7-5b60-419d-8c77-af53593512d1": {
+            "alt_names": {
+                "05bb8936-00e7-455b-b517-19738a50a33c": {
+                    "direction": "bidirectional",
+                    "name": "I2C5_SDA"
+                },
+                "29bb2e40-c21a-436d-96c5-a1e8b22c5a97": {
+                    "direction": "output",
+                    "name": "USART3_TX"
+                },
+                "4312dd76-bab9-46a7-abeb-7bac6ffff282": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D2"
+                },
+                "627e03e8-1374-4bb0-a612-6097e188ac45": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D8/PSSI_D8"
+                },
+                "65cdc41f-aa6e-4e53-b4a1-549f3de1a763": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO1"
+                },
+                "791a8756-4aa7-4a37-a965-a55468e2bc3c": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN5"
+                },
+                "7ad556ab-9700-4593-ba7b-98e19d6d2d02": {
+                    "direction": "input",
+                    "name": "SWPMI_RX"
+                },
+                "89f1300a-7826-4680-a3f2-30363c6c5df9": {
+                    "direction": "output",
+                    "name": "LCD_B1"
+                },
+                "cab49a1d-1338-4419-8764-4a7e9190c907": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "d06526e8-26f2-47e5-9f67-e3701dc66e38": {
+                    "direction": "output",
+                    "name": "LCD_R2"
+                },
+                "e7615f8b-d30f-4ae8-9600-979831fe920e": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_SCK(boot)/I2S3_CK"
+                },
+                "fabab44a-7f72-4b78-8f38-2cde492f3e39": {
+                    "direction": "output",
+                    "name": "UART4_TX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC10",
+            "swap_group": 0
+        },
+        "1bb2b88f-054b-4844-868f-2afdbc4e1876": {
+            "alt_names": {
+                "1dddf62d-e147-4a23-a1a9-7c10c57c7554": {
+                    "direction": "input",
+                    "name": "UART4_RX"
+                },
+                "2e3e2776-b2a3-4eaf-9f5e-df19a3c196ce": {
+                    "direction": "output",
+                    "name": "LCD_R2"
+                },
+                "47ab52e5-86e8-40a1-ba82-3aa323c9702d": {
+                    "direction": "output",
+                    "name": "USART2_RTS/USART2_DE"
+                },
+                "5acf972e-8eba-43b9-ab00-667227c542f2": {
+                    "direction": "bidirectional",
+                    "name": "TIM5_CH2"
+                },
+                "63877755-523c-43b1-b9fb-69a083916827": {
+                    "direction": "output",
+                    "name": "OCTOSPIM_P1_DQS"
+                },
+                "7c452768-292f-44b8-bf5e-f713a91988ee": {
+                    "direction": "input",
+                    "name": "ETH_MII_RX_CLK/ETH_RMII_REF_CLK"
+                },
+                "802fa7c5-52bf-4ff3-8b44-9890738515f3": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO3"
+                },
+                "8b5bec4c-640b-44e7-815b-773d5f144425": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c8173a73-6ae9-4de2-8623-9888c772c1ca": {
+                    "direction": "bidirectional",
+                    "name": "TIM15_CH1N"
+                },
+                "e6063b7c-97db-4765-a190-97ff48950bed": {
+                    "direction": "output",
+                    "name": "SAI4_MCLK_B"
+                },
+                "ebd3e4f4-d88c-4168-ad57-315517b9e7a8": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH2"
+                },
+                "ee879670-641d-44e1-b79f-5b3767673a49": {
+                    "direction": "output",
+                    "name": "LPTIM3_OUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA1",
+            "swap_group": 0
+        },
+        "296eacd1-808f-4247-8266-0a7275ec7ac6": {
+            "alt_names": {
+                "1b7dcab4-6888-457f-b700-c58f28d2e573": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D1/FMC_AD1"
+                },
+                "4a25f024-04ae-49ce-98da-1cac801b3fb7": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH4"
+                },
+                "537ff44e-7f80-47d5-ab4e-8679e11b9742": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "6ad46b1d-c070-4bdb-a9d2-85e54537e899": {
+                    "direction": "output",
+                    "name": "UART9_TX"
+                },
+                "c9ee208b-e317-4d1a-89dc-3e0b5148f4f5": {
+                    "direction": "output",
+                    "name": "UART8_RTS/UART8_DE"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD15",
+            "swap_group": 0
+        },
+        "29ed291e-215e-4d77-bf43-c57ed93bb329": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "VCAP2",
+            "swap_group": 0
+        },
+        "2bf0c7eb-a973-4639-b4ac-f90bbffb6498": {
+            "alt_names": {
+                "91e56233-6bb5-4c68-a654-c3234a47d873": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PH0-OSC_IN",
+            "swap_group": 0
+        },
+        "2c8b900e-3b47-4f25-8cd6-a3c19e4a7da6": {
+            "alt_names": {
+                "19f83789-5af8-4a8a-9313-2f1a7fee8e6e": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH1"
+                },
+                "1e4890c8-8c73-42a0-8df7-cd75bec993f2": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO1"
+                },
+                "301848a6-d351-4136-9233-ac45ea79a788": {
+                    "direction": "input",
+                    "name": "FDCAN3_RX"
+                },
+                "58a45c4c-29ab-4d81-81d2-ce0e300f8d54": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "5ff6bf1c-1637-44d5-813c-a200395362b9": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D12/PSSI_D12"
+                },
+                "83f49964-5ac6-46ef-b204-649f6133da66": {
+                    "direction": "output",
+                    "name": "FMC_A17/FMC_ALE"
+                },
+                "84b081b4-5909-49b2-85a4-f4026e200add": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SCL"
+                },
+                "8ad17747-0b83-479c-be88-0e874dfd4a3a": {
+                    "direction": "output",
+                    "name": "USART3_RTS/USART3_DE"
+                },
+                "b7357617-9b1f-4cdd-9329-1e339e53d4c2": {
+                    "direction": "input",
+                    "name": "LPTIM1_IN1"
+                },
+                "ceedc1f5-5325-493f-a4c1-3171576054b5": {
+                    "direction": "input",
+                    "name": "LPTIM2_IN1"
+                },
+                "def9728d-3e9e-42bd-befb-2d1b20a20bd0": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_FS_A"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD12",
+            "swap_group": 0
+        },
+        "2f15f3bb-0f51-4409-a003-4be87015e611": {
+            "alt_names": {
+                "173b3bfb-6fa5-47b6-a6bc-d22cddae05bc": {
+                    "direction": "input",
+                    "name": "SPDIFRX1_IN1"
+                },
+                "1ca049d6-1294-452e-b782-18bac04a0f21": {
+                    "direction": "output",
+                    "name": "FMC_NE1"
+                },
+                "1f2242cc-5536-487b-8c5f-76ce016e9304": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO7"
+                },
+                "40772501-7fa1-4313-b893-4930a431e777": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_MOSI/I2S1_SDO"
+                },
+                "47e87103-a5b5-4d63-9ffc-6ecda5c5af41": {
+                    "direction": "output",
+                    "name": "SDMMC2_CMD"
+                },
+                "635ab098-7b36-42b7-81fc-a566eb1b2cf7": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN4"
+                },
+                "c1e791cb-eb50-4c13-b31b-f35f8ac2cc12": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c9a3cd94-37de-4b4b-b106-f211be30ace9": {
+                    "direction": "bidirectional",
+                    "name": "USART2_CK"
+                },
+                "cb51820c-0e90-4cf6-b140-b0fad32ac752": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN1"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD7",
+            "swap_group": 0
+        },
+        "3197ae58-452a-447d-b088-9a327a677e9e": {
+            "alt_names": {
+                "50c75c27-ad07-4ccc-aa10-835bc51fd40f": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "53a38da3-2fd5-4f6b-b5df-e0a8ed2cc8d9": {
+                    "direction": "input",
+                    "name": "SAI4_D3"
+                },
+                "549ce4e9-4561-4384-84ee-53eecb590599": {
+                    "direction": "output",
+                    "name": "COMP1_OUT"
+                },
+                "6cc3bd4b-eb46-42d2-8fa9-a6d80317442e": {
+                    "direction": "input",
+                    "name": "SAI1_D3"
+                },
+                "7b852305-40b5-4b11-8d87-e41a8ef437d4": {
+                    "direction": "input",
+                    "name": "ETH_MII_RXD1/ETH_RMII_RXD1"
+                },
+                "7ebb933d-adc1-4247-8aea-be23506cb5fb": {
+                    "direction": "output",
+                    "name": "LCD_DE"
+                },
+                "8f753be7-9042-43ff-b93a-bcb98f89f6ae": {
+                    "direction": "bidirectional",
+                    "name": "PSSI_D15"
+                },
+                "94d10a94-6c07-41d0-8ea8-7cc73620ec89": {
+                    "direction": "input",
+                    "name": "PWR_SLEEP"
+                },
+                "987d3ec1-dec2-4885-bfb3-7d4ade648bcc": {
+                    "direction": "output",
+                    "name": "FMC_SDCKE0"
+                },
+                "a513b5a2-c4ae-4d1e-8027-e2bb35c27d6f": {
+                    "direction": "input",
+                    "name": "ADC12_INN4"
+                },
+                "adb914de-c703-4445-8230-2b650b691910": {
+                    "direction": "input",
+                    "name": "OPAMP1_VINM"
+                },
+                "d2e6041f-8ed4-4927-92bc-14c0819cf85d": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN2"
+                },
+                "ee265c83-e363-4181-8b37-83424b42274a": {
+                    "direction": "input",
+                    "name": "SPDIFRX1_IN4"
+                },
+                "f377809b-d257-4701-9aa1-d8af885c2ebf": {
+                    "direction": "input",
+                    "name": "ADC12_INP8"
+                },
+                "f82fcd1c-b95c-43d3-b100-b26b974b7f0d": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_DQS"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC5",
+            "swap_group": 0
+        },
+        "3684ade4-77ab-4fc4-8d3c-b6100c179c32": {
+            "alt_names": {
+                "00bb270d-4bf4-4397-bb56-de469a872949": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_SOF"
+                },
+                "2753a07f-cb0d-4716-8479-be696b16e77c": {
+                    "direction": "bidirectional",
+                    "name": "I2C5_SCL"
+                },
+                "32a6a09f-dae9-4a91-a2fc-80673b8bd3e1": {
+                    "direction": "input",
+                    "name": "UART7_RX"
+                },
+                "3cccbf48-005e-49fd-99a3-9b8b53a54e24": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "444d1854-49eb-4142-9d1d-fc78bbbe6967": {
+                    "direction": "bidirectional",
+                    "name": "I2C3_SCL(boot)"
+                },
+                "46974a90-d667-4a2b-b53c-9803c895511b": {
+                    "direction": "output",
+                    "name": "LCD_B3"
+                },
+                "62841f47-d675-4569-aa98-7c878d062e04": {
+                    "direction": "input",
+                    "name": "TIM8_BKIN2_COMP12"
+                },
+                "737ab378-db5e-4d85-ba2f-bda91e42d7d7": {
+                    "direction": "output",
+                    "name": "MCO1"
+                },
+                "8a8a5a63-09ea-4c9a-acd0-9107609a51b7": {
+                    "direction": "input",
+                    "name": "TIM8_BKIN2"
+                },
+                "8e4b77bb-4ea6-4bc1-8ec8-10349dd539a3": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH1"
+                },
+                "cdb46b9e-e7d1-4259-af3e-d835d37dfe36": {
+                    "direction": "output",
+                    "name": "LCD_R6"
+                },
+                "cebb071a-cc83-42d3-a96d-825d8fd0f78c": {
+                    "direction": "bidirectional",
+                    "name": "USART1_CK"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA8",
+            "swap_group": 0
+        },
+        "36bd2bea-1fe8-4a0c-a51f-4882d3c495f4": {
+            "alt_names": {
+                "17baa6fb-a1df-4d2d-ae07-43cb96397921": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH3"
+                },
+                "2c75cc9e-ae27-4732-8e65-655023aa8a27": {
+                    "direction": "output",
+                    "name": "LCD_G4"
+                },
+                "5bf36243-3256-41f6-993b-c706630edb9a": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN7"
+                },
+                "7dd1d5f3-7cc3-4557-87d4-d21e56055193": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_SCK/I2S2_CK"
+                },
+                "977827f4-f7b3-4cc5-be51-07df2db15004": {
+                    "direction": "input",
+                    "name": "ETH_MII_RX_ER"
+                },
+                "99fe70ea-31d1-42d7-9863-ed276605a8d4": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_NCS"
+                },
+                "9ce3d4d5-6e2e-4e68-a6a1-210e0577d910": {
+                    "direction": "output",
+                    "name": "USART3_TX(boot)"
+                },
+                "b4ab6d4b-b902-4df8-90fc-ba0f10b86248": {
+                    "direction": "bidirectional",
+                    "name": "I2C2_SCL"
+                },
+                "b6eb901f-4d29-4e58-833d-c49374e31f0e": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c73db3e5-632d-4c9f-aec7-a85e17c27333": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D3"
+                },
+                "e73cdca2-c517-4c73-8eb1-080748094d15": {
+                    "direction": "input",
+                    "name": "LPTIM2_IN1"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB10",
+            "swap_group": 0
+        },
+        "38394afa-27c7-4b52-9abb-f8c92a497417": {
+            "alt_names": {
+                "2dc44f66-2e57-4ba7-afb6-9d4b54f5f2e5": {
+                    "direction": "output",
+                    "name": "FDCAN1_TX(boot)"
+                },
+                "81ef5572-f4cb-43a6-aa57-fca82c8d6ad8": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D3/FMC_AD3"
+                },
+                "be276fad-1c00-4b6d-bf26-484ed856d895": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c0008834-0057-45fc-ad1b-145b13b301ea": {
+                    "direction": "output",
+                    "name": "UART4_TX"
+                },
+                "f97490f6-bdd2-44e3-a4b1-730b46705ba9": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN6"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD1",
+            "swap_group": 0
+        },
+        "3ed62648-a3fa-4736-ad9f-18598b4ce5b3": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VBAT",
+            "swap_group": 0
+        },
+        "43b2fd94-64e0-4c06-bf6b-b94df2d5d3c7": {
+            "alt_names": {
+                "27f38c33-499c-4ce7-a7bf-d1b0a7c0381e": {
+                    "direction": "bidirectional",
+                    "name": "TIM12_CH1"
+                },
+                "39b0bba5-ba38-4d5c-8545-b559a85084bb": {
+                    "direction": "output",
+                    "name": "USART3_RTS/USART3_DE"
+                },
+                "43d92fe7-301f-4319-a39f-9c54ec3e7bd4": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "755adc47-3fc1-4642-90bf-0a51cf89d8ff": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D0"
+                },
+                "76ff2e5c-0427-4590-92e4-41024c1fd4e4": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH2N"
+                },
+                "8f6ba46a-a1c5-4e0f-b75c-9a9f3d7c3c81": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D10/FMC_AD10"
+                },
+                "9707ec8f-af2c-49dc-bf76-66537bd8c4f7": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH2N"
+                },
+                "c4d5fedb-6359-4c2b-8e27-919e3d5db59b": {
+                    "direction": "output",
+                    "name": "USART1_TX"
+                },
+                "ca256bf5-e1fb-4497-b1fa-5d9ba8e417e3": {
+                    "direction": "output",
+                    "name": "UART4_RTS/UART4_DE"
+                },
+                "e3bd3430-62b3-459f-b416-338b7aa7db0c": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN2"
+                },
+                "eeb3f839-fd32-49d5-9c1e-255d9ff8c899": {
+                    "direction": "output",
+                    "name": "LCD_CLK"
+                },
+                "f214d8a8-ee26-4096-9240-72424b654bd3": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_MISO/I2S2_SDI"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB14",
+            "swap_group": 0
+        },
+        "477a3528-0839-43da-a7a9-cd21cb430d47": {
+            "alt_names": {
+                "05dbaa49-9f8a-4d45-b8f7-9f07156f6338": {
+                    "direction": "output",
+                    "name": "UART9_RTS/UART9_DE"
+                },
+                "31451513-79ae-4778-a404-b16fabe3b3df": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO3"
+                },
+                "3b9d8699-bd72-42ca-a222-168fdcc20e3e": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D13/PSSI_D13"
+                },
+                "4a163161-6ed8-4a4d-ab93-49c4f6ee6c9c": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SDA"
+                },
+                "5168faba-e2fb-4dbc-b7f3-74a791396d0f": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "6b48aab9-7497-4173-b95a-86cc305b3804": {
+                    "direction": "output",
+                    "name": "FMC_A18"
+                },
+                "7399ec0c-1b56-468c-83ee-c0e6f8384a3b": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SCK_A"
+                },
+                "77653fb1-37fb-4e41-8cf7-a2f439b3b033": {
+                    "direction": "output",
+                    "name": "FDCAN3_TX"
+                },
+                "cf6baa3f-187f-4569-862b-4b4aaee1a3ca": {
+                    "direction": "output",
+                    "name": "LPTIM1_OUT"
+                },
+                "eb386727-8ed9-4b35-9b2e-29ba0b1d7ecb": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH2"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD13",
+            "swap_group": 0
+        },
+        "47c0e124-4d0b-468b-a031-a199a577a56c": {
+            "alt_names": {
+                "061e6723-3811-4d22-8d42-597eab0f6c03": {
+                    "direction": "output",
+                    "name": "LCD_R6"
+                },
+                "0b0e7ca3-e193-4792-88fa-72cdb961abe3": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_SCK/I2S6_CK"
+                },
+                "13fd852b-d677-4264-96dd-0a5455a3bb84": {
+                    "direction": "bidirectional",
+                    "name": "I2C5_SMBA"
+                },
+                "33e2d2cf-96b2-438c-97d3-f103ef9af393": {
+                    "direction": "bidirectional",
+                    "name": "TRACED3"
+                },
+                "4fb708e0-0c8d-4e1e-b75d-7e2e53ab3566": {
+                    "direction": "bidirectional",
+                    "name": "USART3_CK"
+                },
+                "5cc2bc42-0703-46ec-a84c-7e47e8149b76": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_MOSI(boot)/I2S3_SDO"
+                },
+                "60a6f911-6282-499d-86f3-3b331bdaa4c6": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D9/PSSI_D9"
+                },
+                "64b50ca4-6765-4d3d-975b-fdc5584cbe62": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "700a670e-0a54-4863-8fe7-c71d348daf13": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D6/FMC_AD6"
+                },
+                "8e88c861-3a83-4b53-85df-661bc7851ba8": {
+                    "direction": "bidirectional",
+                    "name": "TIM15_CH1"
+                },
+                "b80fa9b2-a212-40cd-a751-598a800ee21c": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_CK"
+                },
+                "ff5284e7-6d67-4cd7-9cbd-f34558226726": {
+                    "direction": "output",
+                    "name": "UART5_TX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC12",
+            "swap_group": 0
+        },
+        "4caa0427-f42c-429c-ab3e-9d6e4ff5add0": {
+            "alt_names": {
+                "00e75f8f-0fa6-49e8-89f7-fc199812e142": {
+                    "direction": "bidirectional",
+                    "name": "TRACED0"
+                },
+                "60813b3a-e942-405f-8657-791adcadb55e": {
+                    "direction": "output",
+                    "name": "USART10_TX"
+                },
+                "6c77264b-7573-4f9e-8833-fe2b658bc603": {
+                    "direction": "output",
+                    "name": "FMC_A19"
+                },
+                "81d08681-3261-46ee-b8a2-0f36d6680814": {
+                    "direction": "input",
+                    "name": "TIM15_BKIN"
+                },
+                "96fa01f6-fb1a-4022-9bd9-69d5df16076b": {
+                    "direction": "bidirectional",
+                    "name": "SAI1_SD_B"
+                },
+                "be21b74d-6b0a-4f56-8c21-ed0f9535efab": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "ce2f2223-9b53-4545-b492-a6d65cc01c7e": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_B"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE3",
+            "swap_group": 0
+        },
+        "4dca89b3-d21a-4f0f-a299-c7ebabfd916f": {
+            "alt_names": {
+                "104535b2-a889-409e-8ded-db4ffa3a5961": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN1"
+                },
+                "26f590a1-364a-4e6b-9a60-19d5bd02cd31": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_MOSI/I2S3_SDO"
+                },
+                "29b81e94-491b-4e96-b19c-0c8d9d607a20": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D10/PSSI_D10"
+                },
+                "345627a0-6b09-4e13-ac23-6e04bb191e6a": {
+                    "direction": "output",
+                    "name": "SDMMC2_CK"
+                },
+                "4a12be6d-6dd6-433d-90c3-92fbfa50efe7": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "553bb738-8c7d-41d5-8b88-bd293b15135e": {
+                    "direction": "output",
+                    "name": "LCD_B2"
+                },
+                "58a2b8ca-5226-44a5-9948-f1711dce9c4c": {
+                    "direction": "input",
+                    "name": "SAI1_D1"
+                },
+                "622210fc-885a-49c3-9745-50b758cfc940": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO6"
+                },
+                "719a39d7-d31c-4845-839d-bfa91a3fc4e8": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN4"
+                },
+                "8081196d-d229-44f1-b078-bdf0bb9d1b7b": {
+                    "direction": "input",
+                    "name": "USART2_RX"
+                },
+                "8a017316-3baf-4d53-b30e-3a8d714cf75e": {
+                    "direction": "input",
+                    "name": "FMC_NWAIT"
+                },
+                "ca6db932-b3c9-43b2-99e6-72950605f2f1": {
+                    "direction": "bidirectional",
+                    "name": "SAI1_SD_A"
+                },
+                "e50eb3c1-d9fd-4ef5-8faf-985fcbfde46d": {
+                    "direction": "input",
+                    "name": "SAI4_D1"
+                },
+                "f04a9e31-bb9f-4508-8a4f-d00b38df5250": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_A"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD6",
+            "swap_group": 0
+        },
+        "4f93fd52-6cce-4da0-975c-5afa381c9a84": {
+            "alt_names": {
+                "3fd8557a-e83f-43ec-a308-361583ab3f7d": {
+                    "direction": "output",
+                    "name": "COMP1_OUT"
+                },
+                "42593e48-ca9f-4316-bf83-8a52ffae53c5": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH3N"
+                },
+                "53915e35-32ac-4da6-8d69-350e955129e7": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_SCK(boot)"
+                },
+                "6fdd4443-ff63-449f-af5a-4f0702c34f48": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D9/FMC_AD9"
+                },
+                "7b2dc528-76c0-437e-8310-55a97dcd9f9b": {
+                    "direction": "output",
+                    "name": "LCD_B4"
+                },
+                "9aa77d67-8f5b-481b-a5ad-1d4577bc84d2": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN5"
+                },
+                "acffe70e-0605-4206-9e1e-76a5b6d19e1e": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "f8f01091-66c2-4dfb-b78a-4b9c0501480b": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SCK_B"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE12",
+            "swap_group": 0
+        },
+        "51b3b360-db44-4830-9c82-6503d5217448": {
+            "alt_names": {
+                "1bbdcc0d-3fb7-48b5-80ef-b6c7c65f6e52": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_DQS"
+                },
+                "1d1a4064-3bcf-4c5c-9be8-ad649824269d": {
+                    "direction": "output",
+                    "name": "ETH_TX_ER"
+                },
+                "32282f87-6d09-49b7-91da-932b645b30e3": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_A"
+                },
+                "396db6d5-8b86-494c-966d-bc07c009ccf6": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "533cfc2b-9a35-4870-950b-c1b0b369ab40": {
+                    "direction": "input",
+                    "name": "COMP1_INP"
+                },
+                "64f609c5-09fd-4b02-bfe0-431e822aea77": {
+                    "direction": "output",
+                    "name": "RTC_OUT"
+                },
+                "6ffd465b-db55-455d-aca4-ffb78f93b904": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN1"
+                },
+                "8da58e2f-8cd6-4085-87f5-18eae7821731": {
+                    "direction": "bidirectional",
+                    "name": "SAI1_SD_A"
+                },
+                "bd0a523d-dbb0-46b6-889c-1f38e9980495": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_CLK"
+                },
+                "c0a5e329-97f0-45c1-9628-a18a4c3c5bcb": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_MOSI/I2S3_SDO"
+                },
+                "c14e44c6-b38c-4a08-9c8d-0228faa24327": {
+                    "direction": "input",
+                    "name": "SAI1_D1"
+                },
+                "f2894394-1ea6-43aa-91e1-422ed9df8d8e": {
+                    "direction": "input",
+                    "name": "TIM23_ETR"
+                },
+                "fbf84e28-fe46-4d9f-822b-3e0d3c7dce3a": {
+                    "direction": "input",
+                    "name": "SAI4_D1"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB2",
+            "swap_group": 0
+        },
+        "5459055a-2d96-436b-8253-cf61467eeb8f": {
+            "alt_names": {
+                "49ee803c-d252-4b97-aca3-16d3a63253ff": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_MOSI"
+                },
+                "5f58a467-c53e-4ff5-b016-cc20f9e9d62e": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN2_COMP12"
+                },
+                "5ff54947-ace0-404b-829d-1efbfa234e8a": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "784180a8-354f-41d9-a2aa-b0f482f51272": {
+                    "direction": "input",
+                    "name": "SAI1_D1"
+                },
+                "7dcf24fa-62e8-4922-b287-feb1fc7d2c0e": {
+                    "direction": "bidirectional",
+                    "name": "TIM15_CH2"
+                },
+                "85d3437e-5ad2-408c-b5a3-4beee8f9b7c6": {
+                    "direction": "output",
+                    "name": "SAI4_MCLK_B"
+                },
+                "9adce2f4-5ed4-4004-bff4-1cc00d223106": {
+                    "direction": "output",
+                    "name": "LCD_G1"
+                },
+                "a01205b5-579c-43ad-b644-eb2eb1211688": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_A"
+                },
+                "b23564d8-5921-47b6-b474-562407e0a55b": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D7/PSSI_D7"
+                },
+                "bc0b3721-4328-485b-84d7-1aad586e684c": {
+                    "direction": "bidirectional",
+                    "name": "SAI1_SD_A"
+                },
+                "c9fb2d6f-5d78-4147-889b-36aba4981a6e": {
+                    "direction": "input",
+                    "name": "SAI4_D1"
+                },
+                "e50fea20-b829-4971-b4eb-d15d9ab1ff53": {
+                    "direction": "output",
+                    "name": "FMC_A22"
+                },
+                "f2a5de36-740e-4cad-b050-5b2bdd775ba7": {
+                    "direction": "bidirectional",
+                    "name": "TRACED3"
+                },
+                "f43370fe-b908-4ff7-a88e-1117616f3714": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_BKIN2"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE6",
+            "swap_group": 0
+        },
+        "55f6d4f2-4f4a-4eb9-a13c-301634fa8e5e": {
+            "alt_names": {
+                "2f3c0fd5-4b7e-46e9-bd43-b54abd629f8e": {
+                    "direction": "output",
+                    "name": "LCD_CLK"
+                },
+                "3f2c5f1c-7fb0-4794-a0e2-eba3fce0f5ab": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "7581962b-6d06-4966-8dcd-54b2ca49c7e4": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_MOSI(boot)"
+                },
+                "c70743d5-9e19-4608-a265-4adc52316eb5": {
+                    "direction": "output",
+                    "name": "SAI4_MCLK_B"
+                },
+                "e9ccef64-9137-4e94-b099-809708ac139b": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D11/FMC_AD11"
+                },
+                "f881fb38-0f92-47b5-82bf-d3fb7cf4e88a": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH4"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE14",
+            "swap_group": 0
+        },
+        "56f82a8d-fbcb-4f9d-9f6b-ac7b19746af2": {
+            "alt_names": {
+                "0ad94351-73bb-4407-80ce-a73bacc7508a": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH4"
+                },
+                "25d5c1ab-f395-4aa1-bf3b-06e70629c12f": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "2bfbf2ae-6398-4eca-a316-7ded555767fb": {
+                    "direction": "output",
+                    "name": "LCD_B2"
+                },
+                "3d4b7f08-3965-45d8-9427-66f22fbb0d06": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D0"
+                },
+                "6444dacb-2c74-4257-b1a7-9d634c3abb21": {
+                    "direction": "bidirectional",
+                    "name": "TIM5_CH4"
+                },
+                "694bd74d-17c6-4cd3-9f22-2a5ce226eea5": {
+                    "direction": "input",
+                    "name": "ADC12_INP15"
+                },
+                "8c584647-a828-489f-91c0-36f5ac0e687a": {
+                    "direction": "bidirectional",
+                    "name": "TIM15_CH2"
+                },
+                "9f19b6d6-255b-4d45-80a6-1d82412c7b4d": {
+                    "direction": "input",
+                    "name": "USART2_RX(boot)"
+                },
+                "acbaa12c-0b6c-48cf-9b21-fe57b1e68f79": {
+                    "direction": "output",
+                    "name": "OCTOSPIM_P1_CLK"
+                },
+                "af58dd64-1abd-4ceb-b514-9925232438c9": {
+                    "direction": "input",
+                    "name": "ETH_MII_COL"
+                },
+                "c78964ab-74cc-4101-8f9d-ec3a1be7fec1": {
+                    "direction": "output",
+                    "name": "I2S6_MCK"
+                },
+                "c9d5729a-ca0f-494c-b855-c3e71a8c5736": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO2"
+                },
+                "f6aa6bf4-ee4e-439a-8340-28b75396df90": {
+                    "direction": "output",
+                    "name": "LCD_B5"
+                },
+                "fb8c55b0-b068-443a-b632-3425915cda9a": {
+                    "direction": "output",
+                    "name": "LPTIM5_OUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA3",
+            "swap_group": 0
+        },
+        "593c629e-0bdb-4082-ba79-eac831051538": {
+            "alt_names": {
+                "395946fd-b1b3-4074-9de0-6d2373134fed": {
+                    "direction": "bidirectional",
+                    "name": "TRACED2"
+                },
+                "4ab057fb-f131-4049-9357-67148141963a": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D11/PSSI_D11"
+                },
+                "620de96b-89cc-4c17-86eb-dc431d36b5b5": {
+                    "direction": "output",
+                    "name": "SDMMC1_CMD"
+                },
+                "7ef6c356-2612-4336-ad15-19eb596bf6c2": {
+                    "direction": "output",
+                    "name": "LCD_B2"
+                },
+                "8dd094c8-6193-48fa-ba6f-c64fe41f5142": {
+                    "direction": "input",
+                    "name": "UART5_RX"
+                },
+                "9db70f39-24e9-4828-8ad9-f4c9b46b2640": {
+                    "direction": "input",
+                    "name": "TIM3_ETR"
+                },
+                "d7e51d4b-a049-4232-aa7a-49910607785d": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "ef5c1f07-f04b-4365-a65f-23a35247bb29": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D7/FMC_AD7"
+                },
+                "f31757ed-bbef-41ab-8af2-d97660db591a": {
+                    "direction": "output",
+                    "name": "LCD_B7"
+                },
+                "f77aa96d-5a1e-4976-ae89-19f0ad64dbff": {
+                    "direction": "input",
+                    "name": "TIM15_BKIN"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD2",
+            "swap_group": 0
+        },
+        "5976ea58-6043-4016-9e13-1ef19773b124": {
+            "alt_names": {
+                "3f858382-8dbb-41e4-aa05-a238c6137b27": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D6"
+                },
+                "49edb3f6-8ede-4044-bc70-85e30b90942b": {
+                    "direction": "output",
+                    "name": "I2S2_MCK"
+                },
+                "4e49da76-78fe-4eaf-8d4f-aa2ecc1d5439": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "4f2ffee5-9cd5-45bf-8a5d-3d5fe670fa74": {
+                    "direction": "input",
+                    "name": "FMC_NWAIT"
+                },
+                "5b8568d5-af80-4900-8ea0-a54bf6a1e5f2": {
+                    "direction": "output",
+                    "name": "USART6_TX"
+                },
+                "6d3d59df-bfd0-4821-8af9-ef56fada52d3": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH1"
+                },
+                "8ecf8bb2-468e-4784-8845-24dc40cc9ea5": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D0/PSSI_D0"
+                },
+                "8ee75081-883e-43a2-840a-cef3fcb7e8ac": {
+                    "direction": "bidirectional",
+                    "name": "SWPMI_IO"
+                },
+                "9064880d-f15d-456e-a259-b1312ea43df3": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D6"
+                },
+                "ad726d9e-9633-44a4-aaed-4518e4d3e280": {
+                    "direction": "output",
+                    "name": "SDMMC1_D0DIR"
+                },
+                "b0c00d0e-0d09-4954-989c-f5e0fdd14cb6": {
+                    "direction": "output",
+                    "name": "LCD_HSYNC"
+                },
+                "d4a4632a-786c-47e1-b698-83605bc1767a": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH1"
+                },
+                "ed875b75-1054-4466-a1d1-3bcdcb954d7b": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN3"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC6",
+            "swap_group": 0
+        },
+        "5f035923-7d51-4455-804c-ec4c3b131be5": {
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "NRST",
+            "swap_group": 0
+        },
+        "68fb31b5-b416-45dd-9c04-28bb0f0541c7": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VDDA",
+            "swap_group": 0
+        },
+        "6b796f32-2a40-4e56-b093-1c34ef890c3c": {
+            "alt_names": {
+                "57dcfbe3-9895-4b6b-9e78-1ae6b4dc3662": {
+                    "direction": "output",
+                    "name": "USART2_TX"
+                },
+                "93791605-74eb-4384-9e97-86e99daa707e": {
+                    "direction": "output",
+                    "name": "FMC_NWE"
+                },
+                "a3a8781c-24e7-4b51-ade4-dc95f82e3a9b": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO5"
+                },
+                "ccd1400a-f926-412e-9ba8-7aa3f3c99af5": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD5",
+            "swap_group": 0
+        },
+        "6c267b34-19bc-426a-b29d-2f28f1dcf28e": {
+            "alt_names": {
+                "02ca1643-7a92-4ca0-b10a-82c90f624480": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_NSS(boot)"
+                },
+                "278498cb-7255-4579-8bab-3b35b732829a": {
+                    "direction": "output",
+                    "name": "DAC1_OUT1"
+                },
+                "2ad9462d-efd5-4531-96ca-dfdc2718a963": {
+                    "direction": "output",
+                    "name": "I2S3_WS"
+                },
+                "4bd15be1-6b36-436e-aa94-0d242123bf1b": {
+                    "direction": "input",
+                    "name": "D1PWREN"
+                },
+                "4d3c14a8-16d8-4def-9e9d-71166a60fc89": {
+                    "direction": "output",
+                    "name": "DCMI_HSYNC"
+                },
+                "529ba5f8-17f0-4163-b1d1-5ca4a07733dd": {
+                    "direction": "output",
+                    "name": "LCD_VSYNC"
+                },
+                "5e1b4f53-3b66-42b7-b4ed-1b4dd223b5bc": {
+                    "direction": "input",
+                    "name": "ADC12_INP18"
+                },
+                "9531b909-94c1-4016-b6cb-7084f6e1181d": {
+                    "direction": "output",
+                    "name": "I2S6_WS"
+                },
+                "976f97cf-891b-41a9-8d35-0999ed8a4a33": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_NSS"
+                },
+                "99bd2a52-447d-4ed2-a71c-c090b04c9a5b": {
+                    "direction": "bidirectional",
+                    "name": "FMC_AD8"
+                },
+                "9b858216-3deb-45ae-af69-211220b415f6": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D8"
+                },
+                "d893fbd0-b9aa-43e3-86ff-8089d8b3da55": {
+                    "direction": "input",
+                    "name": "TIM5_ETR"
+                },
+                "e44fc1cb-c944-475f-b5ac-0b55b06c689a": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "f4665e38-3714-4992-b3d0-360a06ffc13d": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_NSS"
+                },
+                "fa95a556-6bff-42d2-97fe-389ef862daf9": {
+                    "direction": "output",
+                    "name": "USART2_CK"
+                },
+                "fdf8f1d9-fe6d-4b51-8158-7b9d94774ebc": {
+                    "direction": "output",
+                    "name": "I2S1_WS"
+                },
+                "ff339d45-9702-43f0-a209-6360c6299057": {
+                    "direction": "output",
+                    "name": "PSSI_DE"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA4",
+            "swap_group": 0
+        },
+        "711b6c4c-712f-41b7-be67-0d8d0f6afc00": {
+            "alt_names": {
+                "3706cca2-aba2-4811-b144-4543b3ddebb0": {
+                    "direction": "input",
+                    "name": "ADC3_INP0"
+                },
+                "4a4a83d9-4688-496d-85d3-8fc4c50f95b6": {
+                    "direction": "input",
+                    "name": "ADC3_INN1"
+                }
+            },
+            "direction": "input",
+            "names": [],
+            "primary_name": "PC2_C",
+            "swap_group": 0
+        },
+        "7311fec2-8433-41b7-b321-67546a61ec2c": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VDD",
+            "swap_group": 0
+        },
+        "7a4a6064-e95f-4d11-8a98-861dc01093f7": {
+            "alt_names": {
+                "04d9091f-d939-4634-8774-a6652a084e20": {
+                    "direction": "output",
+                    "name": "LCD_R6"
+                },
+                "2710b208-5541-436d-90f6-fdb084b78a9f": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "6f0c191e-9149-49ca-9f74-853cb5474414": {
+                    "direction": "output",
+                    "name": "UART8_TX"
+                },
+                "88991a33-075b-4d6b-8908-b5259ddac3ef": {
+                    "direction": "input",
+                    "name": "LPTIM1_IN2"
+                },
+                "9d2756ee-e8f3-4e16-9a17-8ded920bbd6d": {
+                    "direction": "output",
+                    "name": "FMC_NBL1"
+                },
+                "f973ec09-839d-49e1-8255-c98a47cc0ff6": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D3/PSSI_D3"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE1",
+            "swap_group": 0
+        },
+        "7b593688-d5b0-4ff2-9b98-2b7f02363bbe": {
+            "alt_names": {
+                "3fcb9232-7f3a-48df-a504-052dd266bbce": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PH1-OSC_OUT",
+            "swap_group": 0
+        },
+        "7e51107c-31a2-4cab-b2ad-4801aab5d3c9": {
+            "alt_names": {
+                "1f93bdbb-e621-47c7-835e-696ca1bcaae7": {
+                    "direction": "bidirectional",
+                    "name": "USART1_CTS/USART1_NSS"
+                },
+                "21cc00a7-cf2d-4c8f-a521-28e42a247f7c": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH4"
+                },
+                "2f5fa57e-5ed1-4da8-bad4-df084c92ace0": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_DM(boot)"
+                },
+                "58b442ee-50e9-4e62-85a6-f6b651bae273": {
+                    "direction": "output",
+                    "name": "LCD_R4"
+                },
+                "746adb64-2e90-47ce-a3c6-5aa8770b52b8": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_NSS"
+                },
+                "7973b36a-13ea-4f2b-adbb-758a1587ca33": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "8d47e734-ec7f-4179-b2a3-5b24c2319795": {
+                    "direction": "input",
+                    "name": "FDCAN1_RX"
+                },
+                "99000974-0e10-415c-ab5b-179f0f62fa67": {
+                    "direction": "input",
+                    "name": "UART4_RX"
+                },
+                "d1a93fc4-7daa-4afd-a2d6-c6445f2b11f8": {
+                    "direction": "input",
+                    "name": "LPUART1_CTS"
+                },
+                "d27f7e7e-4806-4b82-96a0-8b2cc6e96486": {
+                    "direction": "output",
+                    "name": "I2S2_WS"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA11",
+            "swap_group": 0
+        },
+        "7f5c5768-9333-4a09-ab59-96312aa33ddd": {
+            "alt_names": {
+                "33054bcf-a357-4f5c-8931-3bbdcfd41cf2": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "355b391f-011c-47cb-8c0e-1c151cad202c": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_MISO(boot)"
+                },
+                "4de1ce51-6587-42bf-86c9-ded4b04c7512": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_FS_B"
+                },
+                "6fafc6cb-d781-4c96-9748-37c18fb9c304": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH3"
+                },
+                "6fff1d14-1a27-41e3-95ed-8950be6fb588": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D10/FMC_AD10"
+                },
+                "b772145f-aebe-40d9-a7c7-5e75b29d4194": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN5"
+                },
+                "b9c2d90f-b8a8-47f8-a422-2c4ec367d615": {
+                    "direction": "output",
+                    "name": "COMP2_OUT"
+                },
+                "e45bef4d-078c-485d-a9c5-81003d4c7aad": {
+                    "direction": "output",
+                    "name": "LCD_DE"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE13",
+            "swap_group": 0
+        },
+        "8304927b-48c9-4984-b8e1-5b45cc4bc4f7": {
+            "alt_names": {
+                "5cd717ae-ab4c-45dc-8a59-ffde5c1e8a4a": {
+                    "direction": "output",
+                    "name": "LCD_G0"
+                },
+                "6345270f-92e3-4c75-bc87-cfc8e1069f5c": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN1"
+                },
+                "7e3243c4-b2b2-4f50-bf76-daa4202e85ee": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO0"
+                },
+                "84bdbfe9-2c32-4141-b2b1-56529bf66c3c": {
+                    "direction": "input",
+                    "name": "ETH_MII_RXD3"
+                },
+                "a6830970-fa32-48ab-a4dc-81e2b9d3e2b1": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH3N"
+                },
+                "af07355e-7e12-470a-a74d-58f03737ce78": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH4"
+                },
+                "d83ad604-6241-40d7-833f-27826a4f1f8e": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D2"
+                },
+                "d8497bf7-5b11-448a-b1df-8f86a0714696": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH3N"
+                },
+                "da2992c0-7fcc-446f-af14-d2b56675986d": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "eb02f2b9-0019-4857-9962-4c1ece5aa6f2": {
+                    "direction": "input",
+                    "name": "ADC12_INP5"
+                },
+                "f725db75-59d2-47d6-ad6e-6c602feb4f42": {
+                    "direction": "output",
+                    "name": "LCD_R6"
+                },
+                "fe00c9e5-90a9-4eca-b60f-84e09969ff9e": {
+                    "direction": "input",
+                    "name": "COMP1_INM"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB1",
+            "swap_group": 0
+        },
+        "85c29881-8248-4c56-a6bf-c8a4338d742c": {
+            "alt_names": {
+                "2d8aea81-c7ae-4b3f-b2d8-bb05d286b3c7": {
+                    "direction": "output",
+                    "name": "FMC_NOE"
+                },
+                "2e8c562a-9880-4b14-972a-187811960fd5": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO4"
+                },
+                "502a0a6e-a84c-4dfe-8b23-44b483f18778": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "50e267bf-f3b4-4d7b-a64d-b5911fe827f5": {
+                    "direction": "output",
+                    "name": "USART2_RTS/USART2_DE"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD4",
+            "swap_group": 0
+        },
+        "8614f97a-e624-4c9b-a923-06e46fc24317": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VSS",
+            "swap_group": 0
+        },
+        "877a63cb-8211-4dee-849b-2d7e556f3f04": {
+            "alt_names": {
+                "0b462322-c8db-4d92-942e-d740468ea371": {
+                    "direction": "output",
+                    "name": "USART1_TX"
+                },
+                "3f52f01b-bec7-41a0-bb7b-1bd5a009201c": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH1"
+                },
+                "58abbee5-76dc-4dd4-9cbe-e71345340e85": {
+                    "direction": "output",
+                    "name": "UART5_TX"
+                },
+                "5fb637fe-5e31-4f8f-bffb-d550457eb80a": {
+                    "direction": "output",
+                    "name": "FDCAN2_TX"
+                },
+                "68c118b6-2fcc-4176-a334-ea707eacac71": {
+                    "direction": "output",
+                    "name": "LPUART1_TX"
+                },
+                "6db821ee-bbaf-4db6-ad0c-5cf30928799b": {
+                    "direction": "bidirectional",
+                    "name": "TIM16_CH1N"
+                },
+                "780d0de8-39c2-4b01-9fd1-346946163f85": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN5"
+                },
+                "7b119fdd-2630-4490-9dc5-ee52d0289b3e": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D5/PSSI_D5"
+                },
+                "86d8fc55-5deb-48a5-885a-0381fb912d92": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "9c1c75bf-7554-48fc-a502-4403d4d525ca": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_NCS"
+                },
+                "a892cc95-f905-46ee-ba18-4945218d8385": {
+                    "direction": "bidirectional",
+                    "name": "I2C1_SCL(boot)"
+                },
+                "c4dfbce5-17fe-4941-b279-aeaa237b396d": {
+                    "direction": "bidirectional",
+                    "name": "CEC"
+                },
+                "de984ee5-0853-4ac0-8b85-ef2bc91d20eb": {
+                    "direction": "output",
+                    "name": "FMC_SDNE1"
+                },
+                "fb5979d4-080b-4dc0-9add-979ac631ca59": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SCL"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB6",
+            "swap_group": 0
+        },
+        "8c932ad1-1821-4867-b51f-1c0334d959a6": {
+            "alt_names": {
+                "1d600132-8340-46a1-b19b-8d8bc86ce4eb": {
+                    "direction": "input",
+                    "name": "UART4_RX"
+                },
+                "3d891453-e68a-40b7-8a29-c3c102a2f1ab": {
+                    "direction": "output",
+                    "name": "LCD_B4"
+                },
+                "55b57af5-f810-4cf3-85d5-26876a594849": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_NCS"
+                },
+                "68212f28-7df6-465d-9bf4-a50d50f966c1": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN5"
+                },
+                "8d565e63-5965-49e6-8747-d7efc2dbac2a": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_MISO(boot)/I2S3_SDI"
+                },
+                "923bab6c-bc49-4501-bd1b-85e700988b9a": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D4/PSSI_D4"
+                },
+                "958b41ac-3ce0-4c54-8210-8016afe2fbeb": {
+                    "direction": "input",
+                    "name": "USART3_RX"
+                },
+                "a0e103ec-853e-4bf9-9e46-dbc3cb245b94": {
+                    "direction": "bidirectional",
+                    "name": "I2C5_SCL"
+                },
+                "b9dceeb8-0624-4de3-b51d-2570e1c78421": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D3"
+                },
+                "fb07a6d6-ca2d-498c-9f53-ea3f385e2e8e": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC11",
+            "swap_group": 0
+        },
+        "8f834fae-ecd7-4e24-bd5e-fe4d44b7c473": {
+            "alt_names": {
+                "09f55dfc-493f-412f-ba83-b3f6c86e30cb": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN"
+                },
+                "0fbe903f-1dde-498d-90c0-704c0c7dc5b2": {
+                    "direction": "bidirectional",
+                    "name": "USART10_CK"
+                },
+                "65346ba8-5a81-4c3e-90a0-3d4b02cd824f": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D12/FMC_AD12"
+                },
+                "9f32ba35-ce4c-4611-8f89-b2091a511fc2": {
+                    "direction": "output",
+                    "name": "LCD_R7"
+                },
+                "c57b486f-b065-49b8-95aa-a4d9ba5c30ee": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "f7f8fa69-a9c0-4089-bdc8-f9b14648507d": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN_COMP12"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE15",
+            "swap_group": 0
+        },
+        "915bb432-6123-4849-9f57-40878972eb41": {
+            "alt_names": {
+                "1b30bd05-d8de-42c2-bafb-8bf875b0b182": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN6"
+                },
+                "1dd91b68-38d0-472b-a232-4aa64e5dba3f": {
+                    "direction": "input",
+                    "name": "FDCAN1_RX(boot)"
+                },
+                "30b27ba3-7e41-4165-a1ef-18008d19303b": {
+                    "direction": "input",
+                    "name": "UART4_RX"
+                },
+                "3d3fe7ce-a98c-41f3-96c3-40f3af79d0dc": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D2/FMC_AD2"
+                },
+                "6caf18de-a45b-4743-b80c-1ac82bf1c6f3": {
+                    "direction": "input",
+                    "name": "UART9_CTS"
+                },
+                "6f51d2e2-2a35-42a3-bf45-485c62e3c492": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "bef6a1b9-b1f1-4f03-9586-8a873fd88204": {
+                    "direction": "output",
+                    "name": "LCD_B1"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD0",
+            "swap_group": 0
+        },
+        "933a2d64-b1b7-4b5d-8ed9-24c7857c871b": {
+            "alt_names": {
+                "49b1e6fe-e6bf-4815-af69-57f26539fdf9": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SCK_A"
+                },
+                "538295c4-2eab-418b-9ac4-a71d85dfcabc": {
+                    "direction": "bidirectional",
+                    "name": "TIM15_CH1"
+                },
+                "5912ae88-6cb3-45ff-b732-fab09cc5ea04": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "59e3df38-6424-4e58-9ebe-324432a6520a": {
+                    "direction": "output",
+                    "name": "FMC_A21"
+                },
+                "5fc9c7e7-d2af-4f84-8830-f9c02201c838": {
+                    "direction": "output",
+                    "name": "LCD_G0"
+                },
+                "6d4242e8-ff76-40d7-ad66-1f25063c7d54": {
+                    "direction": "output",
+                    "name": "SAI1_CK2"
+                },
+                "81920adf-7062-4192-a6c4-1f5307889de4": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN3"
+                },
+                "914bb1ad-837e-4620-90ec-85a8064699c8": {
+                    "direction": "bidirectional",
+                    "name": "SPI4_MISO"
+                },
+                "bc4b418c-59ba-4d63-8879-50b6eee73cd2": {
+                    "direction": "bidirectional",
+                    "name": "SAI1_SCK_A"
+                },
+                "c6173d7c-a5a7-4853-bcdb-f6fab754f50d": {
+                    "direction": "bidirectional",
+                    "name": "TRACED2"
+                },
+                "c993efd1-6ccf-415a-9594-f3f23a323c57": {
+                    "direction": "output",
+                    "name": "SAI4_CK2"
+                },
+                "cf486036-778e-4e9c-b8de-3ef5fe4bbcbd": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D6/PSSI_D6"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE5",
+            "swap_group": 0
+        },
+        "93a31237-7762-4532-8c8d-20441d2a77e2": {
+            "alt_names": {
+                "06bfb22a-59ea-4d8d-a19c-0ad7ea352213": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "50978bcc-4110-4d9c-a0ca-3d808efc5b16": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D0/FMC_AD0"
+                },
+                "cc13139e-8340-44fa-934a-40c6e41d611a": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH3"
+                },
+                "e2c2926b-3b63-4b04-8a05-4bbf505bddf1": {
+                    "direction": "input",
+                    "name": "UART8_CTS"
+                },
+                "fff7be1c-8a34-4067-897d-dbfe0081c847": {
+                    "direction": "input",
+                    "name": "UART9_RX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD14",
+            "swap_group": 0
+        },
+        "949f2e13-02e2-4d4c-9bc4-b1a6a20c5fa1": {
+            "alt_names": {
+                "2f251139-a2d8-4f0c-86b1-0f70eb94206a": {
+                    "direction": "output",
+                    "name": "USART3_TX(boot)"
+                },
+                "42c01f48-ae8d-49d2-9a01-68b4ce58c55f": {
+                    "direction": "input",
+                    "name": "SPDIFRX1_IN2"
+                },
+                "78cc2110-a356-4230-bd74-d849355ea310": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D13/FMC_AD13"
+                },
+                "b0a5bb78-8c20-49ea-92b6-24e3f736b42b": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "e3ac5b1e-7575-4586-ac99-0ca84fc047f0": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN3"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD8",
+            "swap_group": 0
+        },
+        "97688e48-e806-42ad-a6b9-c473a6a1a604": {
+            "alt_names": {
+                "6a8b7bc5-a181-4b6a-9318-dba587fc6108": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "b33447aa-1809-428b-b386-051d6a909bb5": {
+                    "direction": "bidirectional",
+                    "name": "JTMS/SWDIO"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA13",
+            "swap_group": 0
+        },
+        "9a0ac741-03b5-444b-a9d4-08167dd9b6fb": {
+            "alt_names": {
+                "01ba50f1-c650-4707-a1f8-fde8ce61ba28": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN"
+                },
+                "30762663-aa08-4e30-b381-f8c22c4d4d02": {
+                    "direction": "input",
+                    "name": "UART5_RX"
+                },
+                "30f187d4-cb98-46a4-8a33-830449633280": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D5"
+                },
+                "6540afc5-3600-41a4-bfad-30cc64c2666c": {
+                    "direction": "output",
+                    "name": "ETH_MII_TXD0/ETH_RMII_TXD0"
+                },
+                "8abf880c-8e65-4950-89a5-96e242b02aef": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO0"
+                },
+                "a58dfcc4-dbc9-4812-a0d0-1a3b8b598cb8": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "a87b268c-dc59-44db-86c9-c373a99bde31": {
+                    "direction": "bidirectional",
+                    "name": "I2C2_SMBA"
+                },
+                "ac751e99-6177-4c19-bfdc-3ed15b5dbd9d": {
+                    "direction": "bidirectional",
+                    "name": "USART3_CK"
+                },
+                "c32c6161-9220-4ec4-bc71-14117ce1b8c9": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_NCLK"
+                },
+                "dd0fde54-64ae-4e2f-9450-222a3b9a79d5": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN_COMP12"
+                },
+                "e24915b9-39c1-4c47-91da-7601eb207e28": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_NSS/I2S2_WS"
+                },
+                "f9559412-38d8-4e46-8de7-aa0287280067": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN1"
+                },
+                "fa7496f4-1733-46e7-a290-4d5d1bb0e92b": {
+                    "direction": "input",
+                    "name": "FDCAN2_RX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB12",
+            "swap_group": 0
+        },
+        "9af6c3d9-4a7d-4adc-ba0b-8037a180ee50": {
+            "alt_names": {
+                "1c4394f3-7a0f-443d-87a1-b75fafbb88fe": {
+                    "direction": "bidirectional",
+                    "name": "MDIOS_MDC"
+                },
+                "2708be5b-aedc-431f-b53d-49b388825a8f": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH1"
+                },
+                "28ea9c4e-31ce-4104-89e2-73c463f71606": {
+                    "direction": "input",
+                    "name": "TIM8_BKIN_COMP12"
+                },
+                "75edb4e4-d33e-4c2b-b12b-96f9a0d9a313": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "78b7a688-0f54-41fc-8eda-acb78eac2933": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN"
+                },
+                "885b77f2-c752-4988-8abb-cac1df03d107": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_MISO/I2S6_SDI"
+                },
+                "9b48cccb-2db0-4437-bcd9-5789749e0257": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_MISO(boot)/I2S1_SDI"
+                },
+                "a3406f27-353e-4de7-98bc-66817592c9d0": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN_COMP12"
+                },
+                "ac933f90-08d8-4034-854c-143412a39652": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO3"
+                },
+                "b358b68c-99c1-463c-9a83-2389fead48a5": {
+                    "direction": "input",
+                    "name": "ADC12_INP3"
+                },
+                "ce5f9e46-879f-4fed-96c1-bac8ee62e49d": {
+                    "direction": "bidirectional",
+                    "name": "TIM13_CH1"
+                },
+                "dcd681dd-e1ba-44b6-98c6-6f6ea231756f": {
+                    "direction": "output",
+                    "name": "LCD_G2"
+                },
+                "e250f797-5aab-42d7-a448-e9c672d5a6d6": {
+                    "direction": "output",
+                    "name": "DCMI_PIXCLK/PSSI_PDCK"
+                },
+                "e304067c-ae1a-4940-b456-b3427a9fa5a3": {
+                    "direction": "input",
+                    "name": "TIM8_BKIN"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA6",
+            "swap_group": 0
+        },
+        "a7964903-e494-4539-b4f0-1bc511e3de0c": {
+            "alt_names": {
+                "067aae35-bd35-4da0-a0a2-13fa5e3e8c3a": {
+                    "direction": "bidirectional",
+                    "name": "USART3_CTS/USART3_NSS"
+                },
+                "2e090e15-ef8b-4b68-8f1d-f766f14fd9b8": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SMBA"
+                },
+                "4d1c92a8-559f-43a5-bd5f-b639b7e0cfde": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_A"
+                },
+                "80b25ff5-104c-42a9-8fd2-d84fd49f1a2c": {
+                    "direction": "output",
+                    "name": "FMC_A16/FMC_CLE"
+                },
+                "a7c4dec9-761b-40ff-965a-91aaddfc3bf0": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO0"
+                },
+                "c32a4f2f-a2e6-4fe6-b456-dd4b6db038c5": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "d232bfe4-a90d-478d-877d-808e6c020486": {
+                    "direction": "input",
+                    "name": "LPTIM2_IN2"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD11",
+            "swap_group": 0
+        },
+        "a93727df-d457-489b-86e8-51f9f8d4a9a4": {
+            "alt_names": {
+                "0aa712b4-5887-4bc8-8a6c-47cec457731b": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN3"
+                },
+                "0da56b7f-a103-4324-a75a-6bc7c9d3feeb": {
+                    "direction": "input",
+                    "name": "USART3_RX(boot)"
+                },
+                "a1bc8444-e03a-43b3-979b-8c61daa70885": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D14/FMC_AD14"
+                },
+                "c88ad912-34e4-45e0-a397-5b0cd39808dd": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD9",
+            "swap_group": 0
+        },
+        "a9b3ddf4-0bc6-406c-9e74-6426edc5508f": {
+            "alt_names": {
+                "4738f51e-141f-4f04-9c70-d44bf780c599": {
+                    "direction": "output",
+                    "name": "DFSDM1_CKOUT"
+                },
+                "537bc325-1ce4-4737-9207-583c7795a504": {
+                    "direction": "bidirectional",
+                    "name": "USART2_CTS/USART2_NSS"
+                },
+                "5b153baf-ae70-49f5-97c6-0deb8653f727": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "6239e13e-1f2c-4e17-a2cf-b8044662c62f": {
+                    "direction": "output",
+                    "name": "FMC_CLK"
+                },
+                "698909bb-4196-4123-afb3-5fac64e5e0bc": {
+                    "direction": "output",
+                    "name": "LCD_G7"
+                },
+                "be4f1880-ccc4-48a3-b56e-732b2d0f4ed9": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D5/PSSI_D5"
+                },
+                "e09c3363-6b41-4602-b41e-369148bdc142": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_SCK/I2S2_CK"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD3",
+            "swap_group": 0
+        },
+        "aaa61c66-a649-429c-a39a-b1b2f06de9e6": {
+            "alt_names": {
+                "128903d8-9db6-4790-8cc6-a916a93ac3c1": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH2"
+                },
+                "1d710199-ff87-480f-ae3e-e96ab235ede1": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH2"
+                },
+                "1ec6d6e6-e7f8-4a8a-a9d5-82de5472bf14": {
+                    "direction": "output",
+                    "name": "SDMMC1_D123DIR"
+                },
+                "2002f7a1-142e-4002-bb4f-a6bd1fa80a96": {
+                    "direction": "output",
+                    "name": "I2S3_MCK"
+                },
+                "2e94f6ba-100e-4a43-92db-9e91e13fe557": {
+                    "direction": "input",
+                    "name": "USART6_RX"
+                },
+                "35107b0a-5285-41c2-8caf-2c421172bb8f": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D7"
+                },
+                "47b6106c-e3ff-4fe0-b7ed-2610c3173bdf": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D1/PSSI_D1"
+                },
+                "48e2baf1-7635-4fc9-85dd-2f6408b09ef7": {
+                    "direction": "output",
+                    "name": "LCD_G6"
+                },
+                "69abb034-d3ad-4a8c-ab2b-6f49546fd9d8": {
+                    "direction": "output",
+                    "name": "FMC_NE1"
+                },
+                "7cd72c59-7de1-4b46-8c4b-3b0854f21cc5": {
+                    "direction": "bidirectional",
+                    "name": "DBTRGIO"
+                },
+                "8a933165-09c4-4825-ba07-97e253f794e7": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D7"
+                },
+                "c5720e93-39fc-4d48-9983-a17ad8674d4b": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN3"
+                },
+                "c7faaaea-b2b4-4f2e-aef6-0e150abc4fe8": {
+                    "direction": "output",
+                    "name": "SWPMI_TX"
+                },
+                "d941bd94-45ad-4e53-b87c-f482304fcc05": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC7",
+            "swap_group": 0
+        },
+        "ab326c0b-5e9d-42ea-aa0d-c125d959b040": {
+            "alt_names": {
+                "121d3ff7-91a6-4436-a9ec-ed1e50df8e9c": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_NSS/I2S2_WS"
+                },
+                "19d443df-a51c-4dee-9f60-7ddd4743c529": {
+                    "direction": "input",
+                    "name": "TIM16_BKIN"
+                },
+                "312c8b61-de70-40c2-84fa-969818f4ca0a": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_MISO/I2S1_SDI"
+                },
+                "4bca8d49-a8d2-45af-a81c-2f0edc42c062": {
+                    "direction": "input",
+                    "name": "NJTRST"
+                },
+                "7306ece9-9409-430d-8510-d614e5883dfa": {
+                    "direction": "output",
+                    "name": "UART7_TX"
+                },
+                "978c082e-734a-4467-9607-107abafa0ce2": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D3"
+                },
+                "abfb1c3c-018b-45fc-b1ef-c848c7707d8a": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_MISO/I2S6_SDI"
+                },
+                "ba1c996d-948c-478f-8957-960b6441f45d": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "bfa782a8-8e9a-4d70-a8e7-c21576c6c92d": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH1"
+                },
+                "f2b8ec92-7069-466d-aba5-56c8f5c84f17": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_MISO/I2S3_SDI"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB4",
+            "swap_group": 0
+        },
+        "b04c39a7-a029-45a8-bd66-4bc6ebd49e1f": {
+            "alt_names": {
+                "215516cf-956e-45df-addf-cfa352f444e2": {
+                    "direction": "output",
+                    "name": "FDCAN2_TX"
+                },
+                "24f87bbe-dc74-4433-b205-422ee8efbadd": {
+                    "direction": "input",
+                    "name": "USART3_CTS/USART3_NSS"
+                },
+                "250e4397-c403-4a7d-9656-7467039fa909": {
+                    "direction": "output",
+                    "name": "ETH_MII_TXD1/ETH_RMII_TXD1"
+                },
+                "2fcc8044-dae9-434b-a3c2-d5a691bca50a": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN1"
+                },
+                "51464075-68c5-41e6-be99-2404eca41ea5": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_SCK/I2S2_CK"
+                },
+                "71ee2a53-9dce-45c1-bfc3-8adf9ef14ee5": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH1N"
+                },
+                "77ed6cff-97bc-4c08-b4d8-88444588dff3": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "7c79a0f9-a852-4f8b-9cdf-c2809259d919": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO2"
+                },
+                "94bd8a2f-4110-48fb-8262-0dad79d501f3": {
+                    "direction": "output",
+                    "name": "LPTIM2_OUT"
+                },
+                "a48b2d1c-5028-433c-a926-4e3725614077": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D0"
+                },
+                "a5505253-872f-4e74-a96e-3a654ffe5876": {
+                    "direction": "output",
+                    "name": "UART5_TX"
+                },
+                "d1cbe1ef-c083-4da4-b23c-efb7f7d16506": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D2/PSSI_D2"
+                },
+                "e7217d0a-76a5-43a8-a5ed-9b878d38618c": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D6"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB13",
+            "swap_group": 0
+        },
+        "b2c4cfbc-b604-49c5-b107-c4f15ceeb54d": {
+            "alt_names": {
+                "05b216e4-54f2-45bc-96cf-d7a7141c49dd": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "1259107b-191f-47ea-93f3-9c2bb4a65401": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH4"
+                },
+                "7011f475-443c-4fb9-81ea-1388dae2a085": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN7"
+                },
+                "939b0927-76a6-4e31-8948-4da60154f9aa": {
+                    "direction": "input",
+                    "name": "USART3_RX(boot)"
+                },
+                "a1d8e794-26fe-4241-a550-6913713215b2": {
+                    "direction": "output",
+                    "name": "ETH_MII_TX_EN/ETH_RMII_TX_EN"
+                },
+                "a2a743ab-2633-4724-acd4-d9dc500e6310": {
+                    "direction": "output",
+                    "name": "LCD_G5"
+                },
+                "c6b3cff7-ca52-4136-bedc-949590f16b33": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D4"
+                },
+                "cfc21055-c43f-4d99-b536-bafd78c465c1": {
+                    "direction": "input",
+                    "name": "LPTIM2_ETR"
+                },
+                "f738cc3c-daa4-4944-8fcf-11bd0acacc47": {
+                    "direction": "bidirectional",
+                    "name": "I2C2_SDA"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB11",
+            "swap_group": 0
+        },
+        "b324e359-ec04-4eb6-9986-b0d78a2971b8": {
+            "alt_names": {
+                "15911d4c-00aa-4371-bdc2-2fe64522a49c": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO7"
+                },
+                "33ef3f03-431e-4a3c-a1c2-218a86489941": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN4"
+                },
+                "57ebec19-3c90-4473-833b-af372795e49c": {
+                    "direction": "input",
+                    "name": "COMP2_INM"
+                },
+                "9647e6c3-e0f8-41e6-b4a9-fea7b577d6f2": {
+                    "direction": "input",
+                    "name": "UART7_CTS"
+                },
+                "9be640ff-fcdb-45a5-8df7-cd5567ddeec6": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c17c1746-b528-4d0c-b1df-71dc03efe12f": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH2N"
+                },
+                "db579b59-dffa-4969-961d-1ee0831a37a8": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D7/FMC_AD7"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE10",
+            "swap_group": 0
+        },
+        "b6b95d5d-c8c8-44f2-a968-ec8ff0d4e7e4": {
+            "alt_names": {
+                "614857f0-36d0-4b99-8f4d-0aab0215d349": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC14-OSC32_IN",
+            "swap_group": 0
+        },
+        "ba36e208-5deb-485e-ae87-54c1bf97151c": {
+            "alt_names": {
+                "224ce428-5b97-405c-b8b9-97f5a8d5950d": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH3N"
+                },
+                "2480ebd8-32c9-4663-9d15-1bcd55022b17": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D11/FMC_AD11"
+                },
+                "271d615a-5754-4122-a1f3-652176b28998": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "29927318-c7c4-406f-82c8-f599578f762a": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D1"
+                },
+                "52a7b11e-7a3a-49ff-9d62-9416103f4da7": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN2"
+                },
+                "89dc40d9-395c-45c7-9cd6-d8c7e67d1478": {
+                    "direction": "bidirectional",
+                    "name": "TIM12_CH2"
+                },
+                "98402361-9278-4ea3-88c1-2dc4eb47cb28": {
+                    "direction": "output",
+                    "name": "LCD_G7"
+                },
+                "a61b85f7-1c1a-4d7d-9e32-b26e1ac9a463": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_MOSI/I2S2_SDO"
+                },
+                "b1e2cb3b-7661-41f2-a16e-6849576e416d": {
+                    "direction": "input",
+                    "name": "RTC_REFIN"
+                },
+                "b295ad30-936a-40be-980a-9fbd9b5126a7": {
+                    "direction": "input",
+                    "name": "UART4_CTS"
+                },
+                "d0964a12-2afc-44d8-a79a-d8f2e72c5793": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH3N"
+                },
+                "deb6984a-cebb-48c2-81f1-363c8982bc16": {
+                    "direction": "input",
+                    "name": "USART1_RX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB15",
+            "swap_group": 0
+        },
+        "c33b7b9f-a0e9-43e6-a371-1124dce091c2": {
+            "alt_names": {
+                "20ed3559-68ac-44fe-8526-13715534e370": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D15/FMC_AD15"
+                },
+                "78604429-e438-4da1-be4d-ae62aa242695": {
+                    "direction": "bidirectional",
+                    "name": "USART3_CK"
+                },
+                "a3548266-c834-4167-b50c-7683044623ae": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "d13ae994-8202-49c4-8c87-b8d40eb7bd3e": {
+                    "direction": "output",
+                    "name": "DFSDM1_CKOUT"
+                },
+                "f47d0180-7888-4488-91f4-f280efd742b0": {
+                    "direction": "output",
+                    "name": "LCD_B3"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PD10",
+            "swap_group": 0
+        },
+        "c6a8e09d-e786-4979-850b-7a1a71e3cf38": {
+            "alt_names": {
+                "09c9968d-8e9c-4aaa-b4a8-6b624b80c586": {
+                    "direction": "input",
+                    "name": "JTCK/SWCLK"
+                },
+                "17beae16-79cd-418e-8f5a-baecebc49c54": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA14",
+            "swap_group": 0
+        },
+        "cad4eefe-c240-41b5-ac22-abda9b1327da": {
+            "alt_names": {
+                "131ac59e-d9d6-41aa-8a1d-84954eca87ab": {
+                    "direction": "bidirectional",
+                    "name": "TIM5_CH1"
+                },
+                "36db93fb-b441-455b-93c2-3346f7ec7c21": {
+                    "direction": "output",
+                    "name": "FMC_A19"
+                },
+                "42dc7f92-2325-4b3f-9d29-7a3dee495587": {
+                    "direction": "input",
+                    "name": "TIM15_BKIN"
+                },
+                "49a133c7-a0fa-4c9a-8c9b-8f36feced4a7": {
+                    "direction": "bidirectional",
+                    "name": "USART2_NSS"
+                },
+                "52c2e0d2-56f7-43a1-bb11-8c577b86cb02": {
+                    "direction": "input",
+                    "name": "WKUP1"
+                },
+                "57f1aaf6-8c75-4d16-93bc-4b2ba4a74859": {
+                    "direction": "input",
+                    "name": "ETH_MII_CRS"
+                },
+                "6f066838-6fa6-4f0f-a3a6-6e01301641cd": {
+                    "direction": "output",
+                    "name": "USART2_CTS"
+                },
+                "8f5da116-b134-458d-ac78-2954efa3291d": {
+                    "direction": "input",
+                    "name": "TIM2_ETR"
+                },
+                "a7ba13a4-a320-4c13-8458-ea1bce616803": {
+                    "direction": "output",
+                    "name": "UART4_TX"
+                },
+                "a8f84459-eed4-4516-825d-db6faca19d8e": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_SD_B"
+                },
+                "ab3fad01-267d-4e33-9c4c-957334e5686c": {
+                    "direction": "bidirectional",
+                    "name": "I2S6_WS"
+                },
+                "b50935db-b15a-44d7-bc07-c7f9161665db": {
+                    "direction": "output",
+                    "name": "SDMMC2_CMD"
+                },
+                "c86ab763-6838-434e-86e1-2150c22c1712": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "e9c24fef-da6b-4941-a3bf-d6a62f3d6bbc": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH1"
+                },
+                "f2619ef1-3f68-45f5-8515-36e25da0fbc1": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_NSS"
+                },
+                "f280bad4-016e-4f88-91d8-61011a5eaf1f": {
+                    "direction": "input",
+                    "name": "ADC1_INP16"
+                },
+                "feec0c67-550a-4379-819a-c8ee3f68a3ce": {
+                    "direction": "input",
+                    "name": "TIM8_ETR"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA0",
+            "swap_group": 0
+        },
+        "ce5ff9d3-186f-49be-a165-cb836552b98b": {
+            "alt_names": {
+                "03afcb41-a832-4929-b38b-666bec258e1c": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH3"
+                },
+                "186058bc-9b3c-4fbc-aea6-86f471f98c2a": {
+                    "direction": "output",
+                    "name": "LCD_B6"
+                },
+                "2e87d5ca-9cf4-410d-bfa4-b3fa7da33e9a": {
+                    "direction": "input",
+                    "name": "DFSDM1_CKIN7"
+                },
+                "35cdfa3e-6c91-40e8-98d5-d7ab24877744": {
+                    "direction": "output",
+                    "name": "ETH_MII_TXD3"
+                },
+                "40432a36-4315-4f1b-b871-9395787031b2": {
+                    "direction": "input",
+                    "name": "FDCAN1_RX"
+                },
+                "5946eecb-5731-4119-ae38-d98cf5cbd3bc": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "690dc3ef-6d73-46f4-8271-c6e60d3fbec1": {
+                    "direction": "bidirectional",
+                    "name": "TIM16_CH1"
+                },
+                "a43a74ad-69da-4ed7-a686-a2dc8d8fbf8a": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D4"
+                },
+                "ab64da0b-ebd1-4a27-b5ea-4a5435797740": {
+                    "direction": "input",
+                    "name": "UART4_RX"
+                },
+                "b9505b48-62e1-4f71-b6dd-cd06efb4e845": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D4"
+                },
+                "cf7c2420-6904-4371-8990-38b3daab504a": {
+                    "direction": "input",
+                    "name": "SDMMC1_CKIN"
+                },
+                "d2e1a24e-70af-48bf-849c-7e098b800744": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D6/PSSI_D6"
+                },
+                "e2ac53a5-d44a-4a98-bb10-8b0c9c0cb527": {
+                    "direction": "bidirectional",
+                    "name": "I2C1_SCL"
+                },
+                "fac6c6bf-6ccb-4ec2-8894-e110997bec41": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SCL"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB8",
+            "swap_group": 0
+        },
+        "d05d1ba8-e930-41d7-9ff0-c7f0ab7ab4a2": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VSSA",
+            "swap_group": 0
+        },
+        "d7ed01b6-8892-41f0-91f1-d45086fb2f99": {
+            "alt_names": {
+                "111ff0e6-1851-4d16-a091-9a0c22e139a7": {
+                    "direction": "output",
+                    "name": "LPTIM4_OUT"
+                },
+                "15d270fe-ccbd-430a-9120-90970498c8c2": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO0"
+                },
+                "4eddafa9-d7a5-42cf-adb7-fc36c2a94f0f": {
+                    "direction": "output",
+                    "name": "LCD_R1"
+                },
+                "51cc1be4-ed0c-4404-a7b8-206d47b31ade": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "63189071-21a7-466e-8dd6-d3b2f92428d5": {
+                    "direction": "bidirectional",
+                    "name": "TIM15_CH1"
+                },
+                "6fd59be4-6a80-4b0e-a1dd-82b16e59a1d5": {
+                    "direction": "input",
+                    "name": "WKUP2"
+                },
+                "78bdd5ef-e116-456f-8e5b-42d40df2f8b3": {
+                    "direction": "output",
+                    "name": "SAI4_SCK_B"
+                },
+                "8627ce42-8fb0-4510-8cfc-c486e36574cd": {
+                    "direction": "bidirectional",
+                    "name": "ETH_MDIO"
+                },
+                "976a7eb5-aefd-4c5b-9fbd-8a922f92cf3e": {
+                    "direction": "bidirectional",
+                    "name": "MDIOS_MDIO"
+                },
+                "be90f006-e8af-4005-bdfe-f19ac6f66ad2": {
+                    "direction": "output",
+                    "name": "USART2_TX(boot)"
+                },
+                "ce763d9f-997a-4461-9688-fcbe805adbdc": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH3"
+                },
+                "eef5ab9d-b1db-4beb-b06d-f24d98ca68a6": {
+                    "direction": "input",
+                    "name": "ADC12_INP14"
+                },
+                "f905bce6-a3ce-4072-bd73-9672a2492472": {
+                    "direction": "bidirectional",
+                    "name": "TIM5_CH3"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA2",
+            "swap_group": 0
+        },
+        "ddc84e67-f70f-4761-b2c7-c91a33a76b29": {
+            "alt_names": {
+                "21c3e148-adea-495d-81b3-3d0cad81ecb9": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D0/PSSI_D0"
+                },
+                "4c35a393-6846-4296-90b4-d15c61b9d8fd": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "52c0f0ea-73f2-4543-a4af-2c7892c1adbf": {
+                    "direction": "output",
+                    "name": "USART1_TX(boot)"
+                },
+                "5ba6238d-428c-4c3b-9bbe-eb2ebd2bcd7a": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH2"
+                },
+                "5d52ed51-cfb8-45d6-a348-9495694a5649": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_SCK/I2S2_CK"
+                },
+                "8db39f7c-1864-4c09-85dd-ddf527eaa0d8": {
+                    "direction": "output",
+                    "name": "ETH_TX_ER"
+                },
+                "8fe48ffc-9abc-4ee2-a592-56f9a34c5609": {
+                    "direction": "bidirectional",
+                    "name": "I2C5_SMBA"
+                },
+                "9aa9d2df-e4b0-43d6-830b-4949dd54f9c1": {
+                    "direction": "bidirectional",
+                    "name": "I2C3_SMBA"
+                },
+                "9c44a787-bc32-4819-8fe0-112ff22ecc0b": {
+                    "direction": "input",
+                    "name": "OTG_HS_VBUS"
+                },
+                "b0174bc8-5263-4122-987c-09fb399bbd1f": {
+                    "direction": "output",
+                    "name": "LPUART1_TX"
+                },
+                "c9a6018f-063f-4553-bd5c-24587bc376bc": {
+                    "direction": "output",
+                    "name": "LCD_R5"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA9",
+            "swap_group": 0
+        },
+        "df670585-064b-442b-9faa-86d145379a58": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "VCAP1",
+            "swap_group": 0
+        },
+        "df95ae82-3a5c-4231-b2d9-b614b0d0b047": {
+            "alt_names": {
+                "10beac3c-bc41-494a-af3b-ed752f7c28ac": {
+                    "direction": "input",
+                    "name": "LPUART1_RX"
+                },
+                "1855c116-948d-492f-99c8-4bcb60690e6e": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "2a75f5d3-6dbf-44c7-9722-d30dd5f99f2e": {
+                    "direction": "bidirectional",
+                    "name": "MDIOS_MDIO"
+                },
+                "5600cffb-90cc-452a-bcd1-ba18885bbf2b": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D1/PSSI_D1"
+                },
+                "57fe6f96-44cf-4ccb-bd50-3511d755098d": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ID"
+                },
+                "71d793a3-fb52-4330-984e-d935e755395b": {
+                    "direction": "input",
+                    "name": "USART1_RX(boot)"
+                },
+                "db3e14fc-e5d1-4680-826c-c00cc3a78841": {
+                    "direction": "output",
+                    "name": "LCD_B1"
+                },
+                "dd831bb7-8e09-453f-8206-131aae0c1cc5": {
+                    "direction": "output",
+                    "name": "LCD_B4"
+                },
+                "f311d565-a74f-4744-8584-e3f5435c80f5": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH3"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA10",
+            "swap_group": 0
+        },
+        "e308e02f-fc72-4c7a-b56c-e0aa209a945f": {
+            "alt_names": {
+                "0d8d18f2-0f63-4934-933b-43cea479b585": {
+                    "direction": "output",
+                    "name": "FMC_SDNWE"
+                },
+                "3016d880-37a4-4453-8d68-d6fa9e3cec8f": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH1N"
+                },
+                "530692d4-d00c-473e-89cb-fbbf94daea5c": {
+                    "direction": "bidirectional",
+                    "name": "TIM14_CH1"
+                },
+                "5912d941-f378-4a9d-bf77-7c0766f3dfc3": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH1N"
+                },
+                "5f7782fa-dbb3-4a97-abe0-592d59c5b529": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_MOSI/I2S6_SDO"
+                },
+                "7e9c74c8-f88a-414d-80f7-f6cc79d3cbd7": {
+                    "direction": "input",
+                    "name": "OPAMP1_VINM"
+                },
+                "8496f46d-ec16-425b-8747-0d7ebcdc476c": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "a1dbd944-2eb9-4c53-8d19-cd729561041c": {
+                    "direction": "input",
+                    "name": "ETH_MII_RX_DV/ETH_RMII_CRS_DV"
+                },
+                "ac4a1834-7165-4b14-9f7d-75c33725737b": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH2"
+                },
+                "ade80667-7b3b-4273-b071-c6f130e89d30": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_MOSI(boot)/I2S1_SDO"
+                },
+                "dee03ed6-0332-408e-89d7-73de179352fb": {
+                    "direction": "output",
+                    "name": "LCD_VSYNC"
+                },
+                "e5c09d5a-d073-4809-8ce7-8e3aa002d1e8": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO2"
+                },
+                "f70e98e1-8f9e-406f-94e4-886bfcccc74a": {
+                    "direction": "input",
+                    "name": "ADC12_INN3"
+                },
+                "f73c4595-1838-4506-8e2a-b913cac070ad": {
+                    "direction": "input",
+                    "name": "ADC12_INP7"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA7",
+            "swap_group": 0
+        },
+        "e3946cdb-8a4d-450c-abcd-ac27b0664e8c": {
+            "alt_names": {
+                "0f36b07e-c818-40e0-ba26-e772b000bf46": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH3"
+                },
+                "287fdffa-d3e5-400f-9641-ed65bdf8e2d7": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "32aae190-57dd-425a-8195-b3df6d8323a1": {
+                    "direction": "output",
+                    "name": "UART5_RTS/UART5_DE"
+                },
+                "3877b223-0ac6-48aa-9c01-1effe40fd55e": {
+                    "direction": "output",
+                    "name": "FMC_NE2/FMC_NCE"
+                },
+                "5a5043fb-90eb-4366-ab6d-3cf2f7c209a1": {
+                    "direction": "bidirectional",
+                    "name": "TRACED1"
+                },
+                "5ae199a3-8b8f-4aaa-98ff-106096cb05c3": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH3"
+                },
+                "5e1c5214-c0c5-46e9-a590-f6559a3a366a": {
+                    "direction": "bidirectional",
+                    "name": "USART6_CK"
+                },
+                "8ff25434-0ecf-49bd-9756-a48b540c1a7a": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D0"
+                },
+                "af480037-d29b-4358-bfdc-b297fa21dac7": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D2/PSSI_D2"
+                },
+                "eed86ddf-405e-4867-845a-440ee8bf2dde": {
+                    "direction": "input",
+                    "name": "SWPMI_RX"
+                },
+                "f328af67-e8d6-4473-ae89-206a3b426b4e": {
+                    "direction": "input",
+                    "name": "FMC_INT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC8",
+            "swap_group": 0
+        },
+        "e3980c92-0037-46e7-882b-7b5b7d557fa6": {
+            "alt_names": {
+                "01f58b6c-e08e-49f3-b405-209ae9c7ff66": {
+                    "direction": "input",
+                    "name": "ADC12_INP9"
+                },
+                "0662dddd-156d-46e3-b67e-f1a26f7dcb65": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH2N"
+                },
+                "29645a75-5a27-4543-b16f-dd79db5dd109": {
+                    "direction": "input",
+                    "name": "COMP1_INP"
+                },
+                "2effeee5-29ff-4f49-a0de-5c122caebc63": {
+                    "direction": "output",
+                    "name": "LCD_G1"
+                },
+                "4c3bc171-b63c-4ef7-ad2a-589a6d327674": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO1"
+                },
+                "5419baa2-2dad-4cba-9190-2acbd87f9666": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_ULPI_D1"
+                },
+                "65a9a9b2-f759-41d8-8738-2ec22a725195": {
+                    "direction": "input",
+                    "name": "UART4_CTS"
+                },
+                "6e4ce43b-97da-44a0-b2ab-ecc717ecb66a": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH2N"
+                },
+                "74aee460-928e-4ae7-9707-4fe50933dfb0": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "9aef9081-2690-416e-9876-330a84220f71": {
+                    "direction": "input",
+                    "name": "OPAMP1_VINP"
+                },
+                "b1552324-782e-4372-8c7a-37d95a85df16": {
+                    "direction": "input",
+                    "name": "ETH_MII_RXD2"
+                },
+                "bd5b9f83-085c-4ea4-ad07-1b7d6532031a": {
+                    "direction": "output",
+                    "name": "LCD_R3"
+                },
+                "d26475ff-7be8-4aa7-97a7-5771252e8cda": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH3"
+                },
+                "de51b521-68db-4b66-94c1-61c446ddd52d": {
+                    "direction": "input",
+                    "name": "ADC12_INN5"
+                },
+                "ec069465-7c2e-4af1-beef-c8317eaa1cae": {
+                    "direction": "output",
+                    "name": "DFSDM1_CKOUT"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB0",
+            "swap_group": 0
+        },
+        "e4fb4c2b-5db4-4657-83a2-ac88cd47460d": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "VREF+",
+            "swap_group": 0
+        },
+        "e6f89ae4-c9c8-4c66-a491-1b833abb5f1d": {
+            "alt_names": {
+                "1a080375-4242-41f1-a296-eb23992783a8": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "2a74fe96-322e-4141-82fc-c3c286edca62": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_SCK/I2S6_CK"
+                },
+                "2b71fa5d-136c-4ffb-a174-a8450e30e2bb": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D2"
+                },
+                "3d1e0f2c-168c-4454-9d95-b6796188b5f0": {
+                    "direction": "input",
+                    "name": "UART7_RX"
+                },
+                "419f2d59-863d-44e0-ab4f-17917a372006": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_SCK/I2S3_CK"
+                },
+                "59100aa7-e9cf-451c-975c-2e5426521636": {
+                    "direction": "output",
+                    "name": "JTDO/TRACESWO"
+                },
+                "734ba690-7652-4b06-a9f4-00e686e06fa9": {
+                    "direction": "input",
+                    "name": "TIM24_ETR"
+                },
+                "b8f00abe-86f3-43c6-94c5-ce38acc2f64a": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH2"
+                },
+                "d9daf45c-e4cb-4409-a474-ccfdf13ee5fa": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_SCK/I2S1_CK"
+                },
+                "da89ec87-ad4f-4b5e-a1dc-8b5e3ebe05ed": {
+                    "direction": "input",
+                    "name": "CRS_SYNC"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB3",
+            "swap_group": 0
+        },
+        "eb1d9805-8bd7-4c11-8dca-76d7fdca4336": {
+            "alt_names": {
+                "280a2d52-531f-4122-a4f6-74dca663552b": {
+                    "direction": "bidirectional",
+                    "name": "TIM1_CH1"
+                },
+                "48b1659c-e8dd-45da-a4ec-d6ba99c8bd01": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "9e2d3177-b0cb-4c1d-a825-95b146f45356": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO6"
+                },
+                "9e46c580-20ab-48f3-84c7-a0ef3a9043c4": {
+                    "direction": "input",
+                    "name": "COMP2_INP"
+                },
+                "a5239c1f-4bdb-4b45-80d2-a181a0c05200": {
+                    "direction": "bidirectional",
+                    "name": "FMC_D6/FMC_AD6"
+                },
+                "bae287e9-f1ad-48d2-b724-d27c1d58281a": {
+                    "direction": "input",
+                    "name": "OPAMP2_VINP"
+                },
+                "bfb007d8-2b1c-4cfd-be97-e6cc8459ac9e": {
+                    "direction": "output",
+                    "name": "DFSDM1_CKOUT"
+                },
+                "fa1508d8-32fe-4a39-9d68-00ca6e76ef0b": {
+                    "direction": "output",
+                    "name": "UART7_RTS/UART7_DE"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE9",
+            "swap_group": 0
+        },
+        "ed4e168c-c4a4-41ee-8172-e1ba2f236728": {
+            "alt_names": {
+                "1fd1d155-ad1e-4c51-9657-4d866dee520c": {
+                    "direction": "bidirectional",
+                    "name": "SPI6_NSS/I2S6_WS"
+                },
+                "47929b08-3c0e-4fc6-9544-e49b23247766": {
+                    "direction": "output",
+                    "name": "UART7_TX"
+                },
+                "89060a45-bdf8-4ad0-bc0f-ac3492236aa2": {
+                    "direction": "bidirectional",
+                    "name": "UART4_RTS/UART4_DE"
+                },
+                "948fcbde-271a-428f-9af6-18bb622550dd": {
+                    "direction": "output",
+                    "name": "LCD_B6"
+                },
+                "97d80cab-bacd-441d-998e-fd1e5ac84c33": {
+                    "direction": "bidirectional",
+                    "name": "SPI3_NSS(boot)/I2S3_WS"
+                },
+                "998ad91e-cdb7-4eb4-a0d7-92225a485f57": {
+                    "direction": "bidirectional",
+                    "name": "CEC"
+                },
+                "999030c4-3c28-4b27-ada8-0e76d58104ac": {
+                    "direction": "input",
+                    "name": "JTDI"
+                },
+                "a10333c8-ff7e-4d46-ae44-76943535df97": {
+                    "direction": "bidirectional",
+                    "name": "SPI1_NSS/I2S1_WS"
+                },
+                "bdeff97e-1cf4-4f6d-af55-efdd31d88c26": {
+                    "direction": "bidirectional",
+                    "name": "TIM2_CH1/TIM2_ETR"
+                },
+                "d0a3cde1-f73b-4b14-9f52-87ed9a95575e": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "ffbc9f1d-15c2-40e0-b588-5f4a538993e4": {
+                    "direction": "output",
+                    "name": "LCD_R3"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA15",
+            "swap_group": 0
+        },
+        "ed5c46b9-6b7f-4e17-9e07-9bbcc4184cfb": {
+            "alt_names": {
+                "007e3613-ca30-4bc8-8f7b-7742b20b0764": {
+                    "direction": "output",
+                    "name": "UART4_TX"
+                },
+                "1dd24d62-d675-440c-a29b-2e53f295ad29": {
+                    "direction": "output",
+                    "name": "LCD_R5"
+                },
+                "1ee44368-a2c1-4528-8a20-18a2dbaf8b3c": {
+                    "direction": "output",
+                    "name": "LPUART1_RTS/LPUART1_DE"
+                },
+                "50db23f3-9f8c-41af-b008-d3516c25a667": {
+                    "direction": "input",
+                    "name": "TIM1_BKIN2"
+                },
+                "5af7b402-750f-4c55-84a9-a34cd6418c51": {
+                    "direction": "output",
+                    "name": "FDCAN1_TX"
+                },
+                "63c546cd-d39d-46a1-a027-ede0df0888f7": {
+                    "direction": "output",
+                    "name": "USART1_RTS/USART1_DE"
+                },
+                "68f29b42-1f7a-438e-8733-dc631ad0fc94": {
+                    "direction": "bidirectional",
+                    "name": "SAI4_FS_B"
+                },
+                "94f2f1c6-3e37-4468-8bf8-79a7c41a91e9": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "97d260c0-82b0-436e-82e4-cd610f15aa6d": {
+                    "direction": "input",
+                    "name": "TIM1_ETR"
+                },
+                "c0c4e78b-8764-4f14-9685-3336cd534b14": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_SCK/I2S2_CK"
+                },
+                "e4a4fd39-c43c-4b6a-8cb9-48b757ccf2a8": {
+                    "direction": "bidirectional",
+                    "name": "OTG_HS_DP(boot)"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PA12",
+            "swap_group": 0
+        },
+        "f0bfd405-d5a7-40ab-bdea-8ed867d5328b": {
+            "alt_names": {
+                "136ef9a3-d4f5-479a-acce-f89ea01da0c6": {
+                    "direction": "input",
+                    "name": "RTC_TAMP1/RTC_TS"
+                },
+                "4aee5f23-53bc-4a6d-bf87-68e067b262ce": {
+                    "direction": "bidirectional",
+                    "name": "EVENTOUT"
+                },
+                "994f4cd3-dfe7-41c2-a167-5d2779b39f16": {
+                    "direction": "input",
+                    "name": "WKUP4"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC13",
+            "swap_group": 0
+        },
+        "f3ff683a-4b23-412b-8d88-c34890240c01": {
+            "alt_names": {
+                "0427da23-1275-4ab8-acae-1fb4f3fa5651": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D5"
+                },
+                "0b9f352a-d681-48ae-92fd-2ed09962ebbc": {
+                    "direction": "bidirectional",
+                    "name": "TIM17_CH1"
+                },
+                "1237910d-3425-4402-a9d1-317103024754": {
+                    "direction": "output",
+                    "name": "UART4_TX"
+                },
+                "1afadc45-e78f-4f45-a18d-bf20fe2fb442": {
+                    "direction": "bidirectional",
+                    "name": "I2C1_SDA(boot)"
+                },
+                "21d03995-3b19-47de-bf62-26cd723ab935": {
+                    "direction": "output",
+                    "name": "LCD_B7"
+                },
+                "79b35780-f294-4af7-8c14-12eea96278c3": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC2_D5"
+                },
+                "90b1e26e-059c-4178-8c83-812d1abbe4a2": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SDA"
+                },
+                "91af91b3-a096-4e66-97da-fce90383a145": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D7/PSSI_D7"
+                },
+                "a95fbc67-bc1e-4cb6-b5be-e031b6a3f79a": {
+                    "direction": "bidirectional",
+                    "name": "TIM4_CH4"
+                },
+                "b1c96ede-e03d-4bca-bc4e-2cc1955ff382": {
+                    "direction": "output",
+                    "name": "SDMMC1_CDIR"
+                },
+                "ce6efcde-7b1e-4d1b-a771-5feff71b5423": {
+                    "direction": "bidirectional",
+                    "name": "I2C4_SMBA"
+                },
+                "d133172c-3eef-497f-bbb9-aae59175fe7c": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "edb24a0b-6eb2-4f92-8bc8-36bca9303464": {
+                    "direction": "output",
+                    "name": "FDCAN1_TX"
+                },
+                "f3b05961-ea43-45b8-883c-75f44f8f66a1": {
+                    "direction": "bidirectional",
+                    "name": "SPI2_NSS/I2S2_WS"
+                },
+                "fec671ae-0a56-417a-876b-b5b55247b2c2": {
+                    "direction": "input",
+                    "name": "DFSDM1_DATIN7"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PB9",
+            "swap_group": 0
+        },
+        "fa019509-c31c-45ca-b8be-3809aed73527": {
+            "alt_names": {
+                "32f26575-8b3c-45ac-a448-7574c5c42fc7": {
+                    "direction": "output",
+                    "name": "LCD_B2"
+                },
+                "36d0a5b1-9c1c-410b-83eb-5733500b3965": {
+                    "direction": "bidirectional",
+                    "name": "TIM3_CH4"
+                },
+                "642a9190-d0f0-40dc-b1af-cd12c8c9d672": {
+                    "direction": "bidirectional",
+                    "name": "OCTOSPIM_P1_IO0"
+                },
+                "69db397e-5317-47c5-9326-902d01f432e2": {
+                    "direction": "input",
+                    "name": "UART5_CTS"
+                },
+                "7cc4124e-da10-445a-bb50-6a55ee6ab08e": {
+                    "direction": "input",
+                    "name": "SWPMI_SUSPEND"
+                },
+                "88fc9328-d434-40f8-a80f-8aea86175e46": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D3/PSSI_D3"
+                },
+                "9a35c30a-714d-489a-834c-2003f99938d1": {
+                    "direction": "output",
+                    "name": "MCO2"
+                },
+                "abddc803-0690-4129-a0dd-2b2c6a5bcc57": {
+                    "direction": "bidirectional",
+                    "name": "I2C3_SDA(boot)"
+                },
+                "b9884b6a-edbd-408c-a1e9-e2594db59839": {
+                    "direction": "output",
+                    "name": "LCD_G3"
+                },
+                "c48474b2-5199-4ac5-bcce-f687e816e70e": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "c69cebcb-0b84-4484-8f78-3728d2e4a3c8": {
+                    "direction": "bidirectional",
+                    "name": "SDMMC1_D1"
+                },
+                "cd3cf828-3599-4374-9a6c-33fa8cda9f14": {
+                    "direction": "bidirectional",
+                    "name": "TIM8_CH4"
+                },
+                "ee3e6f68-79b3-4c96-9453-2c764f3c0c7c": {
+                    "direction": "bidirectional",
+                    "name": "I2C5_SDA"
+                },
+                "f51a2578-5ceb-480a-a345-8ecd8158df9d": {
+                    "direction": "input",
+                    "name": "I2S_CKIN"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PC9",
+            "swap_group": 0
+        },
+        "fa639121-7d5c-47ba-aa02-4a9d2614c9b1": {
+            "alt_names": {
+                "1aa4ec63-25d9-4941-b3b2-f763c1be9f1a": {
+                    "direction": "input",
+                    "name": "LPTIM2_ETR"
+                },
+                "2b11095e-77f1-4b83-a4ee-9be92461e8e8": {
+                    "direction": "input",
+                    "name": "TIM4_ETR"
+                },
+                "5489de8e-8c43-48a7-8f2c-c6333e565986": {
+                    "direction": "output",
+                    "name": "SAI4_MCLK_A"
+                },
+                "6f3bcf9e-29a0-4d78-968e-a6135e522e17": {
+                    "direction": "output",
+                    "name": "EVENTOUT"
+                },
+                "8420a22c-d7cd-4770-8bb8-37c68c46e3d6": {
+                    "direction": "output",
+                    "name": "LCD_R0"
+                },
+                "a4e2f500-17b6-4c69-a17b-ab2f97398535": {
+                    "direction": "input",
+                    "name": "LPTIM1_ETR"
+                },
+                "a941c242-70bb-43c1-b5e4-7fb9a01f0a69": {
+                    "direction": "output",
+                    "name": "FMC_NBL0"
+                },
+                "d80a94c8-c06d-42f9-8052-d10e8dc4ed1f": {
+                    "direction": "bidirectional",
+                    "name": "DCMI_D2/PSSI_D2"
+                },
+                "d9c01fe0-8ad5-4d97-9466-97003b99df52": {
+                    "direction": "input",
+                    "name": "UART8_RX"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "PE0",
+            "swap_group": 0
+        },
+        "fa6e1e70-7072-4ea6-967d-98f419128041": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "BOOT0",
+            "swap_group": 0
+        },
+        "fb576d29-afaa-41ed-86bf-ceccb0e2c6dc": {
+            "alt_names": {
+                "62741f74-f959-45bc-aa7d-69fae8704730": {
+                    "direction": "input",
+                    "name": "ADC3_INP1"
+                }
+            },
+            "direction": "input",
+            "names": [],
+            "primary_name": "PC3_C",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "bfa38f3a-93bc-4fe4-bf45-c06521d574f3",
+    "version": 1
+}
