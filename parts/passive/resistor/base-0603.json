@@ -3,12 +3,27 @@
         false,
         "base 0603 resistor"
     ],
+    "datasheet": [
+        false,
+        ""
+    ],
+    "description": [
+        false,
+        "base 0603 resistor"
+    ],
     "entity": "3ce770af-7be0-4f72-b2af-2c8010911aaf",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
+    "inherit_model": true,
     "inherit_tags": false,
     "manufacturer": [
         false,
         ""
     ],
+    "model": "96c366ee-a963-41a0-9cc8-54c646979695",
     "package": "fe22ac1d-25b9-4a47-8414-51c990d7f94b",
     "pad_map": {
         "63256dd2-2eab-46fe-9201-b2e553476e98": {
@@ -23,12 +38,14 @@
     "parametric": {},
     "tags": [
         "passive",
-        "resistor"
+        "resistor",
+        "smd"
     ],
     "type": "part",
     "uuid": "cbeda48c-7fb0-4cfb-a4de-d9672e8cc190",
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }
