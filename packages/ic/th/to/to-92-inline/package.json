@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -172,7 +97,8 @@
             "width": 0
         }
     },
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "ad42ee4d-edfc-48e3-9235-a58e0a23518b",
+    "dimensions": {},
     "junctions": {
         "2cb058e7-869e-42f4-996a-7e717c2eb56f": {
             "position": [
@@ -217,6 +143,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "64d109cb-b334-40f5-96c6-0dd1f4aa4680": {
             "from": "e2ed9733-bdec-45fc-ac7c-05207602ca9c",
@@ -244,7 +171,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "ad42ee4d-edfc-48e3-9235-a58e0a23518b": {
+            "filename": "3d_models/ic/to-92/TO-92_Inline.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 1240000,
+            "yaw": 16384,
+            "z": -400000
+        }
+    },
     "name": "TO-92 inline",
     "pads": {
         "0c65f99f-5e80-482c-abf3-5a46acfd1174": {
@@ -393,6 +330,7 @@
     ],
     "texts": {
         "3c1ec5e1-9107-494a-9091-dfe374395a5d": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
@@ -409,6 +347,7 @@
             "width": 0
         },
         "dd6253e4-cc18-4cee-b6d2-8a143785788e": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",

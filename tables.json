@@ -53,26 +53,138 @@
 				"items" : [
 					"Electrolytic",
 					"C0G/NP0",
-					"C0H",
-					"U2J",
-					"X8L",
 					"X5R",
 					"X7R",
-					"X8R",
-					"X5S",
 					"X6S",
 					"X7S",
-					"X6T",
 					"X7T",
-					"X7U",
 					"Y5V",
+					"PET",
+					"X8L",
+					"X8R",
+					"B",
+					"U2J",
 					"SL",
 					"CH",
-					"CJ",
-					"UJ",
 					"CK",
-					"B",
-					"R"
+					"UJ",
+					"CJ",
+					"X6T",
+					"R",
+					"X5S",
+					"X7U",
+					"C0H"
+				]
+			}
+		]
+	},
+	"polarizedcapacitors" : {
+		"display_name": "Polarized Capacitors",
+		"columns" : [
+			{
+				"name": "value",
+				"display_name" : "Value",
+				"type" : "quantity",
+				"unit" : "F",
+				"use_si" : true,
+				"no_milli" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "wvdc",
+				"display_name": "Voltage rating",
+				"type" : "quantity",
+				"unit" : "V",
+				"use_si" : false
+			},
+			{
+				"name" : "mountingtype",
+				"display_name": "Mounting type",
+				"type" : "enum",
+				"items" : [
+					"axial",
+					"radial",
+					"smd"
+				]
+			},
+			{
+				"name" : "diameter",
+				"display_name": "Diameter",
+				"type" : "quantity",
+				"unit" : "mm",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "height",
+				"display_name": "Height",
+				"type" : "quantity",
+				"unit" : "mm",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "esr",
+				"display_name": "ESR",
+				"type" : "quantity",
+				"unit" : "Ω",
+				"use_si" : true,
+				"digits" : 3
+			},
+			{
+				"name" : "ripplecurrent",
+				"display_name": "Ripple current rating",
+				"type" : "quantity",
+				"unit" : "A",
+				"use_si" : true,
+				"digits" : 2
+			},
+			{
+				"name" : "tandelta",
+				"display_name": "Tan delta",
+				"type" : "quantity",
+				"unit" : "",
+				"use_si" : false,
+				"digits" : 4
+			},
+			{
+				"name" : "mintemperature",
+				"display_name": "Minimum Temperature",
+				"type" : "quantity",
+				"unit" : "°C",
+				"use_si" : false,
+				"digits" : -1
+			},
+			{
+				"name" : "maxtemperature",
+				"display_name": "Maximum Temperature",
+				"type" : "quantity",
+				"unit" : "°C",
+				"use_si" : false,
+				"digits" : -1
+			},
+			{
+				"name" : "endurance",
+				"display_name": "Endurance",
+				"type" : "quantity",
+				"unit" : "h",
+				"use_si" : false,
+				"digits" : -1
+			},
+			{
+				"name" : "type",
+				"display_name": "Type",
+				"type" : "enum",
+				"items" : [
+					"Aluminium",
+					"Tantalum",
+					"Aluminium Polymer",
+					"X6S",
+					"Y5V",
+					"X7S",
+					"X7T",
+					"X8L",
+					"X8R"
 				]
 			},
 			{

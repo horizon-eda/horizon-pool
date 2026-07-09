@@ -1,0 +1,271 @@
+{
+    "arcs": {
+        "0f69f228-3dbb-50bc-a3d1-ad2d5d3cff6e": {
+            "center": "c6caa463-5dfe-5a86-81b3-75ad0b3481fb",
+            "from": "1b00455a-b848-5b69-992d-91f8060dd39f",
+            "layer": 20,
+            "to": "c4a07a68-1c9d-53a4-8791-3b88ddfc89fb",
+            "width": 150000
+        },
+        "dbff2f98-f541-59cf-8eff-0541af848bc6": {
+            "center": "c6caa463-5dfe-5a86-81b3-75ad0b3481fb",
+            "from": "c4a07a68-1c9d-53a4-8791-3b88ddfc89fb",
+            "layer": 20,
+            "to": "1b00455a-b848-5b69-992d-91f8060dd39f",
+            "width": 150000
+        }
+    },
+    "default_model": "ef7f0534-5b78-5fa3-8b06-b9265a26c19e",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 6550000
+        },
+        "grids": {}
+    },
+    "junctions": {
+        "1b00455a-b848-5b69-992d-91f8060dd39f": {
+            "position": [
+                -6550000,
+                0
+            ]
+        },
+        "c4a07a68-1c9d-53a4-8791-3b88ddfc89fb": {
+            "position": [
+                6550000,
+                0
+            ]
+        },
+        "c6caa463-5dfe-5a86-81b3-75ad0b3481fb": {
+            "position": [
+                0,
+                0
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "Nichicon",
+    "models": {
+        "ef7f0534-5b78-5fa3-8b06-b9265a26c19e": {
+            "filename": "3d_models/passive/capacitor/th/bipolar/nichicon/ues/nichicon_ues_12.5mm_diameter_20mm_height_5mm_lead_spacing.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
+    "name": "Nichicon UES bipolar capacitor, \u2300 12.5 mm, height 20 mm, lead spacing 5 mm",
+    "pads": {
+        "13aa3d2b-5693-5848-8173-db4df7709176": {
+            "name": "B",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 1050000,
+                "pad_diameter": 1550000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    0
+                ]
+            }
+        },
+        "4438ecf9-a5bd-5c7c-a1ec-ff41473906c7": {
+            "name": "A",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 1050000,
+                "pad_diameter": 1550000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "12.5mm 12.5mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard circle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "55d7762b-fc67-5043-bb71-d4c5ed7db3eb": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -6500000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        6500000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -6500000,
+                        0
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "59b008ca-8013-527d-9610-1391c7e2446d": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -6250000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        6250000,
+                        0
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "efb98a3c-43d9-5926-8e60-16f7931bf982": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -6250000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        6250000,
+                        0
+                    ],
+                    "type": "arc"
+                }
+            ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
+    "tags": [
+        "bipolar",
+        "capacitor",
+        "nichicon",
+        "radial",
+        "th",
+        "ues"
+    ],
+    "texts": {
+        "b4cd4c4e-032e-59b0-997c-cc4501e36921": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    6700000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        },
+        "d9e1aa39-764b-552d-b303-f344b35ec16a": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -6250000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
+        }
+    },
+    "type": "package",
+    "uuid": "4b05f7d1-a09d-5533-a25a-6955df1e0911"
+}

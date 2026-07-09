@@ -1,0 +1,364 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "1d7c5e92-3631-44b3-9857-6011cfbd4683": {
+            "position": [
+                -2500000,
+                -1000000
+            ]
+        },
+        "4d113cde-ecdd-4718-8124-9ea9321ca14d": {
+            "position": [
+                500000,
+                2375000
+            ]
+        },
+        "59446d3c-20fd-46a4-9ef6-bb1fdf2ad48b": {
+            "position": [
+                2500000,
+                -1000000
+            ]
+        },
+        "5f776d7f-2030-42b7-925a-b1948429f6cb": {
+            "position": [
+                -1000000,
+                3750000
+            ]
+        },
+        "a29dd91b-86ee-4499-ab34-458947a62158": {
+            "position": [
+                -2500000,
+                1000000
+            ]
+        },
+        "a3dc0d08-9087-4420-97ce-6840cedf39f9": {
+            "position": [
+                -1000000,
+                1875000
+            ]
+        },
+        "aa7122da-522c-4da3-9903-f2576244b3bf": {
+            "position": [
+                0,
+                2000000
+            ]
+        },
+        "b26438db-16d9-41fd-9dae-1c1e266c5436": {
+            "position": [
+                -2500000,
+                3750000
+            ]
+        },
+        "b60b13d2-9ec9-4780-8ad3-d46dd95d802e": {
+            "position": [
+                500000,
+                1875000
+            ]
+        },
+        "d34607a3-f468-40ca-a895-6b36ec6e9100": {
+            "position": [
+                2500000,
+                1000000
+            ]
+        },
+        "d8664c67-33d7-44d8-b5ed-7ea693a921fc": {
+            "position": [
+                -1000000,
+                2375000
+            ]
+        },
+        "fed5a443-3ed3-4e75-951f-9b8d7c3793b3": {
+            "position": [
+                -1500000,
+                2000000
+            ]
+        }
+    },
+    "lines": {
+        "3eab972d-d6f8-466c-815c-3b1e88ad2879": {
+            "from": "5f776d7f-2030-42b7-925a-b1948429f6cb",
+            "layer": 0,
+            "to": "b60b13d2-9ec9-4780-8ad3-d46dd95d802e",
+            "width": 0
+        },
+        "4fb24639-f88b-4c98-9886-2d1c120160b6": {
+            "from": "d34607a3-f468-40ca-a895-6b36ec6e9100",
+            "layer": 0,
+            "to": "59446d3c-20fd-46a4-9ef6-bb1fdf2ad48b",
+            "width": 0
+        },
+        "65229afa-e66d-4f74-9c54-1cfc0d1de533": {
+            "from": "b60b13d2-9ec9-4780-8ad3-d46dd95d802e",
+            "layer": 0,
+            "to": "4d113cde-ecdd-4718-8124-9ea9321ca14d",
+            "width": 0
+        },
+        "6d7f39a8-492b-45d0-8a48-a07f730f5506": {
+            "from": "b26438db-16d9-41fd-9dae-1c1e266c5436",
+            "layer": 0,
+            "to": "a3dc0d08-9087-4420-97ce-6840cedf39f9",
+            "width": 0
+        },
+        "6f2bf370-c5f5-4217-81ef-650dbf2dbb72": {
+            "from": "a3dc0d08-9087-4420-97ce-6840cedf39f9",
+            "layer": 0,
+            "to": "fed5a443-3ed3-4e75-951f-9b8d7c3793b3",
+            "width": 0
+        },
+        "a3608f8b-4825-4443-ad18-7706413d96b2": {
+            "from": "59446d3c-20fd-46a4-9ef6-bb1fdf2ad48b",
+            "layer": 0,
+            "to": "1d7c5e92-3631-44b3-9857-6011cfbd4683",
+            "width": 0
+        },
+        "b3b03651-85a7-4f20-b184-b411eb7984e6": {
+            "from": "b60b13d2-9ec9-4780-8ad3-d46dd95d802e",
+            "layer": 0,
+            "to": "aa7122da-522c-4da3-9903-f2576244b3bf",
+            "width": 0
+        },
+        "d9ca1866-7afa-4de6-9b68-f968b0f75eca": {
+            "from": "a3dc0d08-9087-4420-97ce-6840cedf39f9",
+            "layer": 0,
+            "to": "d8664c67-33d7-44d8-b5ed-7ea693a921fc",
+            "width": 0
+        },
+        "e0c0b8a3-a384-45a2-8366-825260417e07": {
+            "from": "a29dd91b-86ee-4499-ab34-458947a62158",
+            "layer": 0,
+            "to": "d34607a3-f468-40ca-a895-6b36ec6e9100",
+            "width": 0
+        },
+        "fb49239d-4f08-459c-95dd-7cd402831e33": {
+            "from": "1d7c5e92-3631-44b3-9857-6011cfbd4683",
+            "layer": 0,
+            "to": "a29dd91b-86ee-4499-ab34-458947a62158",
+            "width": 0
+        }
+    },
+    "name": "EU Resistor light dependent resistor (LDR)",
+    "pins": {
+        "6a44037c-65e2-4876-9359-42890048841d": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 1250000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": false,
+            "position": [
+                -3750000,
+                0
+            ]
+        },
+        "dda0ec99-5d70-4fbe-a8db-897542e7554e": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 1250000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "right",
+            "pad_visible": false,
+            "position": [
+                3750000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {
+        "0m": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 0,
+                "mirror": true,
+                "shift": [
+                    2500000,
+                    -2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 0,
+                "mirror": true,
+                "shift": [
+                    2500000,
+                    2500000
+                ]
+            }
+        },
+        "0n": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    -2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    2500000
+                ]
+            }
+        },
+        "180m": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 32768,
+                "mirror": true,
+                "shift": [
+                    -2500000,
+                    2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 32768,
+                "mirror": true,
+                "shift": [
+                    -2500000,
+                    -2500000
+                ]
+            }
+        },
+        "180n": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 32768,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 32768,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    -2500000
+                ]
+            }
+        },
+        "270m": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 49152,
+                "mirror": true,
+                "shift": [
+                    1250000,
+                    -2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 49152,
+                "mirror": true,
+                "shift": [
+                    -1250000,
+                    -2500000
+                ]
+            }
+        },
+        "270n": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 49152,
+                "mirror": true,
+                "shift": [
+                    1250000,
+                    -2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 49152,
+                "mirror": true,
+                "shift": [
+                    -1250000,
+                    -2500000
+                ]
+            }
+        },
+        "90m": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 49152,
+                "mirror": false,
+                "shift": [
+                    -1250000,
+                    -2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 49152,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    -2500000
+                ]
+            }
+        },
+        "90n": {
+            "35099bf5-0e81-401a-aa96-d1112f12d918": {
+                "angle": 49152,
+                "mirror": false,
+                "shift": [
+                    -1250000,
+                    -2500000
+                ]
+            },
+            "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+                "angle": 49152,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    -2500000
+                ]
+            }
+        }
+    },
+    "texts": {
+        "35099bf5-0e81-401a-aa96-d1112f12d918": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    -2500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "fc82ac00-1f07-4009-9129-6e1827d3dc5c": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    2500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "e1f856f1-dc0e-4cbb-bac9-5e97caa1f337",
+    "uuid": "674db522-e5f0-4f9e-92b9-371f7d50c620",
+    "version": 1
+}

@@ -1,0 +1,168 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "0670bdb8-77b2-4527-a136-59e30521c0e1": {
+            "position": [
+                7500000,
+                -11250000
+            ]
+        },
+        "0823ba5f-4e1d-4f14-8e84-1634d0229015": {
+            "position": [
+                -7500000,
+                11250000
+            ]
+        },
+        "0bc2b8e2-fe89-457a-bb73-ae9311971469": {
+            "position": [
+                -7500000,
+                -11250000
+            ]
+        },
+        "86820d81-9dfa-4073-8056-48c5160be1ea": {
+            "position": [
+                7500000,
+                11250000
+            ]
+        }
+    },
+    "lines": {
+        "2b491c9e-deb8-4df7-ac12-0c519104463d": {
+            "from": "0823ba5f-4e1d-4f14-8e84-1634d0229015",
+            "layer": 0,
+            "to": "86820d81-9dfa-4073-8056-48c5160be1ea",
+            "width": 0
+        },
+        "2cde1300-ce84-4389-a650-d3c7cbb81b66": {
+            "from": "0670bdb8-77b2-4527-a136-59e30521c0e1",
+            "layer": 0,
+            "to": "0bc2b8e2-fe89-457a-bb73-ae9311971469",
+            "width": 0
+        },
+        "ad21d0f6-156d-42ea-a63e-344aae61d3a2": {
+            "from": "0bc2b8e2-fe89-457a-bb73-ae9311971469",
+            "layer": 0,
+            "to": "0823ba5f-4e1d-4f14-8e84-1634d0229015",
+            "width": 0
+        },
+        "eb5b6501-9251-4f83-8455-0cadd9191bfe": {
+            "from": "86820d81-9dfa-4073-8056-48c5160be1ea",
+            "layer": 0,
+            "to": "0670bdb8-77b2-4527-a136-59e30521c0e1",
+            "width": 0
+        }
+    },
+    "name": "Generic I2C OLED Display",
+    "pins": {
+        "42bceea6-af46-4af6-bb0a-ea14aa4193bb": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "perpendicular",
+            "name_visible": true,
+            "orientation": "down",
+            "pad_visible": true,
+            "position": [
+                0,
+                -13750000
+            ]
+        },
+        "4c2c2f4c-9fbc-4a08-9a4a-ffd91bdc15bf": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "perpendicular",
+            "name_visible": true,
+            "orientation": "up",
+            "pad_visible": true,
+            "position": [
+                0,
+                13750000
+            ]
+        },
+        "8f715df2-679b-4954-a5f3-7e652ae19e49": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -10000000,
+                -2500000
+            ]
+        },
+        "af125c0a-a768-4ec5-adc3-0c98c9d387d0": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "left",
+            "pad_visible": true,
+            "position": [
+                -10000000,
+                2500000
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "049a266c-9fc7-4269-a258-826e9be5a977": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    12500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "5c7f7b68-9f8a-4b76-a09c-52f08f56b41f": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1250000,
+                    -12500000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "d64b6cc8-3dfe-4452-b48d-e41aa2b2c3a3",
+    "uuid": "790ed784-06e5-4972-9407-bebad4b1ede2"
+}

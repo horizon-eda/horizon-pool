@@ -1,0 +1,133 @@
+{
+    "arcs": {
+        "1f2c6522-6e16-45ee-8568-7fbb1696a002": {
+            "center": "e1379d50-0fb8-42a7-bba2-4793093fe3c2",
+            "from": "d5094f00-352f-43b8-adaf-7d1f8a64febc",
+            "layer": 0,
+            "to": "789216a2-52fd-4053-8bb7-b6bb540cbe8a",
+            "width": 0
+        },
+        "26515c5d-18b2-4f73-b75d-8889861a6c11": {
+            "center": "a35b4efb-0279-4462-ad49-1db0d1abfde1",
+            "from": "a262f608-87c4-4fb3-9ced-7910a028961f",
+            "layer": 0,
+            "to": "efc53318-6da6-4339-98ef-7168351a1905",
+            "width": 0
+        },
+        "324d6e85-25c4-408b-beb3-289768be1548": {
+            "center": "e1379d50-0fb8-42a7-bba2-4793093fe3c2",
+            "from": "789216a2-52fd-4053-8bb7-b6bb540cbe8a",
+            "layer": 0,
+            "to": "d5094f00-352f-43b8-adaf-7d1f8a64febc",
+            "width": 0
+        },
+        "d1ae85a1-3f4a-4a61-82aa-ad0f13c9ad59": {
+            "center": "a35b4efb-0279-4462-ad49-1db0d1abfde1",
+            "from": "efc53318-6da6-4339-98ef-7168351a1905",
+            "layer": 0,
+            "to": "a262f608-87c4-4fb3-9ced-7910a028961f",
+            "width": 0
+        }
+    },
+    "can_expand": false,
+    "junctions": {
+        "789216a2-52fd-4053-8bb7-b6bb540cbe8a": {
+            "position": [
+                500000,
+                -625000
+            ]
+        },
+        "a262f608-87c4-4fb3-9ced-7910a028961f": {
+            "position": [
+                250000,
+                -625000
+            ]
+        },
+        "a35b4efb-0279-4462-ad49-1db0d1abfde1": {
+            "position": [
+                750000,
+                0
+            ]
+        },
+        "d5094f00-352f-43b8-adaf-7d1f8a64febc": {
+            "position": [
+                1000000,
+                625000
+            ]
+        },
+        "e1379d50-0fb8-42a7-bba2-4793093fe3c2": {
+            "position": [
+                750000,
+                0
+            ]
+        },
+        "efc53318-6da6-4339-98ef-7168351a1905": {
+            "position": [
+                1250000,
+                625000
+            ]
+        }
+    },
+    "lines": {},
+    "name": "Pogo-Pin",
+    "pins": {
+        "ecc24299-9e60-42e5-bd17-0260ea94549a": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2450000,
+            "name_orientation": "in_line",
+            "name_visible": false,
+            "orientation": "left",
+            "pad_visible": false,
+            "position": [
+                -2500000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "3eceb142-9a9b-47f0-bc44-b758625559e2": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    1250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
+        "6f7b3319-6c13-4810-a4ce-fffe5894cfed": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2500000,
+                    -1250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "08d3addc-1f91-4a50-8ed0-b65da50dab26",
+    "uuid": "e832eb09-b9b2-4e0b-a4a8-4f844bc1d5f5"
+}

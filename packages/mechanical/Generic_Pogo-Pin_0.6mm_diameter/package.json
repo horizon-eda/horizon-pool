@@ -1,0 +1,251 @@
+{
+    "arcs": {
+        "713f127e-fe26-4a4c-84f0-0f07ce1c107d": {
+            "center": "137f2230-d334-4047-ad8f-2f5d0f7f7c7b",
+            "from": "3c489e62-f704-4a1d-8ea2-2535fef66e55",
+            "layer": 20,
+            "to": "74085383-3017-4aaa-b7e4-5b010d91d376",
+            "width": 150000
+        },
+        "7566556e-025f-4a82-b0dd-e5a9148bc2c1": {
+            "center": "137f2230-d334-4047-ad8f-2f5d0f7f7c7b",
+            "from": "74085383-3017-4aaa-b7e4-5b010d91d376",
+            "layer": 20,
+            "to": "3c489e62-f704-4a1d-8ea2-2535fef66e55",
+            "width": 150000
+        }
+    },
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {},
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 1000000
+        },
+        "grids": {}
+    },
+    "junctions": {
+        "137f2230-d334-4047-ad8f-2f5d0f7f7c7b": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "3c489e62-f704-4a1d-8ea2-2535fef66e55": {
+            "position": [
+                600000,
+                600000
+            ]
+        },
+        "74085383-3017-4aaa-b7e4-5b010d91d376": {
+            "position": [
+                -600000,
+                -600000
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "",
+    "models": {},
+    "name": "Generic Pogo Pin 0.6mm diameter",
+    "pads": {
+        "788c4b8c-fa84-41dc-a330-4e15d5f70893": {
+            "name": "1",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 700000,
+                "pad_diameter": 1000000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "1.000mm 1.000mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "48532f4e-ef91-4123-98ab-997199ef490f": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -750000,
+                        -750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -750000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        -750000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "932066f4-220a-4fa4-b844-47be528866dc": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -750000,
+                        -750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -750000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        750000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        750000,
+                        -750000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
+    "tags": [
+        "connector",
+        "generic",
+        "mechanical",
+        "pin",
+        "pogo",
+        "th"
+    ],
+    "texts": {
+        "39435810-8df7-4009-a23c-2551d4446250": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    1000000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        },
+        "cd0f8bdc-cd74-493e-bc1a-becea1e1847b": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -600000,
+                    0
+                ]
+            },
+            "size": 200000,
+            "text": "$RD",
+            "width": 0
+        }
+    },
+    "type": "package",
+    "uuid": "3eae68db-0418-4d2f-b152-63ae35fca8ef"
+}
