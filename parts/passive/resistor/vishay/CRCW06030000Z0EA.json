@@ -3,15 +3,15 @@
         false,
         "CRCW06030000Z0EA"
     ],
+    "base": "cbeda48c-7fb0-4cfb-a4de-d9672e8cc190",
     "datasheet": [
         false,
         "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
     ],
     "description": [
         false,
-        "Thick Film Resistors - SMD 1/8 Watt ZEROohm Jumper"
+        "Thick Film Resistors - SMD 1/8 Watt 0 Ω Jumper"
     ],
-    "entity": "3ce770af-7be0-4f72-b2af-2c8010911aaf",
     "inherit_model": true,
     "inherit_tags": false,
     "manufacturer": [
@@ -22,33 +22,12 @@
     "orderable_MPNs": {
         "c8a91ab8-c308-40d4-b484-bc87b110f3a5": "CRCW06030000Z0EA"
     },
-    "package": "fe22ac1d-25b9-4a47-8414-51c990d7f94b",
-    "pad_map": {
-        "63256dd2-2eab-46fe-9201-b2e553476e98": {
-            "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
-            "pin": "6a44037c-65e2-4876-9359-42890048841d"
-        },
-        "6dd73a26-6e83-43b6-8317-09836acef67d": {
-            "gate": "48af78e5-730e-44eb-977a-cf188e4fcb39",
-            "pin": "dda0ec99-5d70-4fbe-a8db-897542e7554e"
-        }
-    },
-    "parametric": {
-        "pmax": "0.125",
-        "table": "resistors",
-        "tolerance": "0",
-        "value": "0"
-    },
-    "tags": [
-        "jumper",
-        "passive",
-        "resistor",
-        "smd"
-    ],
+    "parametric": {},
+    "tags": [],
     "type": "part",
     "uuid": "bbb11eb2-23ea-47b6-92b2-8a27afa316eb",
     "value": [
         false,
-        "0"
+        "0 Ω"
     ]
 }
