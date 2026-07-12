@@ -1,0 +1,149 @@
+{
+    "manufacturer": "Microchip Technology",
+    "name": "USB251xB common",
+    "pins": {
+        "056d1375-06ee-4266-9e68-453e089de83b": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "VBUS_DET",
+            "swap_group": 0
+        },
+        "0995a5c0-04b8-4970-9a9e-96c0388c7059": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "XTALOUT",
+            "swap_group": 0
+        },
+        "0c526117-7e43-454c-a3e2-e74b68596554": {
+            "alt_names": {
+                "09fcadd7-05cf-49d1-a1d7-fdd93d63e8fe": {
+                    "direction": "input",
+                    "name": "CFG_SEL1"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "HS_IND",
+            "swap_group": 0
+        },
+        "0f7b19db-823a-49d6-a769-12ab74fac84d": {
+            "direction": "input",
+            "names": [],
+            "primary_name": "RBIAS",
+            "swap_group": 0
+        },
+        "1b933135-0c8f-412c-a841-4ef9478efd3f": {
+            "direction": "passive",
+            "names": [],
+            "primary_name": "RESET_N",
+            "swap_group": 0
+        },
+        "1ffba466-22fa-4a4d-a809-6aabfa2b600d": {
+            "alt_names": {
+                "8b599d91-8bbb-4fcd-91c7-9759528e22d3": {
+                    "direction": "bidirectional",
+                    "name": "SMBDATA"
+                },
+                "9bf9645f-eb2a-4515-b9a8-0008b1bf0ab7": {
+                    "direction": "passive",
+                    "name": "NON_REM1"
+                }
+            },
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "SDA",
+            "swap_group": 0
+        },
+        "2393ac98-a7ff-4b44-9389-4aac34f13bbf": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VDD33",
+            "swap_group": 0
+        },
+        "28534ea4-6e89-4f0a-8aaa-b70b60d9595e": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "GND",
+            "swap_group": 0
+        },
+        "329748a7-7e5b-4c53-813c-2fb2712c54ab": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "PLLFILT",
+            "swap_group": 0
+        },
+        "615847b4-4519-4071-b269-470031839804": {
+            "direction": "not_connected",
+            "names": [],
+            "primary_name": "TEST",
+            "swap_group": 0
+        },
+        "671b0e7e-05f2-4bc1-805f-1a8797b073e1": {
+            "alt_names": {
+                "3236a336-5cfa-42a6-8d14-8ff8d9d5d373": {
+                    "direction": "passive",
+                    "name": "LOCAL_PWR"
+                },
+                "a7bc84cd-71a7-4d6b-a6ce-c25614eb68d0": {
+                    "direction": "passive",
+                    "name": "NON_REM0"
+                }
+            },
+            "direction": "passive",
+            "names": [],
+            "primary_name": "SUSP_IND",
+            "swap_group": 0
+        },
+        "71a8818b-da01-43ee-936d-aa5502337083": {
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "USBDM_UP",
+            "swap_group": 0
+        },
+        "72b0f203-9590-4a82-a15c-32abe01e7b56": {
+            "alt_names": {
+                "07e6541e-6cc6-4d6c-a1ea-717ed82c3752": {
+                    "direction": "passive",
+                    "name": "CLKIN"
+                }
+            },
+            "direction": "passive",
+            "names": [],
+            "primary_name": "XTALIN",
+            "swap_group": 0
+        },
+        "88d3971f-d41f-4b63-84a9-8dfdac995499": {
+            "direction": "power_input",
+            "names": [],
+            "primary_name": "VDDA33",
+            "swap_group": 0
+        },
+        "affd5067-2588-4c7c-b8af-656101268848": {
+            "direction": "power_output",
+            "names": [],
+            "primary_name": "CRFILT",
+            "swap_group": 0
+        },
+        "e880ae74-89b0-41b3-a893-4c99ff735506": {
+            "direction": "bidirectional",
+            "names": [],
+            "primary_name": "USBDP_UP",
+            "swap_group": 0
+        },
+        "ea9e1671-1880-49ec-a171-cb15b3522575": {
+            "alt_names": {
+                "90ed0678-961f-40e4-b2c6-a5f584d1e280": {
+                    "direction": "passive",
+                    "name": "SMBCLK"
+                }
+            },
+            "direction": "passive",
+            "names": [],
+            "primary_name": "SCL",
+            "swap_group": 0
+        }
+    },
+    "type": "unit",
+    "uuid": "1c458e78-ade5-48d0-9f3d-58751f387744",
+    "version": 1
+}

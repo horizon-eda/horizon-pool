@@ -1,0 +1,117 @@
+{
+    "arcs": {},
+    "can_expand": false,
+    "junctions": {
+        "0e9d3739-ea40-4046-a132-84147a071262": {
+            "position": [
+                3750000,
+                2500000
+            ]
+        },
+        "3981e754-f07e-40d1-b5ac-489e7413dfde": {
+            "position": [
+                3750000,
+                -2500000
+            ]
+        },
+        "4f99a06e-fca7-4a84-bbff-6855b6c203d3": {
+            "position": [
+                -1250000,
+                -2500000
+            ]
+        },
+        "cf0dd8f4-7d91-4410-a0db-d0c62ff0cb10": {
+            "position": [
+                -1250000,
+                2500000
+            ]
+        }
+    },
+    "lines": {
+        "490a5371-a3ec-472f-b104-5a2e62db4bea": {
+            "from": "4f99a06e-fca7-4a84-bbff-6855b6c203d3",
+            "layer": 0,
+            "to": "cf0dd8f4-7d91-4410-a0db-d0c62ff0cb10",
+            "width": 0
+        },
+        "7fb5f954-b6ae-433e-bb12-221dcef7d81b": {
+            "from": "cf0dd8f4-7d91-4410-a0db-d0c62ff0cb10",
+            "layer": 0,
+            "to": "0e9d3739-ea40-4046-a132-84147a071262",
+            "width": 0
+        },
+        "ef1102d5-7887-4bac-8e29-80a56e40f402": {
+            "from": "0e9d3739-ea40-4046-a132-84147a071262",
+            "layer": 0,
+            "to": "3981e754-f07e-40d1-b5ac-489e7413dfde",
+            "width": 0
+        },
+        "f0cb148c-4394-41c9-8566-a22c55055b30": {
+            "from": "3981e754-f07e-40d1-b5ac-489e7413dfde",
+            "layer": 0,
+            "to": "4f99a06e-fca7-4a84-bbff-6855b6c203d3",
+            "width": 0
+        }
+    },
+    "name": "USB251xB NC",
+    "pins": {
+        "42571e42-3b0b-45dc-93ea-0089235e1c82": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
+            "length": 2500000,
+            "name_orientation": "in_line",
+            "name_visible": true,
+            "orientation": "right",
+            "pad_visible": true,
+            "position": [
+                6250000,
+                0
+            ]
+        }
+    },
+    "polygons": {},
+    "text_placements": {},
+    "texts": {
+        "c67377eb-4ea8-4246-85ba-cbcf644f06a3": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    -3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "db0033c3-9184-4060-a57a-bdc50950471b": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    3750000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        }
+    },
+    "type": "symbol",
+    "unit": "fc837648-ee97-47d0-87ea-6a40c89f6fd7",
+    "uuid": "336849ec-05a9-4fa3-9970-8649f4472221"
+}
