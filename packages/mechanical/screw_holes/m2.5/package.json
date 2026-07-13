@@ -1,0 +1,281 @@
+{
+    "arcs": {
+        "685149b0-2b31-4800-9e05-5e04f7946a3c": {
+            "center": "99d544b8-27e2-419d-a255-5140f369cd85",
+            "from": "33b5a7d4-d609-439e-b4b1-ff2feb29313a",
+            "layer": 20,
+            "to": "eb3d6343-797c-454f-87c8-6cda71d5d694",
+            "width": 150000
+        },
+        "6bc427af-0abd-4a7a-8312-1e7cfbc3f53e": {
+            "center": "52c4901c-74b9-42d2-89bd-074d4bd04ce2",
+            "from": "b60c717a-0f98-44bf-bcf9-06e1f463e8fb",
+            "layer": -120,
+            "to": "9fbb2295-13c6-4905-8a84-174401cae3cc",
+            "width": 150000
+        },
+        "b0b4b34f-f12e-4ee6-b550-1ef2610eec57": {
+            "center": "99d544b8-27e2-419d-a255-5140f369cd85",
+            "from": "eb3d6343-797c-454f-87c8-6cda71d5d694",
+            "layer": 20,
+            "to": "33b5a7d4-d609-439e-b4b1-ff2feb29313a",
+            "width": 150000
+        },
+        "d80e8f1b-c897-4f6e-b499-d50657087684": {
+            "center": "52c4901c-74b9-42d2-89bd-074d4bd04ce2",
+            "from": "9fbb2295-13c6-4905-8a84-174401cae3cc",
+            "layer": -120,
+            "to": "b60c717a-0f98-44bf-bcf9-06e1f463e8fb",
+            "width": 150000
+        }
+    },
+    "default_model": "00000000-0000-0000-0000-000000000000",
+    "dimensions": {
+        "1da9050a-28c4-4804-bba6-4b93d5d90e95": {
+            "label_distance": -6000000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                -1500000,
+                0
+            ],
+            "p1": [
+                1400000,
+                0
+            ]
+        },
+        "f0f8cdb2-1856-40d9-914d-f02fb5b4b5a2": {
+            "label_distance": -9000000,
+            "label_size": 1500000,
+            "mode": "distance",
+            "p0": [
+                -3000000,
+                0
+            ],
+            "p1": [
+                3000000,
+                0
+            ]
+        }
+    },
+    "grid_settings": {
+        "current": {
+            "mode": "square",
+            "name": "",
+            "origin": [
+                0,
+                0
+            ],
+            "spacing_rect": [
+                1000000,
+                1000000
+            ],
+            "spacing_square": 100000
+        },
+        "grids": {}
+    },
+    "junctions": {
+        "33b5a7d4-d609-439e-b4b1-ff2feb29313a": {
+            "position": [
+                -3000000,
+                0
+            ]
+        },
+        "52c4901c-74b9-42d2-89bd-074d4bd04ce2": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "99d544b8-27e2-419d-a255-5140f369cd85": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "9fbb2295-13c6-4905-8a84-174401cae3cc": {
+            "position": [
+                -3000000,
+                0
+            ]
+        },
+        "b60c717a-0f98-44bf-bcf9-06e1f463e8fb": {
+            "position": [
+                3000000,
+                0
+            ]
+        },
+        "eb3d6343-797c-454f-87c8-6cda71d5d694": {
+            "position": [
+                3000000,
+                0
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "",
+    "models": {},
+    "name": "screw hole, M2.5",
+    "pads": {
+        "ee951f30-e7c4-49b5-aa71-3db3ccc9a919": {
+            "name": "1",
+            "padstack": "762c84c2-187d-454a-af81-d3381bec5257",
+            "parameter_set": {
+                "hole_diameter": 2900000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "6.000mm 6.000mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "80364d68-5bfe-4a44-9fdc-7a245931bd2d": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3000000,
+                        0
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": true,
+                    "position": [
+                        3000000,
+                        0
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "9cc867a8-44aa-4a8d-83ce-b53a86cc1652": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3250000,
+                        -3250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        -3250000,
+                        3250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3250000,
+                        3250000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        3250000,
+                        -3250000
+                    ],
+                    "type": "line"
+                }
+            ]
+        }
+    },
+    "rules": {
+        "clearance_package": {
+            "clearance_silkscreen_cu": 200000,
+            "clearance_silkscreen_pkg": 200000,
+            "enabled": true,
+            "order": -1
+        },
+        "package_checks": {
+            "enabled": true,
+            "order": -1
+        }
+    },
+    "tags": [
+        "hole",
+        "mechanical"
+    ],
+    "texts": {
+        "b4d4ee6e-b9d0-4835-a304-ece8383ce54f": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3250000,
+                    -4050000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        },
+        "b79aed09-73b3-43fd-b355-873300f02d38": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -2800000,
+                    0
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 0
+        }
+    },
+    "type": "package",
+    "uuid": "fd353282-727b-476a-b53a-5883254fea16"
+}
