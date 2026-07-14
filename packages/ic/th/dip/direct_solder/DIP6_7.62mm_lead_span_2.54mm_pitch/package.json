@@ -5,137 +5,62 @@
             "layer_opacity": 50.0,
             "layers": {
                 "-1": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 1.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-100": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.5,
-                        "r": 0.0
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "-110": {
-                    "color": {
-                        "b": 0.25,
-                        "g": 0.5,
-                        "r": 0.25
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-120": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": false
                 },
                 "-130": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "-140": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-150": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "-160": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "0": {
-                    "color": {
-                        "b": 0.0,
-                        "g": 0.0,
-                        "r": 1.0
-                    },
                     "display_mode": "fill",
                     "visible": true
                 },
                 "10": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 1.0
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "20": {
-                    "color": {
-                        "b": 0.8999999761581421,
-                        "g": 0.8999999761581421,
-                        "r": 0.8999999761581421
-                    },
                     "display_mode": "fill_only",
                     "visible": true
                 },
                 "30": {
-                    "color": {
-                        "b": 0.800000011920929,
-                        "g": 0.800000011920929,
-                        "r": 0.800000011920929
-                    },
                     "display_mode": "fill",
                     "visible": false
                 },
                 "40": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "50": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 },
                 "60": {
-                    "color": {
-                        "b": 0.5,
-                        "g": 0.5,
-                        "r": 0.5
-                    },
                     "display_mode": "outline",
                     "visible": true
                 }
@@ -165,7 +90,8 @@
             "width": 0
         }
     },
-    "default_model": "00000000-0000-0000-0000-000000000000",
+    "default_model": "8b30bf0f-feb7-4ed7-8b62-3799a11f72bd",
+    "dimensions": {},
     "junctions": {
         "08b51e3f-ac8b-48e6-9b13-4eae8294c9fb": {
             "position": [
@@ -228,6 +154,7 @@
             ]
         }
     },
+    "keepouts": {},
     "lines": {
         "d3b2d073-6051-4810-9ddd-7fed1179060b": {
             "from": "08b51e3f-ac8b-48e6-9b13-4eae8294c9fb",
@@ -243,7 +170,17 @@
         }
     },
     "manufacturer": "",
-    "models": {},
+    "models": {
+        "8b30bf0f-feb7-4ed7-8b62-3799a11f72bd": {
+            "filename": "3d_models/ic/dip/DIP-6.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": -4000000,
+            "y": 2500000,
+            "yaw": 0,
+            "z": 0
+        }
+    },
     "name": "DIP6, 7.62 mm lead span 2.54 mm pitch",
     "pads": {
         "17f96b52-6224-4156-a2c9-3b4c292bf3ab": {
@@ -258,7 +195,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    2500000
+                    2540000
                 ]
             }
         },
@@ -306,7 +243,7 @@
                 "mirror": false,
                 "shift": [
                     3750000,
-                    -2500000
+                    -2540000
                 ]
             }
         },
@@ -322,7 +259,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    2500000
+                    2540000
                 ]
             }
         },
@@ -338,7 +275,7 @@
                 "mirror": false,
                 "shift": [
                     -3750000,
-                    -2500000
+                    -2540000
                 ]
             }
         }
@@ -541,6 +478,7 @@
     ],
     "texts": {
         "136bedfd-e2be-414a-a81e-5c8501bef791": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 20,
             "origin": "center",
@@ -557,6 +495,7 @@
             "width": 150000
         },
         "d19a9743-3530-4ad4-aaa8-e19dd7cc46d5": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 50,
             "origin": "center",
