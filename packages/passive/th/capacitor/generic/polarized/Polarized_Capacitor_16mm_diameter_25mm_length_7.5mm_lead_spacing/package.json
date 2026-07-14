@@ -1,0 +1,328 @@
+{
+    "_imp": {
+        "grid_spacing": 2650000,
+        "layer_display": {
+            "layer_opacity": 50.0,
+            "layers": {
+                "-1": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-100": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "-110": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-120": {
+                    "display_mode": "fill_only",
+                    "visible": false
+                },
+                "-130": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "-140": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-150": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "-160": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "0": {
+                    "display_mode": "fill",
+                    "visible": true
+                },
+                "10": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "20": {
+                    "display_mode": "fill_only",
+                    "visible": true
+                },
+                "30": {
+                    "display_mode": "fill",
+                    "visible": false
+                },
+                "40": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "50": {
+                    "display_mode": "outline",
+                    "visible": true
+                },
+                "60": {
+                    "display_mode": "outline",
+                    "visible": true
+                }
+            }
+        }
+    },
+    "arcs": {
+        "7f72d966-4895-424f-b370-ebdfaff3c37b": {
+            "center": "2765a0a3-b514-47dc-8ee5-5880ddd1e954",
+            "from": "42495c48-e83b-4378-b6c5-149bd0ef5657",
+            "layer": 20,
+            "to": "d6b9aa8d-569b-4e31-af53-f41232ecc066",
+            "width": 150000
+        },
+        "9c1197b9-eb62-4775-be80-e1ea22232b87": {
+            "center": "2765a0a3-b514-47dc-8ee5-5880ddd1e954",
+            "from": "d6b9aa8d-569b-4e31-af53-f41232ecc066",
+            "layer": 20,
+            "to": "42495c48-e83b-4378-b6c5-149bd0ef5657",
+            "width": 150000
+        }
+    },
+    "default_model": "e1ecc4fd-7684-582e-a5b9-9c7cf2a6297c",
+    "dimensions": {},
+    "junctions": {
+        "2765a0a3-b514-47dc-8ee5-5880ddd1e954": {
+            "position": [
+                0,
+                0
+            ]
+        },
+        "42495c48-e83b-4378-b6c5-149bd0ef5657": {
+            "position": [
+                -8199999,
+                0
+            ]
+        },
+        "d6b9aa8d-569b-4e31-af53-f41232ecc066": {
+            "position": [
+                8199999,
+                0
+            ]
+        }
+    },
+    "keepouts": {},
+    "lines": {},
+    "manufacturer": "",
+    "models": {
+        "e1ecc4fd-7684-582e-a5b9-9c7cf2a6297c": {
+            "filename": "3d_models/passive/capacitor/th/polarized/Polarized_Capacitor_16mm_diameter_25mm_length_7.5mm_lead_spacing.step",
+            "pitch": 0,
+            "roll": 0,
+            "x": 0,
+            "y": 0,
+            "yaw": 0,
+            "z": 0
+        }
+    },
+    "name": "Polarized Capacitor (\u2300 16mm, Length 25mm, 7.5mm Lead spacing)",
+    "pads": {
+        "76757f10-47b8-5441-98fe-ba7c7ba05b91": {
+            "name": "N",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 1050000,
+                "pad_diameter": 1750000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    3750000,
+                    0
+                ]
+            }
+        },
+        "b9b96da1-396b-5e4b-aee3-100c8aaaa411": {
+            "name": "P",
+            "padstack": "296cf69b-9d53-45e4-aaab-4aedf4087d3a",
+            "parameter_set": {
+                "hole_diameter": 1050000,
+                "pad_diameter": 1750000
+            },
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -3750000,
+                    0
+                ]
+            }
+        }
+    },
+    "parameter_program": "16.0mm 16.0mm\nget-parameter [ courtyard_expansion ]\n2 * +xy\nset-polygon [ courtyard rectangle 0.000mm 0.000mm ]",
+    "parameter_set": {
+        "courtyard_expansion": 250000
+    },
+    "polygons": {
+        "645f1067-0745-47fc-a55d-2db940293bbf": {
+            "layer": 40,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        7850000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        8150000,
+                        0
+                    ],
+                    "type": "arc"
+                }
+            ]
+        },
+        "98613feb-3b6c-4dd4-9a87-ed0785fda52f": {
+            "layer": 60,
+            "parameter_class": "courtyard",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        7600000,
+                        2600000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        7600000,
+                        8400000
+                    ],
+                    "type": "line"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        8400000,
+                        8400000
+                    ],
+                    "type": "line"
+                }
+            ]
+        },
+        "c3f68824-13f4-4e3d-8948-af59fdf28cba": {
+            "layer": 50,
+            "parameter_class": "",
+            "vertices": [
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        7850000,
+                        0
+                    ],
+                    "type": "arc"
+                },
+                {
+                    "arc_center": [
+                        0,
+                        0
+                    ],
+                    "arc_reverse": false,
+                    "position": [
+                        8150000,
+                        0
+                    ],
+                    "type": "arc"
+                }
+            ]
+        }
+    },
+    "tags": [
+        "capacitor",
+        "electrolytic",
+        "passive",
+        "polarized",
+        "th",
+        "7.5mm"
+    ],
+    "texts": {
+        "05d9e4d9-32ae-4929-b74e-6edaf4a12214": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -1376501,
+                    -9200000
+                ]
+            },
+            "size": 1000000,
+            "text": "$RD",
+            "width": 150000
+        },
+        "b6df677f-d236-471a-8b48-f63ddf8d6c9f": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 50,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    -8000000,
+                    0
+                ]
+            },
+            "size": 800000,
+            "text": "$RD",
+            "width": 0
+        },
+        "c285ef7a-6dd9-4dbd-84c3-40df694c7bea": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 20,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": true,
+                "shift": [
+                    -6600000,
+                    6225000
+                ]
+            },
+            "size": 1000000,
+            "text": "+",
+            "width": 150000
+        }
+    },
+    "type": "package",
+    "uuid": "f276421c-70b2-57a1-990d-815f53f9b7b3"
+}
