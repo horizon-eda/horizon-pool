@@ -1,11 +1,19 @@
 {
     "arcs": {},
+    "can_expand": false,
     "junctions": {},
     "lines": {},
     "name": "Single power",
     "pins": {
         "a8ba387d-1c68-4215-843f-9d669e48646d": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "up",
             "pad_visible": true,
@@ -15,7 +23,14 @@
             ]
         },
         "aacf2d55-cf04-4c20-89c5-61704ef771f7": {
+            "decoration": {
+                "clock": false,
+                "dot": false,
+                "driver": "default",
+                "schmitt": false
+            },
             "length": 2500000,
+            "name_orientation": "in_line",
             "name_visible": false,
             "orientation": "down",
             "pad_visible": true,
@@ -25,8 +40,11 @@
             ]
         }
     },
+    "polygons": {},
+    "text_placements": {},
     "texts": {
         "2c7265cd-87e4-43b2-b677-1c652b40df9e": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
@@ -42,7 +60,42 @@
             "text": "-",
             "width": 0
         },
+        "4848409f-b802-4841-9f3c-5f2e67a86208": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    -1250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$VALUE",
+            "width": 0
+        },
+        "7f6c6e1f-158e-4ae4-9912-52f5ade2ee6f": {
+            "font": "simplex",
+            "from_smash": false,
+            "layer": 0,
+            "origin": "center",
+            "placement": {
+                "angle": 0,
+                "mirror": false,
+                "shift": [
+                    2500000,
+                    1250000
+                ]
+            },
+            "size": 1500000,
+            "text": "$REFDES",
+            "width": 0
+        },
         "db48d752-01d4-4f05-b00d-2da963942684": {
+            "font": "simplex",
             "from_smash": false,
             "layer": 0,
             "origin": "center",
