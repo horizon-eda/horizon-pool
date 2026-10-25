@@ -12,6 +12,11 @@
         false,
         "Serial EEPROM - 1Kbit - Microwire compatible - Base part"
     ],
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": true,
     "inherit_tags": true,
     "manufacturer": [
@@ -26,5 +31,6 @@
     "value": [
         true,
         "93xx46AB/SN"
-    ]
+    ],
+    "version": 1
 }
