@@ -12,6 +12,11 @@
         false,
         "High Frequency (up to 40 GHz) Resistor"
     ],
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": true,
     "inherit_tags": true,
     "manufacturer": [
@@ -28,5 +33,6 @@
     "value": [
         true,
         "base 0402 resistor"
-    ]
+    ],
+    "version": 1
 }

@@ -12,6 +12,11 @@
         true,
         "Crystal Oscillator"
     ],
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": true,
     "inherit_tags": true,
     "manufacturer": [
@@ -26,5 +31,6 @@
     "value": [
         true,
         "SG-310"
-    ]
+    ],
+    "version": 1
 }

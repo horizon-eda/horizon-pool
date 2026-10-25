@@ -12,6 +12,11 @@
         false,
         "General Purpose Chip resistor"
     ],
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": true,
     "inherit_tags": true,
     "manufacturer": [
@@ -26,5 +31,6 @@
     "value": [
         true,
         "base 0603 resistor"
-    ]
+    ],
+    "version": 1
 }

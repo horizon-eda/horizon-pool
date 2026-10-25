@@ -12,6 +12,11 @@
         "Digital isolator, 2 ch: 1 in 1 out per side, default output state: HIGH"
     ],
     "entity": "da0f9dbf-afeb-47c1-9028-3b49dd02a5bd",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": false,
     "inherit_tags": false,
     "manufacturer": [
@@ -64,5 +69,6 @@
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }

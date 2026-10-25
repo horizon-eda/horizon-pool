@@ -12,6 +12,11 @@
         "ARM® -based 32-bit MCU, up to 32 KB Flash, crystal-less USB FS 2.0, CAN, 9 timers, ADC and comm. interfaces, 2.0 - 3.6 V"
     ],
     "entity": "a2f13840-afc2-4c97-bd72-444dde0e8055",
+    "flags": {
+        "base_part": "set",
+        "exclude_bom": "clear",
+        "exclude_pnp": "clear"
+    },
     "inherit_model": true,
     "inherit_tags": false,
     "manufacturer": [
@@ -164,5 +169,6 @@
     "value": [
         false,
         ""
-    ]
+    ],
+    "version": 1
 }
